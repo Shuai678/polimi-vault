@@ -2,7 +2,7 @@
 course: Analisi 1
 type: concept
 status: studied
-source: Lezione 01, PDF pp. 7-8
+source: Lezione 01, PDF pp. 7-12
 ---
 
 # Predicati e variabili libere
@@ -60,7 +60,67 @@ Se dichiariamo $n\in\mathbb N\setminus\{0\}$, allora $Q(n)$ è vera per ogni val
 
 L'insieme in cui varia la variabile, cioè il dominio del predicato, fa parte della sua definizione e stabilisce i valori che possono essere assegnati.
 
+## Quantificatori
+
+Un predicato può essere trasformato in una proposizione assegnando un valore alla variabile oppure legando la variabile mediante un quantificatore.
+
+- $\forall$ si legge “per ogni”.
+- $\exists$ si legge “esiste almeno un”.
+- $\exists!$ si legge “esiste ed è unico”.
+- $\nexists$ si legge “non esiste”.
+
+### Esempio svolto: quantificare un predicato
+
+Consideriamo
+
+$$
+P(n):\ n\text{ è pari},
+\qquad n\in\mathbb N.
+$$
+
+Il solo simbolo $P(n)$ indica un predicato. Vediamo che cosa accade usando diversi quantificatori.
+
+1. La proposizione
+
+   $$
+   \forall n\in\mathbb N,\quad P(n)
+   $$
+
+   significa “ogni naturale è pari” ed è falsa; per esempio, $1$ è naturale ma non è pari.
+
+2. La proposizione
+
+   $$
+   \exists n\in\mathbb N:\ P(n)
+   $$
+
+   significa “esiste almeno un naturale pari” ed è vera; per esempio, $0$ è naturale ed è pari.
+
+3. La proposizione
+
+   $$
+   \exists! n\in\mathbb N:\ P(n)
+   $$
+
+   significa “esiste un unico naturale pari” ed è falsa, perché esistono molti naturali pari, come $0$, $2$ e $4$.
+
+4. La proposizione
+
+   $$
+   \nexists n\in\mathbb N:\ P(n)
+   $$
+
+   significa “non esiste alcun naturale pari” ed è falsa, perché $0$ è un esempio di naturale pari.
+
+In tutti e quattro i casi la variabile $n$ non è più libera: è legata dal quantificatore, quindi l'enunciato completo è una proposizione.
+
+### Da dire all'orale
+
+> Un quantificatore lega una variabile libera e trasforma il predicato in una proposizione: il quantificatore universale richiede che la proprietà valga per ogni elemento del dominio, mentre quello esistenziale richiede che valga per almeno un elemento.
+
 ## Errori comuni
 
 - Dopo la sostituzione $x=a$, $P(a)$ non contiene più la variabile libera $x$: è una proposizione, non un predicato.
 - Non confondere il dominio del predicato con il denominatore di una frazione.
+- Non confondere $\exists$ con $\exists!$: il primo richiede almeno un elemento, il secondo esattamente uno.
+- Il dominio deve essere dichiarato anche quando si usano i quantificatori.

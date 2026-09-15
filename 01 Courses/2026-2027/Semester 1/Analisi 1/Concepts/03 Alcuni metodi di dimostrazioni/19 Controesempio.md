@@ -34,11 +34,23 @@ Un controesempio $x_0$ deve soddisfare contemporaneamente:
 
 Un elemento che rende falsa anche l'ipotesi non confuta l'implicazione.
 
-## Esempio
+## Esempio svolto passo per passo
 
-L'enunciato “ogni numero primo è dispari” è falso: $2$ è primo ma non è dispari.
+Consideriamo l'enunciato:
 
-Invece $4$ non è un controesempio: è pari, ma non soddisfa l'ipotesi di essere primo.
+> Per ogni $n\in\mathbb N$, se $n$ è primo, allora $n$ è dispari.
+
+Proviamo a usare $n=2$.
+
+1. **Dominio:** $2\in\mathbb N$, quindi il valore scelto appartiene al dominio.
+2. **Ipotesi:** $2$ è primo perché i suoi divisori naturali positivi sono esattamente $1$ e $2$. L'ipotesi è vera.
+3. **Tesi:** $2$ non è dispari, perché $2=2\cdot1$ è pari. La tesi è falsa.
+
+Sono soddisfatte tutte le condizioni di un controesempio. Pertanto l'enunciato universale è falso.
+
+### Non esempio
+
+Il numero $4$ rende falsa la tesi “$n$ è dispari”, ma non soddisfa l'ipotesi perché non è primo. Quindi $4$ non è un controesempio all'implicazione considerata.
 
 ## Errori comuni
 

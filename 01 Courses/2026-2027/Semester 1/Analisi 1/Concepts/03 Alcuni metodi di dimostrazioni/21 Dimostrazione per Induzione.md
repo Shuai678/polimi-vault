@@ -61,7 +61,71 @@ $$
 
 ## Esempi
 
+### Esempio intuitivo
+
 Se si assume che $P(5)$ sia vera, il passo induttivo permette di dedurre $P(6)$. Applicato in generale, il passaggio $P(n)\Rightarrow P(n+1)$ propaga la proprietà dal caso base a tutti i casi successivi.
+
+### Approfondimento dal libro: somma dei primi $n$ naturali positivi
+
+Vogliamo dimostrare che, per ogni $n\in\mathbb N$ con $n\geq1$,
+
+$$
+1+2+\cdots+n=\frac{n(n+1)}2.
+$$
+
+Definiamo
+
+$$
+P(n):\ 1+2+\cdots+n=\frac{n(n+1)}2.
+$$
+
+**1. Caso base.** Per $n=1$ il primo membro vale $1$, mentre il secondo vale
+
+$$
+\frac{1(1+1)}2=\frac22=1.
+$$
+
+I due membri coincidono, quindi $P(1)$ è vera.
+
+**2. Ipotesi induttiva.** Sia $n\geq1$ arbitrario e assumiamo vera $P(n)$:
+
+$$
+1+2+\cdots+n=\frac{n(n+1)}2.
+$$
+
+**3. Tesi del passo induttivo.** Dobbiamo dimostrare $P(n+1)$, cioè
+
+$$
+1+2+\cdots+n+(n+1)=\frac{(n+1)(n+2)}2.
+$$
+
+**4. Uso dell'ipotesi induttiva.** Partiamo dal primo membro della tesi e separiamo l'ultimo termine:
+
+$$
+1+2+\cdots+n+(n+1).
+$$
+
+Per l'ipotesi induttiva, la somma fino a $n$ può essere sostituita con $\frac{n(n+1)}2$:
+
+$$
+\begin{aligned}
+1+2+\cdots+n+(n+1)
+&=\frac{n(n+1)}2+(n+1)\\
+&=(n+1)\left(\frac n2+1\right)\\
+&=(n+1)\frac{n+2}{2}\\
+&=\frac{(n+1)(n+2)}2.
+\end{aligned}
+$$
+
+Abbiamo ottenuto esattamente il secondo membro di $P(n+1)$.
+
+**5. Conclusione.** Il caso base è vero e il passo $P(n)\Rightarrow P(n+1)$ è valido per ogni $n\geq1$. Per il principio di induzione,
+
+$$
+1+2+\cdots+n=\frac{n(n+1)}2
+$$
+
+per ogni naturale $n\geq1$.
 
 ## Errori comuni
 

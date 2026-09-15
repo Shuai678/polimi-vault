@@ -34,9 +34,79 @@ Per dimostrare un'implicazione $P\Rightarrow Q$, si assumono contemporaneamente 
 - La contraddizione deve derivare dalla supposizione introdotta e dalle altre ipotesi.
 - Bisogna indicare esplicitamente quali due affermazioni incompatibili sono state ottenute.
 
-## Esempio
+## Esempi
 
-Vogliamo dimostrare che non esiste un massimo numero naturale. Supponiamo per assurdo che esista $M\in\mathbb N$ maggiore o uguale a ogni naturale. Allora $M+1\in\mathbb N$ e $M+1>M$, in contraddizione con la scelta di $M$ come massimo. Pertanto un massimo naturale non esiste.
+### Esempio introduttivo svolto: inesistenza del massimo naturale
+
+Vogliamo dimostrare che non esiste un massimo numero naturale.
+
+1. **Negazione della tesi.** Supponiamo per assurdo che esista un massimo $M\in\mathbb N$.
+2. **Conseguenza della supposizione.** Poiché $M$ è naturale, anche $M+1$ è naturale.
+3. **Confronto.** Per costruzione, $M+1>M$.
+4. **Contraddizione.** $M$ dovrebbe essere il massimo naturale, ma abbiamo trovato il naturale $M+1$ che è maggiore di $M$.
+5. **Conclusione.** La supposizione iniziale è falsa; quindi non esiste un massimo numero naturale.
+
+### Esempio principale della lezione: irrazionalità di $\sqrt2$
+
+Vogliamo dimostrare che
+
+$$
+\sqrt2\notin\mathbb Q.
+$$
+
+**1. Supposizione per assurdo.** Supponiamo che la tesi sia falsa, cioè che $\sqrt2\in\mathbb Q$.
+
+**2. Rappresentazione come frazione ridotta.** Essendo razionale, $\sqrt2$ si può scrivere come
+
+$$
+\sqrt2=\frac mn,
+$$
+
+con $m,n\in\mathbb Z$, $n\ne0$ e $m,n$ primi tra loro. Scegliere la frazione ridotta è essenziale: significa che $m$ e $n$ non hanno divisori primi comuni.
+
+**3. Eliminazione della radice e del denominatore.** Elevando al quadrato otteniamo
+
+$$
+2=\frac{m^2}{n^2}.
+$$
+
+Moltiplicando entrambi i membri per $n^2$, operazione lecita perché $n\ne0$, segue
+
+$$
+m^2=2n^2.
+$$
+
+**4. Parità di $m$.** L'uguaglianza mostra che $m^2$ è pari. Dal risultato “se il quadrato di un intero è pari, allora l'intero è pari” segue che $m$ è pari. Esiste quindi $k\in\mathbb Z$ tale che
+
+$$
+m=2k.
+$$
+
+**5. Parità di $n$.** Sostituiamo $m=2k$ nell'uguaglianza $m^2=2n^2$:
+
+$$
+(2k)^2=2n^2.
+$$
+
+Sviluppando e dividendo entrambi i membri per $2$:
+
+$$
+4k^2=2n^2
+\quad\Longrightarrow\quad
+n^2=2k^2.
+$$
+
+Quindi anche $n^2$ è pari e, per lo stesso risultato precedente, $n$ è pari.
+
+**6. Contraddizione.** Sia $m$ sia $n$ sono pari, quindi sono entrambi divisibili per $2$. Ma erano stati scelti primi tra loro. Le due affermazioni sono incompatibili.
+
+**7. Conclusione.** La supposizione $\sqrt2\in\mathbb Q$ è falsa. Pertanto
+
+$$
+\sqrt2\notin\mathbb Q.
+$$
+
+Questa dimostrazione è presente nella lezione e nel libro, ma deve ancora essere verificata in una sessione interattiva.
 
 ## Errori comuni
 

@@ -30,21 +30,59 @@ si sceglie un $n\in\mathbb N$ arbitrario, si assume vera $P(n)$ e, usando defini
 - Ogni passaggio deve derivare da una definizione, da una proprietà o da un risultato già noto.
 - La conclusione deve dimostrare la tesi, non limitarsi a ripetere l'ipotesi.
 
-## Esempio
+## Esempio svolto passo per passo
 
-Per dimostrare che, per ogni $n\in\mathbb N$, se $n$ è dispari allora $n^2$ è dispari, partiamo dalla definizione di numero dispari:
+Vogliamo dimostrare:
+
+> Per ogni $n\in\mathbb N$, se $n$ è dispari, allora $n^2$ è dispari.
+
+**1. Scelta dell'elemento.** Sia $n\in\mathbb N$ arbitrario e supponiamo che $n$ sia dispari. La scelta arbitraria è necessaria perché la conclusione deve valere per ogni naturale dispari.
+
+**2. Traduzione dell'ipotesi.** Per definizione di numero dispari esiste $k\in\mathbb N$ tale che
 
 $$
-n=2k+1
+n=2k+1.
 $$
 
-per un opportuno $k\in\mathbb N$. Quindi:
+Questa formula esprime l'ipotesi; non è ancora la conclusione.
+
+**3. Lavoro sulla quantità della tesi.** La tesi riguarda $n^2$, quindi eleviamo al quadrato:
 
 $$
-n^2=(2k+1)^2=4k^2+4k+1=2(2k^2+2k)+1,
+n^2=(2k+1)^2.
 $$
 
-e $2k^2+2k\in\mathbb N$. Pertanto $n^2$ ha la forma $2h+1$, con $h\in\mathbb N$, e quindi è dispari.
+Applichiamo la formula del quadrato di un binomio:
+
+$$
+\begin{aligned}
+n^2
+&=(2k)^2+2(2k)\cdot1+1^2\\
+&=4k^2+4k+1.
+\end{aligned}
+$$
+
+**4. Ricerca della forma dispari.** Raccogliamo $2$ dai primi due termini:
+
+$$
+n^2=2(2k^2+2k)+1.
+$$
+
+Poniamo
+
+$$
+h=2k^2+2k.
+$$
+
+Poiché $k\in\mathbb N$ e i naturali sono chiusi rispetto a somma e prodotto, $h\in\mathbb N$.
+
+**5. Conclusione.** Abbiamo ottenuto
+
+$$
+n^2=2h+1
+$$
+
+con $h\in\mathbb N$. Questa è esattamente la forma di un numero dispari; dunque $n^2$ è dispari. Poiché $n$ era arbitrario, la proprietà vale per ogni $n\in\mathbb N$.
 
 ## Errori comuni
 
