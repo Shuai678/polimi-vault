@@ -1,0 +1,21 @@
+# macOS
+.DS_Store
+
+# Local Obsidian state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/cache
+.obsidian/logs/
+.obsidian/community-plugins.json
+
+# Community plugins are machine-specific; reinstall from Obsidian if needed.
+.obsidian/plugins/
+
+# Generated exports
+Polimi-Obsidian-Vault.zip
+
+# Editor/plugin temporary files
+*.edtz
+
+# Empty scratch note created before vault initialization
+未命名.md
