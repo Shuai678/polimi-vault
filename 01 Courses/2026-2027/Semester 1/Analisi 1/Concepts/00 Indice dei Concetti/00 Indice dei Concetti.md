@@ -28,7 +28,7 @@ Creare una nota di concetto solo quando si è formata una comprensione reale.
 - [[02 Elementi di Logica/14 Negazione Logica|Negazione logica]]
 - [[02 Elementi di Logica/15 Implicazione Logica|Implicazione logica]]
 - [[02 Elementi di Logica/16 Condizioni Necessarie e Sufficienti|Condizioni necessarie e sufficienti]]
-### Alcuni metodi di dimostrazioni
+## 03 Alcuni metodi di dimostrazione
 
 - [[17 Dimostrazione Diretta|Dimostrazione diretta]]
 - [[18 Dimostrazione per Contrapposizione|Dimostrazione per contrapposizione]]

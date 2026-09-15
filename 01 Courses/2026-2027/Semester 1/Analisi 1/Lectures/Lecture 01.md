@@ -47,6 +47,8 @@ Completate la dimostrazione diretta a p. 15, la nozione di controesempio alle pp
 
 - Capitolo 1.1 e sezione 1.1.1, “Allineamenti decimali”, pp. 1-4.
 - Capitolo 1.1, Proposizioni 1.2-1.3, pp. 1-2, per la parità e gli esempi di dimostrazione diretta e per contrapposizione.
+- Capitolo 1.1.5, p. 6, per la dimostrazione per assurdo dell'irrazionalità di $\sqrt2$.
+- Capitolo 1.2, pp. 6-8, per il principio di induzione e gli esempi svolti.
 
 ## Nota personale
 
