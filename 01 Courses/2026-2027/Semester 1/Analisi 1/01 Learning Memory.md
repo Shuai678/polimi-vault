@@ -1,14 +1,14 @@
 ---
 course: Analisi 1
 type: learning-memory
-updated: 2026-09-15
+updated: 2026-09-18
 ---
 
 # Memoria di apprendimento
 
 ## Progresso attuale
 
-- Lezione 01, PDF p. 21: [[21 Dimostrazione per Induzione|Dimostrazione per induzione]]. La contrapposizione e la dimostrazione dell'irrazionalità di $\sqrt{2}$ sono state temporaneamente saltate.
+- Lezione 02, PDF completato fino a p. 30: [[35 Potenze con Esponente Reale|potenze con esponente reale]], spiegate ma non verificate con domande. Potenze razionali, radici, intervalli, valore assoluto, disuguaglianza triangolare e caratterizzazione degli estremi restano da consolidare.
 
 ## Padroneggiato
 
@@ -35,6 +35,38 @@ updated: 2026-09-15
 - Se $M$ fosse il massimo naturale, $M+1$ sarebbe un naturale maggiore di $M$: questa contraddizione prova che un massimo naturale non esiste.
 - Una dimostrazione per induzione richiede un caso base e il passo generale $P(n)\Rightarrow P(n+1)$.
 - Nel passo induttivo si assume vera $P(n)$ e si deve dimostrare $P(n+1)$.
+- $\mathbb{Q}$, $\mathbb{R}$ e $\mathbb{C}$ sono campi; $\mathbb{N}$ e $\mathbb{Z}$ non lo sono.
+- L'opposto $-a$ soddisfa $a+(-a)=0$, mentre l'inverso $a^{-1}$ soddisfa $aa^{-1}=1$ ed esiste soltanto per $a\neq0$.
+- $\mathbb{Z}$ possiede gli opposti ma non l'inverso moltiplicativo di ogni elemento non nullo; per esempio, $\frac12\notin\mathbb{Z}$.
+- Un campo ordinato possiede un ordine totale compatibile con la somma e con il prodotto per fattori positivi.
+- Moltiplicando una disuguaglianza per un fattore positivo il verso resta invariato; per un fattore negativo si inverte; per zero entrambi i membri diventano zero.
+- $\mathbb{Q}$ e $\mathbb{R}$ sono campi ordinati, mentre $\mathbb{C}$ non può esserlo.
+- Un maggiorante o un minorante deve appartenere all'ambiente ordinato, ma non necessariamente all'insieme studiato.
+- Un insieme è limitato se è limitato sia superiormente sia inferiormente.
+- Per negare la limitatezza superiore bisogna mostrare che ogni candidato è superato da almeno un elemento dell'insieme.
+- Il massimo è un maggiorante appartenente all'insieme; il minimo è un minorante appartenente all'insieme.
+- Per verificare massimo o minimo bisogna controllare separatamente appartenenza e confronto con tutti gli elementi.
+- La limitatezza superiore o inferiore è necessaria ma non sufficiente per l'esistenza del massimo o del minimo.
+- L'estremo superiore è il minimo dei maggioranti; l'estremo inferiore è il massimo dei minoranti.
+- In $\mathbb{R}$, un insieme non vuoto e limitato superiormente possiede estremo superiore; analogamente per l'estremo inferiore.
+- Se $\sup E\in E$, allora $\sup E=\max E$; se $\inf E\in E$, allora $\inf E=\min E$.
+- La completezza di $\mathbb{R}$ richiede insieme non vuoto e limitato nella direzione considerata e garantisce l'esistenza dell'estremo corrispondente.
+- $\mathbb{Q}$ non è completo: l'insieme dei razionali non negativi con quadrato minore o uguale a $2$ ha $\sqrt2$ come estremo superiore in $\mathbb{R}$, ma nessun estremo superiore in $\mathbb{Q}$.
+- La caratterizzazione del superiore richiede sia che il candidato sia un maggiorante sia che ogni numero più piccolo venga superato da un elemento dell'insieme.
+- Il valore assoluto rappresenta la distanza dall'origine ed è sempre non negativo.
+- La distanza tra due reali $a$ e $b$ è $|a-b|$.
+- Per ogni $x,y\in\mathbb{R}$ vale $|x+y|\leq|x|+|y|$.
+- Geometricamente, la distanza diretta non supera quella di un percorso che passa per un punto intermedio.
+- Le parentesi quadre includono un estremo finito, mentre le parentesi tonde lo escludono.
+- I simboli $+\infty$ e $-\infty$ non sono numeri reali e non possono appartenere a un intervallo.
+- Per ogni $x<y$ reali esiste un razionale $r$ tale che $x<r<y$.
+- La densità permette approssimazioni razionali arbitrariamente accurate, ma non implica che un numero irrazionale diventi razionale.
+- La radice $n$-esima di $y\geq0$ è l'unica soluzione non negativa di $x^n=y$.
+- Il simbolo di radice indica la soluzione non negativa, mentre l'equazione associata può avere più soluzioni reali.
+- Per $a>0$ e $r=\frac mn\in\mathbb{Q}$, si definisce $a^r=\sqrt[n]{a^m}$; un esponente negativo richiede il reciproco.
+- La definizione è indipendente dalla rappresentazione frazionaria scelta per $r$.
+- Per $a>1$ e $b\in\mathbb{R}$, $a^b$ può essere definito come estremo superiore delle potenze $a^r$ con $r\in\mathbb{Q}$ e $r<b$.
+- La densità fornisce approssimazioni razionali dell'esponente; la completezza garantisce l'esistenza del valore reale definito tramite estremo.
 
 ## Da consolidare
 
@@ -44,6 +76,20 @@ updated: 2026-09-15
 - Distinguere con attenzione l'informazione iniziale da dimostrare dalla tesi: $n=2k+1$ esprime l'ipotesi, mentre $n^2=2h+1$ dimostra la conclusione.
 - Nel controllo di un possibile controesempio, verificare separatamente prima l'ipotesi e poi la tesi.
 - Consolidare la direzione del passo induttivo: dall'ipotesi $P(n)$ si deve ottenere $P(n+1)$.
+- Distinguere immediatamente l'opposto, relativo alla somma, dall'inverso, relativo al prodotto.
+- Ricordare esplicitamente il caso del fattore nullo quando si descrive l'effetto di una moltiplicazione su una disuguaglianza.
+- Rendere rigorosa la non limitatezza costruendo un elemento che superi un candidato arbitrario, invece di limitarsi ad affermare che un maggiorante non esiste.
+- Distinguere il minimo dall'estremo inferiore: la mancata appartenenza della barriera può impedire il minimo senza eliminare l'estremo inferiore.
+- Usare sempre l'appartenenza per decidere se un estremo è anche massimo o minimo.
+- Specificare “limitato superiormente” o “limitato inferiormente”, evitando formulazioni vaghe come “limitato in un numero”.
+- Nella caratterizzazione degli estremi, verificare il candidato specifico e controllare sempre che l'elemento costruito appartenga all'insieme.
+- Verificare con un esercizio le disuguaglianze $|x|\leq r$ e $|x|>r$, perché il controllo interattivo è stato saltato.
+- Verificare con un esercizio l'applicazione della disuguaglianza triangolare, perché il controllo interattivo è stato saltato.
+- Verificare con un esercizio la lettura di intervalli e il riconoscimento di estremo superiore, inferiore, massimo e minimo.
+- Dichiarare sempre l'ordine $x<y$ quando si enuncia la densità di $\mathbb{Q}$ in $\mathbb{R}$.
+- Verificare con un esercizio la distinzione tra valore della radice e soluzioni dell'equazione associata.
+- Verificare con esercizi potenze razionali positive e negative e le condizioni sulla base.
+- Verificare la costruzione delle potenze reali e distinguere il ruolo di densità e completezza.
 
 ## Non ancora compreso
 
@@ -55,6 +101,16 @@ updated: 2026-09-15
 - Attenzione al dominio: la parità riguarda numeri interi; il teorema studiato è formulato per $n\in\mathbb N$, non per ogni numero reale.
 - È stato inizialmente proposto $n=3$ come controesempio a “se $n>5$, allora $n$ è pari”, senza notare che $3$ non soddisfa l'ipotesi $n>5$.
 - Nel primo tentativo sul passo induttivo sono state invertite ipotesi e tesi, assumendo $P(n+1)$ invece di $P(n)$.
+- È stata inizialmente attribuita a $\mathbb{Z}$ la mancanza degli opposti; la proprietà che fallisce è invece l'esistenza dell'inverso moltiplicativo per ogni elemento non nullo.
+- Nel descrivere la moltiplicazione di una disuguaglianza sono stati indicati i casi positivo e negativo, omettendo inizialmente il fattore nullo.
+- Nella prova su $\mathbb{C}$ è stato inizialmente usato $i^2>0$ senza esplicitare che tale conseguenza dipende dalla supposizione per assurdo di un ordine compatibile.
+- La non limitatezza di $\mathbb{R}$ è stata inizialmente descritta senza esibire, dato un candidato $k$, un elemento maggiore; la costruzione $k+1$ ha reso il ragionamento generale.
+- Nel primo tentativo su $(-2,3]$ è stata verificata soltanto la proprietà di maggiorante per $3$, senza dichiararne l'appartenenza all'insieme.
+- È stata inizialmente motivata l'assenza del minimo con l'assenza dell'estremo inferiore; in realtà l'estremo inferiore è $-2$, ma non è minimo perché non appartiene all'insieme.
+- Nel primo confronto tra estremi e massimo/minimo è stato necessario chiarire che una barriera ottimale può esistere anche senza appartenere all'insieme.
+- L'esempio relativo a $\mathbb{Q}$ è stato compreso correttamente, con una iniziale imprecisione terminologica sulla limitatezza.
+- È stata inizialmente confusa la proprietà “$E$ è limitato superiormente” con la verifica “il candidato $s$ è un maggiorante”.
+- Per $E=(0,1)$ è stato proposto $x=1$ nella condizione di approssimazione, dimenticando che $1\notin E$.
 
 ## Connessioni importanti
 
@@ -72,6 +128,13 @@ updated: 2026-09-15
 - Molti esempi favorevoli non dimostrano un'affermazione universale; un solo controesempio valido basta invece a confutarla.
 - Una contraddizione mostra che è falsa la supposizione introdotta per assurdo, non che è falso il teorema.
 - Nell'analogia del domino, $P(n)$ corrisponde alla tessera già caduta e $P(n+1)$ alla tessera successiva che deve cadere.
+- La sottrazione usa l'opposto, mentre la divisione per un elemento non nullo usa l'inverso moltiplicativo.
+- La positività dei quadrati è una conseguenza degli assiomi di campo ordinato e permette di dimostrare che $\mathbb{C}$ non è ordinabile come campo.
+- La negazione di “esiste un maggiorante” diventa “per ogni candidato esiste un elemento che lo supera”.
+- Massimo e minimo richiedono una barriera che sia anche un elemento dell'insieme; estremo superiore e inferiore non richiederanno questa appartenenza.
+- La completezza di $\mathbb{R}$ garantisce gli estremi degli insiemi non vuoti opportunamente limitati, non necessariamente massimo e minimo.
+- L'assenza di $\sqrt2$ in $\mathbb{Q}$ impedisce all'insieme razionale associato di avere una barriera superiore ottimale razionale.
+- La forma con $\varepsilon$ della caratterizzazione anticipa la struttura logica delle definizioni di limite.
 
 ## Formule e definizioni importanti
 
@@ -90,6 +153,14 @@ updated: 2026-09-15
 - Per confutare $\forall x\in A,\ P(x)\Rightarrow Q(x)$ occorre trovare $x_0\in A$ tale che $P(x_0)$ sia vera e $Q(x_0)$ sia falsa.
 - Per dimostrare $Q$ per assurdo si assume $\neg Q$ e si deduce una contraddizione.
 - Principio di induzione: se $P(0)$ è vera e $P(n)\Rightarrow P(n+1)$ per ogni $n\in\mathbb N$, allora $P(n)$ è vera per ogni $n\in\mathbb N$.
+- In un campo, ogni elemento possiede un opposto e ogni elemento non nullo possiede un inverso moltiplicativo.
+- $a-b=a+(-b)$ e, per $b\neq0$, $\frac{a}{b}=ab^{-1}$.
+- In un campo ordinato, $a^2\geq0$ per ogni $a$ e $a^2>0$ se $a\neq0$.
+- $k$ è maggiorante di $E$ se $x\leq k$ per ogni $x\in E$; $h$ è minorante se $h\leq x$ per ogni $x\in E$.
+- $x_0=\max E$ se $x_0\in E$ e $x\leq x_0$ per ogni $x\in E$; analogamente per $\min E$.
+- $\sup E$ è il minimo dei maggioranti e $\inf E$ è il massimo dei minoranti.
+- Completezza: $E\subseteq\mathbb{R}$ non vuoto e limitato superiormente implica l'esistenza di $\sup E\in\mathbb{R}$.
+- Caratterizzazione: $s=\sup E$ se $x\leq s$ per ogni $x\in E$ e, per ogni $k<s$, esiste $x\in E$ con $k<x\leq s$.
 
 ## Vocabolario
 
@@ -97,13 +168,41 @@ updated: 2026-09-15
 - denominatore = denominator
 - interi non negativi = non-negative integers
 - appartiene a = belongs to
+- opposto = additive inverse
+- inverso moltiplicativo = multiplicative inverse
+- campo = field
+- campo ordinato = ordered field
+- ordine totale = total order
+- antisimmetria = antisymmetry
+- transitività = transitivity
+- maggiorante = upper bound
+- minorante = lower bound
+- limitato superiormente = bounded above
+- limitato inferiormente = bounded below
+- massimo = maximum
+- minimo = minimum
+- estremo superiore = supremum
+- estremo inferiore = infimum
+- completezza = completeness
+- assioma di continuità = continuity axiom
+- caratterizzazione = characterization
+- valore assoluto = absolute value
+- modulo = modulus
+- disuguaglianza triangolare = triangle inequality
+- intervallo aperto = open interval
+- intervallo chiuso = closed interval
+- densità = density
+- radice ennesima = nth root
+- radicando = radicand
+- esponente razionale = rational exponent
+- esponente reale = real exponent
 
 ## Ultima sessione di studio
 
-- Data: 2026-09-15
-- Argomento: Lezione 01 - dimostrazione per induzione.
-- Sintesi: Compresi il caso base e il ruolo del passo induttivo; la direzione $P(n)\Rightarrow P(n+1)$ è stata chiarita dopo un'inversione iniziale.
+- Data: 2026-09-17
+- Argomento: Lezione 02 - potenze con esponente reale e completamento del PDF.
+- Sintesi: Studiata la costruzione mediante approssimazioni razionali ed estremi; comprensione dichiarata ma non verificata interattivamente.
 
 ## Prossimo passo
 
-- Proseguire con la Lezione 01, PDF pp. 22-23: disuguaglianza di Bernoulli e relativa dimostrazione per induzione. Recuperare in seguito la contrapposizione e la dimostrazione dell'irrazionalità di $\sqrt{2}$.
+- Svolgere un esercizio di consolidamento su valore assoluto, intervalli ed estremi; poi verificare radici e potenze. Richiedere il PDF della Lezione 03 prima di introdurre nuovi argomenti del corso.

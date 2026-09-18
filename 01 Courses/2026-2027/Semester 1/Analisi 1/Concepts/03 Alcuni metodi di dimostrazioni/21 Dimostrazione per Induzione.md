@@ -3,8 +3,8 @@ course: Analisi 1
 type: method
 status: studied
 source:
-  - Lezione 01, PDF p. 21
-  - Libro, cap. 1.2, pp. 6-7
+  - Lezione 01, PDF pp. 21-23
+  - Libro, cap. 1.2, pp. 6-8
 ---
 
 # Dimostrazione per induzione
@@ -79,6 +79,7 @@ $$
 P(n):\ 1+2+\cdots+n=\frac{n(n+1)}2.
 $$
 
+## Base dell'induzione
 **1. Caso base.** Per $n=1$ il primo membro vale $1$, mentre il secondo vale
 
 $$
@@ -86,6 +87,8 @@ $$
 $$
 
 I due membri coincidono, quindi $P(1)$ è vera.
+
+## Passo induttivo
 
 **2. Ipotesi induttiva.** Sia $n\geq1$ arbitrario e assumiamo vera $P(n)$:
 
@@ -127,6 +130,158 @@ $$
 
 per ogni naturale $n\geq1$.
 
+### Esempio fondamentale: disuguaglianza di Bernoulli
+
+#### Enunciato
+
+Per ogni $x\in\mathbb R$ con $x\geq-1$ e per ogni $n\in\mathbb N$ con $n\geq1$, vale
+
+$$
+(1+x)^n\geq 1+nx.
+$$
+
+La condizione $x\geq-1$ garantisce che $1+x\geq0$. Questo fatto sarà indispensabile nel passo induttivo: moltiplicando una disuguaglianza per un numero non negativo, il suo verso non cambia.
+
+#### Proprietà da dimostrare
+
+Fissato un numero reale $x\geq-1$, definiamo
+
+$$
+P(n):\quad (1+x)^n\geq1+nx.
+$$
+
+Vogliamo dimostrare $P(n)$ per ogni naturale $n\geq1$.
+
+#### 1. Caso base
+
+Per $n=1$ la proprietà diventa
+
+$$
+(1+x)^1\geq1+1\cdot x.
+$$
+
+Entrambi i membri sono uguali a $1+x$:
+
+$$
+1+x\geq1+x.
+$$
+
+La disuguaglianza è vera come uguaglianza, quindi $P(1)$ è vera.
+
+#### 2. Ipotesi induttiva
+
+Sia $n\geq1$ arbitrario. Assumiamo che $P(n)$ sia vera, cioè
+
+$$
+(1+x)^n\geq1+nx.
+$$
+
+Questa è l'ipotesi induttiva. Dobbiamo usarla per dimostrare $P(n+1)$.
+
+#### 3. Tesi del passo induttivo
+
+La proprietà riferita a $n+1$ è
+
+$$
+(1+x)^{n+1}\geq1+(n+1)x.
+$$
+
+#### 4. Moltiplicazione dell'ipotesi induttiva
+
+Poiché $x\geq-1$, si ha
+
+$$
+1+x\geq0.
+$$
+
+Possiamo quindi moltiplicare entrambi i membri dell'ipotesi induttiva per $1+x$ senza invertire il verso della disuguaglianza:
+
+$$
+(1+x)^n(1+x)\geq(1+nx)(1+x).
+$$
+
+Usando la proprietà delle potenze $(1+x)^n(1+x)=(1+x)^{n+1}$, otteniamo
+
+$$
+(1+x)^{n+1}\geq(1+nx)(1+x).
+$$
+
+#### 5. Sviluppo del prodotto
+
+Sviluppiamo completamente il prodotto a destra:
+
+$$
+\begin{aligned}
+(1+nx)(1+x)
+&=1\cdot1+1\cdot x+nx\cdot1+nx\cdot x\\
+&=1+x+nx+nx^2\\
+&=1+(n+1)x+nx^2.
+\end{aligned}
+$$
+
+Pertanto
+
+$$
+(1+x)^{n+1}\geq1+(n+1)x+nx^2.
+$$
+
+#### 6. Uso della non negatività di $nx^2$
+
+Poiché $n\geq1$ e $x^2\geq0$, vale
+
+$$
+nx^2\geq0.
+$$
+
+Di conseguenza,
+
+$$
+1+(n+1)x+nx^2\geq1+(n+1)x.
+$$
+
+Per la transitività della relazione d'ordine,
+
+$$
+(1+x)^{n+1}\geq1+(n+1)x+nx^2\geq1+(n+1)x.
+$$
+
+Abbiamo quindi dimostrato $P(n+1)$.
+
+#### 7. Conclusione
+
+Il caso base $P(1)$ è vero e, per ogni $n\geq1$, dall'ipotesi $P(n)$ segue $P(n+1)$. Per il principio di induzione,
+
+$$
+(1+x)^n\geq1+nx
+$$
+
+per ogni $n\in\mathbb N$ con $n\geq1$ e per ogni $x\in\mathbb R$ con $x\geq-1$.
+
+#### Perché le condizioni sono necessarie nella dimostrazione
+
+- La condizione $x\geq-1$ assicura che $1+x\geq0$, quindi consente di moltiplicare l'ipotesi induttiva per $1+x$ senza cambiare il verso della disuguaglianza.
+- La condizione $n\geq1$ assicura che $n$ sia non negativo; insieme a $x^2\geq0$, implica $nx^2\geq0$.
+
+#### Esempio numerico di controllo
+
+Prendiamo $x=2$ e $n=3$. Il primo membro vale
+
+$$
+(1+2)^3=3^3=27,
+$$
+
+mentre il secondo membro vale
+
+$$
+1+3\cdot2=7.
+$$
+
+Poiché $27\geq7$, la disuguaglianza è verificata in questo caso. Questo controllo numerico non costituisce una dimostrazione generale: la dimostrazione per induzione serve a provare la proprietà per tutti i naturali $n\geq1$.
+
+#### Da dire all'orale
+
+> Verifico il caso base $n=1$. Suppongo poi la disuguaglianza vera per un naturale $n$ arbitrario. Poiché $x\geq-1$, il fattore $1+x$ è non negativo e posso moltiplicare l'ipotesi induttiva per esso senza cambiare il verso della disuguaglianza. Sviluppando il prodotto compare il termine $nx^2$, che è non negativo; ottengo così la tesi per $n+1$ e concludo per induzione.
+
 ## Errori comuni
 
 - Assumere $P(n+1)$ e cercare di dimostrare $P(n)$: questa è la direzione opposta a quella del passo induttivo.
@@ -134,6 +289,8 @@ per ogni naturale $n\geq1$.
 - Verificare soltanto il caso base.
 - Dimostrare soltanto un passaggio particolare, per esempio da $P(3)$ a $P(4)$, invece del passaggio generale.
 - Usare l'ipotesi induttiva senza dichiararla.
+- Nella dimostrazione di Bernoulli, moltiplicare per $1+x$ senza verificare che $1+x\geq0$.
+- Dimenticare di spiegare perché il termine $nx^2$ è non negativo.
 
 ## Connessioni
 
