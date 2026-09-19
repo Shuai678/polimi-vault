@@ -108,7 +108,3 @@ Bisogna dichiarare esplicitamente l'ordine $x<y$ e concludere con un razionale s
 
 - [[27 Completezza dei Numeri Reali|La completezza]] distingue $\mathbb{R}$ da $\mathbb{Q}$, nonostante la densità dei razionali.
 - [[31 Retta Reale e Intervalli|Ogni intervallo aperto]] non vuoto contiene numeri razionali.
-
-## Sintassi LaTeX Suite
-
-Le formule sono scritte con sintassi già espansa e renderizzabile, tra cui $\mathbb{Q}$, $\mathbb{R}$, $\exists$ e $\frac mn$.

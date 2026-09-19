@@ -1,7 +1,7 @@
 ---
 course: Analisi 1
 type: exam-book
-updated:
+updated: 2026-09-19
 ---
 
 # Exam Book
@@ -37,6 +37,15 @@ updated:
 - Per ogni $a\in\mathbb{R}$, $\sqrt{a^2}=|a|$.
 - Per $a>0$ e $r=\frac mn\in\mathbb{Q}$ con $n>0$, $a^r=\sqrt[n]{a^m}$; se $r<0$, si prende il reciproco.
 - Per $a>1$ e $b\in\mathbb{R}$, $a^b$ è definito come $\sup\{a^r:r\in\mathbb{Q},\ r<b\}$; la base deve essere positiva nella definizione generale.
+- Logaritmo reale: $\log_a y=x\Longleftrightarrow a^x=y$, con $a>0$, $a\neq1$ e $y>0$.
+- Il segno di $\log_a y$ si determina confrontando l'argomento con $1$ e distinguendo $a>1$ da $0<a<1$.
+- Prodotto: $\log_a(y_1y_2)=\log_a y_1+\log_a y_2$, con $a>0$, $a\neq1$, $y_1>0$ e $y_2>0$.
+- Quoziente: $\log_a(y_1/y_2)=\log_a y_1-\log_a y_2$, con $a>0$, $a\neq1$, $y_1>0$ e $y_2>0$.
+- Reciproco: $\log_a(1/y)=-\log_a y$, con $a>0$, $a\neq1$ e $y>0$.
+- Potenza: $\log_a(y^b)=b\log_a y$, con $a>0$, $a\neq1$, $y>0$ e $b\in\mathbb{R}$.
+- Cambiamento di base: $\log_b y=\frac{\log_a y}{\log_a b}$, con $a,b>0$, $a,b\neq1$ e $y>0$.
+- Numero complesso: $z=a+ib$, con $a,b\in\mathbb{R}$, $i^2=-1$, $\operatorname{Re}z=a$ e $\operatorname{Im}z=b$.
+- Ogni reale $x$ si identifica con il complesso $x+i0$; dunque $\mathbb{R}\subset\mathbb{C}$.
 
 ## Problem Types
 
@@ -68,6 +77,12 @@ updated:
 - Confondere $\sqrt[4]{16}=2$ con le due soluzioni $x=\pm2$ dell'equazione $x^4=16$.
 - Interpretare $a^{m/n}$ come $a^m/a^n$ o dimenticare il reciproco con esponente negativo.
 - Definire potenze con esponente reale senza imporre $a>0$ o confondere il ruolo della densità con quello della completezza.
+- Stabilire il segno di un logaritmo guardando soltanto la base e senza confrontare l'argomento con $1$.
+- Applicare la proprietà del prodotto dei logaritmi a una somma o a fattori che non sono singolarmente positivi.
+- Applicare la proprietà del quoziente a una differenza o invertire l'ordine della sottrazione.
+- Confondere $\log_a(y^b)=b\log_a y$ con $(\log_a y)^b$.
+- Invertire numeratore e denominatore nella formula del cambiamento di base.
+- Confondere la parte immaginaria $b$ con il termine immaginario $ib$ o perdere il segno di $b$ nella forma $a+ib$.
 
 ## Trap List
 
@@ -82,6 +97,7 @@ updated:
 - In $\mathbb{R}$ la limitatezza e la non vacuità garantiscono gli estremi superiore e inferiore, ma non massimo e minimo.
 - La proprietà dell'estremo superiore non vale in $\mathbb{Q}$; il controesempio fondamentale usa i razionali non negativi con quadrato minore o uguale a $2$.
 - La seconda condizione della caratterizzazione deve produrre un elemento valido dell'insieme per ogni soglia inferiore al candidato.
+- Prima di usare un logaritmo reale controllare sempre: base positiva, base diversa da $1$ e argomento positivo.
 
 ## Wrong Answers Log
 

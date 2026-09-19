@@ -123,7 +123,3 @@ $$
 ## Prospettiva d'esame
 
 Prima di risolvere una disuguaglianza con valore assoluto bisogna riconoscere se descrive punti interni o esterni a un intervallo e controllare il segno del termine a destra.
-
-## Sintassi LaTeX Suite
-
-Le formule sono scritte con sintassi già espansa e renderizzabile, tra cui $|a|$, $\mathbb{R}$, $\Longleftrightarrow$ e $\begin{cases}\cdots\end{cases}$.

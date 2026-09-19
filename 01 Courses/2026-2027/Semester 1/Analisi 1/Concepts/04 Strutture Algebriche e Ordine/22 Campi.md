@@ -72,7 +72,3 @@ L'inverso moltiplicativo è richiesto soltanto per gli elementi non nulli. Lo ze
 ## Prospettiva d'esame
 
 Quando si stabilisce se un insieme è un campo, bisogna verificare tutte le proprietà. Per mostrare che non lo è, basta individuare una proprietà che fallisce e fornire un esempio valido.
-
-## Sintassi LaTeX Suite
-
-Nella nota sono usate forme già espanse e renderizzabili, tra cui $\mathbb{Q}$, $\mathbb{R}$, $a^{-1}$ e $\frac{a}{b}$.

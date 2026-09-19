@@ -109,7 +109,3 @@ Per $E=(0,1)$, la completezza garantisce l'esistenza di $\sup E=1$ e $\inf E=0$,
 ## Prospettiva d'esame
 
 Prima di invocare la completezza bisogna elencarne le ipotesi. Per mostrare che $\mathbb{Q}$ non è completo, si usa un insieme razionale non vuoto e limitato la cui barriera ottimale reale è $\sqrt2\notin\mathbb{Q}$.
-
-## Sintassi LaTeX Suite
-
-Le formule sono scritte con sintassi già espansa e renderizzabile, tra cui $\varnothing$, $\mathbb{R}$, $\mathbb{Q}$, $\sup E$ e $\inf E$.

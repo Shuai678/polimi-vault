@@ -151,7 +151,3 @@ ma il minimo non esiste perché $0\notin G$.
 ## Prospettiva d'esame
 
 Per verificare un estremo superiore bisogna dimostrare sia che è un maggiorante sia che nessun maggiorante più piccolo è possibile. L'appartenenza all'insieme deve essere controllata separatamente per stabilire l'esistenza del massimo.
-
-## Sintassi LaTeX Suite
-
-Le formule sono scritte con sintassi già espansa e renderizzabile, tra cui $\sup E$, $\inf E$, $\max E$ e $\min E$.

@@ -120,7 +120,3 @@ $$
 ## Prospettiva d'esame
 
 Nel passaggio da una disuguaglianza a un intervallo bisogna controllare separatamente ciascun estremo e stabilire se sia incluso. Per ogni intervallo conviene saper riconoscere immediatamente limitatezza, estremi, massimo e minimo.
-
-## Sintassi LaTeX Suite
-
-Le formule sono scritte con sintassi già espansa e renderizzabile, tra cui $\infty$, $\mathbb{R}$, $\inf E$ e $\sup E$.

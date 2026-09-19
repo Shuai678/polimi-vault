@@ -133,7 +133,3 @@ $$
 ## Prospettiva d'esame
 
 Per verificare un massimo o un minimo bisogna controllare separatamente due condizioni: appartenenza all'insieme e confronto con tutti i suoi elementi.
-
-## Sintassi LaTeX Suite
-
-Le formule sono scritte con sintassi già espansa e renderizzabile, tra cui $\max E$, $\min E$, $\in$ e $\forall$.

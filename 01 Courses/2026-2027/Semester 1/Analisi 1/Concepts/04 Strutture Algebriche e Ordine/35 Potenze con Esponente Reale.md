@@ -130,7 +130,3 @@ Inoltre $a^b>0$ per ogni $b\in\mathbb{R}$.
 ## Prospettiva d'esame
 
 Occorre saper spiegare separatamente il ruolo della densità, che produce approssimazioni razionali, e quello della completezza, che garantisce l'esistenza del valore reale limite.
-
-## Sintassi LaTeX Suite
-
-Le formule sono scritte con sintassi già espansa e renderizzabile, tra cui $a^b$, $\mathbb{Q}$, $\mathbb{R}$ e $\sup S_b$.

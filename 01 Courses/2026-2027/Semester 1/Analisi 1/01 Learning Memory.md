@@ -1,14 +1,14 @@
 ---
 course: Analisi 1
 type: learning-memory
-updated: 2026-09-18
+updated: 2026-09-19
 ---
 
 # Memoria di apprendimento
 
 ## Progresso attuale
 
-- Lezione 02, PDF completato fino a p. 30: [[35 Potenze con Esponente Reale|potenze con esponente reale]], spiegate ma non verificate con domande. Potenze razionali, radici, intervalli, valore assoluto, disuguaglianza triangolare e caratterizzazione degli estremi restano da consolidare.
+- Lezione 03, PDF completato fino a p. 5: [[36 Logaritmi|logaritmi]] completati; [[07 Numeri Complessi|unità immaginaria e forma algebrica dei complessi]] comprese e verificate. Prossimo argomento: operazioni in $\mathbb{C}$. Della Lezione 02 restano da consolidare caratterizzazione degli estremi, valore assoluto, intervalli, radici e potenze.
 
 ## Padroneggiato
 
@@ -67,6 +67,14 @@ updated: 2026-09-18
 - La definizione è indipendente dalla rappresentazione frazionaria scelta per $r$.
 - Per $a>1$ e $b\in\mathbb{R}$, $a^b$ può essere definito come estremo superiore delle potenze $a^r$ con $r\in\mathbb{Q}$ e $r<b$.
 - La densità fornisce approssimazioni razionali dell'esponente; la completezza garantisce l'esistenza del valore reale definito tramite estremo.
+- Per $a>0$, $a\neq1$ e $y>0$, $\log_a y$ è l'unico numero reale $x$ tale che $a^x=y$.
+- Il segno di $\log_a y$ dipende sia dalla base sia dal confronto tra $y$ e $1$; il riferimento è $a^0=1$.
+- Per $y_1,y_2>0$, $\log_a(y_1y_2)=\log_a y_1+\log_a y_2$; i fattori devono essere positivi separatamente.
+- Per $y_1,y_2>0$, $\log_a(y_1/y_2)=\log_a y_1-\log_a y_2$; l'ordine della sottrazione segue numeratore e denominatore.
+- Per $y>0$ e $b\in\mathbb{R}$, $\log_a(y^b)=b\log_a y$: l'esponente diventa un fattore.
+- Il cambiamento di base è $\log_b y=\log_a y/\log_a b$; al numeratore compare l'argomento e al denominatore la base originaria.
+- L'unità immaginaria soddisfa $i^2=-1$ e permette di risolvere in $\mathbb{C}$ l'equazione $x^2+1=0$, impossibile in $\mathbb{R}$.
+- Ogni complesso ha forma $z=a+ib$, con $\operatorname{Re}z=a$ e $\operatorname{Im}z=b$; ogni reale è un complesso con parte immaginaria nulla.
 
 ## Da consolidare
 
@@ -111,6 +119,8 @@ updated: 2026-09-18
 - L'esempio relativo a $\mathbb{Q}$ è stato compreso correttamente, con una iniziale imprecisione terminologica sulla limitatezza.
 - È stata inizialmente confusa la proprietà “$E$ è limitato superiormente” con la verifica “il candidato $s$ è un maggiorante”.
 - Per $E=(0,1)$ è stato proposto $x=1$ nella condizione di approssimazione, dimenticando che $1\notin E$.
+- È stato inizialmente affermato che il segno del logaritmo dipende soltanto dalla base; è stato poi corretto confrontando anche l'argomento con $1$.
+- È stato detto che $x^2$ “ammette soltanto soluzioni positive o nulle”; la formulazione corretta è che il quadrato di ogni reale assume valori non negativi.
 
 ## Connessioni importanti
 
@@ -135,6 +145,7 @@ updated: 2026-09-18
 - La completezza di $\mathbb{R}$ garantisce gli estremi degli insiemi non vuoti opportunamente limitati, non necessariamente massimo e minimo.
 - L'assenza di $\sqrt2$ in $\mathbb{Q}$ impedisce all'insieme razionale associato di avere una barriera superiore ottimale razionale.
 - La forma con $\varepsilon$ della caratterizzazione anticipa la struttura logica delle definizioni di limite.
+- Il logaritmo è l'operazione inversa dell'esponenziale rispetto all'esponente; la stretta monotonia dell'esponenziale garantisce l'unicità.
 
 ## Formule e definizioni importanti
 
@@ -161,6 +172,12 @@ updated: 2026-09-18
 - $\sup E$ è il minimo dei maggioranti e $\inf E$ è il massimo dei minoranti.
 - Completezza: $E\subseteq\mathbb{R}$ non vuoto e limitato superiormente implica l'esistenza di $\sup E\in\mathbb{R}$.
 - Caratterizzazione: $s=\sup E$ se $x\leq s$ per ogni $x\in E$ e, per ogni $k<s$, esiste $x\in E$ con $k<x\leq s$.
+- $\log_a y=x\Longleftrightarrow a^x=y$, con $a>0$, $a\neq1$ e $y>0$.
+- $\log_a(y_1y_2)=\log_a y_1+\log_a y_2$, con $a>0$, $a\neq1$, $y_1>0$ e $y_2>0$.
+- $\log_a(y_1/y_2)=\log_a y_1-\log_a y_2$, con $a>0$, $a\neq1$, $y_1>0$ e $y_2>0$.
+- $\log_a(y^b)=b\log_a y$, con $a>0$, $a\neq1$, $y>0$ e $b\in\mathbb{R}$.
+- $\log_b y=\frac{\log_a y}{\log_a b}$, con $a,b>0$, $a,b\neq1$ e $y>0$.
+- $\mathbb{C}=\{a+ib:a,b\in\mathbb{R},\ i^2=-1\}$, con $\operatorname{Re}(a+ib)=a$ e $\operatorname{Im}(a+ib)=b$.
 
 ## Vocabolario
 
@@ -196,13 +213,19 @@ updated: 2026-09-18
 - radicando = radicand
 - esponente razionale = rational exponent
 - esponente reale = real exponent
+- logaritmo = logarithm
+- base del logaritmo = logarithm base
+- argomento del logaritmo = logarithm argument
+- unità immaginaria = imaginary unit
+- parte reale = real part
+- parte immaginaria = imaginary part
 
 ## Ultima sessione di studio
 
-- Data: 2026-09-17
-- Argomento: Lezione 02 - potenze con esponente reale e completamento del PDF.
-- Sintesi: Studiata la costruzione mediante approssimazioni razionali ed estremi; comprensione dichiarata ma non verificata interattivamente.
+- Data: 2026-09-19
+- Argomento: Lezione 03 - logaritmi; unità immaginaria e forma algebrica dei numeri complessi.
+- Sintesi: Blocco sui logaritmi completato; compresa la motivazione di $\mathbb{C}$ e riconosciute correttamente parte reale e parte immaginaria.
 
 ## Prossimo passo
 
-- Svolgere un esercizio di consolidamento su valore assoluto, intervalli ed estremi; poi verificare radici e potenze. Richiedere il PDF della Lezione 03 prima di introdurre nuovi argomenti del corso.
+- Studiare somma e prodotto di numeri complessi, PDF pp. 5-6.

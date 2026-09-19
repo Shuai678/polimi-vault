@@ -15,7 +15,7 @@ Creare una nota di concetto solo quando si è formata una comprensione reale.
 - [[01 Insiemi Numerici/04 Rappresentazioni Equivalenti|Rappresentazioni equivalenti]]
 - [[01 Insiemi Numerici/05 Rappresentazioni Decimali|Rappresentazioni decimali]]
 - [[01 Insiemi Numerici/06 Numeri Reali e Irrazionali|Numeri reali e irrazionali]]
-- [[01 Insiemi Numerici/07 Numeri Complessi|Numeri complessi]]
+- [[07 Numeri Complessi]]
 
 ## 02 Elementi di logica
 
@@ -52,6 +52,11 @@ Creare una nota di concetto solo quando si è formata una comprensione reale.
 - [[04 Strutture Algebriche e Ordine/33 Radice Ennesima Reale|Radice ennesima reale]]
 - [[04 Strutture Algebriche e Ordine/34 Potenze con Esponente Razionale|Potenze con esponente razionale]]
 - [[04 Strutture Algebriche e Ordine/35 Potenze con Esponente Reale|Potenze con esponente reale]]
+- [[04 Strutture Algebriche e Ordine/36 Logaritmi|Logaritmi]]
+
+## 05 Numeri complessi
+
+- [[07 Numeri Complessi|Numeri complessi]]
 
 ## Concetti candidati
 

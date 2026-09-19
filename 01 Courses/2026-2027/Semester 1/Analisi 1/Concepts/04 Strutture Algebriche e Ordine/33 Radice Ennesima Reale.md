@@ -117,7 +117,3 @@ Bisogna distinguere il valore della radice, che per definizione è non negativo,
 - [[27 Completezza dei Numeri Reali|La completezza di $\mathbb{R}$]] sostiene l'esistenza delle radici reali.
 - Le radici permettono di definire le potenze con esponente razionale.
 - [[29 Valore Assoluto|Il valore assoluto]] compare nella formula $\sqrt{a^2}=|a|$.
-
-## Sintassi LaTeX Suite
-
-Le formule sono scritte con sintassi già espansa e renderizzabile, tra cui $\sqrt[n]{y}$, $\exists!$, $\mathbb{R}$ e $\mathbb{N}$.

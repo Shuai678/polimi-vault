@@ -118,7 +118,3 @@ dove $A$ e $B$ rappresentano espressioni reali.
 ## Da dire all'orale
 
 > Per ogni $x,y\in\mathbb{R}$, il valore assoluto della somma è minore o uguale alla somma dei valori assoluti.
-
-## Sintassi LaTeX Suite
-
-Le formule sono scritte con sintassi già espansa e renderizzabile, tra cui $|x+y|$, $\leq$ e $\mathbb{R}$.

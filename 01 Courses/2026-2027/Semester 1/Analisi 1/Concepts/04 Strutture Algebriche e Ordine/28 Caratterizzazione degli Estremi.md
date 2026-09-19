@@ -132,7 +132,3 @@ Il numero $2$ è un maggiorante di $E$, ma non è l'estremo superiore: scegliend
 ## Prospettiva d'esame
 
 Per dimostrare che $s=\sup E$, separare chiaramente i due passaggi: prima dimostrare che $s$ è un maggiorante, poi costruire, per ogni $k<s$ o $\varepsilon>0$, un elemento valido di $E$ sufficientemente vicino a $s$.
-
-## Sintassi LaTeX Suite
-
-Le formule sono scritte con sintassi già espansa e renderizzabile, tra cui $\forall$, $\exists$, $\varepsilon$, $\sup E$ e $\inf E$.

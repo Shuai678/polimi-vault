@@ -118,7 +118,3 @@ L'insieme $\mathbb{N}$ è limitato inferiormente da $0$, ma non è limitato supe
 ## Prospettiva d'esame
 
 Per provare che un insieme è limitato basta esibire barriere valide. Per provare che non è limitato superiormente o inferiormente bisogna partire da un candidato arbitrario e costruire un elemento che lo superi o che gli sia inferiore.
-
-## Sintassi LaTeX Suite
-
-Le formule sono scritte con sintassi già espansa e renderizzabile, tra cui $\forall$, $\exists$, $\subseteq$ e $\mathbb{R}$.

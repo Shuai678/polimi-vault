@@ -107,7 +107,3 @@ Ma $i^2=-1$, mentre in un campo ordinato $-1<0$. Si ottiene una contraddizione. 
 ## Prospettiva d'esame
 
 Quando si manipola una disuguaglianza bisogna dichiarare il segno del fattore. Nella dimostrazione che $\mathbb{C}$ non è ordinabile, occorre esplicitare la supposizione per assurdo prima di usare la positività dei quadrati.
-
-## Sintassi LaTeX Suite
-
-Le formule sono scritte con sintassi già espansa e renderizzabile, tra cui $\leq$, $\geq$, $\mathbb{R}$ e $\mathbb{C}$.

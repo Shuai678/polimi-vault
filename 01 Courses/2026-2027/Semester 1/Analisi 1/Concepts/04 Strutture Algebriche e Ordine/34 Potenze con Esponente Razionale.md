@@ -131,7 +131,3 @@ $$
 ## Prospettiva d'esame
 
 Nel calcolo di $a^{m/n}$ conviene leggere prima il denominatore come indice della radice e poi il numeratore come potenza, controllando sempre il segno dell'esponente e le condizioni sulla base.
-
-## Sintassi LaTeX Suite
-
-Le formule sono scritte con sintassi già espansa e renderizzabile, tra cui $a^{m/n}$, $\sqrt[n]{a}$ e $\frac1{a^{m/n}}$.
