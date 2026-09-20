@@ -8,7 +8,7 @@ updated: 2026-09-19
 
 ## Progresso attuale
 
-- Lezione 03, PDF completato fino a p. 5: [[36 Logaritmi|logaritmi]] completati; [[07 Numeri Complessi|unità immaginaria e forma algebrica dei complessi]] comprese e verificate. Prossimo argomento: operazioni in $\mathbb{C}$. Della Lezione 02 restano da consolidare caratterizzazione degli estremi, valore assoluto, intervalli, radici e potenze.
+- Lezione 03, PDF completato fino a p. 5: [[36 Logaritmi|logaritmi]] completati; [[37 Unità Immaginaria e Forma Algebrica|unità immaginaria e forma algebrica dei complessi]] comprese e verificate. Prossimo argomento: operazioni in $\mathbb{C}$. Della Lezione 02 restano da consolidare caratterizzazione degli estremi, valore assoluto, intervalli, radici e potenze.
 
 ## Padroneggiato
 

@@ -15,7 +15,7 @@ Creare una nota di concetto solo quando si è formata una comprensione reale.
 - [[01 Insiemi Numerici/04 Rappresentazioni Equivalenti|Rappresentazioni equivalenti]]
 - [[01 Insiemi Numerici/05 Rappresentazioni Decimali|Rappresentazioni decimali]]
 - [[01 Insiemi Numerici/06 Numeri Reali e Irrazionali|Numeri reali e irrazionali]]
-- [[07 Numeri Complessi]]
+- [[01 Insiemi Numerici/07 Numeri Complessi|Numeri complessi - introduzione]]
 
 ## 02 Elementi di logica
 
@@ -56,7 +56,7 @@ Creare una nota di concetto solo quando si è formata una comprensione reale.
 
 ## 05 Numeri complessi
 
-- [[07 Numeri Complessi|Numeri complessi]]
+- [[05 Numeri Complessi/37 Unità Immaginaria e Forma Algebrica|Unità immaginaria e forma algebrica]]
 
 ## Concetti candidati
 

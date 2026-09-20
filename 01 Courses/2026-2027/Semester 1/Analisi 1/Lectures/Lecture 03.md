@@ -19,7 +19,7 @@ Logaritmi e introduzione sistematica ai numeri complessi.
 ## Concetti studiati
 
 - [[36 Logaritmi|Logaritmi]] (PDF p. 2; libro, §1.5, pp. 12-13)
-- [[07 Numeri Complessi|Unità immaginaria e forma algebrica dei numeri complessi]] (PDF pp. 4-5; libro, §1.8, p. 18)
+- [[37 Unità Immaginaria e Forma Algebrica|Unità immaginaria e forma algebrica dei numeri complessi]] (PDF pp. 4-5; libro, §1.8, p. 18)
 
 ## Progresso
 
