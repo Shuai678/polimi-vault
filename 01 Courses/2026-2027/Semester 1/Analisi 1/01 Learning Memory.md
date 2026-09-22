@@ -1,14 +1,14 @@
 ---
 course: Analisi 1
 type: learning-memory
-updated: 2026-09-19
+updated: 2026-09-20
 ---
 
 # Memoria di apprendimento
 
 ## Progresso attuale
 
-- Lezione 03, PDF completato fino a p. 5: [[36 Logaritmi|logaritmi]] completati; [[37 Unità Immaginaria e Forma Algebrica|unità immaginaria e forma algebrica dei complessi]] comprese e verificate. Prossimo argomento: operazioni in $\mathbb{C}$. Della Lezione 02 restano da consolidare caratterizzazione degli estremi, valore assoluto, intervalli, radici e potenze.
+- Lezione 03, PDF completato fino a p. 11: [[36 Logaritmi|logaritmi]], [[37 Unità Immaginaria e Forma Algebrica|forma algebrica]], [[38 Operazioni con i Numeri Complessi|operazioni]], [[39 Campo Complesso e Inverso Moltiplicativo|struttura di campo]], [[40 Piano Complesso e Interpretazione Vettoriale|piano complesso]], [[41 Coniugato e Modulo dei Numeri Complessi|coniugato e modulo]] e [[42 Distanza nel Piano Complesso|distanza]] compresi e verificati. Prossimo argomento: luoghi geometrici nel piano complesso. Della Lezione 02 restano da consolidare caratterizzazione degli estremi, valore assoluto, intervalli, radici e potenze.
 
 ## Padroneggiato
 
@@ -23,6 +23,11 @@ updated: 2026-09-19
 - Un numero è razionale se e solo se la sua rappresentazione decimale è finita oppure infinita periodica.
 - Un decimale infinito non periodico è irrazionale; $\mathbb R=\mathbb Q\cup(\mathbb R\setminus\mathbb Q)$.
 - $\mathbb C=\{a+ib:a,b\in\mathbb R,\ i^2=-1\}$ e $\mathbb R\subset\mathbb C$.
+- Per $z=a+ib$ e $w=x+iy$, la somma è $(a+x)+i(b+y)$ e il prodotto è $(ax-by)+i(ay+bx)$; il segno meno deriva da $i^2=-1$.
+- Per $z=a+ib\neq0$, $z^{-1}=\frac{a-ib}{a^2+b^2}$; il denominatore è positivo perché $a$ e $b$ non sono entrambi nulli.
+- Il numero $z=x+iy$ corrisponde al punto $(x,y)\in\mathbb R^2$ e al vettore dall'origine a tale punto; la somma corrisponde alla regola del parallelogramma.
+- Per $z=x+iy$, $\overline z=x-iy$ è il simmetrico rispetto all'asse reale e $|z|=\sqrt{x^2+y^2}$ è la distanza dall'origine.
+- Per $z,w\in\mathbb C$, $|z-w|$ è la distanza tra i punti associati; non coincide in generale con $|z|-|w|$.
 - $A\setminus B=\{x\in A:x\notin B\}$; l'ordine tra $A$ e $B$ è importante.
 - $A\subset B$ significa che ogni elemento di $A$ appartiene anche a $B$.
 - Una proposizione non contiene variabili libere e ha un unico valore di verità, vero o falso.

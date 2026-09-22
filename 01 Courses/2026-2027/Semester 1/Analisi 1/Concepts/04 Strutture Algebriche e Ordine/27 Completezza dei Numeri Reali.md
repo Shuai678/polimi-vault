@@ -11,7 +11,7 @@ source:
 
 ## Intuizione
 
-La completezza esprime il fatto che la retta reale non presenta buchi: ogni insieme non vuoto che possiede una barriera superiore ammette in $\mathbb{R}$ una migliore barriera superiore. Questa proprietà distingue $\mathbb{R}$ da $\mathbb{Q}$.
+La completezza esprime il fatto che la retta reale non presenta “buchi” : ogni insieme non vuoto che possiede una barriera superiore ammette in $\mathbb{R}$ una migliore barriera superiore. Questa proprietà distingue $\mathbb{R}$ da $\mathbb{Q}$.
 
 ## Definizione formale
 

@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 620" role="img" aria-labelledby="title desc">
+  <title id="title">Distanza tra due numeri complessi</title>
+  <desc id="desc">I punti z e w sono uniti da un segmento di lunghezza modulo di z meno w; le differenze tra le coordinate formano i cateti di un triangolo rettangolo.</desc>
+  <defs>
+    <pattern id="grid" width="35" height="35" patternUnits="userSpaceOnUse">
+      <path d="M 35 0 L 0 0 0 35" fill="none" stroke="#ded8c7" stroke-width="1"/>
+    </pattern>
+    <marker id="axis-arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#252525"/></marker>
+  </defs>
+  <rect width="920" height="620" rx="12" fill="#faf8ef"/>
+  <rect width="920" height="620" rx="12" fill="url(#grid)"/>
+  <line x1="70" y1="310" x2="840" y2="310" stroke="#252525" stroke-width="3" marker-end="url(#axis-arrow)"/>
+  <line x1="460" y1="560" x2="460" y2="50" stroke="#252525" stroke-width="3" marker-end="url(#axis-arrow)"/>
+
+  <line x1="320" y1="450" x2="530" y2="450" stroke="#c53f32" stroke-width="3.5" stroke-dasharray="10 8"/>
+  <line x1="530" y1="450" x2="530" y2="170" stroke="#1769aa" stroke-width="3.5" stroke-dasharray="10 8"/>
+  <line x1="320" y1="450" x2="530" y2="170" stroke="#16835b" stroke-width="6"/>
+
+  <path d="M 505 450 L 505 425 L 530 425" fill="none" stroke="#5b574d" stroke-width="2.5"/>
+  <circle cx="320" cy="450" r="9" fill="#c53f32"/>
+  <circle cx="530" cy="170" r="9" fill="#1769aa"/>
+
+  <text x="850" y="328" font-family="Arial, sans-serif" font-size="24" fill="#b13b2e">Re z</text>
+  <text x="420" y="42" font-family="Arial, sans-serif" font-size="24" fill="#b13b2e">Im z</text>
+  <text x="436" y="342" font-family="Arial, sans-serif" font-size="22" fill="#252525">O</text>
+  <text x="245" y="488" font-family="Arial, sans-serif" font-size="25" font-weight="600" fill="#c53f32">w = −2 − 2i</text>
+  <text x="548" y="160" font-family="Arial, sans-serif" font-size="25" font-weight="600" fill="#1769aa">z = 1 + 2i</text>
+  <text x="395" y="480" font-family="Arial, sans-serif" font-size="23" fill="#c53f32">Δx = 3</text>
+  <text x="550" y="328" font-family="Arial, sans-serif" font-size="23" fill="#1769aa">Δy = 4</text>
+  <text x="325" y="285" transform="rotate(-53 325 285)" font-family="Arial, sans-serif" font-size="26" font-weight="600" fill="#16835b">|z − w| = 5</text>
+</svg>

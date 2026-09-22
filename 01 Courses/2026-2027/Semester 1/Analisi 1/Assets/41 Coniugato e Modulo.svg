@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 620" role="img" aria-labelledby="title desc">
+  <title id="title">Coniugato e modulo nel piano complesso</title>
+  <desc id="desc">Il numero z e il suo coniugato sono simmetrici rispetto all'asse reale e hanno la stessa distanza dall'origine.</desc>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#ded8c7" stroke-width="1"/>
+    </pattern>
+    <marker id="axis-arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#252525"/></marker>
+    <marker id="blue-arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#1769aa"/></marker>
+    <marker id="red-arrow" markerWidth="10" markerHeight="10" refX="8" refY="3" orient="auto" markerUnits="strokeWidth"><path d="M0,0 L0,6 L9,3 z" fill="#c53f32"/></marker>
+  </defs>
+  <rect width="920" height="620" rx="12" fill="#faf8ef"/>
+  <rect width="920" height="620" rx="12" fill="url(#grid)"/>
+  <line x1="80" y1="310" x2="835" y2="310" stroke="#252525" stroke-width="3" marker-end="url(#axis-arrow)"/>
+  <line x1="230" y1="560" x2="230" y2="55" stroke="#252525" stroke-width="3" marker-end="url(#axis-arrow)"/>
+  <line x1="230" y1="310" x2="650" y2="115" stroke="#1769aa" stroke-width="5" marker-end="url(#blue-arrow)"/>
+  <line x1="230" y1="310" x2="650" y2="505" stroke="#c53f32" stroke-width="5" marker-end="url(#red-arrow)"/>
+  <line x1="650" y1="115" x2="650" y2="505" stroke="#7b7567" stroke-width="2.5" stroke-dasharray="10 9"/>
+  <line x1="230" y1="115" x2="650" y2="115" stroke="#3089c8" stroke-width="2" stroke-dasharray="8 8"/>
+  <line x1="230" y1="505" x2="650" y2="505" stroke="#d76a60" stroke-width="2" stroke-dasharray="8 8"/>
+  <circle cx="230" cy="310" r="6" fill="#252525"/>
+  <circle cx="650" cy="115" r="8" fill="#1769aa"/>
+  <circle cx="650" cy="505" r="8" fill="#c53f32"/>
+  <path d="M 335 310 A 105 105 0 0 0 325 266" fill="none" stroke="#1769aa" stroke-width="3"/>
+  <path d="M 335 310 A 105 105 0 0 1 325 354" fill="none" stroke="#c53f32" stroke-width="3"/>
+  <text x="845" y="328" font-family="Arial, sans-serif" font-size="24" fill="#b13b2e">Re z</text>
+  <text x="190" y="46" font-family="Arial, sans-serif" font-size="24" fill="#b13b2e">Im z</text>
+  <text x="206" y="342" font-family="Arial, sans-serif" font-size="22" fill="#252525">O</text>
+  <text x="672" y="107" font-family="Arial, sans-serif" font-size="25" font-weight="600" fill="#1769aa">z = x + iy</text>
+  <text x="672" y="525" font-family="Arial, sans-serif" font-size="25" font-weight="600" fill="#c53f32">z̄ = x − iy</text>
+  <text x="430" y="180" font-family="Arial, sans-serif" font-size="24" fill="#1769aa">|z|</text>
+  <text x="430" y="455" font-family="Arial, sans-serif" font-size="24" fill="#c53f32">|z̄| = |z|</text>
+  <text x="663" y="300" font-family="Arial, sans-serif" font-size="20" fill="#5b574d">simmetria rispetto</text>
+  <text x="663" y="327" font-family="Arial, sans-serif" font-size="20" fill="#5b574d">all'asse reale</text>
+</svg>

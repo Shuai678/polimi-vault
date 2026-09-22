@@ -89,7 +89,7 @@ Quindi $\mathbb R\subset\mathbb C$.
 ## Connessioni
 
 - Questa nota sviluppa l'introduzione contenuta in [[01 Insiemi Numerici/07 Numeri Complessi|Numeri complessi]].
-- La forma $a+ib$ sarà usata per definire le operazioni tra numeri complessi.
+- La forma $a+ib$ è usata nelle [[38 Operazioni con i Numeri Complessi|operazioni con i numeri complessi]].
 
 ## Prospettiva d'esame
 

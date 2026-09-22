@@ -1,7 +1,7 @@
 ---
 course: Analisi 1
 type: exam-book
-updated: 2026-09-19
+updated: 2026-09-20
 ---
 
 # Exam Book
@@ -46,6 +46,12 @@ updated: 2026-09-19
 - Cambiamento di base: $\log_b y=\frac{\log_a y}{\log_a b}$, con $a,b>0$, $a,b\neq1$ e $y>0$.
 - Numero complesso: $z=a+ib$, con $a,b\in\mathbb{R}$, $i^2=-1$, $\operatorname{Re}z=a$ e $\operatorname{Im}z=b$.
 - Ogni reale $x$ si identifica con il complesso $x+i0$; dunque $\mathbb{R}\subset\mathbb{C}$.
+- Per $z=a+ib$ e $w=x+iy$, $z+w=(a+x)+i(b+y)$ e $zw=(ax-by)+i(ay+bx)$.
+- Per $z=a+ib\neq0$, $z^{-1}=\frac{a-ib}{a^2+b^2}$; la condizione $z\neq0$ garantisce $a^2+b^2>0$.
+- Nel piano complesso, $z=x+iy$ corrisponde al punto $(x,y)\in\mathbb R^2$; l'asse orizzontale è reale e quello verticale è immaginario.
+- Per $z=x+iy$, $\overline z=x-iy$ e $|z|=\sqrt{x^2+y^2}$; geometricamente sono rispettivamente il simmetrico rispetto all'asse reale e la distanza dall'origine.
+- Per ogni $z\in\mathbb C$, $z\overline z=|z|^2$; se $z\neq0$, allora $z^{-1}=\frac{\overline z}{|z|^2}$.
+- Per $z=x+iy$ e $w=a+ib$, la distanza è $|z-w|=\sqrt{(x-a)^2+(y-b)^2}$.
 
 ## Problem Types
 
@@ -83,6 +89,11 @@ updated: 2026-09-19
 - Confondere $\log_a(y^b)=b\log_a y$ con $(\log_a y)^b$.
 - Invertire numeratore e denominatore nella formula del cambiamento di base.
 - Confondere la parte immaginaria $b$ con il termine immaginario $ib$ o perdere il segno di $b$ nella forma $a+ib$.
+- Nel prodotto di numeri complessi, dimenticare i prodotti incrociati o non usare $i^2=-1$, ottenendo erroneamente $ax+by$ come parte reale.
+- Confondere l'opposto $-z$ con l'inverso $z^{-1}$ oppure dimenticare la condizione $z\neq0$ nella formula dell'inverso.
+- Scambiare le coordinate nel piano complesso o scrivere $(x,y)\in\mathbb R$ anziché $(x,y)\in\mathbb R^2$.
+- Cambiare anche la parte reale nel coniugato, confondere $\overline z$ con $-z$ o attribuire al modulo un valore negativo.
+- Calcolare $|z|-|w|$ al posto della distanza $|z-w|$ o confondere la differenza complessa con la sua lunghezza reale.
 
 ## Trap List
 

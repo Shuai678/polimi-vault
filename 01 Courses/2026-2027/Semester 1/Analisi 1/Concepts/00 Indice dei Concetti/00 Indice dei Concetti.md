@@ -57,6 +57,11 @@ Creare una nota di concetto solo quando si è formata una comprensione reale.
 ## 05 Numeri complessi
 
 - [[05 Numeri Complessi/37 Unità Immaginaria e Forma Algebrica|Unità immaginaria e forma algebrica]]
+- [[05 Numeri Complessi/38 Operazioni con i Numeri Complessi|Operazioni con i numeri complessi]]
+- [[05 Numeri Complessi/39 Campo Complesso e Inverso Moltiplicativo|Campo complesso e inverso moltiplicativo]]
+- [[05 Numeri Complessi/40 Piano Complesso e Interpretazione Vettoriale|Piano complesso e interpretazione vettoriale]]
+- [[05 Numeri Complessi/41 Coniugato e Modulo dei Numeri Complessi|Coniugato e modulo dei numeri complessi]]
+- [[05 Numeri Complessi/42 Distanza nel Piano Complesso|Distanza nel piano complesso]]
 
 ## Concetti candidati
 
