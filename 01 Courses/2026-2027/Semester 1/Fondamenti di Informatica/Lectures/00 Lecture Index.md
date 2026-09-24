@@ -13,4 +13,4 @@ Create one short note per lecture using [[04 Templates/Lecture Template|Lecture 
 
 ## Rule
 
-Lecture notes are indexes of what happened in class. Long-term knowledge goes in [[01 Courses/2026-2027/Semester 1/Fondamenti di Informatica/Concepts/00 Concept Index|Concepts]].
+Lecture notes are indexes of what happened in class. Long-term knowledge goes in [[01 Courses/2026-2027/Semester 1/Fondamenti di Informatica/Concepts/00 Concept Index/00 Concept Index|Concepts]].

@@ -73,7 +73,7 @@ Use it to connect programming concepts, algorithmic reasoning, and exam skills. 
 - [[01 Courses/2026-2027/Semester 1/Fondamenti di Informatica/01 Learning Memory|Learning Memory]]
 - [[01 Courses/2026-2027/Semester 1/Fondamenti di Informatica/02 Exam Book|Exam Book]]
 - [[01 Courses/2026-2027/Semester 1/Fondamenti di Informatica/Lectures/00 Lecture Index|Lecture Index]]
-- [[01 Courses/2026-2027/Semester 1/Fondamenti di Informatica/Concepts/00 Concept Index|Concept Index]]
+- [[01 Courses/2026-2027/Semester 1/Fondamenti di Informatica/Concepts/00 Concept Index/00 Concept Index|Concept Index]]
 - [[01 Courses/2026-2027/Semester 1/Fondamenti di Informatica/Exercises/00 Exercise Index|Exercise Index]]
 - [[01 Courses/2026-2027/Semester 1/Fondamenti di Informatica/Code/00 Code Index|Code Index]]
 
