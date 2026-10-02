@@ -128,10 +128,12 @@ La preparazione deve quindi avanzare su due binari inseparabili: padronanza del 
 
 ## Current Progress
 
-- Current chapter: Capitolo 1 - Numeri reali e complessi
-- Current lecture: [[Lecture 01]]
-- Completed concepts: [[01 Numeri Naturali]], [[02 Numeri Interi]], [[03 Numeri Razionali]], [[04 Rappresentazioni Equivalenti]], [[05 Rappresentazioni Decimali]], [[06 Numeri Reali e Irrazionali]], [[07 Numeri Complessi]], [[08 Differenza tra Insiemi]], [[09 Sottoinsiemi e Inclusione]], [[10 Proposizioni Logiche]], [[11 Predicati e Variabili Libere]], [[12 Congiunzione Logica]]
-- Next concept: disgiunzione logica
+- Current chapter: passaggio dal Capitolo 2 - Funzioni al Capitolo 3 - Successioni e limiti
+- Current lecture: [[Lecture 06]]
+- Last studied concept: [[49 Determinazione dell'Argomento per Quadranti]]
+- Prepared but not yet studied: [[50 Forma Esponenziale e Identità di Eulero]] through [[76 Teorema del Limite delle Successioni Monotone]]
+- Next study step: [[50 Forma Esponenziale e Identità di Eulero]]
+- Current transition: materiale preparato fino alle definizioni di limite e al teorema delle successioni monotone; lo studio effettivo deve ripartire dal Concept 50
 
 ## Course Files
 
@@ -148,6 +150,7 @@ La preparazione deve quindi avanzare su due binari inseparabili: padronanza del 
 - Creare un wikilink a un concetto soltanto quando esiste una nota dedicata o quando la si vuole creare subito.
 - Usare le note di lezione come indice di ciò che è accaduto; spostare le conoscenze durevoli nelle note di concetto.
 - Registrare in [[02 Exam Book]] ogni errore ricorrente, condizione dimenticata o struttura di esercizio generalizzabile.
+- Quando una rappresentazione grafica è didatticamente necessaria, creare un file SVG originale in `Assets/` e incorporarlo nella nota di concetto pertinente.
 
 ## AI Tutor Context
 

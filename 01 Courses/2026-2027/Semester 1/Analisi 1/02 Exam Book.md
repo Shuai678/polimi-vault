@@ -1,7 +1,7 @@
 ---
 course: Analisi 1
 type: exam-book
-updated: 2026-09-20
+updated: 2026-10-02
 ---
 
 # Exam Book
@@ -52,6 +52,38 @@ updated: 2026-09-20
 - Per $z=x+iy$, $\overline z=x-iy$ e $|z|=\sqrt{x^2+y^2}$; geometricamente sono rispettivamente il simmetrico rispetto all'asse reale e la distanza dall'origine.
 - Per ogni $z\in\mathbb C$, $z\overline z=|z|^2$; se $z\neq0$, allora $z^{-1}=\frac{\overline z}{|z|^2}$.
 - Per $z=x+iy$ e $w=a+ib$, la distanza è $|z-w|=\sqrt{(x-a)^2+(y-b)^2}$.
+- Nel piano complesso, $\operatorname{Re}z=c$ descrive la retta verticale $x=c$ e $\operatorname{Im}z=c$ la retta orizzontale $y=c$.
+- Per $\rho>0$, $|z|=\rho$ descrive la circonferenza con centro nell'origine e raggio $\rho$; per $\rho=0$ resta soltanto l'origine, mentre per $\rho<0$ non vi sono soluzioni.
+- Per ogni $z,w\in\mathbb C$, $\overline{z+w}=\overline z+\overline w$, $\overline{zw}=\overline z\,\overline w$, $\overline{\overline z}=z$ e $z\overline z=|z|^2$.
+- Per $z,w\in\mathbb C$ con $w\neq0$, $\frac zw=\frac{z\overline w}{|w|^2}$.
+- Un'uguaglianza $A+iB=0$, con $A,B\in\mathbb R$, equivale al sistema $A=0$ e $B=0$.
+- Per $z=x+iy\neq0$, $\rho=|z|=\sqrt{x^2+y^2}$ e $z=\rho(\cos\theta+i\sin\theta)$, dove $\theta$ è un argomento di $z$.
+- Se $\theta$ è un argomento di $z\neq0$, anche $\theta+2k\pi$ lo è per ogni $k\in\mathbb Z$; l'argomento di $0$ non è definito.
+- Forma esponenziale: per $z\neq0$, $z=|z|e^{i\theta}$ con $e^{i\theta}=\cos\theta+i\sin\theta$ e $\theta$ definito modulo $2\pi$.
+- Prodotto e quoziente: $|zw|=|z||w|$ e, per numeri non nulli, gli argomenti si sommano; per $w\neq0$, $|z/w|=|z|/|w|$ e gli argomenti si sottraggono quando anche $z\neq0$.
+- Formula di De Moivre: se $z=re^{i\theta}$ e $n\geq1$, allora $z^n=r^ne^{in\theta}$.
+- Radici complesse: se $w=Re^{i\varphi}\neq0$, le radici di $z^n=w$ sono $z_k=R^{1/n}e^{i(\varphi+2k\pi)/n}$, con $k=0,\ldots,n-1$.
+- Teorema fondamentale dell'algebra: un polinomio complesso non costante di grado $n$ ha esattamente $n$ radici in $\mathbb{C}$ contate con molteplicità.
+- Funzione: $f:A\to B$ associa a ogni $x\in A$ uno e un solo $f(x)\in B$; $\operatorname{Im}f=\{y\in B:\exists x\in A,\ f(x)=y\}$.
+- Suriettività: $f:A\to B$ è suriettiva se e solo se $\operatorname{Im}f=B$, cioè $\forall y\in B\ \exists x\in A$ tale che $f(x)=y$.
+- Grafico: $G(f)=\{(x,f(x)):x\in A\}\subseteq A\times B$; le ascisse formano il dominio e le ordinate formano l'immagine.
+- Successione reale: è una funzione $a:A\to\mathbb{R}$ con $A=\{n\in\mathbb{N}:n\geq n_0\}$; si scrive normalmente $a_n$.
+- Funzione limitata superiormente: $\exists M\in\mathbb R$ tale che $f(x)\leq M$ per ogni $x\in D(f)$; analogamente per la limitatezza inferiore. Una funzione è limitata se vale $|f(x)|\leq K$ per qualche $K>0$ e ogni $x$ del dominio.
+- Estremi di funzione: $\sup_D f=\sup\operatorname{Im}f$ e $\inf_D f=\inf\operatorname{Im}f$; diventano massimo e minimo soltanto se appartengono all'immagine.
+- Il dominio naturale è il massimo sottoinsieme di $\mathbb R$ in cui l'espressione è definita: denominatori non nulli, radicandi di indice pari non negativi e argomenti dei logaritmi positivi.
+- Parità: su un dominio simmetrico, $f$ è pari se $f(-x)=f(x)$ e dispari se $f(-x)=-f(x)$ per ogni $x$.
+- Monotonia: per $x_1<x_2$, una funzione crescente soddisfa $f(x_1)\leq f(x_2)$, strettamente crescente $f(x_1)<f(x_2)$; i versi si invertono nei casi decrescenti.
+- Caratterizzazione: $f$ è crescente se e solo se $\frac{f(x_2)-f(x_1)}{x_2-x_1}\geq0$ per ogni $x_1\neq x_2$ del dominio; usare $>0$, $\leq0$ o $<0$ negli altri tre casi.
+- Periodicità: $T>0$ è un periodo se $f(x+T)=f(x)$ per ogni $x$ ammesso e la traslazione rispetta il dominio. Il periodo fondamentale, quando esiste, è il più piccolo periodo positivo.
+- Composizione: $(g\circ f)(x)=g(f(x))$ e $D(g\circ f)=\{x\in D(f):f(x)\in D(g)\}$.
+- Iniettività: $f(x_1)=f(x_2)\Rightarrow x_1=x_2$. Biiettività: per ogni $y$ del codominio esiste un unico $x$ del dominio tale che $f(x)=y$.
+- Se $f:A\to B$ è iniettiva, $f^{-1}:\operatorname{Im}f\to A$ soddisfa $f^{-1}(f(x))=x$ e $f(f^{-1}(y))=y$ sui rispettivi domini. Se $f$ è biiettiva, $D(f^{-1})=B$.
+- Una funzione strettamente monotona è iniettiva; la sua inversa sulla propria immagine è strettamente monotona nello stesso verso.
+- Per $m$ dispari, $x\mapsto x^m$ è invertibile su $\mathbb R$ e ha inversa $\sqrt[m]{x}$; per $m$ pari occorre restringere la potenza, per esempio a $[0,+\infty)$, ottenendo la radice principale.
+- $\arcsin:[-1,1]\to[-\pi/2,\pi/2]$, $\arccos:[-1,1]\to[0,\pi]$ e $\arctan:\mathbb R\to(-\pi/2,\pi/2)$ sono inverse di opportune restrizioni di seno, coseno e tangente.
+- Limite finito: $a_n\to\ell$ se $\forall\varepsilon>0\ \exists N\in\mathbb N\ \forall n\geq N$, $|a_n-\ell|<\varepsilon$.
+- Limite $+\infty$: $\forall M>0\ \exists N\ \forall n\geq N$, $a_n>M$; per $-\infty$ si richiede $a_n<-M$.
+- Teorema del limite monotono: una successione crescente e limitata superiormente converge al supremo dei propri valori; una successione decrescente e limitata inferiormente converge all'infimo.
 
 ## Problem Types
 
@@ -59,6 +91,20 @@ updated: 2026-09-20
 - Confutazione di implicazioni universali: trovare un elemento del dominio che renda vera l'ipotesi e falsa la tesi.
 - Dimostrazioni per assurdo: assumere la negazione della tesi, dedurre una contraddizione e concludere che la tesi è vera.
 - Dimostrazioni per induzione: formulare $P(n)$, verificare il caso base, assumere $P(n)$ e dimostrare $P(n+1)$.
+- Potenze complesse: passare alla forma esponenziale, applicare De Moivre, ridurre l'angolo modulo $2\pi$ e tornare alla forma richiesta.
+- Radici ennesime complesse: calcolare modulo e argomento di $w$, usare $k=0,\ldots,n-1$ e rappresentare le soluzioni sul poligono regolare.
+- Suriettività: fissare $y$ arbitrario nel codominio, risolvere $f(x)=y$ e verificare che almeno una soluzione appartenga al dominio.
+- Estremi di funzione: studiare l'immagine o ricavare disuguaglianze globali, trovare superiore e inferiore, quindi controllare separatamente se sono raggiunti.
+- Dominio naturale e composizione: elencare tutti i vincoli, imporre che l'uscita della funzione interna appartenga al dominio dell'esterna e conservare le restrizioni dopo la semplificazione.
+- Parità, disparità e periodicità: verificare identità valide per ogni punto del dominio, non soltanto su esempi numerici o dal disegno.
+- Iniettività: assumere $f(x_1)=f(x_2)$ e dedurre $x_1=x_2$; per confutarla esibire due argomenti distinti con la stessa immagine.
+- Biiettività: mostrare che $f(x)=y$ ha esattamente una soluzione nel dominio per ogni $y$ del codominio.
+- Funzione inversa: risolvere $y=f(x)$ rispetto a $x$, scegliere il ramo imposto dal dominio, scambiare le variabili e verificare le composizioni identità.
+- Teorema di monotonia e inversa: dimostrare prima l'iniettività e poi, dati $y_1<y_2$, confrontare le controimmagini; ricordare il controesempio al viceversa.
+- Equazioni goniometriche tramite inverse: trovare il valore principale nell'intervallo di invertibilità e poi ricostruire tutte le famiglie di soluzioni mediante periodicità e simmetrie.
+- Limite dalla definizione: fissare $\varepsilon>0$ oppure $M>0$, risolvere la disuguaglianza richiesta e scegliere un indice naturale $N$ valido per tutti gli $n\geq N$.
+- Unicità del limite: supporre due limiti distinti, costruire intorni disgiunti e usare $N=\max\{N_1,N_2\}$ per ottenere la contraddizione.
+- Teorema del limite monotono: individuare il supremo o l'infimo, usare la sua proprietà caratteristica e propagare la stima a tutti i termini successivi tramite monotonia.
 
 ## Typical Mistakes
 
@@ -94,6 +140,36 @@ updated: 2026-09-20
 - Scambiare le coordinate nel piano complesso o scrivere $(x,y)\in\mathbb R$ anziché $(x,y)\in\mathbb R^2$.
 - Cambiare anche la parte reale nel coniugato, confondere $\overline z$ con $-z$ o attribuire al modulo un valore negativo.
 - Calcolare $|z|-|w|$ al posto della distanza $|z-w|$ o confondere la differenza complessa con la sua lunghezza reale.
+- Scambiare le rette $\operatorname{Re}z=c$ e $\operatorname{Im}z=c$, oppure confondere la circonferenza $|z|=\rho$ con il disco $|z|\leq\rho$.
+- Confondere il coniugato con l'opposto o scrivere $z\overline z=|z|$ invece di $|z|^2$.
+- Nella divisione, usare il coniugato del numeratore o moltiplicare soltanto il denominatore.
+- In un'equazione complessa, imporre soltanto l'annullamento della parte reale o dividere per un fattore che potrebbe essere nullo, perdendo soluzioni.
+- Calcolare l'argomento con la sola $\arctan(y/x)$ senza controllare il quadrante, oppure tentare di usarla quando $x=0$.
+- Attribuire un argomento a $z=0$ o dimenticare che gli argomenti differiscono per multipli di $2\pi$.
+- Usare un coefficiente negativo come modulo nella forma esponenziale o dimenticare che l'argomento non è unico.
+- Nelle potenze, moltiplicare il modulo per l'esponente invece di elevarlo alla potenza.
+- Nelle radici, dividere soltanto l'argomento principale e trovare una sola soluzione; occorre usare $\varphi+2k\pi$ prima di dividere per $n$.
+- Confondere il numero di radici distinte con il numero di radici contate con molteplicità.
+- Applicare il teorema fondamentale dell'algebra a espressioni contenenti $\overline z$, $|z|$ o $\operatorname{Re}z$ che non sono polinomi in $z$.
+- Confondere codominio e immagine o decidere la suriettività ignorando il codominio dichiarato.
+- Confondere il grafico $G(f)\subseteq A\times B$ con l'immagine $\operatorname{Im}f\subseteq B$.
+- In una successione, trattare l'indice $n$ come variabile reale o ignorare l'indice iniziale necessario per definire la formula.
+- Confondere $\sup f$ con $\max f$ o $\inf f$ con $\min f$ senza verificare che il valore sia assunto.
+- Determinare il dominio dopo avere semplificato l'espressione e reinserire punti che la formula originale escludeva.
+- Verificare parità o disparità senza controllare che il dominio sia simmetrico rispetto a zero.
+- Confondere crescente con strettamente crescente o concludere iniettività da una monotonia non stretta che ammette tratti costanti.
+- Dichiarare $1/x$ decrescente su $\mathbb R\setminus\{0\}$ controllando soltanto ciascuna componente del dominio.
+- Trattare $g\circ f$ come $f\circ g$ o dimenticare il vincolo $f(x)\in D(g)$.
+- Confondere iniettività e suriettività: la prima garantisce al massimo una controimmagine, la seconda almeno una.
+- Cercare l'inversa senza rendere la funzione iniettiva o scegliere il ramo di una radice ignorando il dominio originale.
+- Confondere $f^{-1}$ con $1/f$ oppure assegnare all'inversa un dominio diverso da $\operatorname{Im}f$.
+- Affermare il falso viceversa “ogni funzione invertibile è monotona” senza ipotesi ulteriori.
+- Confondere la radice principale con tutte le soluzioni di $x^m=y$ o invertire una potenza pari senza dichiarare una restrizione iniettiva.
+- Usare soltanto il valore principale di $\arcsin$, $\arccos$ o $\arctan$ quando si chiedono tutte le soluzioni dell'equazione goniometrica.
+- Invertire l'ordine dei quantificatori nella definizione di limite oppure verificare la stima per un solo termine anziché per ogni $n\geq N$.
+- Credere che termini arbitrariamente grandi bastino per il limite $+\infty$: il superamento di ogni soglia deve essere definitivo.
+- Confondere successione illimitata con successione divergente a $+\infty$ o $-\infty$.
+- Applicare il teorema del limite monotono senza la limitatezza nella direzione corretta, oppure confondere il supremo con un massimo raggiunto.
 
 ## Trap List
 
@@ -109,6 +185,18 @@ updated: 2026-09-20
 - La proprietà dell'estremo superiore non vale in $\mathbb{Q}$; il controesempio fondamentale usa i razionali non negativi con quadrato minore o uguale a $2$.
 - La seconda condizione della caratterizzazione deve produrre un elemento valido dell'insieme per ogni soglia inferiore al candidato.
 - Prima di usare un logaritmo reale controllare sempre: base positiva, base diversa da $1$ e argomento positivo.
+- Prima di determinare un argomento controllare: $z\neq0$, segni di parte reale e immaginaria, quadrante e intervallo scelto per l'argomento principale.
+- Prima di applicare la formula delle radici controllare $w\neq0$ e dichiarare l'intero intervallo di indici $k=0,\ldots,n-1$.
+- Per stabilire se una funzione è suriettiva bisogna usare il codominio, non soltanto osservare la formula.
+- Nel grafico, le rette verticali controllano l'unicità dell'immagine; le rette orizzontali controllano quali valori appartengono all'immagine.
+- Prima di chiamare un estremo massimo o minimo, chiedersi se esiste davvero un punto del dominio in cui il valore è assunto.
+- Nelle composizioni, determinare il dominio prima di semplificare: $(\sqrt{x})^2=x$ resta definita soltanto per $x\geq0$.
+- Nel test grafico, “al massimo una” intersezione orizzontale indica iniettività; “almeno una” per ogni livello del codominio indica suriettività.
+- Per calcolare l'inversa di $x^2$ bisogna prima scegliere una restrizione iniettiva: su $[0,+\infty)$ si ottiene $\sqrt{x}$, su $(-\infty,0]$ si ottiene $-\sqrt{x}$.
+- La stretta monotonia è sufficiente per l'iniettività, ma non necessaria su un dominio generale.
+- Le inverse goniometriche restituiscono valori principali in intervalli fissati; non rappresentano automaticamente tutte le soluzioni periodiche.
+- Nella definizione di limite la soglia $N$ può dipendere da $\varepsilon$ o da $M$, ma non dall'indice $n$ scelto successivamente.
+- Una successione crescente non limitata superiormente tende a $+\infty$; la monotonia da sola non garantisce un limite finito.
 
 ## Wrong Answers Log
 

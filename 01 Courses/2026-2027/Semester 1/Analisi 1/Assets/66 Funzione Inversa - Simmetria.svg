@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 600" role="img" aria-labelledby="title desc">
+  <title id="title">Grafico di una funzione e della sua inversa</title>
+  <desc id="desc">La parabola y uguale x quadrato ristretta a x maggiore o uguale a zero e la radice y uguale radice di x sono simmetriche rispetto alla retta y uguale x.</desc>
+  <rect width="760" height="600" fill="#ffffff"/>
+  <rect x="65" y="55" width="625" height="490" rx="14" fill="#f7fafc"/>
+  <g stroke="#e2e8f0" stroke-width="1">
+    <path d="M145 75 V525 M245 75 V525 M345 75 V525 M445 75 V525 M545 75 V525 M645 75 V525"/>
+    <path d="M85 475 H675 M85 375 H675 M85 275 H675 M85 175 H675 M85 75 H675"/>
+  </g>
+  <g stroke="#2d3748" stroke-width="2.2">
+    <line x1="85" y1="475" x2="700" y2="475"/>
+    <line x1="145" y1="535" x2="145" y2="45"/>
+  </g>
+  <line x1="145" y1="475" x2="545" y2="75" stroke="#805ad5" stroke-width="3" stroke-dasharray="9 7"/>
+  <path d="M145 475 C174 473 202 442 225 395 C254 337 285 232 305 155 C313 122 318 99 321 84" fill="none" stroke="#e53e3e" stroke-width="5"/>
+  <path d="M145 475 C165 438 190 414 225 395 C292 357 378 333 465 315 C540 299 607 286 675 275" fill="none" stroke="#3182ce" stroke-width="5"/>
+  <circle cx="305" cy="155" r="7" fill="#e53e3e"/>
+  <circle cx="465" cy="315" r="7" fill="#3182ce"/>
+  <line x1="305" y1="155" x2="465" y2="315" stroke="#718096" stroke-width="2" stroke-dasharray="6 6"/>
+  <g font-family="Arial, sans-serif" fill="#1a202c" font-size="18">
+    <text x="704" y="482">x</text><text x="153" y="48">y</text>
+    <text x="350" y="91" fill="#e53e3e">f(x) = x², x ≥ 0</text>
+    <text x="500" y="342" fill="#3182ce">f⁻¹(x) = √x</text>
+    <text x="537" y="158" fill="#805ad5">y = x</text>
+    <text x="325" y="250">(2, 4) ↔ (4, 2)</text>
+  </g>
+  <text x="380" y="578" text-anchor="middle" font-family="Arial, sans-serif" fill="#4a5568" font-size="18">Scambiare input e output riflette il grafico rispetto a y = x</text>
+</svg>

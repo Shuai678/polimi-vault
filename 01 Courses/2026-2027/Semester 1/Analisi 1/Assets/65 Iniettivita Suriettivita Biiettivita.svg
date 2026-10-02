@@ -1,0 +1,35 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 440" role="img" aria-labelledby="title desc">
+  <title id="title">Test delle rette orizzontali per iniettività, suriettività e biiettività</title>
+  <desc id="desc">Tre pannelli mostrano rispettivamente al più una intersezione, almeno una intersezione e esattamente una intersezione con ogni retta orizzontale del codominio.</desc>
+  <rect width="960" height="440" fill="#ffffff"/>
+  <g fill="#f7fafc" stroke="#e2e8f0">
+    <rect x="25" y="68" width="285" height="310" rx="12"/>
+    <rect x="337" y="68" width="285" height="310" rx="12"/>
+    <rect x="649" y="68" width="285" height="310" rx="12"/>
+  </g>
+  <g font-family="Arial, sans-serif" text-anchor="middle" fill="#1a202c">
+    <text x="167" y="34" font-size="22" font-weight="700">Iniettiva</text>
+    <text x="479" y="34" font-size="22" font-weight="700">Suriettiva</text>
+    <text x="791" y="34" font-size="22" font-weight="700">Biiettiva</text>
+    <text x="167" y="57" font-size="15">al più un'intersezione</text>
+    <text x="479" y="57" font-size="15">almeno un'intersezione</text>
+    <text x="791" y="57" font-size="15">esattamente un'intersezione</text>
+  </g>
+  <g stroke="#2d3748" stroke-width="1.8">
+    <path d="M45 340 H292 M70 360 V87"/><path d="M357 340 H604 M382 360 V87"/><path d="M669 340 H916 M694 360 V87"/>
+  </g>
+  <g stroke="#3182ce" stroke-width="2" stroke-dasharray="7 6">
+    <line x1="45" y1="190" x2="292" y2="190"/><line x1="357" y1="190" x2="604" y2="190"/><line x1="669" y1="190" x2="916" y2="190"/>
+  </g>
+  <path d="M85 310 C135 300 180 235 270 105" fill="none" stroke="#e53e3e" stroke-width="5"/>
+  <circle cx="205" cy="190" r="6" fill="#3182ce"/>
+  <path d="M372 315 C405 275 421 125 462 130 C505 136 510 276 548 260 C571 250 580 155 596 96" fill="none" stroke="#e53e3e" stroke-width="5"/>
+  <circle cx="419" cy="190" r="6" fill="#3182ce"/><circle cx="502" cy="190" r="6" fill="#3182ce"/><circle cx="576" cy="190" r="6" fill="#3182ce"/>
+  <path d="M708 325 C750 315 755 250 791 220 C827 190 832 125 894 102" fill="none" stroke="#e53e3e" stroke-width="5"/>
+  <circle cx="831" cy="190" r="6" fill="#3182ce"/>
+  <g font-family="Arial, sans-serif" text-anchor="middle" fill="#4a5568" font-size="16">
+    <text x="167" y="408">può non coprire tutto B</text>
+    <text x="479" y="408">può avere più controimmagini</text>
+    <text x="791" y="408">esistenza e unicità</text>
+  </g>
+</svg>

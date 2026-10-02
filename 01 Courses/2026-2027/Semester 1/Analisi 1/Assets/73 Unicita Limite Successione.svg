@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 480" role="img" aria-labelledby="title desc">
+  <title id="title">Idea geometrica dell'unicità del limite</title>
+  <desc id="desc">Due strisce sufficientemente strette attorno a due presunti limiti distinti sono disgiunte, quindi una stessa coda non può appartenere a entrambe.</desc>
+  <rect width="900" height="480" fill="#ffffff"/>
+  <rect x="80" y="50" width="740" height="350" rx="15" fill="#f7fafc"/>
+  <rect x="120" y="95" width="650" height="90" fill="#bee3f8" opacity="0.7"/>
+  <rect x="120" y="270" width="650" height="90" fill="#c6f6d5" opacity="0.7"/>
+  <line x1="120" y1="140" x2="770" y2="140" stroke="#3182ce" stroke-width="3"/>
+  <line x1="120" y1="315" x2="770" y2="315" stroke="#38a169" stroke-width="3"/>
+  <path d="M790 140 H820 M805 140 V315 M790 315 H820" fill="none" stroke="#805ad5" stroke-width="3"/>
+  <g font-family="Arial, sans-serif" fill="#1a202c" font-size="19">
+    <text x="88" y="146" fill="#3182ce">ℓ₁</text><text x="88" y="321" fill="#38a169">ℓ₂</text>
+    <text x="615" y="122">(ℓ₁−ε, ℓ₁+ε)</text><text x="615" y="297">(ℓ₂−ε, ℓ₂+ε)</text>
+    <text x="830" y="235" fill="#805ad5">|ℓ₁−ℓ₂|</text>
+  </g>
+  <text x="450" y="438" text-anchor="middle" font-family="Arial, sans-serif" fill="#4a5568" font-size="19">Con ε &lt; |ℓ₁−ℓ₂|/2 le due strisce sono disgiunte</text>
+</svg>

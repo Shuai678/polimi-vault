@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="820" viewBox="0 0 900 820" role="img" aria-labelledby="title desc">
+  <title id="title">Determinazione dell'argomento nei quattro quadranti</title>
+  <desc id="desc">Piano complesso suddiviso nei quattro quadranti con le correzioni da applicare all'arcotangente del rapporto tra parte immaginaria e parte reale.</desc>
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#334155"/>
+    </marker>
+  </defs>
+  <rect width="900" height="820" fill="#f8fafc"/>
+  <text x="450" y="48" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="600" fill="#0f172a">Argomento e quadranti</text>
+  <rect x="75" y="80" width="750" height="650" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+  <rect x="130" y="125" width="320" height="260" fill="#16a34a" fill-opacity="0.07"/>
+  <rect x="450" y="125" width="320" height="260" fill="#2563eb" fill-opacity="0.07"/>
+  <rect x="130" y="385" width="320" height="260" fill="#dc2626" fill-opacity="0.07"/>
+  <rect x="450" y="385" width="320" height="260" fill="#f59e0b" fill-opacity="0.08"/>
+  <line x1="110" y1="385" x2="790" y2="385" stroke="#334155" stroke-width="2.5" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+  <line x1="450" y1="680" x2="450" y2="105" stroke="#334155" stroke-width="2.5" marker-end="url(#arrow)" marker-start="url(#arrow)"/>
+  <text x="785" y="414" font-family="Inter, Arial, sans-serif" font-size="20" fill="#334155">Re</text>
+  <text x="414" y="118" font-family="Inter, Arial, sans-serif" font-size="20" fill="#334155">Im</text>
+  <text x="605" y="175" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="600" fill="#1d4ed8">I quadrante</text>
+  <text x="605" y="220" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="19" fill="#0f172a">x &gt; 0, y &gt; 0</text>
+  <text x="605" y="260" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="20" fill="#0f172a">θ = arctan(y/x)</text>
+  <text x="290" y="175" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="600" fill="#15803d">II quadrante</text>
+  <text x="290" y="220" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="19" fill="#0f172a">x &lt; 0, y &gt; 0</text>
+  <text x="290" y="260" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="20" fill="#0f172a">θ = arctan(y/x) + π</text>
+  <text x="290" y="455" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="600" fill="#b91c1c">III quadrante</text>
+  <text x="290" y="500" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="19" fill="#0f172a">x &lt; 0, y &lt; 0</text>
+  <text x="290" y="540" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="20" fill="#0f172a">θ = arctan(y/x) − π</text>
+  <text x="605" y="455" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="25" font-weight="600" fill="#b45309">IV quadrante</text>
+  <text x="605" y="500" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="19" fill="#0f172a">x &gt; 0, y &lt; 0</text>
+  <text x="605" y="540" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="20" fill="#0f172a">θ = arctan(y/x)</text>
+  <text x="450" y="705" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="18" fill="#475569">Argomento principale scelto in (−π, π]</text>
+  <text x="450" y="770" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="600" fill="#0f172a">Prima il quadrante, poi l'arcotangente.</text>
+</svg>

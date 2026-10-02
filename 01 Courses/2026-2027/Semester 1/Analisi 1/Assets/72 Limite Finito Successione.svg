@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">Interpretazione epsilon N del limite finito</title>
+  <desc id="desc">Dopo l'indice N tutti i punti della successione sono nella striscia compresa tra elle meno epsilon ed elle più epsilon.</desc>
+  <rect width="900" height="520" fill="#ffffff"/>
+  <rect x="75" y="58" width="750" height="390" rx="15" fill="#f7fafc"/>
+  <rect x="105" y="190" width="680" height="120" fill="#bee3f8" opacity="0.55"/>
+  <g stroke="#2d3748" stroke-width="2.2"><line x1="105" y1="400" x2="810" y2="400"/><line x1="130" y1="430" x2="130" y2="82"/></g>
+  <line x1="105" y1="250" x2="785" y2="250" stroke="#e53e3e" stroke-width="3"/>
+  <line x1="105" y1="190" x2="785" y2="190" stroke="#3182ce" stroke-width="2" stroke-dasharray="8 6"/>
+  <line x1="105" y1="310" x2="785" y2="310" stroke="#3182ce" stroke-width="2" stroke-dasharray="8 6"/>
+  <line x1="430" y1="95" x2="430" y2="420" stroke="#805ad5" stroke-width="3"/>
+  <g fill="#e53e3e">
+    <circle cx="180" cy="105" r="7"/><circle cx="250" cy="345" r="7"/><circle cx="320" cy="160" r="7"/><circle cx="390" cy="325" r="7"/>
+    <circle cx="460" cy="205" r="7"/><circle cx="530" cy="285" r="7"/><circle cx="600" cy="220" r="7"/><circle cx="670" cy="270" r="7"/><circle cx="740" cy="237" r="7"/>
+  </g>
+  <g font-family="Arial, sans-serif" fill="#2d3748" font-size="18">
+    <text x="812" y="407">n</text><text x="139" y="85">aₙ</text>
+    <text x="83" y="196" fill="#3182ce">ℓ+ε</text><text x="95" y="256" fill="#e53e3e">ℓ</text><text x="83" y="316" fill="#3182ce">ℓ−ε</text>
+    <text x="420" y="445" fill="#805ad5">N</text>
+  </g>
+  <text x="450" y="486" text-anchor="middle" font-family="Arial, sans-serif" fill="#4a5568" font-size="19">n ≥ N  ⇒  |aₙ − ℓ| &lt; ε</text>
+</svg>

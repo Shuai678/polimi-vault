@@ -1,0 +1,42 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 500" role="img" aria-labelledby="title desc">
+  <title id="title">Grafici di arcoseno, arcocoseno e arcotangente</title>
+  <desc id="desc">Tre pannelli mostrano domini, immagini e monotonia delle principali funzioni goniometriche inverse.</desc>
+  <rect width="1200" height="500" fill="#ffffff"/>
+  <g fill="#f7fafc" stroke="#e2e8f0">
+    <rect x="25" y="65" width="360" height="370" rx="14"/>
+    <rect x="420" y="65" width="360" height="370" rx="14"/>
+    <rect x="815" y="65" width="360" height="370" rx="14"/>
+  </g>
+  <g font-family="Arial, sans-serif" text-anchor="middle" fill="#1a202c">
+    <text x="205" y="33" font-size="24" font-weight="700">arcsin x</text>
+    <text x="600" y="33" font-size="24" font-weight="700">arccos x</text>
+    <text x="995" y="33" font-size="24" font-weight="700">arctan x</text>
+  </g>
+  <g stroke="#2d3748" stroke-width="2">
+    <path d="M48 250 H365 M205 415 V83"/>
+    <path d="M443 390 H760 M600 415 V83"/>
+    <path d="M838 250 H1155 M995 415 V83"/>
+  </g>
+  <g stroke="#805ad5" stroke-width="2" stroke-dasharray="7 6">
+    <path d="M70 105 H340 M70 395 H340"/>
+    <path d="M465 105 H735 M465 390 H735"/>
+    <path d="M840 105 H1150 M840 395 H1150"/>
+  </g>
+  <path d="M95 395 C128 380 151 330 170 285 C188 250 222 250 240 215 C259 170 282 120 315 105" fill="none" stroke="#e53e3e" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="95" cy="395" r="7" fill="#e53e3e"/><circle cx="315" cy="105" r="7" fill="#e53e3e"/>
+  <path d="M490 105 C535 120 560 190 600 247.5 C640 305 665 375 710 390" fill="none" stroke="#e53e3e" stroke-width="6" stroke-linecap="round"/>
+  <circle cx="490" cy="105" r="7" fill="#e53e3e"/><circle cx="710" cy="390" r="7" fill="#e53e3e"/>
+  <path d="M850 382 C900 374 934 335 960 285 C978 251 1012 249 1030 215 C1056 165 1090 126 1140 118" fill="none" stroke="#e53e3e" stroke-width="6" stroke-linecap="round"/>
+  <g font-family="Arial, sans-serif" fill="#2d3748" font-size="16">
+    <text x="83" y="270">−1</text><text x="309" y="270">1</text>
+    <text x="50" y="112">π/2</text><text x="42" y="401">−π/2</text>
+    <text x="478" y="408">−1</text><text x="704" y="408">1</text>
+    <text x="454" y="112">π</text><text x="580" y="410">0</text>
+    <text x="1090" y="98" fill="#805ad5">π/2</text><text x="1080" y="420" fill="#805ad5">−π/2</text>
+  </g>
+  <g font-family="Arial, sans-serif" text-anchor="middle" fill="#4a5568" font-size="16">
+    <text x="205" y="466">[-1,1] → [-π/2,π/2], crescente</text>
+    <text x="600" y="466">[-1,1] → [0,π], decrescente</text>
+    <text x="995" y="466">ℝ → (-π/2,π/2), crescente</text>
+  </g>
+</svg>

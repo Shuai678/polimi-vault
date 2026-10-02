@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 430" role="img" aria-labelledby="title desc">
+  <title id="title">Ripetizione di una funzione periodica</title>
+  <desc id="desc">Una sinusoide ripete lo stesso valore nei punti x e x più T; una parentesi mostra la lunghezza del periodo.</desc>
+  <rect width="900" height="430" fill="#ffffff"/>
+  <rect x="45" y="54" width="810" height="302" rx="14" fill="#f7fafc"/>
+  <line x1="62" y1="220" x2="842" y2="220" stroke="#2d3748" stroke-width="2"/>
+  <line x1="110" y1="340" x2="110" y2="72" stroke="#2d3748" stroke-width="2"/>
+  <path d="M70 220 C110 220 130 110 190 110 C250 110 270 330 330 330 C390 330 410 110 470 110 C530 110 550 330 610 330 C670 330 690 110 750 110 C810 110 825 220 840 220" fill="none" stroke="#e53e3e" stroke-width="5"/>
+  <line x1="190" y1="110" x2="190" y2="220" stroke="#3182ce" stroke-width="2" stroke-dasharray="6 5"/>
+  <line x1="470" y1="110" x2="470" y2="220" stroke="#3182ce" stroke-width="2" stroke-dasharray="6 5"/>
+  <circle cx="190" cy="110" r="7" fill="#3182ce"/>
+  <circle cx="470" cy="110" r="7" fill="#3182ce"/>
+  <path d="M190 375 V390 M190 383 H470 M470 375 V390" fill="none" stroke="#805ad5" stroke-width="3"/>
+  <g font-family="Arial, sans-serif" fill="#1a202c" font-size="18">
+    <text x="174" y="246">x</text>
+    <text x="445" y="246">x + T</text>
+    <text x="330" y="411" text-anchor="middle" fill="#805ad5" font-weight="700">T</text>
+    <text x="520" y="86" fill="#3182ce">f(x + T) = f(x)</text>
+    <text x="830" y="244">x</text><text x="120" y="83">y</text>
+  </g>
+</svg>

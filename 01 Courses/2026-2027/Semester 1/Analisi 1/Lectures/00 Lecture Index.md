@@ -12,6 +12,9 @@ Create one short note per lecture using [[04 Templates/Lecture Template|Lecture 
 - [[01 Courses/2026-2027/Semester 1/Analisi 1/Lectures/Lecture 01|Lecture 01]]
 - [[01 Courses/2026-2027/Semester 1/Analisi 1/Lectures/Lecture 02|Lezione 02]]
 - [[01 Courses/2026-2027/Semester 1/Analisi 1/Lectures/Lecture 03|Lezione 03]]
+- [[01 Courses/2026-2027/Semester 1/Analisi 1/Lectures/Lecture 04|Lezione 04]]
+- [[01 Courses/2026-2027/Semester 1/Analisi 1/Lectures/Lecture 05|Lezione 05]]
+- [[01 Courses/2026-2027/Semester 1/Analisi 1/Lectures/Lecture 06|Lezione 06]]
 
 ## Rule
 

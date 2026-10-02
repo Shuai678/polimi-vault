@@ -138,7 +138,7 @@ $$
 ## Connessioni
 
 - La distanza generalizza il [[41 Coniugato e Modulo dei Numeri Complessi|modulo]]: ponendo $w=0$ si ottiene $|z-0|=|z|$.
-- L'equazione $|z-w|=\rho$ descriverà i punti posti a distanza costante $\rho$ da $w$.
+- L'equazione $|z-w|=\rho$ descrive i punti posti a distanza costante $\rho$ da $w$ ed è collegata ai [[43 Luoghi Geometrici nel Piano Complesso|luoghi geometrici nel piano complesso]].
 
 ## Prospettiva d'esame
 

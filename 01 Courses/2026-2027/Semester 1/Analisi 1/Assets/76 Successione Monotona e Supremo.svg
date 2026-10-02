@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 900 520" role="img" aria-labelledby="title desc">
+  <title id="title">Successione crescente che converge al proprio estremo superiore</title>
+  <desc id="desc">Una successione crescente e limitata superiormente entra nella striscia tra elle meno epsilon ed elle, dove elle è il suo estremo superiore.</desc>
+  <rect width="900" height="520" fill="#ffffff"/>
+  <rect x="75" y="55" width="750" height="390" rx="15" fill="#f7fafc"/>
+  <rect x="105" y="105" width="680" height="90" fill="#bee3f8" opacity="0.6"/>
+  <g stroke="#2d3748" stroke-width="2.2"><line x1="105" y1="405" x2="810" y2="405"/><line x1="130" y1="430" x2="130" y2="75"/></g>
+  <line x1="105" y1="105" x2="785" y2="105" stroke="#e53e3e" stroke-width="3"/>
+  <line x1="105" y1="195" x2="785" y2="195" stroke="#3182ce" stroke-width="2" stroke-dasharray="8 6"/>
+  <line x1="470" y1="85" x2="470" y2="425" stroke="#805ad5" stroke-width="2.5"/>
+  <g fill="#e53e3e">
+    <circle cx="180" cy="350" r="7"/><circle cx="250" cy="290" r="7"/><circle cx="320" cy="245" r="7"/><circle cx="390" cy="210" r="7"/>
+    <circle cx="460" cy="182" r="7"/><circle cx="530" cy="160" r="7"/><circle cx="600" cy="143" r="7"/><circle cx="670" cy="130" r="7"/><circle cx="740" cy="120" r="7"/>
+  </g>
+  <g font-family="Arial, sans-serif" fill="#2d3748" font-size="18">
+    <text x="812" y="412">n</text><text x="138" y="80">aₙ</text>
+    <text x="145" y="96" fill="#e53e3e">ℓ=sup{aₙ}</text><text x="85" y="202" fill="#3182ce">ℓ−ε</text><text x="461" y="450" fill="#805ad5">N</text>
+  </g>
+  <text x="450" y="486" text-anchor="middle" font-family="Arial, sans-serif" fill="#4a5568" font-size="18">ℓ−ε &lt; aₙ ≤ ℓ per ogni n ≥ N</text>
+</svg>

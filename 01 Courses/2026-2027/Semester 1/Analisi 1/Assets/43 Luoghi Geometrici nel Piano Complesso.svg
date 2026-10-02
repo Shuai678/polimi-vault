@@ -1,0 +1,65 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="920" height="1200" viewBox="0 0 920 1200" role="img" aria-labelledby="title desc">
+  <title id="title">Tre luoghi geometrici nel piano complesso</title>
+  <desc id="desc">Confronto tra la retta verticale Re z uguale a 2, la retta orizzontale Im z uguale a meno 1 e la circonferenza modulo di z uguale a 3.</desc>
+  <defs>
+    <pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse">
+      <path d="M 40 0 L 0 0 0 40" fill="none" stroke="#dce4ec" stroke-width="1"/>
+    </pattern>
+    <marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M 0 0 L 10 5 L 0 10 z" fill="#334155"/>
+    </marker>
+  </defs>
+  <rect width="920" height="1200" fill="#f8fafc"/>
+  <text x="460" y="48" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="28" font-weight="600" fill="#0f172a">Luoghi geometrici nel piano complesso</text>
+
+  <g transform="translate(40 78)">
+    <rect width="840" height="320" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+    <text x="24" y="38" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="600" fill="#0f172a">Parte reale costante</text>
+    <rect x="170" y="58" width="500" height="230" fill="url(#grid)" stroke="#cbd5e1"/>
+    <line x1="190" y1="173" x2="650" y2="173" stroke="#334155" stroke-width="2" marker-end="url(#arrow)"/>
+    <line x1="410" y1="273" x2="410" y2="73" stroke="#334155" stroke-width="2" marker-end="url(#arrow)"/>
+    <line x1="530" y1="68" x2="530" y2="278" stroke="#2563eb" stroke-width="5"/>
+    <circle cx="530" cy="173" r="5" fill="#2563eb"/>
+    <text x="649" y="196" font-family="Inter, Arial, sans-serif" font-size="17" fill="#334155">Re</text>
+    <text x="386" y="84" font-family="Inter, Arial, sans-serif" font-size="17" fill="#334155">Im</text>
+    <text x="530" y="198" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="17" fill="#0f172a">2</text>
+    <text x="552" y="99" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="600" fill="#2563eb">Re z = 2</text>
+    <text x="696" y="158" font-family="Inter, Arial, sans-serif" font-size="18" fill="#334155">retta</text>
+    <text x="696" y="184" font-family="Inter, Arial, sans-serif" font-size="18" fill="#334155">verticale</text>
+  </g>
+
+  <g transform="translate(40 428)">
+    <rect width="840" height="320" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+    <text x="24" y="38" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="600" fill="#0f172a">Parte immaginaria costante</text>
+    <rect x="170" y="58" width="500" height="230" fill="url(#grid)" stroke="#cbd5e1"/>
+    <line x1="190" y1="158" x2="650" y2="158" stroke="#334155" stroke-width="2" marker-end="url(#arrow)"/>
+    <line x1="410" y1="273" x2="410" y2="73" stroke="#334155" stroke-width="2" marker-end="url(#arrow)"/>
+    <line x1="180" y1="208" x2="660" y2="208" stroke="#dc2626" stroke-width="5"/>
+    <circle cx="410" cy="208" r="5" fill="#dc2626"/>
+    <text x="649" y="181" font-family="Inter, Arial, sans-serif" font-size="17" fill="#334155">Re</text>
+    <text x="386" y="84" font-family="Inter, Arial, sans-serif" font-size="17" fill="#334155">Im</text>
+    <text x="398" y="231" text-anchor="end" font-family="Inter, Arial, sans-serif" font-size="17" fill="#0f172a">−1</text>
+    <text x="441" y="235" font-family="Inter, Arial, sans-serif" font-size="19" font-weight="600" fill="#dc2626">Im z = −1</text>
+    <text x="696" y="158" font-family="Inter, Arial, sans-serif" font-size="18" fill="#334155">retta</text>
+    <text x="696" y="184" font-family="Inter, Arial, sans-serif" font-size="18" fill="#334155">orizzontale</text>
+  </g>
+
+  <g transform="translate(40 778)">
+    <rect width="840" height="370" rx="16" fill="#ffffff" stroke="#cbd5e1" stroke-width="2"/>
+    <text x="24" y="38" font-family="Inter, Arial, sans-serif" font-size="22" font-weight="600" fill="#0f172a">Modulo costante</text>
+    <rect x="170" y="58" width="500" height="270" fill="url(#grid)" stroke="#cbd5e1"/>
+    <line x1="190" y1="193" x2="650" y2="193" stroke="#334155" stroke-width="2" marker-end="url(#arrow)"/>
+    <line x1="410" y1="313" x2="410" y2="73" stroke="#334155" stroke-width="2" marker-end="url(#arrow)"/>
+    <circle cx="410" cy="193" r="96" fill="#16a34a" fill-opacity="0.08" stroke="#16a34a" stroke-width="5"/>
+    <circle cx="410" cy="193" r="5" fill="#0f172a"/>
+    <line x1="410" y1="193" x2="486" y2="134" stroke="#16a34a" stroke-width="4"/>
+    <circle cx="486" cy="134" r="6" fill="#16a34a"/>
+    <text x="648" y="216" font-family="Inter, Arial, sans-serif" font-size="17" fill="#334155">Re</text>
+    <text x="386" y="84" font-family="Inter, Arial, sans-serif" font-size="17" fill="#334155">Im</text>
+    <text x="393" y="216" font-family="Inter, Arial, sans-serif" font-size="17" fill="#0f172a">O</text>
+    <text x="432" y="152" font-family="Inter, Arial, sans-serif" font-size="18" font-weight="600" fill="#16a34a">raggio 3</text>
+    <text x="519" y="111" font-family="Inter, Arial, sans-serif" font-size="20" font-weight="600" fill="#16a34a">|z| = 3</text>
+    <text x="696" y="183" font-family="Inter, Arial, sans-serif" font-size="18" fill="#334155">circonferenza</text>
+    <text x="696" y="209" font-family="Inter, Arial, sans-serif" font-size="18" fill="#334155">con centro O</text>
+  </g>
+</svg>

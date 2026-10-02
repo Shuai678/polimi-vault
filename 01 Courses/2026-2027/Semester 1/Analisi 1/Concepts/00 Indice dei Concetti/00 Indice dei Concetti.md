@@ -5,7 +5,7 @@ type: concept-index
 
 # Indice dei concetti di Analisi 1
 
-Creare una nota di concetto solo quando si è formata una comprensione reale.
+Le note seguono l'ordine didattico del corso. Lo stato distingue i contenuti già studiati da quelli preparati in anticipo e ancora `Da studiare`.
 
 ## 01 Insiemi numerici
 
@@ -62,13 +62,50 @@ Creare una nota di concetto solo quando si è formata una comprensione reale.
 - [[05 Numeri Complessi/40 Piano Complesso e Interpretazione Vettoriale|Piano complesso e interpretazione vettoriale]]
 - [[05 Numeri Complessi/41 Coniugato e Modulo dei Numeri Complessi|Coniugato e modulo dei numeri complessi]]
 - [[05 Numeri Complessi/42 Distanza nel Piano Complesso|Distanza nel piano complesso]]
+- [[05 Numeri Complessi/43 Luoghi Geometrici nel Piano Complesso|Luoghi geometrici nel piano complesso]]
+- [[05 Numeri Complessi/44 Proprietà del Coniugato|Proprietà del coniugato]]
+- [[05 Numeri Complessi/45 Divisione tra Numeri Complessi|Divisione tra numeri complessi]]
+- [[05 Numeri Complessi/46 Equazioni in una Variabile Complessa|Equazioni in una variabile complessa]]
+- [[05 Numeri Complessi/47 Modulo e Argomento dei Numeri Complessi|Modulo e argomento dei numeri complessi]]
+- [[05 Numeri Complessi/48 Forma Trigonometrica dei Numeri Complessi|Forma trigonometrica dei numeri complessi]]
+- [[05 Numeri Complessi/49 Determinazione dell'Argomento per Quadranti|Determinazione dell'argomento per quadranti]]
+- [[05 Numeri Complessi/50 Forma Esponenziale e Identità di Eulero|Forma esponenziale e identità di Eulero]]
+- [[05 Numeri Complessi/51 Prodotto e Quoziente in Forma Trigonometrica|Prodotto e quoziente in forma trigonometrica]]
+- [[05 Numeri Complessi/52 Formula di De Moivre e Potenze Complesse|Formula di De Moivre e potenze complesse]]
+- [[05 Numeri Complessi/53 Radici Ennesime Complesse|Radici ennesime complesse]]
+- [[05 Numeri Complessi/54 Equazioni Polinomiali Complesse e Teorema Fondamentale dell'Algebra|Equazioni polinomiali complesse e teorema fondamentale dell'algebra]]
+
+## 06 Funzioni
+
+- [[06 Funzioni/55 Funzioni Dominio Codominio e Immagine|Funzioni, dominio, codominio e immagine]]
+- [[06 Funzioni/56 Suriettività|Suriettività]]
+- [[06 Funzioni/57 Grafico di una Funzione|Grafico di una funzione]]
+- [[06 Funzioni/58 Successioni di Numeri Reali|Successioni di numeri reali]]
+- [[06 Funzioni/59 Funzioni Limitate ed Estremi di Funzione|Funzioni limitate ed estremi di funzione]]
+- [[06 Funzioni/60 Dominio Naturale di una Funzione|Dominio naturale di una funzione]]
+- [[06 Funzioni/61 Funzioni Pari e Dispari|Funzioni pari e dispari]]
+- [[06 Funzioni/62 Funzioni Monotone|Funzioni monotone]]
+- [[06 Funzioni/63 Funzioni Periodiche|Funzioni periodiche]]
+- [[06 Funzioni/64 Composizione di Funzioni|Composizione di funzioni]]
+- [[06 Funzioni/65 Funzioni Iniettive e Biiettive|Funzioni iniettive e biiettive]]
+- [[06 Funzioni/66 Funzione Inversa|Funzione inversa]]
+- [[06 Funzioni/67 Monotonia e Funzione Inversa|Monotonia e funzione inversa]]
+- [[06 Funzioni/68 Funzioni Potenza e Radice come Inversa|Funzioni potenza e radice come inversa]]
+- [[06 Funzioni/69 Funzioni Goniometriche Inverse|Funzioni goniometriche inverse]]
+
+## 07 Successioni e limiti
+
+- [[07 Successioni e Limiti/70 Grafico e Limitatezza delle Successioni|Grafico e limitatezza delle successioni]]
+- [[07 Successioni e Limiti/71 Proprietà Definitivamente Vere|Proprietà definitivamente vere]]
+- [[07 Successioni e Limiti/72 Limite Finito di una Successione|Limite finito di una successione]]
+- [[07 Successioni e Limiti/73 Unicità del Limite di Successione|Unicità del limite di successione]]
+- [[07 Successioni e Limiti/74 Limiti Infiniti e Regolarità delle Successioni|Limiti infiniti e regolarità delle successioni]]
+- [[07 Successioni e Limiti/75 Successioni Monotone|Successioni monotone]]
+- [[07 Successioni e Limiti/76 Teorema del Limite delle Successioni Monotone|Teorema del limite delle successioni monotone]]
 
 ## Concetti candidati
 
-- Funzioni
-- Limiti
 - Continuità
 - Derivate
 - Integrali
-- Successioni
 - Serie

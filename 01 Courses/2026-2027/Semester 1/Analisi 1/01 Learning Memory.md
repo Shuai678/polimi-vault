@@ -1,14 +1,18 @@
 ---
 course: Analisi 1
 type: learning-memory
-updated: 2026-09-20
+updated: 2026-10-02
 ---
 
 # Memoria di apprendimento
 
 ## Progresso attuale
 
-- Lezione 03, PDF completato fino a p. 11: [[36 Logaritmi|logaritmi]], [[37 Unità Immaginaria e Forma Algebrica|forma algebrica]], [[38 Operazioni con i Numeri Complessi|operazioni]], [[39 Campo Complesso e Inverso Moltiplicativo|struttura di campo]], [[40 Piano Complesso e Interpretazione Vettoriale|piano complesso]], [[41 Coniugato e Modulo dei Numeri Complessi|coniugato e modulo]] e [[42 Distanza nel Piano Complesso|distanza]] compresi e verificati. Prossimo argomento: luoghi geometrici nel piano complesso. Della Lezione 02 restano da consolidare caratterizzazione degli estremi, valore assoluto, intervalli, radici e potenze.
+- Ultimo contenuto dichiarato studiato: [[49 Determinazione dell'Argomento per Quadranti|determinazione dell'argomento per quadranti]], conclusione della Lezione 03.
+- La [[Lecture 04|Lezione 04]] è stata trasformata integralmente in appunti: [[50 Forma Esponenziale e Identità di Eulero|forma esponenziale]] fino a [[54 Equazioni Polinomiali Complesse e Teorema Fondamentale dell'Algebra|polinomi complessi]], quindi [[55 Funzioni Dominio Codominio e Immagine|funzioni]] fino a [[58 Successioni di Numeri Reali|successioni]]. Questi contenuti sono preparati ma non ancora studiati.
+- Anche la [[Lecture 05|Lezione 05]] è stata preparata integralmente: [[59 Funzioni Limitate ed Estremi di Funzione|limitatezza ed estremi]] fino a [[67 Monotonia e Funzione Inversa|monotonia dell'inversa]]. Sono stati aggiunti grafici SVG originali nei punti in cui la rappresentazione visiva è necessaria. Tutti questi contenuti restano da studiare.
+- La [[Lecture 06|Lezione 06]] è stata preparata integralmente: inverse elementari nei Concept [[68 Funzioni Potenza e Radice come Inversa|68]]-[[69 Funzioni Goniometriche Inverse|69]], quindi successioni e limiti da [[70 Grafico e Limitatezza delle Successioni|70]] a [[76 Teorema del Limite delle Successioni Monotone|76]]. Il Concept [[66 Funzione Inversa|66]] è stato integrato con il richiamo iniziale. I sei nuovi grafici SVG sono originali e tutti i contenuti restano da studiare.
+- Della Lezione 02 restano da consolidare caratterizzazione degli estremi, valore assoluto, intervalli, radici e potenze.
 
 ## Padroneggiato
 
@@ -28,6 +32,10 @@ updated: 2026-09-20
 - Il numero $z=x+iy$ corrisponde al punto $(x,y)\in\mathbb R^2$ e al vettore dall'origine a tale punto; la somma corrisponde alla regola del parallelogramma.
 - Per $z=x+iy$, $\overline z=x-iy$ è il simmetrico rispetto all'asse reale e $|z|=\sqrt{x^2+y^2}$ è la distanza dall'origine.
 - Per $z,w\in\mathbb C$, $|z-w|$ è la distanza tra i punti associati; non coincide in generale con $|z|-|w|$.
+- Nel piano complesso, $\operatorname{Re}z=c$ è una retta verticale, $\operatorname{Im}z=c$ è una retta orizzontale e, per $\rho>0$, $|z|=\rho$ è una circonferenza con centro nell'origine e raggio $\rho$.
+- Per $w\neq0$, la divisione si esegue con $\frac zw=\frac{z\overline w}{|w|^2}$.
+- Un'equazione complessa si traduce in un sistema reale uguagliando separatamente parte reale e parte immaginaria.
+- Per $z\neq0$, la forma trigonometrica è $z=\rho(\cos\theta+i\sin\theta)$, con $\rho=|z|$ e $\theta$ argomento definito a meno di multipli di $2\pi$.
 - $A\setminus B=\{x\in A:x\notin B\}$; l'ordine tra $A$ e $B$ è importante.
 - $A\subset B$ significa che ogni elemento di $A$ appartiene anche a $B$.
 - Una proposizione non contiene variabili libere e ha un unico valore di verità, vero o falso.
@@ -83,6 +91,8 @@ updated: 2026-09-20
 
 ## Da consolidare
 
+- Verificare in futuro con un esercizio divisione, equazioni complesse e determinazione dell'argomento: la comprensione di questi contenuti è stata dichiarata, ma non ancora osservata direttamente.
+
 - Usare con precisione “interi non negativi” invece di “interi positivi” quando si parla di $\mathbb N$.
 - Usare “numeratore” e “denominatore”; “dominio” ha un significato diverso in matematica.
 - Ricordare il termine “numeratore”, non “nominatore”.
@@ -107,6 +117,12 @@ updated: 2026-09-20
 ## Non ancora compreso
 
 - Nessun punto rilevante.
+
+## Da studiare
+
+- Lezione 04, in ordine: [[50 Forma Esponenziale e Identità di Eulero]], [[51 Prodotto e Quoziente in Forma Trigonometrica]], [[52 Formula di De Moivre e Potenze Complesse]], [[53 Radici Ennesime Complesse]], [[54 Equazioni Polinomiali Complesse e Teorema Fondamentale dell'Algebra]], [[55 Funzioni Dominio Codominio e Immagine]], [[56 Suriettività]], [[57 Grafico di una Funzione]], [[58 Successioni di Numeri Reali]].
+- Lezione 05, in ordine: [[59 Funzioni Limitate ed Estremi di Funzione]], [[60 Dominio Naturale di una Funzione]], [[61 Funzioni Pari e Dispari]], [[62 Funzioni Monotone]], [[63 Funzioni Periodiche]], [[64 Composizione di Funzioni]], [[65 Funzioni Iniettive e Biiettive]], [[66 Funzione Inversa]], [[67 Monotonia e Funzione Inversa]].
+- Lezione 06, in ordine: [[68 Funzioni Potenza e Radice come Inversa]], [[69 Funzioni Goniometriche Inverse]], [[70 Grafico e Limitatezza delle Successioni]], [[71 Proprietà Definitivamente Vere]], [[72 Limite Finito di una Successione]], [[73 Unicità del Limite di Successione]], [[74 Limiti Infiniti e Regolarità delle Successioni]], [[75 Successioni Monotone]], [[76 Teorema del Limite delle Successioni Monotone]].
 
 ## Errori personali ricorrenti
 
@@ -224,13 +240,18 @@ updated: 2026-09-20
 - unità immaginaria = imaginary unit
 - parte reale = real part
 - parte immaginaria = imaginary part
+- asse immaginario = imaginary axis
+- luogo geometrico = locus
+- argomento = argument
+- forma trigonometrica = trigonometric form
+- piano di Argand-Gauss = Argand-Gauss plane
 
 ## Ultima sessione di studio
 
-- Data: 2026-09-19
-- Argomento: Lezione 03 - logaritmi; unità immaginaria e forma algebrica dei numeri complessi.
-- Sintesi: Blocco sui logaritmi completato; compresa la motivazione di $\mathbb{C}$ e riconosciute correttamente parte reale e parte immaginaria.
+- Data: 2026-10-02
+- Argomento: preparazione autonoma della Lezione 06.
+- Sintesi: appunti creati sulle inverse elementari, sulle definizioni di limite per successioni e sul teorema del limite monotono, con sei grafici SVG originali e stato `Da studiare`; nessun nuovo contenuto è stato classificato come padroneggiato.
 
 ## Prossimo passo
 
-- Studiare somma e prodotto di numeri complessi, PDF pp. 5-6.
+- Studiare [[50 Forma Esponenziale e Identità di Eulero|forma esponenziale e identità di Eulero]], quindi proseguire nell'ordine della [[Lecture 04|Lezione 04]].

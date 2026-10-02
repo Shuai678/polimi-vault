@@ -1,0 +1,33 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 920 520" role="img" aria-labelledby="title desc">
+  <title id="title">Confronto tra i quattro tipi di monotonia</title>
+  <desc id="desc">Quattro pannelli mostrano funzioni crescenti, strettamente crescenti, decrescenti e strettamente decrescenti.</desc>
+  <rect width="920" height="520" fill="#ffffff"/>
+  <g font-family="Arial, sans-serif" fill="#1a202c" text-anchor="middle">
+    <text x="230" y="34" font-size="21" font-weight="700">Crescente</text>
+    <text x="690" y="34" font-size="21" font-weight="700">Strettamente crescente</text>
+    <text x="230" y="286" font-size="21" font-weight="700">Decrescente</text>
+    <text x="690" y="286" font-size="21" font-weight="700">Strettamente decrescente</text>
+  </g>
+  <g fill="#f7fafc" stroke="#e2e8f0">
+    <rect x="30" y="50" width="400" height="205" rx="12"/>
+    <rect x="490" y="50" width="400" height="205" rx="12"/>
+    <rect x="30" y="302" width="400" height="205" rx="12"/>
+    <rect x="490" y="302" width="400" height="205" rx="12"/>
+  </g>
+  <g stroke="#2d3748" stroke-width="1.8">
+    <path d="M55 225 H410 M75 242 V67"/><path d="M515 225 H870 M535 242 V67"/>
+    <path d="M55 477 H410 M75 494 V319"/><path d="M515 477 H870 M535 494 V319"/>
+  </g>
+  <g fill="none" stroke="#e53e3e" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M90 212 L170 165 L255 165 L350 90"/>
+    <path d="M550 215 C625 205 670 165 720 130 C770 95 815 80 855 72"/>
+    <path d="M90 342 L175 400 L265 400 L350 462"/>
+    <path d="M550 330 C625 340 670 380 720 415 C770 450 815 466 855 472"/>
+  </g>
+  <g font-family="Arial, sans-serif" fill="#4a5568" text-anchor="middle" font-size="16">
+    <text x="230" y="248">può avere tratti costanti</text>
+    <text x="690" y="248">x₁ &lt; x₂  ⇒  f(x₁) &lt; f(x₂)</text>
+    <text x="230" y="500">può avere tratti costanti</text>
+    <text x="690" y="500">x₁ &lt; x₂  ⇒  f(x₁) &gt; f(x₂)</text>
+  </g>
+</svg>
