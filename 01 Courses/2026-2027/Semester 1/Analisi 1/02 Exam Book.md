@@ -257,3 +257,101 @@ Riferimento: [[85 Gerarchia degli Infiniti]]. La gerarchia riguarda rapporti per
 - Per $\sin n/n$ usare $|\sin n/n|\leq1/n$, senza moltiplicare limiti non disponibili.
 - Prima di applicare il quoziente a polinomi in $n$, riscrivere con limiti finiti dividendo per la potenza adatta di $n$.
 - Una base dipendente da $n$ non rientra nel confronto $a^n/n!\to0$ per $a$ fissato.
+
+## Lezione 08: metodi di calcolo e confronti asintotici
+
+> [!note] Da studiare — potenziale rilevanza d'esame
+> Materiale preparato il 2026-10-10 dal PDF L8. Questi riferimenti non attestano apprendimento e non sono una previsione certa dei contenuti d'esame.
+
+| Strumento | Condizioni o passaggio decisivo | Trappola |
+|---|---|---|
+| [[86 Termine Dominante nei Rapporti di Successioni\|Termine dominante]] | $P_n=n^p(A+r_n)$, $Q_n=n^q(B+s_n)$, resti a zero, $A,B\neq0$; studiare $n^{p-q}(A+r_n)/(B+s_n)$ | ignorare segno dei coefficienti o scartare termini senza confronto |
+| [[87 Aritmetizzazione Parziale dell'Infinito e Forme Indeterminate\|Quoziente con denominatore a zero]] | numeratore con limite non nullo; denominatore non nullo e segno definitivo $0^+$ o $0^-$ | il solo limite zero non determina il segno dell'infinito |
+| [[88 Razionalizzazione e Differenze di Radicali\|Razionalizzazione]] | dominio e positività del denominatore introdotto; differenza di potenze | cancellare gli equivalenti in una differenza |
+| [[89 Limiti di Potenze con Base ed Esponente Variabili\|Potenza variabile]] | $a_n>0$ definitivamente; $a_n^{b_n}=e^{b_n\log a_n}$ | usare la regola finita su $0^0$, $\infty^0$, $1^{\pm\infty}$ |
+| [[90 Numero di Nepero e Limiti di Tipo Esponenziale\|Limite esponenziale]] | $(1+a/n)^n\to e^a$ per ogni $a\in\mathbb R$ fissato; base positiva nella coda | dimenticare il coefficiente o il caso $a<0$ |
+| [[91 Criterio del Rapporto per Successioni\|Criterio del rapporto]] | $a_n>0$ definitivamente; limite $\ell$ di $a_{n+1}/a_n$ | $\ell=1$ non decide; il limite del rapporto non è il limite dei termini |
+| [[92 Confronto di Infiniti e Infinitesimi\|Ordini]] | esistenza del limite del rapporto e denominatore non nullo nella coda | rapporto zero: ordine inferiore per infiniti, superiore per infinitesimi |
+| [[93 Notazione o-Piccolo\|o-piccolo]] | $a_n=o(b_n)\iff a_n/b_n\to0$ | il numeratore può divergere: è piccolo rispetto alla scala |
+| [[94 Equivalenza Asintotica\|Equivalenza]] | $a_n\sim b_n\iff a_n/b_n\to1\iff a_n=b_n+o(b_n)$ | stesso ordine non significa equivalenza; cautela nelle sottrazioni |
+
+### Formule e ipotesi da ricordare
+
+$$
+e=\lim_{n\to+\infty}\left(1+\frac1n\right)^n,
+\qquad
+\left(1+\frac1{c_n}\right)^{c_n}\to e\quad(c_n\to+\infty\text{ oppure }-\infty).
+$$
+
+La prima successione è strettamente crescente e limitata: il teorema monotono ne assicura il limite finito. Il corollario con parametro negativo usa anche il secondo teorema nel caso $c_n\to-\infty$.
+
+Per il criterio del rapporto: $0\leq\ell<1\Rightarrow a_n\to0$; $\ell>1$, incluso $+\infty$, $\Rightarrow a_n\to+\infty$. Le successioni $1/n$, $1$ e $n$ mostrano perché $\ell=1$ non basta.
+
+La gerarchia ampliata comprende
+
+$$
+(\log_a n)^\beta=o(n^\alpha),\quad n^\alpha=o(a^n),\quad
+ a^n=o(n!),\quad n!=o(n^n),
+$$
+
+con $a>1$, $\alpha>0$, $\beta>0$ fissati. Riferimento: [[85 Gerarchia degli Infiniti]].
+
+### Esempi guida già risolti
+
+- $(\log n)^{42}/n^5=(\log n/n^{5/42})^{42}\to0$.
+- $\sqrt{n^2+n}-\sqrt{n^2-n}\to1$; le radici settime della stessa coppia hanno differenza a zero; con esponente $1/\sqrt2$ la differenza tende a $+\infty$.
+- $n^{1/n}=e^{\log n/n}\to1$.
+- $(1-2/n)^n\to e^{-2}$ e $(1+3/n)^{2n}\to e^6$.
+- Per $n^n/n!$, il rapporto consecutivo tende a $e>1$; quindi la successione diverge e $n!/n^n\to0$.
+
+### Formulazioni e cautele per l'orale
+
+Una forma indeterminata indica che i limiti dei singoli pezzi non bastano a decidere il risultato. Gli infiniti non sono numeri reali.
+
+Equivalenza asintotica significa errore **relativo** nullo: $n^2+n\sim n^2$, ma la differenza è $n\to+\infty$. Nelle differenze con cancellazione dei termini dominanti bisogna conservare i resti o usare un'identità esatta.
+
+## Lezione 09 — Equivalenti notevoli e precisione dei resti
+
+Materiale preparato, **Da studiare**. Potenziale rilevanza d'esame; non è una previsione delle domande della prova.
+
+### Formule con condizioni
+
+Per $\varepsilon_n\to0$, $\varepsilon_n\neq0$ definitivamente, angoli in radianti e $\log$ naturale:
+
+$$
+\sin\varepsilon_n\sim\varepsilon_n,\quad
+\arctan\varepsilon_n\sim\varepsilon_n,\quad
+e^{\varepsilon_n}-1\sim\varepsilon_n,\quad
+\log(1+\varepsilon_n)\sim\varepsilon_n,
+$$
+
+$$
+1-\cos\varepsilon_n\sim\frac{\varepsilon_n^2}{2},\qquad
+(1+\varepsilon_n)^\alpha-1\sim\alpha\varepsilon_n
+\quad(\alpha\in\mathbb R\setminus\{0\}\text{ fissato}).
+$$
+
+Definitivamente $1+\varepsilon_n>0$, quindi logaritmo e potenze reali sono definiti. Non serve un segno fisso dell'argomento. Gli sviluppi con resto e le giustificazioni sono in [[95 Equivalenti e Sviluppi Asintotici Notevoli]].
+
+### Tecniche e trappole
+
+| Strumento | Condizioni o passaggio decisivo | Trappola |
+|---|---|---|
+| [[94 Equivalenza Asintotica\|Proprietà degli equivalenti]] | Prodotti, quozienti e potenze fisse nel loro dominio; stesso carattere e stesso limite | Somme, differenze, esponenziali, logaritmi e potenze variabili non ammettono sostituzioni automatiche |
+| [[93 Notazione o-Piccolo\|Calcolo dei resti]] | $o(1)$ è infinitesimo; $o(a_n)=a_no(1)$; $a_no(b_n)=o(a_nb_n)$ su scale non nulle | Due simboli $o$ non sono lo stesso resto; $o(n^2)$ non significa limite zero |
+| [[96 Calcolo dei Limiti con Equivalenti Asintotici\|Radicali]] | Raccogliere prima la potenza di $n$ per ottenere un incremento infinitesimo | Applicare $(1+\varepsilon_n)^\alpha$ con incremento $n$, che diverge |
+| [[97 Cancellazioni e Precisione del Resto Asintotico\|Cancellazioni]] | Resto piccolo rispetto alla scala del denominatore finale | Un equivalente del singolo termine può non determinare la differenza |
+
+Da $a_n\sim b_n$ segue $o(a_n)=o(b_n)$. I resti su scale più piccole si assorbono: $o(1/n)+o(1/n^2)=o(1/n)$. Una costante non nulla non cambia la classe; moltiplicare per zero annulla tutti i resti.
+
+### Esempi guida e risultati verificati
+
+- Rapporto con dominanti $3n^7$ e $2n^6$: equivalente a $3n/2$, limite $+\infty$.
+- $n\sin(1/n^2)/(e^{7/n}-1)\to1/7$; conservare il $7$ nell'argomento.
+- Differenza $\sqrt[3]{n+1}-n^{1/3}\sim1/(3n^{2/3})$; nel prodotto con $(1-e^{2/n})^{-1}$, $\arctan(1/n^2)$ e $n^{5/3}$ il limite è $-1/6$.
+- $(n^3+n^2)^{1/3}-(n^3-n)^{1/3}\to1/3$; conservare le prime correzioni dei due radicali.
+- $n^3(\sin(1/n)-1/n)\to-1/6$: il PDF arriva soltanto a $o(n^2)$; il Concept 97 contiene la prova aggiuntiva del limite.
+
+### Da dire all'orale
+
+> L'equivalenza controlla l'errore relativo e conserva il carattere della successione. Nelle differenze con cancellazione devo conoscere i termini successivi e un resto trascurabile alla scala del risultato. Un o-piccolo di una quantità divergente può comunque divergere: non posso dedurne da solo un limite finito.

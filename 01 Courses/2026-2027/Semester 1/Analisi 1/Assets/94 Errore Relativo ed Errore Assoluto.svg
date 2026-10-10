@@ -1,0 +1,96 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="590" viewBox="0 0 1000 590" role="img" aria-labelledby="title desc"><title id="title">Equivalenza: errore relativo ed errore assoluto</title><desc id="desc">Per a(n)=n quadrato più n e b(n)=n quadrato, l’errore relativo uno su n tende a zero mentre l’errore assoluto n cresce senza limite. I due pannelli hanno scale verticali diverse.</desc><rect width="100%" height="100%" rx="12" fill="#fbfcfe"/><g font-family="DejaVu Sans, Arial, sans-serif">
+<text x="40" y="44" font-size="25" fill="#1c2b3a" text-anchor="start">Equivalenza: errore relativo ed errore assoluto</text>
+<text x="40" y="81" font-size="19" fill="#1c2b3a" text-anchor="start">a(n) = n² + n,  b(n) = n²:  a(n) / b(n) = 1 + 1/n → 1</text>
+<text x="80" y="136" font-size="20" fill="#1c2b3a" text-anchor="start">Errore relativo = 1/n</text>
+<line x1="80" x2="440" y1="429.0" y2="429.0" stroke="#dde4eb"/>
+<text x="68" y="435.0" font-size="15" fill="#667685" text-anchor="end">0</text>
+<line x1="80" x2="440" y1="365.9047619047619" y2="365.9047619047619" stroke="#dde4eb"/>
+<text x="68" y="371.9047619047619" font-size="15" fill="#667685" text-anchor="end">0,25</text>
+<line x1="80" x2="440" y1="302.8095238095238" y2="302.8095238095238" stroke="#dde4eb"/>
+<text x="68" y="308.8095238095238" font-size="15" fill="#667685" text-anchor="end">0,5</text>
+<line x1="80" x2="440" y1="239.71428571428572" y2="239.71428571428572" stroke="#dde4eb"/>
+<text x="68" y="245.71428571428572" font-size="15" fill="#667685" text-anchor="end">0,75</text>
+<line x1="80" x2="440" y1="176.61904761904762" y2="176.61904761904762" stroke="#dde4eb"/>
+<text x="68" y="182.61904761904762" font-size="15" fill="#667685" text-anchor="end">1,0</text>
+<line x1="80.0" x2="80.0" y1="164" y2="429" stroke="#dde4eb"/>
+<text x="80.0" y="454" font-size="15" fill="#667685" text-anchor="middle">1</text>
+<line x1="155.78947368421052" x2="155.78947368421052" y1="164" y2="429" stroke="#dde4eb"/>
+<text x="155.78947368421052" y="454" font-size="15" fill="#667685" text-anchor="middle">5</text>
+<line x1="250.52631578947367" x2="250.52631578947367" y1="164" y2="429" stroke="#dde4eb"/>
+<text x="250.52631578947367" y="454" font-size="15" fill="#667685" text-anchor="middle">10</text>
+<line x1="345.2631578947368" x2="345.2631578947368" y1="164" y2="429" stroke="#dde4eb"/>
+<text x="345.2631578947368" y="454" font-size="15" fill="#667685" text-anchor="middle">15</text>
+<line x1="440.0" x2="440.0" y1="164" y2="429" stroke="#dde4eb"/>
+<text x="440.0" y="454" font-size="15" fill="#667685" text-anchor="middle">20</text>
+<path d="M80,164 V429 H440" fill="none" stroke="#667685" stroke-width="1.5"/>
+<text x="470" y="453" font-size="17" fill="#1c2b3a" text-anchor="start">n</text>
+<text x="80" y="159" font-size="15" fill="#667685" text-anchor="start">|a(n) − b(n)| / |b(n)|</text>
+<circle cx="80.000" cy="176.619" r="4" fill="#2563a8"/>
+<circle cx="98.947" cy="302.810" r="4" fill="#2563a8"/>
+<circle cx="117.895" cy="344.873" r="4" fill="#2563a8"/>
+<circle cx="136.842" cy="365.905" r="4" fill="#2563a8"/>
+<circle cx="155.789" cy="378.524" r="4" fill="#2563a8"/>
+<circle cx="174.737" cy="386.937" r="4" fill="#2563a8"/>
+<circle cx="193.684" cy="392.946" r="4" fill="#2563a8"/>
+<circle cx="212.632" cy="397.452" r="4" fill="#2563a8"/>
+<circle cx="231.579" cy="400.958" r="4" fill="#2563a8"/>
+<circle cx="250.526" cy="403.762" r="4" fill="#2563a8"/>
+<circle cx="269.474" cy="406.056" r="4" fill="#2563a8"/>
+<circle cx="288.421" cy="407.968" r="4" fill="#2563a8"/>
+<circle cx="307.368" cy="409.586" r="4" fill="#2563a8"/>
+<circle cx="326.316" cy="410.973" r="4" fill="#2563a8"/>
+<circle cx="345.263" cy="412.175" r="4" fill="#2563a8"/>
+<circle cx="364.211" cy="413.226" r="4" fill="#2563a8"/>
+<circle cx="383.158" cy="414.154" r="4" fill="#2563a8"/>
+<circle cx="402.105" cy="414.979" r="4" fill="#2563a8"/>
+<circle cx="421.053" cy="415.717" r="4" fill="#2563a8"/>
+<circle cx="440.000" cy="416.381" r="4" fill="#2563a8"/>
+<text x="580" y="136" font-size="20" fill="#1c2b3a" text-anchor="start">Errore assoluto = n</text>
+<line x1="580" x2="940" y1="429.0" y2="429.0" stroke="#dde4eb"/>
+<text x="568" y="435.0" font-size="15" fill="#667685" text-anchor="end">0</text>
+<line x1="580" x2="940" y1="365.9047619047619" y2="365.9047619047619" stroke="#dde4eb"/>
+<text x="568" y="371.9047619047619" font-size="15" fill="#667685" text-anchor="end">5</text>
+<line x1="580" x2="940" y1="302.8095238095238" y2="302.8095238095238" stroke="#dde4eb"/>
+<text x="568" y="308.8095238095238" font-size="15" fill="#667685" text-anchor="end">10</text>
+<line x1="580" x2="940" y1="239.71428571428572" y2="239.71428571428572" stroke="#dde4eb"/>
+<text x="568" y="245.71428571428572" font-size="15" fill="#667685" text-anchor="end">15</text>
+<line x1="580" x2="940" y1="176.61904761904762" y2="176.61904761904762" stroke="#dde4eb"/>
+<text x="568" y="182.61904761904762" font-size="15" fill="#667685" text-anchor="end">20</text>
+<line x1="580.0" x2="580.0" y1="164" y2="429" stroke="#dde4eb"/>
+<text x="580.0" y="454" font-size="15" fill="#667685" text-anchor="middle">1</text>
+<line x1="655.7894736842105" x2="655.7894736842105" y1="164" y2="429" stroke="#dde4eb"/>
+<text x="655.7894736842105" y="454" font-size="15" fill="#667685" text-anchor="middle">5</text>
+<line x1="750.5263157894736" x2="750.5263157894736" y1="164" y2="429" stroke="#dde4eb"/>
+<text x="750.5263157894736" y="454" font-size="15" fill="#667685" text-anchor="middle">10</text>
+<line x1="845.2631578947369" x2="845.2631578947369" y1="164" y2="429" stroke="#dde4eb"/>
+<text x="845.2631578947369" y="454" font-size="15" fill="#667685" text-anchor="middle">15</text>
+<line x1="940.0" x2="940.0" y1="164" y2="429" stroke="#dde4eb"/>
+<text x="940.0" y="454" font-size="15" fill="#667685" text-anchor="middle">20</text>
+<path d="M580,164 V429 H940" fill="none" stroke="#667685" stroke-width="1.5"/>
+<text x="970" y="453" font-size="17" fill="#1c2b3a" text-anchor="start">n</text>
+<text x="580" y="159" font-size="15" fill="#667685" text-anchor="start">|a(n) − b(n)|</text>
+<circle cx="580.000" cy="416.381" r="4" fill="#c45d21"/>
+<circle cx="598.947" cy="403.762" r="4" fill="#c45d21"/>
+<circle cx="617.895" cy="391.143" r="4" fill="#c45d21"/>
+<circle cx="636.842" cy="378.524" r="4" fill="#c45d21"/>
+<circle cx="655.789" cy="365.905" r="4" fill="#c45d21"/>
+<circle cx="674.737" cy="353.286" r="4" fill="#c45d21"/>
+<circle cx="693.684" cy="340.667" r="4" fill="#c45d21"/>
+<circle cx="712.632" cy="328.048" r="4" fill="#c45d21"/>
+<circle cx="731.579" cy="315.429" r="4" fill="#c45d21"/>
+<circle cx="750.526" cy="302.810" r="4" fill="#c45d21"/>
+<circle cx="769.474" cy="290.190" r="4" fill="#c45d21"/>
+<circle cx="788.421" cy="277.571" r="4" fill="#c45d21"/>
+<circle cx="807.368" cy="264.952" r="4" fill="#c45d21"/>
+<circle cx="826.316" cy="252.333" r="4" fill="#c45d21"/>
+<circle cx="845.263" cy="239.714" r="4" fill="#c45d21"/>
+<circle cx="864.211" cy="227.095" r="4" fill="#c45d21"/>
+<circle cx="883.158" cy="214.476" r="4" fill="#c45d21"/>
+<circle cx="902.105" cy="201.857" r="4" fill="#c45d21"/>
+<circle cx="921.053" cy="189.238" r="4" fill="#c45d21"/>
+<circle cx="940.000" cy="176.619" r="4" fill="#c45d21"/>
+<text x="80" y="492" font-size="23" fill="#2563a8" text-anchor="start">1/n → 0</text>
+<text x="580" y="492" font-size="23" fill="#c45d21" text-anchor="start">n → +∞</text>
+<text x="80" y="543" font-size="21" fill="#1c2b3a" text-anchor="start">a(n) ∼ b(n) non implica a(n) − b(n) → 0.</text>
+<text x="80" y="572" font-size="16" fill="#667685" text-anchor="start">Punti discreti; le scale verticali dei due pannelli sono diverse.</text>
+</g></svg>

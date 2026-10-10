@@ -33,6 +33,10 @@ Per il quoziente, [[79 Teorema di Permanenza del Segno|permanenza del segno]] ga
 
 Questo enunciato riguarda limiti **finiti**. Le tabelle del libro includono anche limiti infiniti, ma qui si segue la forma trattata nella Lezione 07.
 
+## Prosecuzione nella Lezione 08 — Da studiare
+
+Le estensioni ai limiti infiniti sono in [[87 Aritmetizzazione Parziale dell'Infinito e Forme Indeterminate]]; il metodo logaritmico e le forme indeterminate delle potenze sono in [[89 Limiti di Potenze con Base ed Esponente Variabili]]. L'enunciato precedente conserva le sue ipotesi di limiti finiti.
+
 ## In parole semplici
 
 Quando le ipotesi sono rispettate, possiamo calcolare il limite dopo aver sommato, moltiplicato, diviso o elevato a potenza i limiti dei singoli fattori. La verifica delle condizioni precede la sostituzione.

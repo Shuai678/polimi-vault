@@ -5,7 +5,7 @@ status: studied
 source:
   - Lezione 03, PDF pp. 16-17
 ---
-
+  
 # Determinazione dell'argomento per quadranti
 
 ## Intuizione

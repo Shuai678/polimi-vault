@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="560" viewBox="0 0 1000 560" role="img" aria-labelledby="title desc"><title id="title">La successione che definisce e</title><desc id="desc">Termini discreti di (1+1/n)^n per n da 1 a 25, tutti sotto la retta e, con avvicinamento crescente.</desc><rect width="100%" height="100%" rx="12" fill="#fbfcfe"/><g font-family="DejaVu Sans, Arial, sans-serif">
+<text x="40" y="44" font-size="25" fill="#1c2b3a" text-anchor="start">La successione che definisce e</text>
+<text x="85" y="104" font-size="20" fill="#1c2b3a" text-anchor="start">s(n) = (1 + 1/n)^n</text>
+<line x1="85" x2="920" y1="413.4090909090909" y2="413.4090909090909" stroke="#dde4eb"/>
+<text x="73" y="419.4090909090909" font-size="15" fill="#667685" text-anchor="end">2,0</text>
+<line x1="85" x2="920" y1="344.7727272727272" y2="344.7727272727272" stroke="#dde4eb"/>
+<text x="73" y="350.7727272727272" font-size="15" fill="#667685" text-anchor="end">2,2</text>
+<line x1="85" x2="920" y1="276.1363636363636" y2="276.1363636363636" stroke="#dde4eb"/>
+<text x="73" y="282.1363636363636" font-size="15" fill="#667685" text-anchor="end">2,4</text>
+<line x1="85" x2="920" y1="207.49999999999991" y2="207.49999999999991" stroke="#dde4eb"/>
+<text x="73" y="213.49999999999991" font-size="15" fill="#667685" text-anchor="end">2,6</text>
+<line x1="85" x2="920" y1="138.86363636363637" y2="138.86363636363637" stroke="#dde4eb"/>
+<text x="73" y="144.86363636363637" font-size="15" fill="#667685" text-anchor="end">2,8</text>
+<line x1="85.0" x2="85.0" y1="132" y2="434" stroke="#dde4eb"/>
+<text x="85.0" y="459" font-size="15" fill="#667685" text-anchor="middle">1</text>
+<line x1="224.16666666666666" x2="224.16666666666666" y1="132" y2="434" stroke="#dde4eb"/>
+<text x="224.16666666666666" y="459" font-size="15" fill="#667685" text-anchor="middle">5</text>
+<line x1="398.125" x2="398.125" y1="132" y2="434" stroke="#dde4eb"/>
+<text x="398.125" y="459" font-size="15" fill="#667685" text-anchor="middle">10</text>
+<line x1="572.0833333333333" x2="572.0833333333333" y1="132" y2="434" stroke="#dde4eb"/>
+<text x="572.0833333333333" y="459" font-size="15" fill="#667685" text-anchor="middle">15</text>
+<line x1="746.0416666666666" x2="746.0416666666666" y1="132" y2="434" stroke="#dde4eb"/>
+<text x="746.0416666666666" y="459" font-size="15" fill="#667685" text-anchor="middle">20</text>
+<line x1="920.0" x2="920.0" y1="132" y2="434" stroke="#dde4eb"/>
+<text x="920.0" y="459" font-size="15" fill="#667685" text-anchor="middle">25</text>
+<path d="M85,132 V434 H920" fill="none" stroke="#667685" stroke-width="1.5"/>
+<text x="950" y="458" font-size="17" fill="#1c2b3a" text-anchor="start">n</text>
+<text x="85" y="127" font-size="15" fill="#667685" text-anchor="start">valore del termine</text>
+<line x1="85" x2="920" y1="166.90782705155493" y2="166.90782705155493" stroke="#c45d21" stroke-width="2" stroke-dasharray="7 5"/>
+<circle cx="85.000" cy="413.409" r="4" fill="#2563a8"/>
+<circle cx="119.792" cy="327.614" r="4" fill="#2563a8"/>
+<circle cx="154.583" cy="286.305" r="4" fill="#2563a8"/>
+<circle cx="189.375" cy="261.926" r="4" fill="#2563a8"/>
+<circle cx="224.167" cy="245.827" r="4" fill="#2563a8"/>
+<circle cx="258.958" cy="234.396" r="4" fill="#2563a8"/>
+<circle cx="293.750" cy="225.860" r="4" fill="#2563a8"/>
+<circle cx="328.542" cy="219.242" r="4" fill="#2563a8"/>
+<circle cx="363.333" cy="213.960" r="4" fill="#2563a8"/>
+<circle cx="398.125" cy="209.647" r="4" fill="#2563a8"/>
+<circle cx="432.917" cy="206.059" r="4" fill="#2563a8"/>
+<circle cx="467.708" cy="203.027" r="4" fill="#2563a8"/>
+<circle cx="502.500" cy="200.430" r="4" fill="#2563a8"/>
+<circle cx="537.292" cy="198.182" r="4" fill="#2563a8"/>
+<circle cx="572.083" cy="196.217" r="4" fill="#2563a8"/>
+<circle cx="606.875" cy="194.484" r="4" fill="#2563a8"/>
+<circle cx="641.667" cy="192.944" r="4" fill="#2563a8"/>
+<circle cx="676.458" cy="191.568" r="4" fill="#2563a8"/>
+<circle cx="711.250" cy="190.329" r="4" fill="#2563a8"/>
+<circle cx="746.042" cy="189.209" r="4" fill="#2563a8"/>
+<circle cx="780.833" cy="188.191" r="4" fill="#2563a8"/>
+<circle cx="815.625" cy="187.263" r="4" fill="#2563a8"/>
+<circle cx="850.417" cy="186.411" r="4" fill="#2563a8"/>
+<circle cx="885.208" cy="185.629" r="4" fill="#2563a8"/>
+<circle cx="920.000" cy="184.906" r="4" fill="#2563a8"/>
+<text x="670" y="155.90782705155493" font-size="17" fill="#c45d21" text-anchor="start">e ≈ 2,71828</text>
+<text x="120" y="416.4090909090909" font-size="16" fill="#2563a8" text-anchor="start">s(1) = 2</text>
+<text x="85" y="501" font-size="20" fill="#2563a8" text-anchor="start">s(n) &lt; s(n+1) &lt; e per ogni n ≥ 1</text>
+<text x="85" y="532" font-size="16" fill="#1c2b3a" text-anchor="start">La crescita e la limitatezza si dimostrano; il grafico ne illustra il significato.</text>
+</g></svg>

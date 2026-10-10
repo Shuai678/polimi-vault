@@ -1,12 +1,62 @@
 {
   "collapse-filter": false,
-  "search": "path:\"01 Courses/2026-2027/Semester 1/Analisi 1/Concepts\"  ",
+  "search": "path:\"01 Courses/2026-2027/Semester 1/Analisi 1/Concepts\" -file:\"00 Indice dei Concetti\"",
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": true,
-  "colorGroups": [],
+  "collapse-color-groups": false,
+  "colorGroups": [
+    {
+      "query": "path:\"01 Courses/2026-2027/Semester 1/Analisi 1/Concepts/01 Insiemi Numerici\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14701138
+      }
+    },
+    {
+      "query": "path:\"01 Courses/2026-2027/Semester 1/Analisi 1/Concepts/02 Elementi di Logica\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 14725458
+      }
+    },
+    {
+      "query": "path:\"01 Courses/2026-2027/Semester 1/Analisi 1/Concepts/03 Alcuni metodi di dimostrazioni\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 11657298
+      }
+    },
+    {
+      "query": "path:\"01 Courses/2026-2027/Semester 1/Analisi 1/Concepts/04 Strutture Algebriche e Ordine\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431378
+      }
+    },
+    {
+      "query": "path:\"01 Courses/2026-2027/Semester 1/Analisi 1/Concepts/05 Numeri Complessi\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5431473
+      }
+    },
+    {
+      "query": "path:\"01 Courses/2026-2027/Semester 1/Analisi 1/Concepts/06 Funzioni\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5419488
+      }
+    },
+    {
+      "query": "path:\"01 Courses/2026-2027/Semester 1/Analisi 1/Concepts/07 Successioni e Limiti\"  ",
+      "color": {
+        "a": 1,
+        "rgb": 5395168
+      }
+    }
+  ],
   "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
@@ -17,6 +67,6 @@
   "repelStrength": 10,
   "linkStrength": 1,
   "linkDistance": 250,
-  "scale": 1.036832638027654,
-  "close": true
+  "scale": 1.1601313960135407,
+  "close": false
 }

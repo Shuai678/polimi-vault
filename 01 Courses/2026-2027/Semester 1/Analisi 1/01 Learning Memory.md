@@ -1,7 +1,7 @@
 ---
 course: Analisi 1
 type: learning-memory
-updated: 2026-10-05
+updated: 2026-10-10
 ---
 
 # Memoria di apprendimento
@@ -13,6 +13,8 @@ updated: 2026-10-05
 - Anche la [[Lecture 05|Lezione 05]] è stata preparata integralmente: [[59 Funzioni Limitate ed Estremi di Funzione|limitatezza ed estremi]] fino a [[67 Monotonia e Funzione Inversa|monotonia dell'inversa]]. Sono stati aggiunti grafici SVG originali nei punti in cui la rappresentazione visiva è necessaria. Tutti questi contenuti restano da studiare.
 - La [[Lecture 06|Lezione 06]] è stata preparata integralmente: inverse elementari nei Concept [[68 Funzioni Potenza e Radice come Inversa|68]]-[[69 Funzioni Goniometriche Inverse|69]], quindi successioni e limiti da [[70 Grafico e Limitatezza delle Successioni|70]] a [[76 Teorema del Limite delle Successioni Monotone|76]]. Il Concept [[66 Funzione Inversa|66]] è stato integrato con il richiamo iniziale. I sei nuovi grafici SVG sono originali e tutti i contenuti restano da studiare.
 - La [[Lecture 07|Lezione 07]] è stata preparata integralmente fino a [[85 Gerarchia degli Infiniti|gerarchia degli infiniti]]. Integrato il Concept 76 e creati i Concept 77-85, tutti ancora da studiare; la preparazione degli appunti è distinta dallo studio effettivo.
+- La [[Lecture 08|Lezione 08]] è stata preparata integralmente: Concept 86-94, dal termine dominante a [[94 Equivalenza Asintotica|equivalenza asintotica]], con integrazione di [[85 Gerarchia degli Infiniti]] e collegamenti nel Concept 80. Tutte le aggiunte restano da studiare.
+- La [[Lecture 09|Lezione 09]] è stata preparata integralmente: integrati i Concept 93-94 e creati i Concept 95-97, dagli equivalenti notevoli alla precisione dei resti. Risolto anche il limite conclusivo lasciato aperto nel PDF. Tutte le aggiunte restano da studiare.
 - Della Lezione 02 restano da consolidare caratterizzazione degli estremi, valore assoluto, intervalli, radici e potenze.
 
 ## Padroneggiato
@@ -125,6 +127,10 @@ updated: 2026-10-05
 - Lezione 05, in ordine: [[59 Funzioni Limitate ed Estremi di Funzione]], [[60 Dominio Naturale di una Funzione]], [[61 Funzioni Pari e Dispari]], [[62 Funzioni Monotone]], [[63 Funzioni Periodiche]], [[64 Composizione di Funzioni]], [[65 Funzioni Iniettive e Biiettive]], [[66 Funzione Inversa]], [[67 Monotonia e Funzione Inversa]].
 - Lezione 06, in ordine: [[68 Funzioni Potenza e Radice come Inversa]], [[69 Funzioni Goniometriche Inverse]], [[70 Grafico e Limitatezza delle Successioni]], [[71 Proprietà Definitivamente Vere]], [[72 Limite Finito di una Successione]], [[73 Unicità del Limite di Successione]], [[74 Limiti Infiniti e Regolarità delle Successioni]], [[75 Successioni Monotone]], [[76 Teorema del Limite delle Successioni Monotone]].
 - Lezione 07, in ordine: integrazione di [[76 Teorema del Limite delle Successioni Monotone]], [[77 Limitatezza delle Successioni Convergenti]], [[78 Limiti di Potenze e Progressioni Geometriche]], [[79 Teorema di Permanenza del Segno]], [[80 Algebra dei Limiti di Successioni]], [[81 Disuguaglianze e Passaggio al Limite]], [[82 Teorema dei Due Carabinieri]], [[83 Teorema del Confronto per Limiti Infiniti]], [[84 Confronto in Modulo e Prodotto con un Infinitesimo]], [[85 Gerarchia degli Infiniti]].
+
+- Lezione 08, in ordine: integrazione di [[85 Gerarchia degli Infiniti]], [[86 Termine Dominante nei Rapporti di Successioni]], [[87 Aritmetizzazione Parziale dell'Infinito e Forme Indeterminate]], [[88 Razionalizzazione e Differenze di Radicali]], [[89 Limiti di Potenze con Base ed Esponente Variabili]], [[90 Numero di Nepero e Limiti di Tipo Esponenziale]], [[91 Criterio del Rapporto per Successioni]], [[92 Confronto di Infiniti e Infinitesimi]], [[93 Notazione o-Piccolo]], [[94 Equivalenza Asintotica]]. Tutto `Da studiare`.
+
+- Lezione 09, in ordine: integrazioni di [[93 Notazione o-Piccolo]] e [[94 Equivalenza Asintotica]], [[95 Equivalenti e Sviluppi Asintotici Notevoli]], [[96 Calcolo dei Limiti con Equivalenti Asintotici]], [[97 Cancellazioni e Precisione del Resto Asintotico]]. Tutto `Da studiare`.
 
 ## Errori personali ricorrenti
 
@@ -250,11 +256,11 @@ updated: 2026-10-05
 
 ## Ultima sessione di studio
 
-- Data: 2026-10-05.
-- Attività: preparazione autonoma degli appunti della Lezione 07, non verifica dell'apprendimento.
-- Sintesi: integrato il Concept 76; creati i Concept 77-85 con dimostrazioni, esempi svolti e cinque SVG. Tutto il nuovo materiale resta `Da studiare`; nessun aggiornamento a Padroneggiato.
+- Data: 2026-10-10.
+- Attività: preparazione autonoma della Lezione 09; nessuna verifica dell'apprendimento.
+- Sintesi: creati i Concept 95-97 e integrati i Concept 93-94; tutti gli esempi del PDF svolti, incluso il limite finale del seno, tre SVG originali e indici aggiornati. Nuovo materiale `Da studiare`; Padroneggiato invariato.
 
 ## Prossimo passo
 
 - Studiare [[50 Forma Esponenziale e Identità di Eulero|forma esponenziale e identità di Eulero]], quindi proseguire nell'ordine della [[Lecture 04|Lezione 04]].
-- Prossima preparazione: proseguire dopo [[85 Gerarchia degli Infiniti]], secondo il successivo PDF del docente.
+- Prossima preparazione: proseguire dopo [[97 Cancellazioni e Precisione del Resto Asintotico]], dal primo contenuto nuovo del successivo PDF del docente.

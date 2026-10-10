@@ -129,11 +129,11 @@ La preparazione deve quindi avanzare su due binari inseparabili: padronanza del 
 ## Current Progress
 
 - Current chapter: Capitolo 3 - Successioni e limiti (preparazione degli appunti)
-- Current lecture: [[Lecture 07]]
+- Current lecture: [[Lecture 09]]
 - Last studied concept: [[49 Determinazione dell'Argomento per Quadranti]]
-- Prepared but not yet studied: [[50 Forma Esponenziale e Identità di Eulero]] through [[85 Gerarchia degli Infiniti]]
+- Prepared but not yet studied: [[50 Forma Esponenziale e Identità di Eulero]] through [[97 Cancellazioni e Precisione del Resto Asintotico]]
 - Next study step: [[50 Forma Esponenziale e Identità di Eulero]]
-- Current transition: appunti preparati fino alla gerarchia degli infiniti, conclusione del PDF L7; lo studio effettivo deve ripartire dal Concept 50
+- Current transition: appunti preparati fino alla precisione dei resti, conclusione del PDF L9, con soluzione dell’ultimo limite lasciato aperto dal docente; lo studio effettivo deve ripartire dal Concept 50
 
 ## Course Files
 
