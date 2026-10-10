@@ -4,12 +4,13 @@ type: concept
 status: da-studiare
 source:
   - Lezione 06, PDF pp. 20-25
+  - Lezione 07, PDF pp. 2-4
   - Libro, §3.4, p. 90
 ---
 
 # Teorema del limite delle successioni monotone
 
-## Enunciato finito
+## [[Enunciato]] finito
 
 Ogni successione monotona e limitata ammette limite finito. Più precisamente:
 
@@ -92,6 +93,46 @@ Ne segue che ogni successione monotona è regolare.
 ### Da dire all'orale
 
 > Nel caso crescente il candidato limite è il supremo dei valori. La proprietà caratteristica del supremo permette di trovare un termine sopra $\ell-\varepsilon$; la monotonia mantiene tutti i termini successivi sopra quella soglia, mentre $\ell$ li maggiora.
+
+
+## Completamento della Lezione 07: caso illimitato
+
+> [!note] Da studiare
+> Questa dimostrazione e le osservazioni seguenti sono state aggiunte il 2026-10-05. Il materiale preparato resta distinto dal progresso di apprendimento.
+
+Sia $(a_n)$ crescente e non limitata superiormente, con indice iniziale $n_0$. È automaticamente limitata inferiormente da $a_{n_0}$, perché $a_n\geq a_{n_0}$ per ogni $n\geq n_0$.
+
+Fissiamo una soglia arbitraria $M>0$. La non limitatezza superiore significa che $M$ non è un maggiorante: esiste quindi un indice $k\geq n_0$ tale che $a_k>M$. Per la monotonia, per ogni $n\geq k$ vale
+
+$$
+a_n\geq a_k>M.
+$$
+
+Abbiamo così verificato
+
+$$
+\forall M>0\;\exists k\;\forall n\geq k:\ a_n>M,
+$$
+
+cioè $a_n\to+\infty$. Il passaggio decisivo trasforma l'esistenza di **un** termine oltre la soglia nel superamento della soglia da parte di **tutti** i successivi.
+
+Nel caso decrescente non limitato inferiormente, dato $M>0$ si trova $k$ con $a_k<-M$ e per ogni $n\geq k$ si ha $a_n\leq a_k<-M$: dunque $a_n\to-\infty$.
+
+## Verso di avvicinamento e falso viceversa
+
+Se la successione crescente ha limite finito $\ell=\sup\{a_n\}$, tutti i termini soddisfano $a_n\leq\ell$: la convergenza è per difetto, indicata nel PDF con $a_n\to\ell^-$. Nel caso decrescente $a_n\geq\ell$ e si scrive $a_n\to\ell^+$. Queste disuguaglianze ammettono uguaglianza: una successione costante è monotona e può coincidere con il proprio limite.
+
+Il viceversa “regolare implica monotona” è falso. Per $n\geq1$,
+
+$$
+a_n=\frac{(-1)^n}{n}
+$$
+
+converge a zero perché $|a_n|=1/n\to0$, ma non è monotona: $a_1=-1<a_2=1/2$ e $a_2=1/2>a_3=-1/3$.
+
+### Da dire all'orale
+
+> Una successione crescente illimitata superiormente tende a più infinito: per ogni soglia esiste un termine che la supera, e la monotonia mantiene sopra la soglia tutti i termini successivi. Per una successione decrescente illimitata inferiormente il ragionamento è analogo verso meno infinito.
 
 ## Errori comuni
 

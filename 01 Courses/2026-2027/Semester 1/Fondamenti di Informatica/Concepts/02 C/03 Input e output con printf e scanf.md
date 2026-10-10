@@ -23,12 +23,12 @@ printf("Ciao!\n");
 
 Per inserire il valore di una variabile nell'output si usano specificatori di conversione:
 
-| Tipo del valore | Specificatore di `printf` |
-| --- | --- |
-| `int` | `%d` |
-| `float` o `double` | `%f` |
-| `char` | `%c` |
-| stringa | `%s` |
+| Tipo del valore    | Specificatore di `printf` |
+| ------------------ | ------------------------- |
+| `int`              | `%d`                      |
+| `float` o `double` | `%f`                      |
+| `char`             | `%c`                      |
+| stringa            | `%s`                      |
 
 ```c
 int eta = 20;
@@ -66,12 +66,12 @@ scanf("%d", &eta);
 ## Specificatori principali
 
 | Tipo della variabile | `printf` | `scanf` |
-| --- | --- | --- |
-| `int` | `%d` | `%d` |
-| `float` | `%f` | `%f` |
-| `double` | `%f` | `%lf` |
-| `char` | `%c` | `%c` |
-| stringa | `%s` | `%s` |
+| -------------------- | -------- | ------- |
+| `int`                | `%d`     | `%d`    |
+| `float`              | `%f`     | `%f`    |
+| `double`             | `%f`     | `%lf`   |
+| `char`               | `%c`     | `%c`    |
+| stringa              | `%s`     | `%s`    |
 
 La differenza per `double` è importante: con `scanf` si usa `%lf`, mentre con `printf` si usa `%f`.
 

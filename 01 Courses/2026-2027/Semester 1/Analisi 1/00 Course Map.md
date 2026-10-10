@@ -128,12 +128,12 @@ La preparazione deve quindi avanzare su due binari inseparabili: padronanza del 
 
 ## Current Progress
 
-- Current chapter: passaggio dal Capitolo 2 - Funzioni al Capitolo 3 - Successioni e limiti
-- Current lecture: [[Lecture 06]]
+- Current chapter: Capitolo 3 - Successioni e limiti (preparazione degli appunti)
+- Current lecture: [[Lecture 07]]
 - Last studied concept: [[49 Determinazione dell'Argomento per Quadranti]]
-- Prepared but not yet studied: [[50 Forma Esponenziale e Identità di Eulero]] through [[76 Teorema del Limite delle Successioni Monotone]]
+- Prepared but not yet studied: [[50 Forma Esponenziale e Identità di Eulero]] through [[85 Gerarchia degli Infiniti]]
 - Next study step: [[50 Forma Esponenziale e Identità di Eulero]]
-- Current transition: materiale preparato fino alle definizioni di limite e al teorema delle successioni monotone; lo studio effettivo deve ripartire dal Concept 50
+- Current transition: appunti preparati fino alla gerarchia degli infiniti, conclusione del PDF L7; lo studio effettivo deve ripartire dal Concept 50
 
 ## Course Files
 

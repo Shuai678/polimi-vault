@@ -1,7 +1,7 @@
 ---
 course: Analisi 1
 type: learning-memory
-updated: 2026-10-02
+updated: 2026-10-05
 ---
 
 # Memoria di apprendimento
@@ -12,6 +12,7 @@ updated: 2026-10-02
 - La [[Lecture 04|Lezione 04]] è stata trasformata integralmente in appunti: [[50 Forma Esponenziale e Identità di Eulero|forma esponenziale]] fino a [[54 Equazioni Polinomiali Complesse e Teorema Fondamentale dell'Algebra|polinomi complessi]], quindi [[55 Funzioni Dominio Codominio e Immagine|funzioni]] fino a [[58 Successioni di Numeri Reali|successioni]]. Questi contenuti sono preparati ma non ancora studiati.
 - Anche la [[Lecture 05|Lezione 05]] è stata preparata integralmente: [[59 Funzioni Limitate ed Estremi di Funzione|limitatezza ed estremi]] fino a [[67 Monotonia e Funzione Inversa|monotonia dell'inversa]]. Sono stati aggiunti grafici SVG originali nei punti in cui la rappresentazione visiva è necessaria. Tutti questi contenuti restano da studiare.
 - La [[Lecture 06|Lezione 06]] è stata preparata integralmente: inverse elementari nei Concept [[68 Funzioni Potenza e Radice come Inversa|68]]-[[69 Funzioni Goniometriche Inverse|69]], quindi successioni e limiti da [[70 Grafico e Limitatezza delle Successioni|70]] a [[76 Teorema del Limite delle Successioni Monotone|76]]. Il Concept [[66 Funzione Inversa|66]] è stato integrato con il richiamo iniziale. I sei nuovi grafici SVG sono originali e tutti i contenuti restano da studiare.
+- La [[Lecture 07|Lezione 07]] è stata preparata integralmente fino a [[85 Gerarchia degli Infiniti|gerarchia degli infiniti]]. Integrato il Concept 76 e creati i Concept 77-85, tutti ancora da studiare; la preparazione degli appunti è distinta dallo studio effettivo.
 - Della Lezione 02 restano da consolidare caratterizzazione degli estremi, valore assoluto, intervalli, radici e potenze.
 
 ## Padroneggiato
@@ -123,6 +124,7 @@ updated: 2026-10-02
 - Lezione 04, in ordine: [[50 Forma Esponenziale e Identità di Eulero]], [[51 Prodotto e Quoziente in Forma Trigonometrica]], [[52 Formula di De Moivre e Potenze Complesse]], [[53 Radici Ennesime Complesse]], [[54 Equazioni Polinomiali Complesse e Teorema Fondamentale dell'Algebra]], [[55 Funzioni Dominio Codominio e Immagine]], [[56 Suriettività]], [[57 Grafico di una Funzione]], [[58 Successioni di Numeri Reali]].
 - Lezione 05, in ordine: [[59 Funzioni Limitate ed Estremi di Funzione]], [[60 Dominio Naturale di una Funzione]], [[61 Funzioni Pari e Dispari]], [[62 Funzioni Monotone]], [[63 Funzioni Periodiche]], [[64 Composizione di Funzioni]], [[65 Funzioni Iniettive e Biiettive]], [[66 Funzione Inversa]], [[67 Monotonia e Funzione Inversa]].
 - Lezione 06, in ordine: [[68 Funzioni Potenza e Radice come Inversa]], [[69 Funzioni Goniometriche Inverse]], [[70 Grafico e Limitatezza delle Successioni]], [[71 Proprietà Definitivamente Vere]], [[72 Limite Finito di una Successione]], [[73 Unicità del Limite di Successione]], [[74 Limiti Infiniti e Regolarità delle Successioni]], [[75 Successioni Monotone]], [[76 Teorema del Limite delle Successioni Monotone]].
+- Lezione 07, in ordine: integrazione di [[76 Teorema del Limite delle Successioni Monotone]], [[77 Limitatezza delle Successioni Convergenti]], [[78 Limiti di Potenze e Progressioni Geometriche]], [[79 Teorema di Permanenza del Segno]], [[80 Algebra dei Limiti di Successioni]], [[81 Disuguaglianze e Passaggio al Limite]], [[82 Teorema dei Due Carabinieri]], [[83 Teorema del Confronto per Limiti Infiniti]], [[84 Confronto in Modulo e Prodotto con un Infinitesimo]], [[85 Gerarchia degli Infiniti]].
 
 ## Errori personali ricorrenti
 
@@ -248,10 +250,11 @@ updated: 2026-10-02
 
 ## Ultima sessione di studio
 
-- Data: 2026-10-02
-- Argomento: preparazione autonoma della Lezione 06.
-- Sintesi: appunti creati sulle inverse elementari, sulle definizioni di limite per successioni e sul teorema del limite monotono, con sei grafici SVG originali e stato `Da studiare`; nessun nuovo contenuto è stato classificato come padroneggiato.
+- Data: 2026-10-05.
+- Attività: preparazione autonoma degli appunti della Lezione 07, non verifica dell'apprendimento.
+- Sintesi: integrato il Concept 76; creati i Concept 77-85 con dimostrazioni, esempi svolti e cinque SVG. Tutto il nuovo materiale resta `Da studiare`; nessun aggiornamento a Padroneggiato.
 
 ## Prossimo passo
 
 - Studiare [[50 Forma Esponenziale e Identità di Eulero|forma esponenziale e identità di Eulero]], quindi proseguire nell'ordine della [[Lecture 04|Lezione 04]].
+- Prossima preparazione: proseguire dopo [[85 Gerarchia degli Infiniti]], secondo il successivo PDF del docente.

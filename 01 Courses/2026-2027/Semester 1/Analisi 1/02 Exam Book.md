@@ -212,3 +212,48 @@ updated: 2026-10-02
 - [ ] Can explain formula conditions.
 - [ ] Can solve representative exercises without notes.
 - [ ] Reviewed repeated mistakes.
+
+## Lezione 07: condizioni e tecniche sui limiti
+
+> [!note] Da studiare - potenziale rilevanza d'esame
+> Questo blocco, preparato il 2026-10-05, raccoglie contenuti del PDF L7. Non registra una padronanza acquisita né una previsione certa sulle prove d'esame.
+
+| Risultato | Ipotesi da controllare | Conclusione o tecnica |
+|---|---|---|
+| [[77 Limitatezza delle Successioni Convergenti|Convergenza e limitatezza]] | limite finito | controllo della coda con $\varepsilon=1$ e dei termini iniziali con massimo e minimo; viceversa falso |
+| [[78 Limiti di Potenze e Progressioni Geometriche|Geometrica $q^n$]] | ragione reale fissata | $0$ se $|q|<1$; $1$ se $q=1$; $+\infty$ se $q>1$; irregolare se $q\leq-1$ |
+| [[79 Teorema di Permanenza del Segno|Permanenza del segno]] | limite strettamente positivo o negativo | stesso segno definitivamente; dai termini al limite la conclusione è non stretta e richiede l'esistenza del limite |
+| [[80 Algebra dei Limiti di Successioni|Algebra dei limiti]] | entrambi i limiti finiti; denominatore con limite $b\neq0$; base con limite $a>0$ per esponente reale variabile | somma, prodotto, quoziente e potenza dei limiti |
+| [[81 Disuguaglianze e Passaggio al Limite|Passaggio al limite nelle disuguaglianze]] | esistenza dei due limiti finiti e confronto definitivo | da $a_n\leq b_n$ segue $a\leq b$; una disuguaglianza stretta può diventare uguaglianza |
+| [[82 Teorema dei Due Carabinieri|Due carabinieri]] | confronto definitivo; barriere con lo stesso limite finito | prova anche l'esistenza del limite intermedio |
+| [[83 Teorema del Confronto per Limiti Infiniti|Confronto infinito]] | minorante a $+\infty$ oppure maggiorante a $-\infty$ | basta una sola barriera orientata correttamente |
+| [[84 Confronto in Modulo e Prodotto con un Infinitesimo|Prodotto con infinitesimo]] | un fattore limitato, l'altro con limite zero | prodotto con limite zero, senza richiedere il limite del fattore limitato |
+
+### Quattro confronti da ricordare
+
+Con $\alpha>0$ e $a>1$ fissati,
+
+$$
+\frac{\log_a n}{n^\alpha}\to0,\qquad
+\frac{n^\alpha}{a^n}\to0,\qquad
+\frac{a^n}{n!}\to0,\qquad
+\frac{n!}{n^n}\to0.
+$$
+
+Riferimento: [[85 Gerarchia degli Infiniti]]. La gerarchia riguarda rapporti per $n$ grande, non un ordine puntuale per ogni indice.
+
+### Passaggi decisivi nelle dimostrazioni
+
+- Limite monotono infinito: non limitatezza trova un termine oltre la soglia; monotonia mantiene oltre la soglia tutti i successivi.
+- Permanenza del segno con $\ell>0$ finito: scegliere $\varepsilon=\ell/2$.
+- Somma: disuguaglianza triangolare, errori $\varepsilon/2$ e massimo delle soglie.
+- Prodotto: aggiungere e sottrarre $a_nb$; usare $|a_n|\leq M$ e scegliere $\delta=\varepsilon/(M+|b|)$.
+- Confronto finito: massimo di **tre** soglie, incluse quelle del confronto definitivo.
+
+### Trappole operative
+
+- Da $a_n>0$ non segue limite positivo: $1/n\to0$.
+- Da limitatezza non segue convergenza: $(-1)^n$ è il controesempio.
+- Per $\sin n/n$ usare $|\sin n/n|\leq1/n$, senza moltiplicare limiti non disponibili.
+- Prima di applicare il quoziente a polinomi in $n$, riscrivere con limiti finiti dividendo per la potenza adatta di $n$.
+- Una base dipendente da $n$ non rientra nel confronto $a^n/n!\to0$ per $a$ fissato.

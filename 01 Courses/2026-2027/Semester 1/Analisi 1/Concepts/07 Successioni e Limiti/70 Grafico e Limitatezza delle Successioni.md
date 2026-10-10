@@ -44,7 +44,7 @@ $$
 
 i primi punti sono $(0,2)$, $(1,1)$, $(2,2/3)$ e così via.
 
-![[70 Grafico e Limitatezza Successioni.svg|595]]
+![[70 Grafico e Limitatezza Successioni.svg|678]]
 
 ## Limitatezza superiore e inferiore
 

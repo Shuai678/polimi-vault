@@ -7,6 +7,27 @@ type: concept-index
 
 Le note seguono l'ordine didattico del corso. Lo stato distingue i contenuti già studiati da quelli preparati in anticipo e ancora `Da studiare`.
 
+## 00 Linguaggio matematico
+
+Questi termini descrivono il ruolo delle frasi matematiche e il modo in cui vengono giustificate.
+
+| Concetto | Significato |
+| --- | --- |
+| [[Enunciato]] | Frase matematica completa, della quale ha senso stabilire se sia vera o falsa. |
+| [[Definizione]] | Frase che introduce e precisa il significato di un nuovo concetto o termine. |
+| [[Assioma]] | Affermazione assunta come vera senza dimostrazione, all'interno di una teoria. |
+| [[Teorema]] | Affermazione matematica dimostrata, generalmente di particolare importanza. |
+| [[Proposizione]] | Affermazione dimostrata, solitamente meno centrale o generale di un teorema. |
+| [[Lemma]] | Affermazione dimostrata e usata come strumento per dimostrare un risultato più importante. |
+| [[Corollario]] | Affermazione che segue rapidamente da un teorema o da un altro risultato già dimostrato. |
+| [[Dimostrazione]] | Sequenza di passaggi logici che mostra la verità di un'affermazione a partire da ipotesi e risultati noti. |
+| [[Ipotesi]] | Condizione o informazione assunta vera all'interno di un enunciato. |
+| [[Tesi]] | Affermazione che deve essere dimostrata, date le ipotesi. |
+| [[Congettura]] | Affermazione ritenuta plausibile, ma non ancora dimostrata né confutata. |
+| [[Osservazione]] | Nota esplicativa che chiarisce o mette in evidenza un aspetto del risultato. |
+| [[Esempio]] | Caso concreto che illustra una definizione, una proprietà o un procedimento. |
+| [[Controesempio]] | Esempio che dimostra che un'affermazione generale è falsa. |
+
 ## 01 Insiemi numerici
 
 - [[01 Insiemi Numerici/01 Numeri Naturali|Numeri naturali]]
@@ -102,6 +123,15 @@ Le note seguono l'ordine didattico del corso. Lo stato distingue i contenuti gi�
 - [[07 Successioni e Limiti/74 Limiti Infiniti e Regolarità delle Successioni|Limiti infiniti e regolarità delle successioni]]
 - [[07 Successioni e Limiti/75 Successioni Monotone|Successioni monotone]]
 - [[07 Successioni e Limiti/76 Teorema del Limite delle Successioni Monotone|Teorema del limite delle successioni monotone]]
+- [[07 Successioni e Limiti/77 Limitatezza delle Successioni Convergenti|Limitatezza delle successioni convergenti]]
+- [[07 Successioni e Limiti/78 Limiti di Potenze e Progressioni Geometriche|Limiti di potenze e progressioni geometriche]]
+- [[07 Successioni e Limiti/79 Teorema di Permanenza del Segno|Teorema di permanenza del segno]]
+- [[07 Successioni e Limiti/80 Algebra dei Limiti di Successioni|Algebra dei limiti di successioni]]
+- [[07 Successioni e Limiti/81 Disuguaglianze e Passaggio al Limite|Disuguaglianze e passaggio al limite]]
+- [[07 Successioni e Limiti/82 Teorema dei Due Carabinieri|Teorema dei due carabinieri]]
+- [[07 Successioni e Limiti/83 Teorema del Confronto per Limiti Infiniti|Teorema del confronto per limiti infiniti]]
+- [[07 Successioni e Limiti/84 Confronto in Modulo e Prodotto con un Infinitesimo|Confronto in modulo e prodotto con un infinitesimo]]
+- [[07 Successioni e Limiti/85 Gerarchia degli Infiniti|Gerarchia degli infiniti]]
 
 ## Concetti candidati
 
