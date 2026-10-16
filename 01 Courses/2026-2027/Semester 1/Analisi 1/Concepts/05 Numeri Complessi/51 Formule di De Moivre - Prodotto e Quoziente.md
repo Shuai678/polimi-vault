@@ -2,12 +2,18 @@
 course: Analisi 1
 type: concept
 status: da-studiare
+aliases:
+  - 51 Prodotto e Quoziente in Forma Trigonometrica
 source:
   - Lezione 04, PDF pp. 3-7
   - Libro, §1.8.1, pp. 20-21
 ---
 
-# Prodotto e quoziente in forma trigonometrica
+# Formule di De Moivre: prodotto e quoziente
+
+> [!note] Terminologia della lezione
+> Il professore presenta la regola del prodotto come **formula di De Moivre (prodotto)** e osserva che quella del quoziente si dimostra in modo analogo. Questa nota raccoglie entrambe le regole.
+> La formula per le potenze $z^n$ è una loro conseguenza ed è trattata in [[52 Formula di De Moivre per le Potenze Complesse|Formula di De Moivre per le potenze complesse]].
 
 ## Perché servono
 
@@ -23,7 +29,7 @@ Per il quoziente avviene l'operazione inversa:
 
 Queste regole rendono più semplici anche il calcolo delle potenze e delle radici complesse.
 
-## Prodotto in forma trigonometrica
+## Formula di De Moivre per il prodotto
 
 Siano $z,w\in\mathbb{C}\setminus\{0\}$ scritti come
 
@@ -163,7 +169,7 @@ significa:
 
 Se $R>1$ si ha un allungamento; se $0<R<1$ si ha una contrazione; se $R=1$ resta soltanto la rotazione.
 
-## Quoziente in forma trigonometrica
+## Formula di De Moivre per il quoziente
 
 Siano ancora
 
@@ -280,6 +286,7 @@ $$
 - Usa la [[48 Forma Trigonometrica dei Numeri Complessi|forma trigonometrica]] e la [[50 Forma Esponenziale e Identità di Eulero|forma esponenziale]].
 - Fornisce una lettura geometrica del prodotto già definito in [[38 Operazioni con i Numeri Complessi|forma algebrica]].
 - Il quoziente è equivalente al metodo con il coniugato descritto in [[45 Divisione tra Numeri Complessi|divisione tra numeri complessi]].
+- Applicando ripetutamente la regola del prodotto si ottiene la [[52 Formula di De Moivre per le Potenze Complesse|formula di De Moivre per le potenze]].
 
 ## Prospettiva d'esame
 

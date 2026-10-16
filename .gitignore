@@ -16,6 +16,10 @@ Polimi-Obsidian-Vault.zip
 
 # Editor/plugin temporary files
 *.edtz
+tmp/
 
 # Empty scratch note created before vault initialization
 未命名.md
+
+# Original lecture files are kept locally; the vault versions only notes and derived assets.
+**/Assets/Fonti/

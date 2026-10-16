@@ -1,16 +1,27 @@
 ---
 course: Algebra Lineare
 type: exercise-index
+status: da studiare
+updated: 2026-10-16
 ---
 
-# Algebra Lineare Exercise Index
+# Esempi svolti di GAL
 
-Organize exercises by topic, not by individual problem.
+Stato: **da studiare**.
 
-## Topic Exercise Notes
+Le raccolte contengono esempi del professore con svolgimenti esplicitati ed esempi aggiuntivi del tutor, distinguendo le fonti nelle singole sezioni. Nessuno è registrato come svolto dallo studente.
 
-- Add topic files such as `Matrices.md` or `Linear Independence.md` only after that topic appears in class.
+| Raccolta | Contenuti | Stato |
+|---|---|---|
+| [[01 Prodotti Cartesiani e Relazioni]] | Elenco delle coppie, equivalenza e ordine | da studiare |
+| [[02 Esempi Svolti sulle Funzioni]] | Riconoscere funzioni, proprietà e terne | da studiare |
+| [[03 Esempi Svolti sulle Matrici]] | Indici, somme, scalari, campo $\mathbb F_2$ e costo | da studiare |
+| [[04 Prodotto Composizione e Navigazione]] | Prodotto nei due ordini, prodotti nulli e navigazione in due passi | da studiare |
+| [[05 Rango Laplace e Matrici Triangolari]] | Probabilità congiunte, Laplace e Gauss della Lezione 6 | da studiare |
+| [[06 Gauss Rango Determinante e Inversa]] | Rango della Lezione 7, determinante con registro e calcolo dell'inversa | da studiare |
 
-## Review Rule
+Ogni raccolta collega i prerequisiti teorici e separa il problema dallo svolgimento. Le soluzioni sono visibili per la preparazione completa richiesta il 16 ottobre 2026.
 
-After solving, update [[01 Courses/2026-2027/Semester 1/Algebra Lineare/02 Exam Book|Exam Book]] with recurring problem types and mistakes.
+- [[01 Courses/2026-2027/Semester 1/Algebra Lineare/Concepts/00 Concept Index|Teoria]].
+- [[01 Courses/2026-2027/Semester 1/Algebra Lineare/Lectures/00 Lecture Index|Lezioni]].
+- [[01 Courses/2026-2027/Semester 1/Algebra Lineare/02 Exam Book|Preparazione all'esame]].

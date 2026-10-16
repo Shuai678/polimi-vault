@@ -90,7 +90,7 @@ Il teorema permette di:
 - risolvere completamente equazioni della forma $z^n=w$;
 - elencare tutte le soluzioni senza duplicazioni;
 - interpretare geometricamente le soluzioni;
-- passare dalla potenza alla radice usando la [[52 Formula di De Moivre e Potenze Complesse|formula di De Moivre]].
+- passare dalla potenza alla radice usando la [[52 Formula di De Moivre per le Potenze Complesse|formula di De Moivre per le potenze]].
 
 ## Intuizione
 
@@ -111,7 +111,7 @@ si devono dividere per $n$ non soltanto $\varphi$, ma tutti gli angoli $\varphi+
 ## Strategia della dimostrazione
 
 1. Scrivere l'incognita come $z=\rho e^{i\theta}$.
-2. Applicare De Moivre a $z^n$.
+2. Applicare la formula di De Moivre per le potenze a $z^n$.
 3. Uguagliare separatamente moduli e argomenti.
 4. Ottenere tutte le soluzioni indicizzate da un intero $h$.
 5. Usare la divisione con resto di $h$ per $n$ per ridurre l'elenco a $k=0,\ldots,n-1$.
@@ -132,7 +132,7 @@ $$
 z^n=w.
 $$
 
-### 1. Applicare De Moivre
+### 1. Applicare la formula di De Moivre per le potenze
 
 Si ha
 
@@ -461,7 +461,7 @@ Di conseguenza, la “radice ennesima complessa” considerata come insieme di t
 
 - Usa [[47 Modulo e Argomento dei Numeri Complessi|modulo e argomento]].
 - Richiede la [[48 Forma Trigonometrica dei Numeri Complessi|forma trigonometrica]] o la [[50 Forma Esponenziale e Identità di Eulero|forma esponenziale]].
-- Deriva dalla [[52 Formula di De Moivre e Potenze Complesse|formula di De Moivre]].
+- Deriva dalla [[52 Formula di De Moivre per le Potenze Complesse|formula di De Moivre per le potenze]].
 - Riprende la distinzione tra radice reale ed equazione associata studiata in [[33 Radice Ennesima Reale|radice ennesima reale]].
 
 ## Uso all'esame

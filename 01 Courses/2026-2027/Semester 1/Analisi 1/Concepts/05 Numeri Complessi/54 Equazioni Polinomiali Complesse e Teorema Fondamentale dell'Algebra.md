@@ -28,6 +28,64 @@ $$
 az^2+bz+c=0.
 $$
 
+L'equazione ha due soluzioni in $\mathbb{C}$, contate con molteplicità. Per trovarle si possono usare due metodi alternativi: separare parte reale e parte immaginaria, oppure usare il discriminante.
+
+### Metodo 1: separare parte reale e parte immaginaria
+
+Poniamo
+
+$$
+z=x+iy,
+\qquad x,y\in\mathbb{R}.
+$$
+
+Sostituendo nell'equazione e raccogliendo parte reale e parte immaginaria, otteniamo un sistema equivalente di due equazioni reali nelle incognite $x$ e $y$. Questo è possibile perché **un numero complesso è zero se e solo se sono zero sia la sua parte reale sia quella immaginaria**:
+
+$$
+az^2+bz+c=0
+\quad\Longleftrightarrow\quad
+\begin{cases}
+\operatorname{Re}\bigl(a(x+iy)^2+b(x+iy)+c\bigr)=0,\\
+\operatorname{Im}\bigl(a(x+iy)^2+b(x+iy)+c\bigr)=0.
+\end{cases}
+$$
+
+Anche $a$, $b$ e $c$ possono essere complessi: nel raccogliere i termini bisogna quindi tenere conto delle loro parti reali e immaginarie.
+
+#### Esempio: $z^2+1=0$
+
+Sostituendo $z=x+iy$ e usando $i^2=-1$:
+
+$$
+(x+iy)^2+1=x^2-y^2+1+i\,2xy=0.
+$$
+
+Il sistema equivalente è
+
+$$
+\begin{cases}
+x^2-y^2+1=0,\\
+2xy=0.
+\end{cases}
+$$
+
+Dalla seconda equazione, $x=0$ oppure $y=0$:
+
+- Se $x=0$, la prima equazione diventa $y^2=1$, quindi $y=\pm1$.
+- Se $y=0$, la prima equazione diventa $x^2+1=0$, che non ha soluzioni per $x\in\mathbb{R}$.
+
+Le coppie $(x,y)$ sono dunque $(0,1)$ e $(0,-1)$, a cui corrispondono le soluzioni complesse
+
+$$
+z=i
+\qquad\text{e}\qquad
+z=-i.
+$$
+
+### Metodo 2: usare il discriminante
+
+In alternativa al sistema, si può applicare direttamente la formula quadratica: **non occorre svolgere prima il metodo precedente**.
+
 Il discriminante è il numero complesso
 
 $$
@@ -380,7 +438,7 @@ L'equazione ha dunque infinite soluzioni. Questo non contraddice il teorema fond
 
 1. Controllare che l'espressione sia davvero un polinomio in $z$.
 2. Individuare il grado e il coefficiente principale.
-3. Se il grado è $2$, calcolare il discriminante complesso.
+3. Se il grado è $2$, scegliere se porre $z=x+iy$ e separare parte reale e parte immaginaria, oppure calcolare il discriminante complesso.
 4. Calcolare tutte le radici complesse necessarie, ricordando che una radice quadrata non nulla ha due valori opposti.
 5. Fattorizzare il polinomio quando possibile.
 6. Distinguere radici distinte e molteplicità.

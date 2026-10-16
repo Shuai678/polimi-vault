@@ -9,7 +9,7 @@ source:
 
 # Disuguaglianze e passaggio al limite
 
-## I due corollari
+## I am due corollari
 
 Siano $a_n\to a\in\mathbb R$ e $b_n\to b\in\mathbb R$.
 

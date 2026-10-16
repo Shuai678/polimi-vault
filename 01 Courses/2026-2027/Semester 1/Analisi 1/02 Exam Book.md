@@ -60,8 +60,8 @@ updated: 2026-10-02
 - Per $z=x+iy\neq0$, $\rho=|z|=\sqrt{x^2+y^2}$ e $z=\rho(\cos\theta+i\sin\theta)$, dove $\theta$ è un argomento di $z$.
 - Se $\theta$ è un argomento di $z\neq0$, anche $\theta+2k\pi$ lo è per ogni $k\in\mathbb Z$; l'argomento di $0$ non è definito.
 - Forma esponenziale: per $z\neq0$, $z=|z|e^{i\theta}$ con $e^{i\theta}=\cos\theta+i\sin\theta$ e $\theta$ definito modulo $2\pi$.
-- Prodotto e quoziente: $|zw|=|z||w|$ e, per numeri non nulli, gli argomenti si sommano; per $w\neq0$, $|z/w|=|z|/|w|$ e gli argomenti si sottraggono quando anche $z\neq0$.
-- Formula di De Moivre: se $z=re^{i\theta}$ e $n\geq1$, allora $z^n=r^ne^{in\theta}$.
+- Formule di De Moivre per prodotto e quoziente: $|zw|=|z||w|$ e, per numeri non nulli, gli argomenti si sommano; per $w\neq0$, $|z/w|=|z|/|w|$ e gli argomenti si sottraggono quando anche $z\neq0$.
+- Formula di De Moivre per le potenze: se $z=re^{i\theta}$ e $n\geq1$, allora $z^n=r^ne^{in\theta}$; si ricava applicando ripetutamente la formula del prodotto.
 - Radici complesse: se $w=Re^{i\varphi}\neq0$, le radici di $z^n=w$ sono $z_k=R^{1/n}e^{i(\varphi+2k\pi)/n}$, con $k=0,\ldots,n-1$.
 - Teorema fondamentale dell'algebra: un polinomio complesso non costante di grado $n$ ha esattamente $n$ radici in $\mathbb{C}$ contate con molteplicità.
 - Funzione: $f:A\to B$ associa a ogni $x\in A$ uno e un solo $f(x)\in B$; $\operatorname{Im}f=\{y\in B:\exists x\in A,\ f(x)=y\}$.
@@ -91,7 +91,7 @@ updated: 2026-10-02
 - Confutazione di implicazioni universali: trovare un elemento del dominio che renda vera l'ipotesi e falsa la tesi.
 - Dimostrazioni per assurdo: assumere la negazione della tesi, dedurre una contraddizione e concludere che la tesi è vera.
 - Dimostrazioni per induzione: formulare $P(n)$, verificare il caso base, assumere $P(n)$ e dimostrare $P(n+1)$.
-- Potenze complesse: passare alla forma esponenziale, applicare De Moivre, ridurre l'angolo modulo $2\pi$ e tornare alla forma richiesta.
+- Potenze complesse: passare alla forma esponenziale, applicare la formula di De Moivre per le potenze, ridurre l'angolo modulo $2\pi$ e tornare alla forma richiesta.
 - Radici ennesime complesse: calcolare modulo e argomento di $w$, usare $k=0,\ldots,n-1$ e rappresentare le soluzioni sul poligono regolare.
 - Suriettività: fissare $y$ arbitrario nel codominio, risolvere $f(x)=y$ e verificare che almeno una soluzione appartenga al dominio.
 - Estremi di funzione: studiare l'immagine o ricavare disuguaglianze globali, trovare superiore e inferiore, quindi controllare separatamente se sono raggiunti.

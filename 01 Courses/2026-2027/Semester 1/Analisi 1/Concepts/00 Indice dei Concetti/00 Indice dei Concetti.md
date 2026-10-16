@@ -91,8 +91,8 @@ Questi termini descrivono il ruolo delle frasi matematiche e il modo in cui veng
 - [[05 Numeri Complessi/48 Forma Trigonometrica dei Numeri Complessi|Forma trigonometrica dei numeri complessi]]
 - [[05 Numeri Complessi/49 Determinazione dell'Argomento per Quadranti|Determinazione dell'argomento per quadranti]]
 - [[05 Numeri Complessi/50 Forma Esponenziale e Identità di Eulero|Forma esponenziale e identità di Eulero]]
-- [[05 Numeri Complessi/51 Prodotto e Quoziente in Forma Trigonometrica|Prodotto e quoziente in forma trigonometrica]]
-- [[05 Numeri Complessi/52 Formula di De Moivre e Potenze Complesse|Formula di De Moivre e potenze complesse]]
+- [[05 Numeri Complessi/51 Formule di De Moivre - Prodotto e Quoziente|Formule di De Moivre: prodotto e quoziente]]
+- [[05 Numeri Complessi/52 Formula di De Moivre per le Potenze Complesse|Formula di De Moivre per le potenze complesse]]
 - [[05 Numeri Complessi/53 Radici Ennesime Complesse|Radici ennesime complesse]]
 - [[05 Numeri Complessi/54 Equazioni Polinomiali Complesse e Teorema Fondamentale dell'Algebra|Equazioni polinomiali complesse e teorema fondamentale dell'algebra]]
 

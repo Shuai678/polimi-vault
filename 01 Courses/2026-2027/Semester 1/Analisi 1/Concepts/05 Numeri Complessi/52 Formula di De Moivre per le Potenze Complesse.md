@@ -2,18 +2,24 @@
 course: Analisi 1
 type: concept
 status: da-studiare
+aliases:
+  - 52 Formula di De Moivre e Potenze Complesse
 source:
   - Lezione 04, PDF pp. 5-7
   - Libro, §1.8.1, p. 21
 ---
 
-# Formula di De Moivre e potenze complesse
+# Formula di De Moivre per le potenze complesse
+
+> [!note] Dal prodotto alle potenze
+> La **formula di De Moivre del prodotto** presentata dal professore riguarda $zw$ ed è spiegata, con la sua dimostrazione, in [[51 Formule di De Moivre - Prodotto e Quoziente|Formule di De Moivre: prodotto e quoziente]].
+> Questa nota tratta la **formula per le potenze** $z^n$: si ricava applicando la regola del prodotto a $n$ fattori uguali a $z$. I due enunciati sono quindi collegati, ma distinti.
 
 ## Perché serve
 
-Calcolare una potenza elevata sviluppando ripetutamente la forma algebrica produce molti termini ed espone a errori di segno. La formula di De Moivre permette invece di calcolare la potenza agendo separatamente sul modulo e sull'argomento.
+Calcolare una potenza elevata sviluppando ripetutamente la forma algebrica produce molti termini ed espone a errori di segno. La formula di De Moivre per le potenze permette invece di calcolare la potenza agendo separatamente sul modulo e sull'argomento.
 
-## Teorema: formula di De Moivre
+## Teorema: formula di De Moivre per le potenze
 
 ### In parole semplici
 
@@ -76,7 +82,7 @@ La formula consente di:
 
 ## Intuizione
 
-La potenza $z^n$ è il prodotto di $n$ fattori tutti uguali a $z$. Per la regola del [[51 Prodotto e Quoziente in Forma Trigonometrica|prodotto in forma trigonometrica]]:
+La potenza $z^n$ è il prodotto di $n$ fattori tutti uguali a $z$. Per la [[51 Formule di De Moivre - Prodotto e Quoziente|formula di De Moivre del prodotto]]:
 
 - i $n$ moduli uguali a $r$ si moltiplicano e producono $r^n$;
 - i $n$ argomenti uguali a $\theta$ si sommano e producono $n\theta$.
@@ -85,7 +91,9 @@ Geometricamente, ogni moltiplicazione per $z$ applica la stessa dilatazione di f
 
 ## Strategia della dimostrazione
 
-Si usa l'induzione sull'esponente $n$:
+La dimostrazione del prodotto usa le formule di addizione di seno e coseno. Qui, invece, si dimostra che la formula per le potenze vale per ogni intero $n\geq1$.
+
+Si usa la [[21 Dimostrazione per Induzione|dimostrazione per induzione]] sull'esponente $n$:
 
 1. si verifica la formula per $n=1$;
 2. si assume che valga per un esponente arbitrario $n$;
@@ -263,7 +271,7 @@ $$
 z=2e^{i4\pi/3}.
 $$
 
-### 3. Applicare De Moivre
+### 3. Applicare la formula di De Moivre per le potenze
 
 $$
 z^7
@@ -344,13 +352,13 @@ $$
 ## Connessioni
 
 - Usa [[48 Forma Trigonometrica dei Numeri Complessi|forma trigonometrica]] e [[50 Forma Esponenziale e Identità di Eulero|forma esponenziale]].
-- Deriva dalla regola del [[51 Prodotto e Quoziente in Forma Trigonometrica|prodotto in forma trigonometrica]].
+- Deriva dalla [[51 Formule di De Moivre - Prodotto e Quoziente|formula di De Moivre del prodotto]].
 - La scelta dell'angolo richiede [[49 Determinazione dell'Argomento per Quadranti|determinazione dell'argomento per quadranti]].
 - La formula sarà il punto di partenza per calcolare le radici complesse.
 
 ## Uso all'esame
 
-Potenziale rilevanza d'esame: convertire il numero in forma trigonometrica, applicare De Moivre, ridurre correttamente l'angolo e controllare il modulo del risultato.
+Potenziale rilevanza d'esame: convertire il numero in forma trigonometrica, applicare la formula di De Moivre per le potenze, ridurre correttamente l'angolo e controllare il modulo del risultato.
 
 ## Errore comune all'orale
 

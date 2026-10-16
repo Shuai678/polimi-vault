@@ -20,8 +20,8 @@ Forma esponenziale, potenze e radici dei numeri complessi; equazioni polinomiali
 ## Concetti preparati
 
 - [[50 Forma Esponenziale e Identità di Eulero|Forma esponenziale e identità di Eulero]] (PDF pp. 2-3; libro, §1.8.1, pp. 20-21)
-- [[51 Prodotto e Quoziente in Forma Trigonometrica|Prodotto e quoziente in forma trigonometrica]] (PDF pp. 3-7; libro, §1.8.1, pp. 20-21)
-- [[52 Formula di De Moivre e Potenze Complesse|Formula di De Moivre e potenze complesse]] (PDF pp. 5-7; libro, §1.8.1, p. 21)
+- [[51 Formule di De Moivre - Prodotto e Quoziente|Formule di De Moivre: prodotto e quoziente]] (PDF pp. 3-7; libro, §1.8.1, pp. 20-21)
+- [[52 Formula di De Moivre per le Potenze Complesse|Formula di De Moivre per le potenze complesse]] (PDF pp. 5-7; libro, §1.8.1, p. 21)
 - [[53 Radici Ennesime Complesse|Radici ennesime complesse]] (PDF pp. 8-14; libro, §1.8.1, pp. 21-22)
 - [[54 Equazioni Polinomiali Complesse e Teorema Fondamentale dell'Algebra|Equazioni polinomiali complesse e teorema fondamentale dell'algebra]] (PDF pp. 14-17)
 - [[55 Funzioni Dominio Codominio e Immagine|Funzioni, dominio, codominio e immagine]] (PDF pp. 17-20; libro, §2.1, p. 35)
