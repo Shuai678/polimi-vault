@@ -9,9 +9,9 @@ updated: 2026-10-16
 
 # Geometria e Algebra Lineare
 
-Stato del materiale delle lezioni 0, 1, 3, 4, 6 e 7: **da studiare**.
+Stato del materiale delle lezioni 0, 1, 3, 4, 6, 7, 9, 10 e 11: **da studiare**.
 
-Questo percorso contiene le spiegazioni complete dei sei PDF forniti, organizzate in note concettuali, panoramiche delle lezioni ed esempi svolti. La preparazione del materiale non certifica lo studio o la padronanza.
+Questo percorso contiene le spiegazioni complete dei nove PDF forniti, organizzate in note concettuali, panoramiche delle lezioni ed esempi svolti. La preparazione del materiale non certifica lo studio o la padronanza.
 
 ## Lezioni disponibili
 
@@ -23,8 +23,11 @@ Questo percorso contiene le spiegazioni complete dei sei PDF forniti, organizzat
 | [[01 Courses/2026-2027/Semester 1/Algebra Lineare/Lectures/Lecture 04\|Lezione 4]] | 1 ottobre 2026 | 1-10 | 35-44 | da studiare |
 | [[01 Courses/2026-2027/Semester 1/Algebra Lineare/Lectures/Lecture 06\|Lezione 6]] | 7 ottobre 2026 | 1-17 | 45-61 | da studiare |
 | [[01 Courses/2026-2027/Semester 1/Algebra Lineare/Lectures/Lecture 07\|Lezione 7]] | 8 ottobre 2026 | 1-11 | 62-72 | da studiare |
+| [[01 Courses/2026-2027/Semester 1/Algebra Lineare/Lectures/Lecture 09\|Lezione 9]] | 12 ottobre 2026 | 1-9 | 73-81 | da studiare |
+| [[01 Courses/2026-2027/Semester 1/Algebra Lineare/Lectures/Lecture 10\|Lezione 10]] | 14 ottobre 2026 | 1-14 | 82-95 | da studiare |
+| [[01 Courses/2026-2027/Semester 1/Algebra Lineare/Lectures/Lecture 11\|Lezione 11]] | 15 ottobre 2026 | 1-12 | 96-107 | da studiare |
 
-La numerazione delle lezioni è quella originale. Non sono state aggiunte le Lezioni 2 e 5 e questa mappa non pretende di ricostruire l'intero programma annuale.
+La numerazione delle lezioni è quella originale. Non sono state aggiunte le Lezioni 2, 5 e 8 e questa mappa non pretende di ricostruire l'intero programma annuale.
 
 ## Percorso dei concetti
 
@@ -75,7 +78,30 @@ La numerazione delle lezioni è quella originale. Non sono state aggiunte le Lez
 28. [[28 Teorema di Binet e Proprietà del Determinante]]: prodotto, multilinearità, scambi e sostituzioni.
 29. [[29 Calcolo del Determinante con Gauss]]: registro dei fattori e criterio di invertibilità.
 
-Tutti i ventinove concetti hanno stato **da studiare** e padronanza **non verificata**.
+### Lezione 9
+
+30. [[30 Sistemi Lineari e Rappresentazioni Matriciali]]: equazioni, colonne, prodotto e matrice completa.
+31. [[31 Risoluzione dei Sistemi con Gauss e Parametri]]: equivalenza, casi con parametri e sostituzione.
+32. [[32 Teorema di Rouché-Capelli]]: esistenza tramite ranghi e descrizione di tutte le soluzioni.
+
+### Lezione 10
+
+33. [[33 Nucleo e Struttura delle Soluzioni]]: sistema omogeneo e traslazione delle soluzioni.
+34. [[34 Teorema di Cramer e Soluzione Unica]]: rango massimo e unicità per ogni termine noto.
+35. [[35 Ricerca della Matrice Inversa con Gauss]]: identità affiancata, inverse laterali e criterio di invertibilità.
+
+Il Teorema 10.3 completa anche [[20 Matrici Invertibili]] e [[29 Calcolo del Determinante con Gauss]], senza duplicare il criterio già archiviato.
+
+### Lezione 11
+
+36. [[36 Spazi Affini ed Equazioni Cartesiane e Parametriche]]: vincoli, parametri e traslazioni.
+37. [[37 Rette e Piani tra Parametri e Vincoli]]: direzioni effettive e numero di equazioni non ridondanti.
+38. [[38 Spazi Vettoriali e Assiomi]]: struttura comune e otto assiomi.
+39. [[39 Esempi di Spazi Vettoriali]]: matrici, vettori liberi, successioni, funzioni e polinomi.
+40. [[40 Proprietà Elementari degli Spazi Vettoriali]]: zero, opposto e annullamento del prodotto.
+41. [[41 Sottospazi Vettoriali e Criterio di Chiusura]]: operazioni ereditate e controesempi.
+
+Tutti i quarantuno concetti hanno stato **da studiare** e padronanza **non verificata**.
 
 ## Collegamenti matematici principali
 
@@ -92,6 +118,12 @@ Tutti i ventinove concetti hanno stato **da studiare** e padronanza **non verifi
 - Matrici elementari → reversibilità → invarianza del rango.
 - Laplace e triangolari → Binet e registro delle operazioni → determinante con Gauss.
 
+- Sistemi lineari → completa → Gauss → confronto dei ranghi.
+- Soluzione particolare + nucleo → struttura affine delle soluzioni.
+- Cramer → sistemi con termini noti canonici → matrice inversa.
+- Nucleo → chiusura delle operazioni → spazio vettoriale e sottospazio.
+- Parametri effettivi e vincoli non ridondanti → rette e piani.
+
 ## Esempi svolti
 
 - [[01 Prodotti Cartesiani e Relazioni]].
@@ -100,6 +132,10 @@ Tutti i ventinove concetti hanno stato **da studiare** e padronanza **non verifi
 - [[04 Prodotto Composizione e Navigazione]].
 - [[05 Rango Laplace e Matrici Triangolari]].
 - [[06 Gauss Rango Determinante e Inversa]].
+
+- [[07 Sistemi Lineari Gauss e Rouché-Capelli]].
+- [[08 Nucleo Struttura Cramer e Inverse]].
+- [[09 Spazi Vettoriali Sottospazi e Geometria]].
 
 Le soluzioni sono preparate dal tutor per lo studio; nessun esercizio è registrato come completato dallo studente.
 
@@ -114,7 +150,11 @@ I PDF originali sono conservati una sola volta nella cartella degli asset del co
 - Lezione 6: pagina stampata uguale alla pagina PDF più 44.
 - Lezione 7: pagina stampata uguale alla pagina PDF più 61.
 
-I sei PDF comprendono complessivamente 72 pagine, con numerazione stampata continua da 1 a 72.
+- Lezione 9: pagina stampata uguale alla pagina PDF più 72.
+- Lezione 10: pagina stampata uguale alla pagina PDF più 81.
+- Lezione 11: pagina stampata uguale alla pagina PDF più 95.
+
+I nove PDF comprendono complessivamente 107 pagine, con numerazione stampata continua da 1 a 107.
 
 Le note distinguono definizioni ed esempi del professore da dimostrazioni esplicitate, esempi aggiuntivi e precisazioni del tutor. La bibliografia consigliata è in [[01 Courses/2026-2027/Semester 1/Algebra Lineare/Lectures/Lecture 00|Lezione 0]]; non vengono attribuiti contenuti a capitoli dei manuali non consultati.
 
@@ -122,7 +162,7 @@ Formule e dimostrazioni usano LaTeX compatibile con Obsidian. Le illustrazioni s
 
 ## Stato e continuità
 
-- Materiale preparato: lezioni 0, 1, 3, 4, 6 e 7.
+- Materiale preparato: lezioni 0, 1, 3, 4, 6, 7, 9, 10 e 11.
 - Stato dello studio richiesto: **da studiare**.
 - Comprensione, esercizi autonomi e padronanza: non verificati.
 - Lacune personali: nessuna diagnosticata.

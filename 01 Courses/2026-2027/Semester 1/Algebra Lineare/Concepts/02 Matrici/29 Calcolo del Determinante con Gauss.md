@@ -173,3 +173,9 @@ Per una $3\times4$ con tre pivot, il rango è 3; non si forma un determinante de
 - [[23 Matrici Diagonali e Triangolari]], [[24 Operazioni Elementari e Metodo di Gauss]], [[27 Calcolo del Rango con Gauss]].
 - [[GAL 2026-2027 - 20261007 - LEZIONE 6.pdf#page=10|Lezione 6, pp. 10-12, stampate 54-56]].
 - [[GAL 2026-2027 - 20261008 - LEZIONE 7.pdf#page=7|Lezione 7, pp. 7-10, stampate 68-71]].
+
+## Conferma e sviluppo nella Lezione 10
+
+Il criterio $A$ invertibile $\iff r(A)=n\iff\det A\ne0$ è enunciato come **Teorema 10.3** nella [[GAL 2026-2027 - 20261014 - LEZIONE 10.pdf#page=12|Lezione 10, pp. 12-14, stampate 93-95]]. La dimostrazione del professore passa da Binet ai pivot e poi ai sistemi con termini noti canonici.
+
+[[35 Ricerca della Matrice Inversa con Gauss]] riporta anche il passaggio che rende bilatera l'inversa costruita inizialmente a destra, senza duplicare la presente nota. [[34 Teorema di Cramer e Soluzione Unica]] collega il rango massimo all'unicità delle soluzioni.

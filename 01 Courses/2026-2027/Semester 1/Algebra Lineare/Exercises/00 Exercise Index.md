@@ -19,6 +19,9 @@ Le raccolte contengono esempi del professore con svolgimenti esplicitati ed esem
 | [[04 Prodotto Composizione e Navigazione]] | Prodotto nei due ordini, prodotti nulli e navigazione in due passi | da studiare |
 | [[05 Rango Laplace e Matrici Triangolari]] | Probabilità congiunte, Laplace e Gauss della Lezione 6 | da studiare |
 | [[06 Gauss Rango Determinante e Inversa]] | Rango della Lezione 7, determinante con registro e calcolo dell'inversa | da studiare |
+| [[07 Sistemi Lineari Gauss e Rouché-Capelli]] | Completa, parametri, ranghi, casi impossibili e campo finito | da studiare |
+| [[08 Nucleo Struttura Cramer e Inverse]] | Sistema con $k$, nucleo, Cramer, inverse quadrate e rettangolari | da studiare |
+| [[09 Spazi Vettoriali Sottospazi e Geometria]] | Cartesiane e parametriche, chiusura, funzioni e polinomi | da studiare |
 
 Ogni raccolta collega i prerequisiti teorici e separa il problema dallo svolgimento. Le soluzioni sono visibili per la preparazione completa richiesta il 16 ottobre 2026.
 

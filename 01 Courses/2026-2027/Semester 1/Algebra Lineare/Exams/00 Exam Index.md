@@ -17,4 +17,4 @@ Le modalità descritte nella Lezione 0 sono raccolte in [[01 Courses/2026-2027/S
 
 - [[01 Courses/2026-2027/Semester 1/Algebra Lineare/Exercises/00 Exercise Index|Esempi svolti per argomento]].
 - [[01 Courses/2026-2027/Semester 1/Algebra Lineare/Concepts/00 Concept Index|Definizioni e proprietà]].
-- [[01 Courses/2026-2027/Semester 1/Algebra Lineare/00 Course Map|Percorso delle sei lezioni]].
+- [[01 Courses/2026-2027/Semester 1/Algebra Lineare/00 Course Map|Percorso delle nove lezioni]].

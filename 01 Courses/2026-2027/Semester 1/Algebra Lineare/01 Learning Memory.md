@@ -10,13 +10,13 @@ updated: 2026-10-16
 
 ## Stato attuale
 
-**Da studiare**: lezioni 0 del 16 settembre, 1 del 17 settembre, 3 del 30 settembre, 4 del 1 ottobre, 6 del 7 ottobre e 7 dell'8 ottobre 2026.
+**Da studiare**: lezioni 0 del 16 settembre, 1 del 17 settembre, 3 del 30 settembre, 4 del 1 ottobre, 6 del 7 ottobre, 7 dell'8 ottobre, 9 del 12 ottobre, 10 del 14 ottobre e 11 del 15 ottobre 2026.
 
 Il materiale è stato preparato in Obsidian con spiegazioni, definizioni, esempi, dimostrazioni esplicitate e illustrazioni SVG. Questo aggiornamento registra la disponibilità degli appunti, non l'acquisizione dei contenuti.
 
 ## Richiesta valida soltanto per il 16 ottobre 2026
 
-Lo studente ha chiesto di scrivere tutto il materiale delle lezioni 0, 1 e 3 in Obsidian, senza verificare la comprensione e con stato «da studiare». Nella stessa giornata ha esteso la richiesta alle lezioni 4, 6 e 7, mantenendo la medesima modalità.
+Lo studente ha chiesto di scrivere tutto il materiale delle lezioni 0, 1 e 3 in Obsidian, senza verificare la comprensione e con stato «da studiare». Nella stessa giornata ha esteso la richiesta alle lezioni 4, 6, 7, 9, 10 e 11, mantenendo la medesima modalità.
 
 Per questa preparazione:
 
@@ -35,8 +35,11 @@ L'eccezione non è una preferenza permanente. Nelle sessioni successive torna la
 - [[01 Courses/2026-2027/Semester 1/Algebra Lineare/Lectures/Lecture 04|Lezione 4]]: prodotto, composizione, navigazione, identità e diagonali.
 - [[01 Courses/2026-2027/Semester 1/Algebra Lineare/Lectures/Lecture 06|Lezione 6]]: inverse, rango, Laplace, triangolari, Gauss e pivot.
 - [[01 Courses/2026-2027/Semester 1/Algebra Lineare/Lectures/Lecture 07|Lezione 7]]: matrici elementari, rango con Gauss, Binet e determinante.
-- [[01 Courses/2026-2027/Semester 1/Algebra Lineare/Concepts/00 Concept Index|Ventinove note concettuali]].
-- [[01 Courses/2026-2027/Semester 1/Algebra Lineare/Exercises/00 Exercise Index|Sei raccolte di esempi svolti]].
+- [[01 Courses/2026-2027/Semester 1/Algebra Lineare/Lectures/Lecture 09|Lezione 9]]: sistemi lineari, rappresentazioni, Gauss e Rouché-Capelli.
+- [[01 Courses/2026-2027/Semester 1/Algebra Lineare/Lectures/Lecture 10|Lezione 10]]: nucleo, struttura, Cramer e ricerca delle inverse.
+- [[01 Courses/2026-2027/Semester 1/Algebra Lineare/Lectures/Lecture 11|Lezione 11]]: insiemi affini, rette e piani, spazi vettoriali e sottospazi.
+- [[01 Courses/2026-2027/Semester 1/Algebra Lineare/Concepts/00 Concept Index|Quarantuno note concettuali]].
+- [[01 Courses/2026-2027/Semester 1/Algebra Lineare/Exercises/00 Exercise Index|Nove raccolte di esempi svolti]].
 
 ## Conoscenze effettivamente verificate
 
@@ -63,6 +66,6 @@ Usare SVG quando aiutano a capire la matematica; formule e dimostrazioni in LaTe
 
 ## Ultima operazione
 
-16 ottobre 2026: aggiunte le lezioni 4, 6 e 7 alle precedenti 0, 1 e 3. Ora sono disponibili 29 note concettuali, 6 raccolte di esempi, 7 SVG e i 6 PDF originali. Tutto resta «da studiare», senza verifiche di apprendimento, avanzamenti di Mastery o esercizi personali registrati come completati.
+16 ottobre 2026: aggiunte le lezioni 9, 10 e 11 alle precedenti 0, 1, 3, 4, 6 e 7. Ora sono disponibili 41 note concettuali, 9 raccolte di esempi, 10 SVG e i 9 PDF originali, per 107 pagine di fonti. Tutto resta «da studiare», senza verifiche di apprendimento, avanzamenti di Mastery o esercizi personali registrati come completati.
 
-Nelle nuove note sono esplicitate le condizioni di cancellazione delle matrici e la precisazione sulla caratteristica 2 nelle proprietà del determinante.
+Le note distinguono gli esempi del professore dalle integrazioni del tutor. Sono chiariti campo finito e numero di soluzioni, compatibilità prima della descrizione affine, limiti del conteggio equazioni-incognite, caso di pivot iniziale nullo e differenza fra grado massimo e grado esatto. Restano conservate le precisazioni precedenti sulla cancellazione delle matrici e sulla caratteristica 2.

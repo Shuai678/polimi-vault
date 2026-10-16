@@ -48,6 +48,28 @@ Stato di tutte le note: **da studiare**. Padronanza non verificata.
 | [[28 Teorema di Binet e Proprietà del Determinante]] | Lezione 7, pp. 7-11 |
 | [[29 Calcolo del Determinante con Gauss]] | Lezioni 6 e 7 |
 
+## Sistemi lineari
+
+| Nota | Fonte principale |
+|---|---|
+| [[30 Sistemi Lineari e Rappresentazioni Matriciali]] | Lezione 9, pp. 2-4 |
+| [[31 Risoluzione dei Sistemi con Gauss e Parametri]] | Lezione 9, pp. 4-9; Lezione 10, pp. 2-3 |
+| [[32 Teorema di Rouché-Capelli]] | Lezione 9, pp. 6-9 |
+| [[33 Nucleo e Struttura delle Soluzioni]] | Lezione 10, pp. 3-5 |
+| [[34 Teorema di Cramer e Soluzione Unica]] | Lezione 10, p. 5 e pp. 12-14 |
+| [[35 Ricerca della Matrice Inversa con Gauss]] | Lezione 10, pp. 6-14 |
+
+## Spazi vettoriali e affini
+
+| Nota | Fonte principale |
+|---|---|
+| [[36 Spazi Affini ed Equazioni Cartesiane e Parametriche]] | Lezione 11, pp. 2-6 |
+| [[37 Rette e Piani tra Parametri e Vincoli]] | Lezione 11, pp. 2-5 |
+| [[38 Spazi Vettoriali e Assiomi]] | Lezione 11, p. 7 |
+| [[39 Esempi di Spazi Vettoriali]] | Lezione 11, pp. 8-9 e 11 |
+| [[40 Proprietà Elementari degli Spazi Vettoriali]] | Lezione 11, pp. 9-10 |
+| [[41 Sottospazi Vettoriali e Criterio di Chiusura]] | Lezione 11, pp. 11-12 |
+
 I riferimenti indicano le pagine PDF. Le note riportano anche quelle stampate, quando diverse.
 
 ## Navigazione

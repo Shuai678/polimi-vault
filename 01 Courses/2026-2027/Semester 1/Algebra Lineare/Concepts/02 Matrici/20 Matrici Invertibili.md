@@ -111,3 +111,9 @@ Un esempio completo con la matrice affiancata all'identità è in [[06 Gauss Ran
 - [[26 Matrici Elementari e Reversibilità del MEG]], [[29 Calcolo del Determinante con Gauss]].
 - [[GAL 2026-2027 - 20261007 - LEZIONE 6.pdf#page=2|Lezione 6, pp. 2-3, stampate 46-47]].
 - [[GAL 2026-2027 - 20261008 - LEZIONE 7.pdf#page=2|Lezione 7, pp. 2-4, stampate 63-65]].
+
+## Seguito nella Lezione 10
+
+[[35 Ricerca della Matrice Inversa con Gauss]] sviluppa il calcolo per colonne, il caso $2\times2$ anche con primo elemento nullo e le inverse laterali rettangolari. Per una matrice quadrata, il Teorema 10.3 collega invertibilità, rango massimo e determinante non nullo; il criterio è in [[29 Calcolo del Determinante con Gauss]].
+
+Fonte aggiuntiva: [[GAL 2026-2027 - 20261014 - LEZIONE 10.pdf#page=6|Lezione 10, pp. 6-14, stampate 87-95]].

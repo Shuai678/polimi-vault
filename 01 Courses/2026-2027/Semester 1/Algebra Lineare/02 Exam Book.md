@@ -156,6 +156,36 @@ Per Gauss sul determinante, registrare gli scambi e i riscalamenti: soltanto la 
 
 Le dimostrazioni delle nuove note chiariscono due condizioni: non si cancella una matrice arbitraria da un prodotto; in $\mathbb F_2$ non si divide per 2.
 
+## Argomenti delle lezioni 9 10 e 11
+
+Stato: **da studiare**. Questi sono argomenti dei nuovi PDF, non un elenco di obblighi d'esame aggiuntivi.
+
+- [[30 Sistemi Lineari e Rappresentazioni Matriciali]], [[31 Risoluzione dei Sistemi con Gauss e Parametri]].
+- [[32 Teorema di Rouché-Capelli]]: enunciato, dimostrazione e numero di parametri.
+- [[33 Nucleo e Struttura delle Soluzioni]]: Teorema 10.1 e doppia inclusione.
+- [[34 Teorema di Cramer e Soluzione Unica]]: enunciato del PDF e formula dei determinanti come integrazione.
+- [[35 Ricerca della Matrice Inversa con Gauss]]: più termini noti, inverse laterali e Teorema 10.3.
+- [[36 Spazi Affini ed Equazioni Cartesiane e Parametriche]], [[37 Rette e Piani tra Parametri e Vincoli]].
+- [[38 Spazi Vettoriali e Assiomi]], [[39 Esempi di Spazi Vettoriali]].
+- [[40 Proprietà Elementari degli Spazi Vettoriali]], [[41 Sottospazi Vettoriali e Criterio di Chiusura]].
+
+### Risultati con condizioni
+
+| Risultato | Condizioni |
+|---|---|
+| $Ax=b$ compatibile $\iff r(A)=r([A\mid b])$ | $A:m\times n$, $b\in\mathbb K^m$ |
+| Numero di parametri liberi $=n-r(A)$ | sistema compatibile, parametrizzazione non ridondante |
+| Numero di soluzioni $=q^{n-r(A)}$ | sistema compatibile su un campo finito con $q$ elementi |
+| $\{x:Ax=b\}=P+\ker(A)$ | $P$ deve essere una soluzione particolare |
+| Unica soluzione per ogni $b$ | $A:n\times n$ di rango $n$ |
+| $x_j=\det A_j(b)/\det A$ | $A$ quadrata, $\det A\ne0$; integrazione dimostrata del tutor |
+| $[A\mid I]\longrightarrow[I\mid A^{-1}]$ | $A$ quadrata invertibile; operazioni su entrambi i blocchi |
+| Una retta richiede $n-1$ vincoli non ridondanti | retta autentica in $\mathbb R^n$, direzione non nulla |
+| Un piano richiede $n-2$ vincoli non ridondanti | $n\ge2$, due direzioni indipendenti |
+| $0\in H$, $H+H\subseteq H$, $\lambda H\subseteq H$ per ogni $\lambda$ | criterio di sottospazio di un ambiente vettoriale fissato |
+
+Prima di dividere per un'espressione con parametri, separare il caso in cui si annulla. Nella verifica dei sottospazi lo zero è necessario ma non sufficiente; servono entrambe le chiusure.
+
 ## Esempi e stato personale
 
 - [[01 Prodotti Cartesiani e Relazioni]].
@@ -164,5 +194,9 @@ Le dimostrazioni delle nuove note chiariscono due condizioni: non si cancella un
 - [[04 Prodotto Composizione e Navigazione]].
 - [[05 Rango Laplace e Matrici Triangolari]].
 - [[06 Gauss Rango Determinante e Inversa]].
+
+- [[07 Sistemi Lineari Gauss e Rouché-Capelli]].
+- [[08 Nucleo Struttura Cramer e Inverse]].
+- [[09 Spazi Vettoriali Sottospazi e Geometria]].
 
 Tutti gli esempi sono **da studiare** e preparati dal tutor. Nessun esercizio autonomo, errore personale verificato o simulazione è registrato. Gli errori frequenti delle note sono avvertenze didattiche generali.
