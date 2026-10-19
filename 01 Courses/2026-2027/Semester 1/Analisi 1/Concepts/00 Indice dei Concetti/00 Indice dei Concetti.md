@@ -147,9 +147,28 @@ Questi termini descrivono il ruolo delle frasi matematiche e il modo in cui veng
 - [[07 Successioni e Limiti/96 Calcolo dei Limiti con Equivalenti Asintotici|Calcolo dei Limiti con Equivalenti Asintotici]]
 - [[07 Successioni e Limiti/97 Cancellazioni e Precisione del Resto Asintotico|Cancellazioni e Precisione del Resto Asintotico]]
 
+- [[07 Successioni e Limiti/98 Equivalenti Asintotici nelle Funzioni Composte|Equivalenti asintotici nelle funzioni composte]]
+
+## 08 Serie numeriche
+
+- [[08 Serie Numeriche/99 Serie Numeriche e Somme Parziali|Serie numeriche e somme parziali]]
+- [[08 Serie Numeriche/100 Serie Geometrica e Rappresentazioni Decimali|Serie geometrica e rappresentazioni decimali]]
+- [[08 Serie Numeriche/101 Linearità e Algebra delle Serie|Linearità e algebra delle serie]]
+- [[08 Serie Numeriche/102 Serie Telescopiche e Serie di Mengoli|Serie telescopiche e serie di Mengoli]]
+- [[08 Serie Numeriche/103 Condizione Necessaria di Convergenza di una Serie|Condizione necessaria di convergenza di una serie]]
+- [[08 Serie Numeriche/104 Serie Armonica|Serie armonica]]
+
+- [[08 Serie Numeriche/105 Code e Resto di una Serie|Code e Resto di una Serie]]
+- [[08 Serie Numeriche/106 Serie a Termini Positivi|Serie a Termini Positivi]]
+- [[08 Serie Numeriche/107 Criterio del Confronto per Serie|Criterio del Confronto per Serie]]
+- [[08 Serie Numeriche/108 Serie Armoniche Generalizzate e di Bertrand|Serie Armoniche Generalizzate e di Bertrand]]
+- [[08 Serie Numeriche/109 Criterio del Confronto Asintotico per Serie|Criterio del Confronto Asintotico per Serie]]
+- [[08 Serie Numeriche/110 Criterio del Rapporto per Serie|Criterio del Rapporto per Serie]]
+- [[08 Serie Numeriche/111 Criterio della Radice per Serie|Criterio della Radice per Serie]]
+- [[08 Serie Numeriche/112 Formula di Stirling e Serie con Fattoriali|Formula di Stirling e Serie con Fattoriali]]
+
 ## Concetti candidati
 
 - Continuità
 - Derivate
 - Integrali
-- Serie

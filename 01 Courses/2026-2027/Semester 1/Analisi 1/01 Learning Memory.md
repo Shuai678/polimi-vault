@@ -1,7 +1,7 @@
 ---
 course: Analisi 1
 type: learning-memory
-updated: 2026-10-10
+updated: 2026-10-17
 ---
 
 # Memoria di apprendimento
@@ -15,6 +15,8 @@ updated: 2026-10-10
 - La [[Lecture 07|Lezione 07]] è stata preparata integralmente fino a [[85 Gerarchia degli Infiniti|gerarchia degli infiniti]]. Integrato il Concept 76 e creati i Concept 77-85, tutti ancora da studiare; la preparazione degli appunti è distinta dallo studio effettivo.
 - La [[Lecture 08|Lezione 08]] è stata preparata integralmente: Concept 86-94, dal termine dominante a [[94 Equivalenza Asintotica|equivalenza asintotica]], con integrazione di [[85 Gerarchia degli Infiniti]] e collegamenti nel Concept 80. Tutte le aggiunte restano da studiare.
 - La [[Lecture 09|Lezione 09]] è stata preparata integralmente: integrati i Concept 93-94 e creati i Concept 95-97, dagli equivalenti notevoli alla precisione dei resti. Risolto anche il limite conclusivo lasciato aperto nel PDF. Tutte le aggiunte restano da studiare.
+- La [[Lecture 10|Lezione 10]] è stata preparata integralmente: completati gli equivalenti composti nel Concept 98 e introdotte le serie nei Concept 99-104, fino alla [[104 Serie Armonica|serie armonica]]. Integrati 94, 95 e 97; tutte le aggiunte sono da studiare.
+- La [[Lecture 11|Lezione 11]] è stata preparata integralmente: Concept 105-112, da code e resti ai criteri per serie positive e alla formula di Stirling. Integrati 91, 99 e 100; precisati gli indici di geometrica e Bertrand. Tutte le aggiunte restano da studiare.
 - Della Lezione 02 restano da consolidare caratterizzazione degli estremi, valore assoluto, intervalli, radici e potenze.
 
 ## Padroneggiato
@@ -131,6 +133,10 @@ updated: 2026-10-10
 - Lezione 08, in ordine: integrazione di [[85 Gerarchia degli Infiniti]], [[86 Termine Dominante nei Rapporti di Successioni]], [[87 Aritmetizzazione Parziale dell'Infinito e Forme Indeterminate]], [[88 Razionalizzazione e Differenze di Radicali]], [[89 Limiti di Potenze con Base ed Esponente Variabili]], [[90 Numero di Nepero e Limiti di Tipo Esponenziale]], [[91 Criterio del Rapporto per Successioni]], [[92 Confronto di Infiniti e Infinitesimi]], [[93 Notazione o-Piccolo]], [[94 Equivalenza Asintotica]]. Tutto `Da studiare`.
 
 - Lezione 09, in ordine: integrazioni di [[93 Notazione o-Piccolo]] e [[94 Equivalenza Asintotica]], [[95 Equivalenti e Sviluppi Asintotici Notevoli]], [[96 Calcolo dei Limiti con Equivalenti Asintotici]], [[97 Cancellazioni e Precisione del Resto Asintotico]]. Tutto `Da studiare`.
+
+- Lezione 10: integrazioni di [[94 Equivalenza Asintotica]], [[95 Equivalenti e Sviluppi Asintotici Notevoli]] e [[97 Cancellazioni e Precisione del Resto Asintotico]]; poi [[98 Equivalenti Asintotici nelle Funzioni Composte]], [[99 Serie Numeriche e Somme Parziali]], [[100 Serie Geometrica e Rappresentazioni Decimali]], [[101 Linearità e Algebra delle Serie]], [[102 Serie Telescopiche e Serie di Mengoli]], [[103 Condizione Necessaria di Convergenza di una Serie]], [[104 Serie Armonica]]. Tutto `Da studiare`.
+
+- Lezione 11: [[105 Code e Resto di una Serie]], [[106 Serie a Termini Positivi]], [[107 Criterio del Confronto per Serie]], [[108 Serie Armoniche Generalizzate e di Bertrand]], [[109 Criterio del Confronto Asintotico per Serie]], [[110 Criterio del Rapporto per Serie]], [[111 Criterio della Radice per Serie]], [[112 Formula di Stirling e Serie con Fattoriali]] e integrazioni di 91, 99 e 100. Tutto `Da studiare`.
 
 ## Errori personali ricorrenti
 
@@ -256,11 +262,11 @@ updated: 2026-10-10
 
 ## Ultima sessione di studio
 
-- Data: 2026-10-10.
-- Attività: preparazione autonoma della Lezione 09; nessuna verifica dell'apprendimento.
-- Sintesi: creati i Concept 95-97 e integrati i Concept 93-94; tutti gli esempi del PDF svolti, incluso il limite finale del seno, tre SVG originali e indici aggiornati. Nuovo materiale `Da studiare`; Padroneggiato invariato.
+- Data: 2026-10-17.
+- Attività: preparazione autonoma della Lezione 11; nessuna verifica dell’apprendimento.
+- Sintesi: creati i Concept 105-112 e integrati 91, 99 e 100; dimostrazioni ed esercizi del PDF sviluppati, prove di supporto per rapporto e radice dal libro, tre SVG originali e indici aggiornati. Nuovo materiale `Da studiare`; Padroneggiato invariato.
 
 ## Prossimo passo
 
 - Studiare [[50 Forma Esponenziale e Identità di Eulero|forma esponenziale e identità di Eulero]], quindi proseguire nell'ordine della [[Lecture 04|Lezione 04]].
-- Prossima preparazione: proseguire dopo [[97 Cancellazioni e Precisione del Resto Asintotico]], dal primo contenuto nuovo del successivo PDF del docente.
+- Prossima preparazione: proseguire dopo [[112 Formula di Stirling e Serie con Fattoriali]], dal primo contenuto nuovo del successivo PDF del docente.

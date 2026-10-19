@@ -285,7 +285,7 @@ $$
 
 ### Conclusione
 
-Il polinomio $p$ possiede esattamente $n$ radici in $\mathbb{C}$, se ogni radice è contata con la propria molteplicità.
+Il polinomio $p$ possiede esattamente $n$ soluzioni (radici) in $\mathbb{C}$, se ogni radice è contata con la propria molteplicità (.
 
 Se tali radici, ripetute secondo la molteplicità, sono
 
@@ -313,6 +313,10 @@ Il teorema garantisce che $\mathbb{C}$ è un ambiente sufficiente per trovare tu
 - ricostruire il polinomio dalla sua fattorizzazione;
 - distinguere il numero di valori distinti dalla somma delle loro molteplicità;
 - riconoscere quando un'equazione non rientra nell'ipotesi polinomiale.
+
+## Osservazione
+* Se $z$ è soluzione allora lo è anche $\bar z$.
+* Nel campo $z$ sono irriducibili solo i polinomi di primo grado.
 
 ## Intuizione
 

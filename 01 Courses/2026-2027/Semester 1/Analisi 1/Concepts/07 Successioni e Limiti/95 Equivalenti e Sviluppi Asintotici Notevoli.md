@@ -3,6 +3,7 @@ course: Analisi 1
 type: concept
 status: Da studiare
 source:
+  - Lezione 10, PDF p. 6 (collegamento annunciato con i limiti di funzioni)
   - Lezione 09, PDF pp. 4-5, 8-10
   - Libro, §3.5.2, pp. 94-96; §3.5.3, pp. 97-98; §3.8, p. 104
 ---
@@ -176,6 +177,19 @@ $$
 =\frac{t_n}{\tan t_n}
 =\cos t_n\frac{t_n}{\sin t_n}\to1.
 $$
+
+## Collegamento annunciato nella Lezione 10 — Da studiare
+
+A p. 6 del PDF L10 il docente mette in relazione gli equivalenti per successioni con i corrispondenti limiti notevoli di funzioni:
+
+$$
+\lim_{x\to0}\frac{\sin x}{x}=1,\qquad
+\lim_{x\to0}\frac{e^x-1}{x}=1,\qquad
+\lim_{x\to0}\frac{\log(1+x)}{x}=1,\qquad
+\lim_{x\to0}\frac{1-\cos x}{x^2}=\frac12.
+$$
+
+Sono le stesse formule applicate a un argomento $x$ che si avvicina a zero; qui $\log(1+x)$ è considerato nel suo dominio e i rapporti per $x\neq0$. Il PDF rinvia la trattazione dei limiti di funzioni a un momento successivo. Negli esercizi attuali le formule si usano con gli argomenti infinitesimi $\varepsilon_n$ già descritti.
 
 ## Uso negli esercizi ed errori comuni
 

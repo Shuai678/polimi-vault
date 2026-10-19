@@ -3,6 +3,7 @@ course: Analisi 1
 type: concept
 status: Da studiare
 source:
+  - Lezione 11, PDF pp. 14-15 (collegamento al criterio per serie)
   - Lezione 08, PDF pp. 15-17
   - Libro, §3.6, p. 99 e §3.7, p. 100
 ---
@@ -133,6 +134,12 @@ $$
 
 La seconda conclusione segue passando al reciproco di una successione positiva divergente.
 
+## Collegamento con la Lezione 11 — Da studiare
+
+Il [[110 Criterio del Rapporto per Serie]] completa il rinvio della Lezione 08: con lo stesso limite del rapporto, per $\ell<1$ si dimostra anche la convergenza della serie, usando un **maggiorante geometrico sommabile**. Non basta la sola conclusione $a_n\to0$ di questa nota. Per $\ell>1$ i termini divergono positivamente e la serie diverge a $+\infty$.
+
+L'esercizio $\sum n!/n^n$, con rapporto tendente a $1/e<1$, e la soluzione alternativa con Stirling sono in [[112 Formula di Stirling e Serie con Fattoriali]].
+
 ## Procedura pratica ed errori comuni
 
 1. Controllare la positività definitiva.
@@ -143,4 +150,4 @@ La seconda conclusione segue passando al reciproco di una successione positiva d
 
 Errori frequenti: invertire il rapporto e dimenticare che le conclusioni si scambiano; perdere il fattore $n+1$ nel fattoriale; confondere il limite del rapporto con il limite di $a_n$.
 
-Potenziale rilevanza d'esame: enunciato con positività e caso inconclusivo, calcoli con fattoriali e dimostrazione dei confronti già enunciati. Questo criterio riguarda il limite di una successione; i criteri di convergenza delle serie saranno un argomento successivo.
+Potenziale rilevanza d'esame: enunciato con positività e caso inconclusivo, calcoli con fattoriali e dimostrazione dei confronti già enunciati. Il criterio di questa nota riguarda il limite di una successione; la conclusione sulla serie e la relativa dimostrazione sono sviluppate nel Concept 110, secondo la Lezione 11.

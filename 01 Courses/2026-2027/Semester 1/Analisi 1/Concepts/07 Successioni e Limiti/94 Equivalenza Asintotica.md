@@ -3,6 +3,7 @@ course: Analisi 1
 type: concept
 status: Da studiare
 source:
+  - Lezione 10, PDF pp. 2-5
   - Lezione 08, PDF pp. 20-22
   - Lezione 09, PDF pp. 2-3, 5-8
   - Libro, §3.8, pp. 102-106 (definizione e proprietà pertinenti)
@@ -222,6 +223,36 @@ $$
 **Differenza infinitesima.** Abbiamo già visto che $a_n\sim A_n$ non implica $a_n-A_n\to0$. Anche l'implicazione opposta è falsa: $a_n=2/n$ e $A_n=1/n$ hanno differenza $1/n\to0$, ma rapporto costante $2$. L'errore assoluto tende a zero, quello relativo no.
 
 Questi sono controesempi alle implicazioni generali. Per una particolare espressione una sostituzione può essere valida, ma occorre giustificarla; non basta citare $a_n\sim A_n$.
+
+## Integrazione della Lezione 10 — Da studiare
+
+### Quando il passaggio al logaritmo è giustificato
+
+La cautela generale sui logaritmi resta valida. Il docente precisa però un caso in cui si può concludere: se $a_n,A_n>0$ definitivamente, $a_n\sim A_n$ e il loro limite comune è
+
+$$
+\ell\in[0,+\infty],\qquad \ell\neq1,
+$$
+
+allora
+
+$$
+\boxed{\log a_n\sim\log A_n.}
+$$
+
+Qui il valore $\ell=0$ si intende raggiunto da argomenti positivi. Poniamo $q_n=a_n/A_n\to1$. Dalle proprietà del logaritmo,
+
+$$
+\log a_n=\log A_n+\log q_n,\qquad
+\frac{\log a_n}{\log A_n}
+=1+\frac{\log q_n}{\log A_n}.
+$$
+
+Il numeratore dell'ultimo resto tende a zero. Se $0<\ell<+\infty$ e $\ell\neq1$, $\log A_n\to\log\ell\neq0$, e il rapporto del resto tende a zero. Se $\ell=0$, $\log A_n\to-\infty$; se $\ell=+\infty$, $\log A_n\to+\infty$: anche in questi casi il resto tende a zero. Questi limiti del logaritmo si verificano per monotonia: per esempio $A_n<e^{-M}$ implica $\log A_n<-M$, mentre $A_n>e^M$ implica $\log A_n>M$.
+
+La non nullità definitiva di $\log A_n$ segue dal limite dell'argomento diverso da $1$. Se invece $\ell=1$, numeratore e denominatore dei logaritmi tendono a zero e questo ragionamento non decide: il controesempio $1+1/n$ e $1+1/n^2$ riportato sopra resta applicabile.
+
+Per esempio $1+e^n\sim e^n\to+\infty$, dunque $\log(1+e^n)\sim\log(e^n)=n$. La trasformazione esatta e gli esercizi sulle composizioni sono in [[98 Equivalenti Asintotici nelle Funzioni Composte]].
 
 ## Errori comuni e prospettiva d'esame
 

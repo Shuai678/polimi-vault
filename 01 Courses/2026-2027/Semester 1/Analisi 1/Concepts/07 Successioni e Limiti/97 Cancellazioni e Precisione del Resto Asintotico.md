@@ -3,6 +3,7 @@ course: Analisi 1
 type: concept
 status: Da studiare
 source:
+  - Lezione 10, PDF pp. 2-3
   - Lezione 09, PDF pp. 11-16
   - Libro, §3.5.2, pp. 94-96; §3.8, pp. 104-105
 ---
@@ -194,6 +195,45 @@ Questa formula è stata ottenuta per risolvere l'esercizio conclusivo; non deriv
 Se dopo aver sottratto i termini principali si deve dividere per $b_n$, un resto $r_n$ è trascurabile soltanto se $r_n=o(b_n)$. Sapere $r_n=o(c_n)$ con $b_n=o(c_n)$ è in generale insufficiente: il denominatore finale è una scala più piccola.
 
 Nell'esercizio $b_n=1/n^3$ e la prima stima aveva solo scala $c_n=1/n$. Il completamento trova il coefficiente del termine cubico e un resto $o(1/n^3)$: dopo la divisione quest'ultimo tende a zero.
+
+## Integrazione della Lezione 10: equivalenza e prima correzione — Da studiare
+
+Per $\varepsilon_n\to0$, definitivamente non nullo, le tre scritture
+
+$$
+e^{\varepsilon_n}-1\sim\varepsilon_n,
+\qquad e^{\varepsilon_n}-1=\varepsilon_n+o(\varepsilon_n),
+\qquad e^{\varepsilon_n}=1+\varepsilon_n+o(\varepsilon_n)
+$$
+
+esprimono la stessa informazione. Invece
+
+$$
+e^{\varepsilon_n}\sim1+\varepsilon_n
+$$
+
+è una conseguenza **più debole**: entrambe le parti tendono a $1$, perciò il loro rapporto tende a $1$ senza determinare il coefficiente della prima correzione.
+
+Infatti anche una successione $c_n=1+2\varepsilon_n$ soddisfa $c_n\sim1+\varepsilon_n$, ma
+
+$$
+\frac{c_n-1}{\varepsilon_n}=2\neq1.
+$$
+
+Questa informazione debole, da sola, non permette di identificare lo sviluppo dopo aver sottratto $1$.
+
+Il PDF osserva che valgono anche
+
+$$
+e^{\varepsilon_n}\sim1+\frac1n,
+\qquad e^{\varepsilon_n}\sim1+\frac1{2^n},
+\qquad e^{\varepsilon_n}\sim1+\frac1{\log\varepsilon_n}
+\quad(\varepsilon_n>0\text{ definitivamente}).
+$$
+
+Tutte le espressioni a destra tendono a $1$; nell'ultima $\log\varepsilon_n\to-\infty$, quindi il reciproco tende a zero. La scrittura del docente $e^{\varepsilon_n}\sim1+o(1)$ si legge allo stesso modo: per qualsiasi resto scelto $r_n\to0$, $e^{\varepsilon_n}/(1+r_n)\to1$. Non specifica quanto l'esponenziale differisca da $1$ alla scala $\varepsilon_n$.
+
+Questo è il motivo per cui in una cancellazione serve una **uguaglianza con resto controllato**, o un equivalente della differenza intera. Le applicazioni della Lezione 10 sono in [[98 Equivalenti Asintotici nelle Funzioni Composte]].
 
 ## Errori comuni e prospettiva d'esame
 

@@ -36,7 +36,11 @@ $$
 \Longleftrightarrow n>\varepsilon^{-1/\alpha}.
 $$
 
-Basta un naturale $N>\varepsilon^{-1/\alpha}$. Se $\alpha=0$, ogni termine vale $1$. Se $\alpha<0$, ponendo $\beta=-\alpha>0$, si ha $1/n^\alpha=n^\beta$. Dato $M>0$,
+Basta un naturale $N>\varepsilon^{-1/\alpha}$.
+
+Se $\alpha=0$, ogni termine vale $1$.
+
+Se $\alpha<0$, ponendo $\beta=-\alpha>0$, si ha $1/n^\alpha=n^\beta$. Dato $M>0$,
 
 $$
 n^\beta>M\Longleftrightarrow n>M^{1/\beta},
@@ -44,7 +48,8 @@ $$
 
 quindi il limite è $+\infty$.
 
-Equivalentemente,
+Equivalentemente, ponendo $\beta=-\alpha$, si ha $1/n^\alpha=n^{-\alpha}=n^\beta$.
+Considerando tutti e tre i casi, $\beta\in\mathbb R$ può essere positivo, nullo o negativo e resta fissato mentre $n\to+\infty$. Quindi
 
 $$
 \lim_{n\to+\infty}n^\beta=

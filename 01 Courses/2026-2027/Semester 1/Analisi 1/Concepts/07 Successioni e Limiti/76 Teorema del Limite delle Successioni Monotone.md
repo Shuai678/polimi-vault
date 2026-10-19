@@ -10,23 +10,52 @@ source:
 
 # Teorema del limite delle successioni monotone
 
-## [[Enunciato]] finito
+## [[Enunciato]] nel caso di limite finito
 
-Ogni successione monotona e limitata ammette limite finito. Più precisamente:
+Ogni successione [[75 Successioni Monotone|monotona]] e [[70 Grafico e Limitatezza delle Successioni|limitata]] ammette limite finito.
 
-- se $(a_n)$ è crescente e limitata superiormente, allora
+Indichiamo con $n_0$ l'indice iniziale della successione, per esempio $0$ oppure $1$: $a_{n_0}$ è il suo primo termine.
 
-$$
-\lim_{n\to+\infty}a_n=\sup\{a_n:n\geq n_0\};
-$$
+### Caso crescente: convergenza per difetto
 
-- se $(a_n)$ è decrescente e limitata inferiormente, allora
+Se $(a_n)$ è **crescente e limitata superiormente**, allora
 
 $$
-\lim_{n\to+\infty}a_n=\inf\{a_n:n\geq n_0\}.
+\lim_{n\to+\infty}a_n=\ell^-,
+\qquad
+\ell=\sup\{a_n:n\geq n_0\}\in\mathbb R.
 $$
 
-Per una successione crescente basta dunque un maggiorante; per una decrescente basta un minorante.
+La convergenza è **per difetto**, perché tutti i termini stanno sotto il limite o coincidono con esso:
+
+$$
+a_n\leq\ell
+\qquad\text{per ogni }n\geq n_0.
+$$
+
+### Caso decrescente: convergenza per eccesso
+
+Se $(a_n)$ è **decrescente e limitata inferiormente**, allora
+
+$$
+\lim_{n\to+\infty}a_n=\ell^+,
+\qquad
+\ell=\inf\{a_n:n\geq n_0\}\in\mathbb R.
+$$
+
+La convergenza è **per eccesso**, perché tutti i termini stanno sopra il limite o coincidono con esso:
+
+$$
+a_n\geq\ell
+\qquad\text{per ogni }n\geq n_0.
+$$
+
+Le notazioni $\ell^-$ e $\ell^+$ indicano il [[74 Limiti Infiniti e Regolarità delle Successioni#Convergenza per eccesso o per difetto|verso di avvicinamento]]: il valore del limite è sempre il numero reale $\ell$. Qui le disuguaglianze valgono **per ogni indice**, quindi anche [[71 Proprietà Definitivamente Vere|definitivamente]]. Si ammette l'uguaglianza: una successione costante è monotona e converge sia per difetto sia per eccesso secondo queste definizioni.
+
+### Perché basta una sola limitazione
+
+- Una successione **crescente** è automaticamente limitata **inferiormente** dal primo termine, perché $a_{n_0}\leq a_n$ per ogni $n\geq n_0$. Per applicare il teorema basta quindi richiedere che sia limitata **superiormente**.
+- Una successione **decrescente** è automaticamente limitata **superiormente** dal primo termine, perché $a_n\leq a_{n_0}$ per ogni $n\geq n_0$. Basta quindi richiedere che sia limitata **inferiormente**.
 
 ## Dimostrazione nel caso crescente
 
@@ -60,7 +89,7 @@ $$
 \ell-\varepsilon<a_n\leq\ell<\ell+\varepsilon.
 $$
 
-Questa è esattamente la definizione di $a_n\to\ell$.
+Ponendo $N=n_\varepsilon$, questa è esattamente la definizione di $a_n\to\ell$. Inoltre $a_n\leq\ell$ per ogni indice: la convergenza è per difetto, cioè $a_n\to\ell^-$.
 
 ![[76 Successione Monotona e Supremo.svg|592]]
 
@@ -79,20 +108,29 @@ Ogni successione monotona ammette limite in $\overline{\mathbb R}$. Infatti:
 - se è decrescente e limitata inferiormente, converge al proprio estremo inferiore;
 - se è decrescente e non è limitata inferiormente, tende a $-\infty$.
 
-In forma compatta,
+In forma compatta, per una successione **crescente**,
 
 $$
 \lim_{n\to+\infty}a_n=
 \sup\{a_n:n\geq n_0\}
+\in\mathbb R\cup\{+\infty\}.
 $$
 
-per una successione crescente, ammettendo il valore $+\infty$, e analogamente il limite è l'infimo per una successione decrescente, ammettendo $-\infty$.
+Per una successione **decrescente**,
 
-Ne segue che ogni successione monotona è regolare.
+$$
+\lim_{n\to+\infty}a_n=
+\inf\{a_n:n\geq n_0\}
+\in\mathbb R\cup\{-\infty\}.
+$$
+
+Si intende il supremo uguale a $+\infty$ nel caso non limitato superiormente e l'infimo uguale a $-\infty$ nel caso non limitato inferiormente.
+
+Ne segue che ogni successione monotona è [[74 Limiti Infiniti e Regolarità delle Successioni|regolare]].
 
 ### Da dire all'orale
 
-> Nel caso crescente il candidato limite è il supremo dei valori. La proprietà caratteristica del supremo permette di trovare un termine sopra $\ell-\varepsilon$; la monotonia mantiene tutti i termini successivi sopra quella soglia, mentre $\ell$ li maggiora.
+> Una successione crescente e limitata superiormente converge per difetto al supremo dei suoi valori; una decrescente e limitata inferiormente converge per eccesso all'infimo. Nel caso crescente, la proprietà caratteristica del supremo permette di trovare un termine sopra $\ell-\varepsilon$; la monotonia mantiene tutti i termini successivi sopra quella soglia, mentre $\ell$ li maggiora.
 
 
 ## Completamento della Lezione 07: caso illimitato
@@ -118,11 +156,17 @@ cioè $a_n\to+\infty$. Il passaggio decisivo trasforma l'esistenza di **un** ter
 
 Nel caso decrescente non limitato inferiormente, dato $M>0$ si trova $k$ con $a_k<-M$ e per ogni $n\geq k$ si ha $a_n\leq a_k<-M$: dunque $a_n\to-\infty$.
 
-## Verso di avvicinamento e falso viceversa
+## Il viceversa è falso
 
-Se la successione crescente ha limite finito $\ell=\sup\{a_n\}$, tutti i termini soddisfano $a_n\leq\ell$: la convergenza è per difetto, indicata nel PDF con $a_n\to\ell^-$. Nel caso decrescente $a_n\geq\ell$ e si scrive $a_n\to\ell^+$. Queste disuguaglianze ammettono uguaglianza: una successione costante è monotona e può coincidere con il proprio limite.
+Il teorema afferma che
 
-Il viceversa “regolare implica monotona” è falso. Per $n\geq1$,
+$$
+(a_n)\ \text{monotona}\ \implies\ (a_n)\ \text{regolare}.
+$$
+
+**Il viceversa non vale in generale**: sapere che una successione è regolare non basta per concludere che sia monotona. Una successione regolare può essere monotona oppure non esserlo.
+
+Per esempio, per $n\geq1$,
 
 $$
 a_n=\frac{(-1)^n}{n}
@@ -137,6 +181,7 @@ converge a zero perché $|a_n|=1/n\to0$, ma non è monotona: $a_1=-1<a_2=1/2$ e 
 ## Errori comuni
 
 - Credere che la monotonia da sola garantisca un limite finito.
+- Confondere il verso di monotonia con quello di avvicinamento: nel caso di limite finito, una successione crescente converge per difetto e una decrescente converge per eccesso.
 - Usare il supremo senza aver verificato la limitatezza superiore.
 - Confondere il supremo dell'insieme dei valori con il massimo: il limite può non essere mai raggiunto.
 - Omettere il punto in cui la monotonia estende la stima da un termine a tutti i successivi.
@@ -150,4 +195,4 @@ converge a zero perché $|a_n|=1/n\to0$, ma non è monotona: $a_1=-1<a_2=1/2$ e 
 
 ## Prospettiva d'esame
 
-Occorre conoscere sia l'enunciato con le ipotesi direzionali corrette sia la dimostrazione: definizione del supremo, scelta di $n_\varepsilon$, uso della monotonia e verifica finale della condizione $\varepsilon$-$N$.
+Occorre conoscere sia l'enunciato con le ipotesi direzionali corrette e il verso di avvicinamento (crescente per difetto, decrescente per eccesso), sia la dimostrazione: definizione del supremo, scelta di $n_\varepsilon$, uso della monotonia e verifica finale della condizione $\varepsilon$-$N$.

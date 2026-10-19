@@ -15,7 +15,7 @@ updated: 2026-10-02
 
 ## Formula Sheet
 
-- No formulas recorded yet.
+- [[01 Courses/2026-2027/Semester 1/Analisi 1/03 Formulario|Formulario]] - consultazione rapida per argomento, con formule, definizioni e collegamenti alle dimostrazioni.
 
 ## Formula Conditions
 
@@ -355,3 +355,82 @@ Da $a_n\sim b_n$ segue $o(a_n)=o(b_n)$. I resti su scale più piccole si assorbo
 ### Da dire all'orale
 
 > L'equivalenza controlla l'errore relativo e conserva il carattere della successione. Nelle differenze con cancellazione devo conoscere i termini successivi e un resto trascurabile alla scala del risultato. Un o-piccolo di una quantità divergente può comunque divergere: non posso dedurne da solo un limite finito.
+
+## Lezione 10 — Equivalenti composti e prime serie numeriche
+
+Materiale preparato, **Da studiare**. Potenziale rilevanza d'esame; le indicazioni non sono una previsione delle domande.
+
+### Equivalenti: condizioni decisive
+
+- Nelle [[98 Equivalenti Asintotici nelle Funzioni Composte|composizioni]] applicare la formula alla funzione esterna verificando l'argomento infinitesimo, poi proseguire verso l'interno.
+- $e^{\varepsilon_n}-1\sim\varepsilon_n$ equivale allo sviluppo $e^{\varepsilon_n}=1+\varepsilon_n+o(\varepsilon_n)$. La sola equivalenza $e^{\varepsilon_n}\sim1+\varepsilon_n$ è più debole e non determina la prima correzione: [[97 Cancellazioni e Precisione del Resto Asintotico]].
+- Con argomenti positivi, $a_n\sim A_n$ e limite comune $\ell\in[0,+\infty]\setminus\{1\}$ implicano $\log a_n\sim\log A_n$. Il caso $\ell=1$ richiede un controllo ulteriore: [[94 Equivalenza Asintotica]].
+- Esempi guida: $\sin(\log(\cos(1/n)))\sim-1/(2n^2)$; $\log(1+e^n)\sim n$; il quoziente a p. 5 tende a $-1/(2\pi)$ e l'esercizio finale a $21$.
+
+### Serie: definizioni e formule
+
+La serie $\sum a_n$ si studia mediante $S_N=\sum_{n=0}^{N}a_n$, non mediante il solo limite di $a_n$. Convergenza significa $S_N\to S\in\mathbb R$; divergenza significa limite $+\infty$ o $-\infty$; se il limite non esiste nei reali estesi la serie è irregolare. Modificare un numero finito di termini conserva il carattere, ma può cambiare la somma: [[99 Serie Numeriche e Somme Parziali]].
+
+| Strumento | Formula e condizioni | Errore da evitare |
+|---|---|---|
+| [[100 Serie Geometrica e Rappresentazioni Decimali\|Geometrica]] | $\sum_{n=0}^{N}q^n=(1-q^{N+1})/(1-q)$ per $q\neq1$; serie convergente esattamente per $-1<q<1$, somma $1/(1-q)$ | Usare la formula infinita fuori da tale intervallo; dimenticare l'indice iniziale |
+| [[101 Linearità e Algebra delle Serie\|Linearità]] | Per serie convergenti, $\sum(\alpha a_n+\beta b_n)=\alpha\sum a_n+\beta\sum b_n$; per regolari controllare le operazioni nei reali estesi | Separare una somma in una differenza indeterminata di infiniti |
+| [[102 Serie Telescopiche e Serie di Mengoli\|Telescopica]] | $a_n=b_n-b_{n+1}$ dà $S_N=b_m-b_{N+1}$ partendo da $m$; somma $b_m-b^*$ se $b_n\to b^*\in\mathbb R$ | Perdere il bordo $N+1$ o il segno; separare le due serie prima della cancellazione |
+| [[103 Condizione Necessaria di Convergenza di una Serie\|Condizione necessaria]] | Serie convergente $\Rightarrow a_n\to0$; prova $a_N=S_N-S_{N-1}$ con limite finito di $S_N$ | Usare il converso o concludere sempre divergenza positiva quando la condizione fallisce |
+| [[104 Serie Armonica\|Armonica]] | $\sum_{n=1}^{N}1/n\geq\log(N+1)\to+\infty$ | Confondere successione $1/n\to0$ e serie $\sum1/n=+\infty$ |
+
+Per la geometrica, $q\geq1$ dà divergenza positiva e $q\leq-1$ dà irregolarità. Per $-1<q<1$, la coda da $m$ vale $q^m/(1-q)$ e il resto dopo l'indice $N$ è $q^{N+1}/(1-q)$.
+
+Risultati da saper giustificare: $\sum_{n=0}^{+\infty}2^{-n}=2$; $0,\overline9=1$ in base dieci e $(0,\overline7)_8=1$; $\sum_{n=1}^{+\infty}1/[n(n+1)]=1$. Per l'armonica, la disuguaglianza $\log(1+1/n)\leq1/n$ discende dalla proprietà di supremo di $e$, non dal solo valore del suo limite.
+
+### Da dire all'orale
+
+> Una serie converge quando converge a un numero reale la successione delle sue somme parziali. Il termine generale deve allora tendere a zero, perché è la differenza di due somme parziali consecutive. Questa condizione non è sufficiente: la serie armonica diverge positivamente pur avendo termine generale infinitesimo.
+
+## Lezione 11 — Serie positive e criteri di convergenza
+
+Materiale preparato, **Da studiare**. Potenziale rilevanza d'esame; non è una previsione delle domande.
+
+### Condizioni che guidano il metodo
+
+| Strumento | Ipotesi e risultato | Trappola |
+|---|---|---|
+| [[105 Code e Resto di una Serie\|Resto]] | Per serie convergente, $R_N=\sum_{n=N+1}^{+\infty}a_n=S-S_N\to0$ | Confondere resto e primo termine escluso; usare un errore reale per una somma infinita |
+| [[106 Serie a Termini Positivi\|Regolarità]] | $a_n\geq0$ definitivamente: convergenza oppure divergenza positiva; convergenza equivalente a somme parziali limitate superiormente | Il termine infinitesimo non basta; con primi termini negativi la somma finita può essere negativa |
+| [[107 Criterio del Confronto per Serie\|Confronto]] | $0\leq a_n\leq b_n$ definitivamente: convergenza della maggiore alla minore, divergenza della minore alla maggiore | Invertire le implicazioni; confrontare le somme totali usando solo una disuguaglianza nella coda |
+| [[109 Criterio del Confronto Asintotico per Serie\|Confronto asintotico]] | Termini definitivamente positivi e $a_n/b_n\to1$: stesso carattere | Stesso carattere non significa stessa somma; concordanza di segno non significa positività |
+| [[110 Criterio del Rapporto per Serie\|Rapporto]] | $a_n>0$ definitivamente, limite $\ell$ di $a_{n+1}/a_n$: converge per $\ell<1$, diverge positivamente per $\ell>1$ | $\ell=1$ è inconclusivo; non confondere il criterio con il solo limite dei termini |
+| [[111 Criterio della Radice per Serie\|Radice]] | $a_n\geq0$ definitivamente, limite $\ell$ di $\sqrt[n]{a_n}$: stessi casi rispetto a $1$ | Essere sotto $1$ per ogni indice non basta se il limite è $1$ |
+
+Per rapporto e radice, $\ell>1$ comprende $+\infty$ e implica anche $a_n\to+\infty$; $\ell<1$ implica $a_n\to0$. La prova della convergenza utilizza un **maggiorante geometrico sommabile**, non il solo limite zero del termine.
+
+### Serie campione e soglie
+
+Riferimento: [[108 Serie Armoniche Generalizzate e di Bertrand]].
+
+$$
+\sum_{n=1}^{+\infty}\frac1{n^\alpha}\text{ converge}\iff\alpha>1.
+$$
+
+Per $\sum_{n=2}^{+\infty}1/[n^\alpha(\log n)^\beta]$: converge se $\alpha>1$ per ogni $\beta$, oppure se $\alpha=1$ e $\beta>1$; diverge negli altri casi. Con logaritmi si parte da $2$. Le dimostrazioni generali rinviate dal docente restano distinte dagli enunciati utilizzati negli esercizi.
+
+Per $1/n^\alpha$, sia il rapporto consecutivo sia la radice ennesima tendono a $1$ per ogni $\alpha$: entrambi i criteri sono inconclusivi su questa famiglia.
+
+### Esempi guida e indici
+
+- $0<(18+\cos n)/(n^2\log n)\leq[19/\log2]/n^2$ per $n\geq2$: serie convergente per confronto.
+- $\sum_{k=1}^{+\infty}(5k^2-1)\arctan(1/k)/(k^\alpha+k)$ converge per $\alpha>2$ e diverge a $+\infty$ per $\alpha\leq2$. La soglia del termine dominante è $\alpha=1$, quella della convergenza è $\alpha=2$.
+- Per la geometrica: $\sum_{n=0}^{+\infty}q^n=1/(1-q)$ e $\sum_{n=1}^{+\infty}q^n=q/(1-q)$ quando $-1<q<1$. Precisazione dell'indice rispetto alla tabella del PDF p. 8.
+
+### Stirling e fattoriali
+
+$$
+n!\sim\sqrt{2\pi n}\left(\frac ne\right)^n,
+\qquad\frac{n!}{n^n}\sim\frac{\sqrt{2\pi n}}{e^n}.
+$$
+
+La formula riguarda l'errore relativo ed è enunciata senza prova nel PDF. La serie $\sum n!/n^n$ converge: il rapporto consecutivo tende a $1/e<1$. In alternativa, il termine equivalente è definitivamente maggiorato da $(2/e)^n$, una geometrica convergente. Calcoli completi in [[112 Formula di Stirling e Serie con Fattoriali]].
+
+### Da dire all'orale
+
+> Per serie a termini non negativi, la monotonia delle somme parziali esclude l'irregolarità. Il confronto trasferisce la convergenza dalla maggiore alla minore e la divergenza dalla minore alla maggiore. Nel confronto asintotico controllo positività ed equivalenza; nei criteri del rapporto e della radice controllo il limite rispetto a uno, ricordando che il valore uno non decide.

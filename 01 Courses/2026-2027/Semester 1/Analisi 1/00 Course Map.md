@@ -128,15 +128,16 @@ La preparazione deve quindi avanzare su due binari inseparabili: padronanza del 
 
 ## Current Progress
 
-- Current chapter: Capitolo 3 - Successioni e limiti (preparazione degli appunti)
-- Current lecture: [[Lecture 09]]
+- Current chapter: Capitolo 4 - Serie numeriche (preparazione degli appunti)
+- Current lecture: [[Lecture 11]]
 - Last studied concept: [[49 Determinazione dell'Argomento per Quadranti]]
-- Prepared but not yet studied: [[50 Forma Esponenziale e Identità di Eulero]] through [[97 Cancellazioni e Precisione del Resto Asintotico]]
+- Prepared but not yet studied: [[50 Forma Esponenziale e Identità di Eulero]] through [[112 Formula di Stirling e Serie con Fattoriali]]
 - Next study step: [[50 Forma Esponenziale e Identità di Eulero]]
-- Current transition: appunti preparati fino alla precisione dei resti, conclusione del PDF L9, con soluzione dell’ultimo limite lasciato aperto dal docente; lo studio effettivo deve ripartire dal Concept 50
+- Current transition: preparati code e resti, serie positive, confronti, serie campione, rapporto e radice, fino alla formula di Stirling e all’esempio con fattoriali; coperto tutto il PDF L11. Lo studio effettivo deve ripartire dal Concept 50
 
 ## Course Files
 
+- [[01 Courses/2026-2027/Semester 1/Analisi 1/03 Formulario|Formulario]] - formule, definizioni e teoria essenziale per argomento
 - [[01 Learning Memory|Learning Memory]] - stato della comprensione e prossimo passo
 - [[02 Exam Book|Exam Book]] - formule, condizioni, errori e preparazione d'esame
 - [[01 Courses/2026-2027/Semester 1/Analisi 1/Lectures/00 Lecture Index|Lecture Index]] - cronologia delle lezioni

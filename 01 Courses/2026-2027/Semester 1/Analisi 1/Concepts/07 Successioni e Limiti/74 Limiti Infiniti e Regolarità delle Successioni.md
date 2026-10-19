@@ -9,9 +9,29 @@ source:
 
 # Limiti infiniti e regolarità delle successioni
 
+## Intuizione: dal limite finito al limite infinito
+
+Il ragionamento comune è questo: qualunque condizione di vicinanza al limite si scelga, tutti i termini da un certo indice in poi devono soddisfarla.
+
+Per un limite finito $\ell\in\mathbb R$, la vicinanza si esprime mediante la distanza: scelta una precisione arbitraria $\varepsilon>0$, si richiede che [[71 Proprietà Definitivamente Vere|definitivamente]]
+
+$$
+|a_n-\ell|<\varepsilon.
+$$
+
+Per un limite infinito si usano invece delle **soglie**. Infatti, $+\infty$ e $-\infty$ non sono numeri reali: la distanza ordinaria tra un numero reale e l'infinito non è definita.
+
+- Per $+\infty$, scelta una soglia $M>0$ grande quanto si vuole, si richiede che [[71 Proprietà Definitivamente Vere|definitivamente]] $a_n>M$.
+- Per $-\infty$, scelto $M>0$, si richiede che [[71 Proprietà Definitivamente Vere|definitivamente]] $a_n<-M$. Qui $M$ rappresenta una distanza positiva dallo zero, mentre la soglia $-M$ è negativa.
+
+Per esempio, tra $10$ e $1000$, il numero $1000$ è più avanti nella direzione di $+\infty$, perché è maggiore. Chiamarlo «più vicino a $+\infty$» è solo un'espressione intuitiva, non un confronto tra distanze dall'infinito. La distanza da zero da sola non basta: anche $-1000$ è molto lontano da zero, ma nella direzione opposta.
+
+**Superare una singola soglia non basta per tendere a $+\infty$**: bisogna superare ogni soglia fissata e rimanerci sopra da un certo indice in poi. Analogamente, per tendere a $-\infty$ bisogna stare [[71 Proprietà Definitivamente Vere|definitivamente]] sotto ogni soglia negativa fissata. Non è necessario che la successione sia monotona.
+
+
 ## Limite $+\infty$
 
-Si dice che
+Data una successione $(a_n)$, si dice che essa diverge a $+\infty$ e si scrive:
 
 $$
 \lim_{n\to+\infty}a_n=+\infty
@@ -28,7 +48,7 @@ Qualunque sia la soglia positiva $M$, tutti i termini abbastanza avanzati la sup
 
 ## Limite $-\infty$
 
-Si dice che
+Data una successione $(a_n)$, si dice che essa diverge a $-\infty$ e si scrive:
 
 $$
 \lim_{n\to+\infty}a_n=-\infty
@@ -44,6 +64,7 @@ $$
 Qualunque sia la soglia negativa $-M$, tutti i termini abbastanza avanzati stanno al di sotto di essa.
 
 ![[74 Limiti Infiniti Successioni.svg|668]]
+
 
 ## Esempio: $\log(1/n)\to-\infty$
 
@@ -75,10 +96,11 @@ $$
 
 Secondo la terminologia della lezione:
 
-- una successione **converge** se ha limite finito;
-- **diverge a $+\infty$** o **a $-\infty$** se ha il corrispondente limite infinito;
-- è **regolare** se ammette limite in $\overline{\mathbb R}$;
-- è **irregolare**, oscillante o indeterminata se non ammette alcun limite in $\overline{\mathbb R}$.
+* è **regolare** se ammette limite in $\overline{\mathbb R}$, quindi:
+	- una successione **converge** se ha limite finito;
+	- **diverge a $+\infty$** o **a $-\infty$** se ha il corrispondente limite infinito;
+- è **irregolare**, oscillante o indeterminata se non ha né limite finito né limite infinito, cioè se non ammette alcun limite in $\overline{\mathbb R}$.
+
 
 Esempi di successioni irregolari sono
 
@@ -111,13 +133,14 @@ Una successione si dice:
 
 ## Convergenza per eccesso o per difetto
 
-Se $a_n\to\ell\in\mathbb R$ e definitivamente
+Se $a_n\to\ell\in\mathbb R$ e [[71 Proprietà Definitivamente Vere|definitivamente]]
 
 $$
 a_n\geq\ell,
 $$
 
-si dice che $a_n$ converge a $\ell$ **per eccesso** e si può scrivere $a_n\to\ell^+$. Se invece definitivamente
+si dice che $a_n$ converge a $\ell$ **per eccesso** e si può scrivere $a_n\to\ell^+$.
+Se invece [[71 Proprietà Definitivamente Vere|definitivamente]]
 
 $$
 a_n\leq\ell,
@@ -135,7 +158,7 @@ La successione $(-1)^n/n\to0$ non converge né per eccesso né per difetto, perc
 
 ### Da dire all'orale
 
-> Un limite infinito non significa che i termini siano infiniti: significa che superano definitivamente ogni soglia fissata. Una successione è regolare se ha un comportamento limite, finito o infinito.
+> Un limite infinito non significa che i termini siano infiniti: significa che superano [[71 Proprietà Definitivamente Vere|definitivamente]] ogni soglia fissata. Una successione è regolare se ha un comportamento limite, finito o infinito.
 
 ## Errori comuni
 
