@@ -13,4 +13,4 @@ Organize exercises by topic, not by individual problem.
 
 ## Review Rule
 
-After solving, update [[01 Courses/2026-2027/Semester 1/Analisi 1/02 Exam Book|Exam Book]] with recurring problem types and mistakes.
+After solving, update [[01 Courses/2026-2027/Semester 1/Analisi 1/02 Exam Book/02 Exam Book|Exam Book]] with recurring problem types and mistakes.

@@ -25,7 +25,7 @@ Completamento del teorema del limite monotono; limitatezza delle successioni con
 - [[80 Algebra dei Limiti di Successioni]] (PDF pp. 11-13; libro §3.3, pp. 84-86).
 - [[81 Disuguaglianze e Passaggio al Limite]] (PDF pp. 14-15; libro §3.3.1, p. 88).
 - [[82 Teorema dei Due Carabinieri]] (PDF pp. 15-16; libro §3.3.1, p. 88).
-- [[83 Teorema del Confronto per Limiti Infiniti]] (PDF pp. 17-18; libro §3.3.1, p. 89).
+- [[83 Teorema del confronto per successioni divergenti]] (PDF pp. 17-18; libro §3.3.1, p. 89).
 - [[84 Confronto in Modulo e Prodotto con un Infinitesimo]] (PDF pp. 18-19; libro §3.3.2, pp. 89-90).
 - [[85 Gerarchia degli Infiniti]] (PDF p. 20; libro §3.7, pp. 99-101, per enunciati e interpretazione).
 

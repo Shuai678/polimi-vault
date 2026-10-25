@@ -12,9 +12,9 @@ semester: 1
 
 ### Analisi 1
 
-- [[01 Courses/2026-2027/Semester 1/Analisi 1/00 Course Map|Course Map]]
-- [[01 Courses/2026-2027/Semester 1/Analisi 1/01 Learning Memory|Learning Memory]]
-- [[01 Courses/2026-2027/Semester 1/Analisi 1/02 Exam Book|Exam Book]]
+- [[01 Courses/2026-2027/Semester 1/Analisi 1/00 Course Map/00 Course Map|Course Map]]
+- [[01 Courses/2026-2027/Semester 1/Analisi 1/01 Learning Memory/01 Learning Memory|Learning Memory]]
+- [[01 Courses/2026-2027/Semester 1/Analisi 1/02 Exam Book/02 Exam Book|Exam Book]]
 
 ### Fondamenti di Informatica
 

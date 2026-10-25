@@ -48,7 +48,7 @@ Use it to connect programming concepts, algorithmic reasoning, and exam skills. 
 ## Important Connections
 
 - Logic and proof-like reasoning may connect to [[02 Shared Concepts/Shared Concepts Index|Shared Concepts]].
-- Algorithmic thinking may support problem solving in [[01 Courses/2026-2027/Semester 1/Analisi 1/00 Course Map|Analisi 1]] and [[01 Courses/2026-2027/Semester 1/Algebra Lineare/00 Course Map|Algebra Lineare]].
+- Algorithmic thinking may support problem solving in [[01 Courses/2026-2027/Semester 1/Analisi 1/00 Course Map/00 Course Map|Analisi 1]] and [[01 Courses/2026-2027/Semester 1/Algebra Lineare/00 Course Map|Algebra Lineare]].
 
 ## Current Progress
 

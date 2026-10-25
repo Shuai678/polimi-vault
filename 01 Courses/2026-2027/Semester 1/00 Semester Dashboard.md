@@ -10,7 +10,7 @@ semester: 1
 
 | Course | Course Map | Learning Memory | Exam Book |
 |---|---|---|---|
-| Analisi 1 | [[01 Courses/2026-2027/Semester 1/Analisi 1/00 Course Map|Map]] | [[01 Courses/2026-2027/Semester 1/Analisi 1/01 Learning Memory|Memory]] | [[01 Courses/2026-2027/Semester 1/Analisi 1/02 Exam Book|Exam]] |
+| Analisi 1 | [[01 Courses/2026-2027/Semester 1/Analisi 1/00 Course Map/00 Course Map|Map]] | [[01 Courses/2026-2027/Semester 1/Analisi 1/01 Learning Memory/01 Learning Memory|Memory]] | [[01 Courses/2026-2027/Semester 1/Analisi 1/02 Exam Book/02 Exam Book|Exam]] |
 | Fondamenti di Informatica | [[01 Courses/2026-2027/Semester 1/Fondamenti di Informatica/00 Course Map|Map]] | [[01 Courses/2026-2027/Semester 1/Fondamenti di Informatica/01 Learning Memory|Memory]] | [[01 Courses/2026-2027/Semester 1/Fondamenti di Informatica/02 Exam Book|Exam]] |
 | Algebra Lineare | [[01 Courses/2026-2027/Semester 1/Algebra Lineare/00 Course Map|Map]] | [[01 Courses/2026-2027/Semester 1/Algebra Lineare/01 Learning Memory|Memory]] | [[01 Courses/2026-2027/Semester 1/Algebra Lineare/02 Exam Book|Exam]] |
 
