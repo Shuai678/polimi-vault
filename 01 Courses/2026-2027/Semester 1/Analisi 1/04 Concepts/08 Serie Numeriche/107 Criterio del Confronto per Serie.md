@@ -15,6 +15,51 @@ Per termini non negativi, sommare quantità più piccole di quelle di una serie 
 
 Il metodo serve quando esistono disuguaglianze semplici: funzioni limitate, denominatori da minorare o maggiorare e confronti con geometriche, armoniche e [[108 Serie Armoniche Generalizzate e di Bertrand|serie campione]].
 
+## Quattro criteri per serie a termini non negativi
+
+Questi quattro criteri permettono di studiare il carattere delle serie a termini non negativi. Le ipotesi sul segno devono valere almeno **definitivamente**; per il confronto asintotico e il rapporto si richiede la **positività stretta**.
+
+### 1. Confronto diretto
+
+Cerchi una disuguaglianza $0\leq a_n\leq b_n$, valida almeno definitivamente:
+
+- se $\sum b_n$ converge, converge anche $\sum a_n$;
+- se $\sum a_n$ diverge a $+\infty$, diverge a $+\infty$ anche $\sum b_n$.
+
+È il **principio di base**: può richiedere inventiva per trovare una maggiorazione o una minorazione utile. Non decide automaticamente ogni serie: occorre trovare un confronto adatto.
+
+### 2. Confronto asintotico
+
+Nel [[109 Criterio del Confronto Asintotico per Serie|confronto asintotico]] confronti $a_n$ con un termine più semplice $b_n$. Se sono definitivamente positivi e $a_n\sim b_n$, cioè
+
+$$
+\lim_{n\to+\infty}\frac{a_n}{b_n}=1,
+$$
+
+le due serie hanno **lo stesso carattere**. Si dimostra usando il confronto diretto.
+
+### 3. Criterio del rapporto
+
+Nel [[110 Criterio del Rapporto per Serie|criterio del rapporto]] calcoli, con termini definitivamente positivi,
+
+$$
+L=\lim_{n\to+\infty}\frac{a_{n+1}}{a_n}.
+$$
+
+È spesso comodo con **fattoriali e prodotti**. Il rapporto riguarda due termini consecutivi della stessa successione.
+
+### 4. Criterio della radice
+
+Nel [[111 Criterio della Radice per Serie|criterio della radice]] calcoli, con termini definitivamente non negativi,
+
+$$
+L=\lim_{n\to+\infty}\sqrt[n]{a_n}.
+$$
+
+È spesso comodo con **espressioni elevate alla $n$**.
+
+Per **rapporto e radice**, se il limite esiste, $L<1$ implica convergenza, $L>1$ implica divergenza a $+\infty$ e **$L=1$ non decide**. Entrambi si dimostrano mediante confronti con serie geometriche.
+
 ## Teorema
 
 Siano $a_n,b_n$ successioni reali tali che, definitivamente,

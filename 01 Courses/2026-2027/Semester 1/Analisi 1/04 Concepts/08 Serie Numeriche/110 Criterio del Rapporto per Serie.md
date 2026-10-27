@@ -4,7 +4,7 @@ type: concept
 status: Da studiare
 source:
   - Lezione 11, PDF pp. 14-15, 18
-  - Lezione 12, PDF pp. 2-6, dimostrazione del docente
+  - Lezione 12, PDF pp. 2-6, dimostrazione del docente e schema degli intorni a p. 2
   - Libro, §4.2.2, pp. 121-123; teorema 4.19 ed esempio 4.21
 ---
 
@@ -38,8 +38,17 @@ Il caso $\ell>1$ comprende $\ell=+\infty$. Per **$\ell=1$ il criterio è inconcl
 
 ## Dimostrazione del docente
 
-> [!note] Integrazione della Lezione 12 — Da studiare
+> [!note] Integrazione della Lezione 12
 > La prova di supporto già presente dal libro è ora completata con le scelte esplicite di $\varepsilon$ e i confronti geometrici svolti dal docente alle pp. 2-6 del PDF L12.
+
+![[110 Intorni del Limite nel Criterio del Rapporto.svg|1000]]
+
+Schema ricostruito dal disegno del docente a **p. 2 del PDF L12**. Il punto $1$ è la soglia; i due $\ell$ rappresentano **due casi distinti**:
+
+- **Rosso, $0\leq\ell<1$:** scegliamo $\varepsilon=(1-\ell)/2$, così l'estremo destro dell'intorno è $q=\ell+\varepsilon<1$.
+- **Blu, $1<\ell<+\infty$:** scegliamo $\varepsilon=(\ell-1)/2$, così l'estremo sinistro dell'intorno è $r=\ell-\varepsilon>1$.
+
+Per definizione di limite, da un certo indice il rapporto $a_{n+1}/a_n$ resta nell'intorno di $\ell$: quindi resta **sotto $q<1$** nel primo caso, **sopra $r>1$** nel secondo. Se $\ell=0$, l'intorno si estende anche a sinistra di $0$, ma il rapporto resta positivo per ipotesi.
 
 ### Caso $\ell<1$: costruire un maggiorante sommabile
 
@@ -64,7 +73,7 @@ $$
 \qquad C=\frac{a_{N_0}}{q^{N_0}}>0.
 $$
 
-La serie del maggiorante è un multiplo positivo di una geometrica di ragione $q\in(0,1)$, dunque converge. Il [[107 Criterio del Confronto per Serie]] dà la convergenza della coda e quindi della serie originale. Inoltre $Cq^n\to0$, perciò $a_n\to0$.
+La serie del maggiorante è un multiplo positivo di una geometrica di ragione $q\in(0,1)$, dunque converge. Il [[107 Criterio del Confronto per Serie|teorema del confronto per le serie]] dà la convergenza della coda e quindi della serie originale. Inoltre $Cq^n\to0$, perciò $a_n\to0$.
 
 ### Caso $1<\ell<+\infty$: un minorante geometrico crescente
 

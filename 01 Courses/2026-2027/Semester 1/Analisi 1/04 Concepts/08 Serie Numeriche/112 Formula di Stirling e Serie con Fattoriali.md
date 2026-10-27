@@ -37,7 +37,7 @@ Il grafico mostra il rapporto che tende a $1$; i valori numerici illustrano l'en
 
 > La formula di Stirling afferma che il fattoriale di n è asintoticamente equivalente alla radice quadrata di due pi greco n moltiplicata per n su e elevato a n. Il rapporto fra le due quantità tende a uno. Posso usarla per trovare equivalenti di termini con fattoriali, verificando poi le condizioni del criterio sulle serie.
 
-## Esercizio del PDF — Due metodi per la stessa serie
+## Esercizio — Due metodi per la stessa serie
 
 ### Testo
 
@@ -47,7 +47,7 @@ $$
 \sum_{n=1}^{+\infty}\frac{n!}{n^n}.
 $$
 
-I termini $a_n=n!/n^n$ sono positivi. Il loro limite zero era già noto dal Concept 91, ma da solo non decide la convergenza della serie.
+I termini $a_n=n!/n^n$ sono positivi. Dal [[91 Criterio del Rapporto per Successioni|criterio del rapporto per successioni]] si ricava che $a_n\to0$, ma questa condizione da sola non decide la convergenza della serie.
 
 ### Metodo 1 — Criterio del rapporto
 

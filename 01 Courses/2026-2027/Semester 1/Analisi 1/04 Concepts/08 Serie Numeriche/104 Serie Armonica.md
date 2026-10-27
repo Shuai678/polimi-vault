@@ -35,7 +35,7 @@ $$
 
 La serie è divergente positivamente, sebbene $1/n\to0$.
 
-## Strategia della dimostrazione del docente
+## Strategia della dimostrazione
 
 Confrontiamo $1/n$ con $\log(1+1/n)$. La somma finita di questi logaritmi è telescopica e vale $\log(N+1)$, che diverge. Il [[83 Teorema del confronto per successioni divergenti|confronto per successioni]] trasferisce la divergenza a $H_N$.
 

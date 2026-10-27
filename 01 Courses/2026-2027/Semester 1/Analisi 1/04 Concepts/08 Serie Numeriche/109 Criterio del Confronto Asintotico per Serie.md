@@ -33,7 +33,7 @@ convergono entrambe oppure divergono entrambe a $+\infty$. La positività assicu
 
 ## Strategia e dimostrazione completa
 
-Dalla definizione di limite, scegliendo la tolleranza $\varepsilon=1/2$, esiste $N_1$ tale che
+Dalla [[72 Limite Finito di una Successione|definizione di limite]], scegliendo la tolleranza $\varepsilon=1/2$, esiste $N_1$ tale che
 
 $$
 \frac12<\frac{a_n}{b_n}<\frac32\qquad(n\geq N_1).
@@ -113,7 +113,7 @@ $$
 
 Se $\alpha\leq1$, il termine non tende a zero: tende a $5/2$ oppure a $5$. La [[103 Condizione Necessaria di Convergenza di una Serie]] esclude la convergenza; la positività implica divergenza a $+\infty$.
 
-Se $\alpha>1$, confrontiamo con l'armonica generalizzata di esponente $p=\alpha-1$. Per il Concept 108, converge se $p>1$, cioè $\alpha>2$; diverge se $p\leq1$, cioè $1<\alpha\leq2$.
+Se $\alpha>1$, confrontiamo con la [[108 Serie Armoniche Generalizzate e di Bertrand|serie armonica generalizzata]] di esponente $p=\alpha-1$: converge se $p>1$, cioè $\alpha>2$; diverge se $p\leq1$, cioè $1<\alpha\leq2$.
 
 ### Risultato
 
@@ -132,11 +132,11 @@ Il passaggio $\alpha=1$ cambia il termine dominante del denominatore; la soglia 
 > [!info] Approfondimento dal libro
 > Il teorema 4.14, pp. 119-120, comprende il caso in cui $a_n/b_n\to c\in(0,+\infty)$. Esso si riconduce alla forma del docente: $a_n\sim cb_n$ e moltiplicare una serie per $c>0$ non ne cambia il carattere. Non si devono perdere i coefficienti nell'equivalenza; per decidere il carattere si può poi separare la costante positiva.
 
-## Concordanza di segno e ipotesi del criterio
+## Osservazione: Concordanza di segno e ipotesi del criterio
 
-Il PDF osserva che da $a_n\sim b_n$ segue che i due termini sono **concordi tra loro** definitivamente: il rapporto tende a $1>0$ ed è definitivamente positivo per [[79 Teorema di Permanenza del Segno]]. Questo non significa che il segno comune sia fisso: con $a_n=b_n=(-1)^n$ alterna a ogni indice.
+Da $a_n\sim b_n$ si deduce che i due termini sono **definitivamente concordi di segno**: il rapporto tende a $1>0$ e, per il [[79 Teorema di Permanenza del Segno|teorema di permanenza del segno]], è definitivamente positivo. Non si può però dedurre che il segno comune sia fisso: per esempio, con $a_n=b_n=(-1)^n$ il segno cambia a ogni indice.
 
-Per applicare il teorema di questa nota bisogna quindi controllare la positività definitiva, oltre all'equivalenza. La sola concordanza di segno non la sostituisce.
+Per applicare il criterio si deve quindi verificare, oltre all'equivalenza, la **positività definitiva**. La sola concordanza di segno non è sufficiente.
 
 ## Procedura ed errori comuni
 

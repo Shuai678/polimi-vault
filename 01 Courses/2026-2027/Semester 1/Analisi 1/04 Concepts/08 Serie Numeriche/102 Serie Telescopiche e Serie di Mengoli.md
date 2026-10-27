@@ -13,7 +13,7 @@ source:
 
 Una serie è **telescopica** quando il termine generale è una differenza di due termini consecutivi di una successione ausiliaria. Nelle somme parziali gli addendi intermedi si cancellano e restano soltanto i bordi.
 
-Nella notazione del professore,
+ Notazione:
 
 $$
 a_n=b_n-b_{n+1}.
