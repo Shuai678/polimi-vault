@@ -34,6 +34,7 @@ Dimostrazione del criterio del rapporto; serie con parametri; convergenza assolu
 
 Coperto **tutto il PDF**, inclusi dimostrazioni, esempi, osservazioni e risultato dell'ultimo esercizio. Nessun esercizio lasciato in sospeso.
 
+- Ordine interno verificato sul PDF il 27-10-2026: enunciati, osservazioni, esempi e casi seguono la sequenza del docente; le integrazioni didattiche sono separate e collocate dopo il passaggio pertinente. In particolare, il controesempio alla convergenza assoluta precede la prova; nell'esercizio parametrico si controlla prima la condizione necessaria.
 - La prova del rapporto e quella di assoluta implica semplice seguono il docente. La prova di Leibniz è indicata «NO DIM.» nel PDF: la nota aggiunge una prova didattica separata, senza attribuirla al docente o al libro.
 - Con ipotesi di Leibniz solo definitive, la stima del resto è garantita per indici sufficientemente grandi. Se le ipotesi valgono dall'inizio, vale per ogni indice.
 - Nell'esempio $\log n/n$ il docente anticipa l'uso della derivata; conservato il passaggio e aggiunta una verifica della monotonia con soli strumenti già trattati.
@@ -46,4 +47,4 @@ Tre SVG originali illustrano somme parziali di Leibniz, monotonia delle ampiezze
 
 Concept **113-118** e integrazioni di **99, 110 e 111**: **Da studiare**. La scrittura non certifica apprendimento. Ultimo contenuto dichiarato studiato: [[49 Determinazione dell'Argomento per Quadranti]]. Prossimo contenuto da studiare: [[50 Forma Esponenziale e Identità di Eulero]]. Nessuna nuova difficoltà personale rilevata durante la preparazione.
 
-Prossima preparazione: dopo il Concept 118, dal primo argomento nuovo del successivo PDF del docente; non anticipato dal libro. Per il ripasso della teoria del primo parziale, [[03 Formulario]] e [[02 Exam Book]].
+Prossima preparazione: dopo il Concept 118, dal primo argomento nuovo del successivo PDF del docente; non anticipato dal libro. Per il ripasso della teoria del primo parziale, [[00 Indice Formulario]] e [[02 Exam Book]].

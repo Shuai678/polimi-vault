@@ -55,9 +55,72 @@ $$
 
 L'errore relativo fra le ampiezze tende a zero, ma dopo la moltiplicazione per $(-1)^n$ produce il contributo positivo $1/n$, la cui serie diverge. La manipolazione è giustificata prima sulle somme finite e poi attraverso i loro limiti.
 
-### Perché $a_n$ non è definitivamente non crescente
+### Perché $a_n$ non è monotona — PDF p. 21
 
-La divergenza appena provata, insieme ad $a_n\geq0$ e $a_n\to0$, mostra già che l'ipotesi di monotonia di Leibniz deve fallire. Possiamo anche verificarlo direttamente.
+La divergenza appena provata mostra che $a_n$ non può essere definitivamente decrescente: insieme a $a_n\geq0$ e $a_n\to0$, questa ipotesi darebbe convergenza per Leibniz. Non può essere nemmeno definitivamente crescente, perché è positiva nella coda e tende a zero: fissato un suo termine positivo, i successivi non potrebbero essergli inferiori. Questo conclude l'argomento del docente.
+
+## Esempio del docente — $\sum(-1)^n\log n/n$
+
+### Testo e idea
+
+Studiare
+
+$$
+\sum_{n=1}^{+\infty}(-1)^n\frac{\log n}{n}.
+$$
+
+L'ampiezza è $a_n=\log n/n\geq0$, con $a_1=0$. Per la [[85 Gerarchia degli Infiniti|gerarchia]], $a_n\to0$. Serve ancora controllare la monotonia nella coda.
+
+### Serie dei moduli — PDF p. 22
+
+La serie dei moduli è $\sum\log n/n$. Per $n\geq4$, $\log n\geq1$, quindi
+
+$$
+\frac{\log n}{n}\geq\frac1n.
+$$
+
+La serie dei moduli diverge per confronto con l'armonica.
+
+### La verifica del docente mediante una funzione
+
+Il PDF considera $f(x)=\log x/x$ e calcola
+
+$$
+f'(x)=\frac{1-\log x}{x^2}.
+$$
+
+Per $x\geq e$, $f'(x)\leq0$, quindi $f$ è non crescente; in particolare $a_n=f(n)$ è decrescente per $n\geq3$.
+
+> [!note] Anticipazione presente nel PDF
+> Qui il docente usa derivata e legame fra segno della derivata e monotonia prima della trattazione sistematica. Il calcolo è conservato come nell'esempio, senza introdurre un nuovo capitolo sulle derivate. La verifica senza derivate è riportata più avanti, fra le integrazioni didattiche.
+
+### Conclusione e osservazione — PDF pp. 23-24
+
+La serie originaria converge per Leibniz, ma **solo semplicemente**.
+
+![[116 Monotonia delle Ampiezze nelle Serie Alternate.svg|900]]
+
+A sinistra, $a_n\sim b_n$ ma l'ampiezza $a_n$ non è monotona. A destra, l'ampiezza $\log n/n$ dell'esempio appena svolto è invece decrescente nella coda. L'equivalenza non sostituisce questa verifica.
+
+Non si può scrivere $\log n/n\sim1/n$: il rapporto fra queste due successioni è $\log n\to+\infty$. Avere lo stesso limite zero non significa essere equivalenti.
+
+## Integrazioni didattiche — Da studiare
+
+Questi approfondimenti seguono l'esempio completo del docente.
+
+### Verifica alternativa senza derivate
+
+Per $n\geq1$, moltiplicando per i denominatori positivi,
+
+$$
+\frac{\log(n+1)}{n+1}\leq\frac{\log n}{n}
+\iff n\log(n+1)\leq(n+1)\log n
+\iff n\log\left(1+\frac1n\right)\leq\log n.
+$$
+
+Dal Concept [[104 Serie Armonica|104]] sappiamo che $\log(1+1/n)\leq1/n$, dunque il membro sinistro è al più $1$. Per $n\geq4$ abbiamo $\log n\geq1$, usando la stima $e\leq4$ già ottenuta in [[90 Numero di Nepero e Limiti di Tipo Esponenziale]]. Pertanto $a_{n+1}\leq a_n$ almeno da $n=4$ in poi. È sufficiente: Leibniz richiede monotonia **definitiva**.
+
+### Verifica diretta della non monotonia nel controesempio
 
 Per $n$ dispari,
 
@@ -77,60 +140,9 @@ $$
 
 La successione alterna aumenti e diminuzioni, anche arbitrariamente avanti.
 
-![[116 Monotonia delle Ampiezze nelle Serie Alternate.svg|900]]
-
-A sinistra, $a_n\sim b_n$ ma l'ampiezza $a_n$ non è monotona. A destra, l'ampiezza del prossimo esempio è invece decrescente nella coda. L'equivalenza non sostituisce questa verifica.
-
-## Esempio del docente — $\sum(-1)^n\log n/n$
-
-### Testo e idea
-
-Studiare
-
-$$
-\sum_{n=1}^{+\infty}(-1)^n\frac{\log n}{n}.
-$$
-
-L'ampiezza è $a_n=\log n/n\geq0$, con $a_1=0$. Per la [[85 Gerarchia degli Infiniti|gerarchia]], $a_n\to0$. Serve ancora controllare la monotonia nella coda.
-
-### La verifica del docente mediante una funzione
-
-Il PDF considera $f(x)=\log x/x$ e calcola
-
-$$
-f'(x)=\frac{1-\log x}{x^2}.
-$$
-
-Per $x\geq e$, $f'(x)\leq0$, quindi $f$ è non crescente; in particolare $a_n=f(n)$ è decrescente per $n\geq3$.
-
-> [!note] Anticipazione presente nel PDF
-> Qui il docente usa derivata e legame fra segno della derivata e monotonia prima della trattazione sistematica. Il calcolo è conservato come nell'esempio, senza introdurre un nuovo capitolo sulle derivate. La verifica seguente permette di chiudere l'esercizio con gli strumenti sulle successioni già disponibili.
-
-### Verifica alternativa senza derivate
-
-Per $n\geq1$, moltiplicando per i denominatori positivi,
-
-$$
-\frac{\log(n+1)}{n+1}\leq\frac{\log n}{n}
-\iff n\log(n+1)\leq(n+1)\log n
-\iff n\log\left(1+\frac1n\right)\leq\log n.
-$$
-
-Dal Concept [[104 Serie Armonica|104]] sappiamo che $\log(1+1/n)\leq1/n$, dunque il membro sinistro è al più $1$. Per $n\geq4$ abbiamo $\log n\geq1$, usando la stima $e\leq4$ già ottenuta in [[90 Numero di Nepero e Limiti di Tipo Esponenziale]]. Pertanto $a_{n+1}\leq a_n$ almeno da $n=4$ in poi. È sufficiente: Leibniz richiede monotonia **definitiva**.
-
-### Convergenza assoluta e risultato
-
-La serie dei moduli è $\sum\log n/n$. Per $n\geq4$, $\log n\geq1$, quindi
-
-$$
-\frac{\log n}{n}\geq\frac1n.
-$$
-
-La serie dei moduli diverge per confronto con l'armonica. La serie originaria converge per Leibniz, ma **solo semplicemente**.
-
-Non si può scrivere $\log n/n\sim1/n$: il rapporto fra queste due successioni è $\log n\to+\infty$. Avere lo stesso limite zero non significa essere equivalenti.
-
 ## Metodo per gli esercizi
+
+Per il percorso generale di studio, vedi [[07 Serie Numeriche#Come studiare una serie — Schema operativo|Come studiare una serie — Schema operativo]].
 
 Per una serie $\sum(-1)^n a_n$, identificare l'ampiezza, verificare il suo limite zero e dimostrarne la monotonia nella coda. Per la monotonia si può studiare $a_{n+1}-a_n$, confrontare $a_{n+1}/a_n$ con $1$ quando $a_n>0$, oppure usare una funzione associata con un criterio già giustificato. La sola equivalenza con un'ampiezza monotona non basta.
 

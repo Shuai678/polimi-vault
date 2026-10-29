@@ -56,6 +56,47 @@ Leibniz può provare convergenza anche quando la [[114 Convergenza Assoluta e Se
 
 Il grafico usa $a_n=2^{-n}$. La somma è $S=2/3$ per la [[100 Serie Geometrica e Rappresentazioni Decimali|geometrica]] di ragione $-1/2$. Le somme parziali pari arrivano dall'alto e quelle dispari dal basso.
 
+## Esempio del docente — Armoniche generalizzate alternate
+
+### Testo
+
+Discutere, per $\alpha\in\mathbb R$,
+
+$$
+\sum_{n=1}^{+\infty}\frac{(-1)^n}{n^\alpha}.
+$$
+
+### Svolgimento nell'ordine del docente — PDF pp. 17-19
+
+L'ampiezza $a_n=1/n^\alpha$ è positiva per ogni $n\geq1$. Si controlla prima il limite:
+
+$$
+\lim_{n\to+\infty}\frac1{n^\alpha}
+=\begin{cases}
+0,&\alpha>0,\\
+1,&\alpha=0,\\
++\infty,&\alpha<0.
+\end{cases}
+$$
+
+Per $\alpha\leq0$ la condizione necessaria non è soddisfatta e la serie non converge; il docente precisa che è indeterminata, cioè irregolare.
+
+Per $\alpha>0$ si verifica poi la monotonia:
+
+$$
+a_{n+1}=\frac1{(n+1)^\alpha}<\frac1{n^\alpha}=a_n.
+$$
+
+Leibniz dà quindi la convergenza semplice per ogni $\alpha>0$.
+
+Solo dopo si studia la convergenza assoluta: la serie dei moduli è $\sum1/n^\alpha$, che converge se e solo se $\alpha>1$.
+
+| Valore di $\alpha$ | Risultato |
+|---|---|
+| $\alpha\leq0$ | Serie irregolare |
+| $0<\alpha\leq1$ | Convergenza solo semplice |
+| $\alpha>1$ | Convergenza assoluta, quindi semplice |
+
 ## Dimostrazione di supporto
 
 > [!info] Integrazione didattica — Da studiare
@@ -107,27 +148,9 @@ $$
 
 quindi $0\leq R_N\leq S_{N+1}-S_N=a_{N+1}$. Nei due casi $|R_N|\leq a_{N+1}$, con il segno del primo termine escluso.
 
-## Esempio del docente — Armoniche generalizzate alternate
+### Integrazione: irregolarità per $\alpha\leq0$
 
-### Testo
-
-Discutere, per $\alpha\in\mathbb R$,
-
-$$
-\sum_{n=1}^{+\infty}\frac{(-1)^n}{n^\alpha}.
-$$
-
-### Svolgimento e classificazione
-
-Per $\alpha>0$, l'ampiezza $a_n=1/n^\alpha$ è positiva, non crescente e tende a zero. Leibniz prova la convergenza semplice. La serie dei moduli $\sum1/n^\alpha$ converge solo per $\alpha>1$.
-
-| Valore di $\alpha$ | Risultato |
-|---|---|
-| $\alpha>1$ | Convergenza assoluta, quindi semplice |
-| $0<\alpha\leq1$ | Convergenza solo semplice |
-| $\alpha\leq0$ | Serie irregolare |
-
-Per l'ultima riga non basta dire “Leibniz non si applica”: occorre studiare le somme parziali. Se $\alpha=0$, esse alternano fra $0$ e $-1$. Se $\alpha<0$, poniamo $p=-\alpha>0$. Le ampiezze $n^p$ crescono e non tendono a zero. Inoltre
+Per giustificare anche l'irregolarità indicata dal docente quando $\alpha\leq0$, esaminiamo le somme parziali. Se $\alpha=0$, esse alternano fra $0$ e $-1$. Se $\alpha<0$, poniamo $p=-\alpha>0$. Le ampiezze $n^p$ crescono e non tendono a zero. Inoltre
 
 $$
 S_{2k}=\sum_{j=1}^{k}\bigl[(2j)^p-(2j-1)^p\bigr]\geq0,

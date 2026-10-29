@@ -34,7 +34,20 @@ La serie diventa $\sum q^n/n$. I valori di frontiera $q=-1,0,1$ corrispondono ri
 
 ## Svolgimento passo per passo
 
-### 1. $|q|<1$: convergenza assoluta
+> [!note] Ordine del PDF, pp. 24-27
+> Prima si escludono i parametri per cui il termine non tende a zero; poi si studiano i moduli e infine i due estremi.
+
+### 1. $q>1$, ossia $\alpha>3$
+
+La [[85 Gerarchia degli Infiniti|crescita esponenziale prevale su quella polinomiale]], perciò $q^n/n\to+\infty$. Il termine non tende a zero e la serie non converge. Essendo a termini positivi, diverge a $+\infty$.
+
+### 2. $q<-1$, ossia $\alpha<-1$
+
+Scriviamo $q=-r$, con $r>1$. Il termine è $(-1)^n c_n$, dove $c_n=r^n/n\to+\infty$. La condizione necessaria esclude la convergenza finita.
+
+Il docente conclude che la serie è **irregolare**. La verifica tramite somme parziali è raccolta dopo la classificazione, fra le integrazioni didattiche.
+
+### 3. $|q|<1$: convergenza assoluta
 
 Per $q\neq0$, la serie dei moduli è $\sum|q|^n/n$ e
 
@@ -51,21 +64,33 @@ $$
 \iff -1<\alpha<3.
 $$
 
-### 2. $q=1$, ossia $\alpha=3$
+### 4. $q=1$, ossia $\alpha=3$
 
 La serie è $\sum1/n$: diverge a $+\infty$.
 
-### 3. $q=-1$, ossia $\alpha=-1$
+### 5. $q=-1$, ossia $\alpha=-1$
 
 La serie è $\sum(-1)^n/n$: converge per Leibniz. La serie dei moduli è armonica, quindi la convergenza è **solo semplice**.
 
-### 4. $q>1$, ossia $\alpha>3$
+## Risultato
 
-La [[85 Gerarchia degli Infiniti|crescita esponenziale prevale su quella polinomiale]], perciò $q^n/n\to+\infty$. Il termine non tende a zero e la serie non converge. Essendo a termini positivi, diverge a $+\infty$.
+| Valore di $\alpha$ | Carattere |
+|---|---|
+| $\alpha\geq3$ | Divergente a $+\infty$ |
+| $-1<\alpha<3$ | Assolutamente convergente; per $\alpha=1$ è la serie nulla |
+| $\alpha=-1$ | Convergente solo semplicemente |
+| $\alpha<-1$ | Irregolare |
 
-### 5. $q<-1$, ossia $\alpha<-1$
+![[117 Classificazione Parametrica della Serie.svg|900]]
 
-Scriviamo $q=-r$, con $r>1$. Il termine è $(-1)^n c_n$, dove $c_n=r^n/n\to+\infty$. La condizione necessaria esclude la convergenza finita.
+L'estremo $\alpha=-1$ appartiene all'insieme di convergenza semplice ma non a quello di convergenza assoluta. L'estremo $\alpha=3$ non appartiene a nessuno dei due.
+
+## Integrazione didattica — Irregolarità per $q<-1$
+
+> [!info] Approfondimento — Da studiare
+> Il PDF indica l'irregolarità; la seguente verifica la giustifica attraverso le somme parziali ed è aggiunta dopo lo svolgimento completo del docente.
+
+Nel caso $q=-r<-1$ usiamo le ampiezze $c_n=r^n/n$ già definite.
 
 Per distinguere divergenza e irregolarità, esaminiamo le somme parziali. Siccome
 
@@ -85,26 +110,13 @@ $$
 
 Le somme parziali pari sono definitivamente limitate inferiormente dal loro valore iniziale nella coda: l'intera successione non può tendere a $-\infty$. Quelle dispari sono definitivamente limitate superiormente: l'intera successione non può tendere a $+\infty$. Poiché è già escluso un limite finito, la serie è **irregolare**.
 
-## Risultato
-
-| Valore di $\alpha$ | Carattere |
-|---|---|
-| $\alpha<-1$ | Irregolare |
-| $\alpha=-1$ | Convergente solo semplicemente |
-| $-1<\alpha<3$ | Assolutamente convergente; per $\alpha=1$ è la serie nulla |
-| $\alpha\geq3$ | Divergente a $+\infty$ |
-
-![[117 Classificazione Parametrica della Serie.svg|900]]
-
-L'estremo $\alpha=-1$ appartiene all'insieme di convergenza semplice ma non a quello di convergenza assoluta. L'estremo $\alpha=3$ non appartiene a nessuno dei due.
-
 ## Procedura generalizzabile
 
 1. Raccogliere la dipendenza esponenziale in una base $q(\alpha)$.
-2. Individuare separatamente $q<-1$, $q=-1$, $-1<q<0$, $q=0$, $0<q<1$, $q=1$, $q>1$; unire poi i casi con la stessa conclusione.
-3. Studiare la serie dei moduli negli intervalli interni.
-4. Sostituire esattamente i parametri di frontiera nella formula originaria.
-5. Fuori dalla regione di convergenza, distinguere divergenza positiva e irregolarità usando segni e somme parziali.
+2. Controllare il limite del termine: escludere $q>1$ e $q<-1$, distinguendo divergenza positiva e irregolarità.
+3. Studiare la serie dei moduli per $-1\leq q\leq1$; trattare $q=0$ direttamente e ottenere convergenza assoluta per $|q|<1$.
+4. Sostituire esattamente i valori di frontiera: prima $q=1$, poi $q=-1$, come nel PDF.
+5. Raccogliere i risultati nella classificazione finale.
 
 ## Errori comuni
 
@@ -114,4 +126,4 @@ Non occorre calcolare la somma della serie per determinarne il carattere. Qui i 
 
 ### Da dire all'orale
 
-> Riducendo la base a q uguale ad alfa meno uno diviso due, ottengo convergenza assoluta per modulo di q minore di uno. Alla frontiera q uguale a meno uno resta l'armonica alternata, solo semplicemente convergente; a q uguale a uno resta l'armonica divergente. Per q maggiore di uno la divergenza è positiva, mentre per q minore di meno uno la serie è irregolare.
+> Riducendo la base a q uguale ad alfa meno uno diviso due, controllo prima la condizione necessaria: per q maggiore di uno la serie diverge positivamente, per q minore di meno uno è irregolare. Studio poi i moduli e ottengo convergenza assoluta per modulo di q minore di uno. Restano gli estremi: a q uguale a uno la serie armonica diverge, a q uguale a meno uno l'armonica alternata converge solo semplicemente.

@@ -14,22 +14,27 @@ source:
 
 Per una serie a segno variabile i termini positivi e negativi possono compensarsi. Studiare la serie dei valori assoluti elimina queste compensazioni e consente di usare i criteri per [[106 Serie a Termini Positivi|serie non negative]]. Se persino la somma delle grandezze dei termini resta finita, converge anche la serie originaria.
 
-La convergenza definita attraverso le [[99 Serie Numeriche e Somme Parziali|somme parziali]] viene ora chiamata anche **convergenza semplice**. L'aggettivo “semplice” da solo non esclude quella assoluta.
-
 ## Definizioni formali e notazione
 
 Sia $(a_n)$ una successione reale, con indice iniziale $n_0$.
 
-- $\sum_{n=n_0}^{+\infty}a_n$ **converge semplicemente** se $S_N=\sum_{n=n_0}^{N}a_n$ ha limite finito $S\in\mathbb R$.
 - La serie **converge assolutamente** se converge la serie dei moduli:
 
 $$
 \boxed{\sum_{n=n_0}^{+\infty}|a_n|<+\infty.}
 $$
 
+La convergenza definita attraverso le [[99 Serie Numeriche e Somme Parziali|somme parziali]] viene ora chiamata anche **convergenza semplice**. L'aggettivo “semplice” da solo non esclude quella assoluta.
+
+- $\sum_{n=n_0}^{+\infty}a_n$ **converge semplicemente** se $S_N=\sum_{n=n_0}^{N}a_n$ ha limite finito $S\in\mathbb R$.
+
 - Una serie convergente semplicemente ma non assolutamente si dice **convergente solo semplicemente**, o **condizionatamente convergente**.
 
 La serie dei moduli ha termini non negativi: o converge o diverge a $+\infty$. Non può essere irregolare. “Non converge assolutamente” non significa quindi che la serie originaria non converga: significa che $\sum|a_n|=+\infty$.
+
+### Osservazione sui termini non negativi — PDF p. 12
+
+Se tutti i termini sono non negativi, invece, $|a_n|=a_n$: convergenza semplice e assoluta coincidono. Anche se la non negatività vale solo definitivamente, il carattere coincide, perché un numero finito di termini non influenza la convergenza.
 
 ### Da dire all'orale — Definizione
 
@@ -50,6 +55,19 @@ $$
 
 > [!info] Riferimento d'esame — D14
 > La dimostrazione «La convergenza assoluta implica la convergenza semplice di una serie» è la D14 nell'elenco del [[AM1-regolamento26-27.pdf|regolamento ufficiale]], p. 2. La prova seguente segue il docente, pp. 13-15 del PDF L12; il libro la presenta nel teorema 4.27. Materiale ancora **Da studiare**.
+
+## Il viceversa è falso
+
+Per $0<\alpha\leq1$, la serie
+
+$$
+\sum_{n=1}^{+\infty}\frac{(-1)^n}{n^\alpha}
+$$
+
+converge per [[115 Serie Alternate e Criterio di Leibniz|Leibniz]], mentre la serie dei moduli $\sum1/n^\alpha$ diverge. Il caso $\alpha=1$ è l'armonica alternata. Le compensazioni rendono possibile una somma finita pur con serie dei moduli infinita.
+
+> [!note] Ordine del docente
+> Questo controesempio precede la dimostrazione del teorema nel PDF. Il professore richiama Leibniz anticipando che verrà presentato in seguito; la sua trattazione resta nel Concept 115.
 
 ## Strategia della dimostrazione
 
@@ -101,6 +119,20 @@ $$
 
 Passando al limite nella disuguaglianza otteniamo $|S|\leq Q$, cioè la stima del teorema.
 
+**Passaggio diretto del professore.** Usando direttamente la continuità del valore assoluto e la [[79 Teorema di Permanenza del Segno|permanenza del segno]], da $|S_N|\leq Q_N$ per ogni $N$ otteniamo
+
+$$
+|S|=\lim_{N\to+\infty}|S_N|
+\leq\lim_{N\to+\infty}Q_N=Q,
+$$
+
+ossia
+
+$$
+\left|\sum_{n=n_0}^{+\infty}a_n\right|
+\leq\sum_{n=n_0}^{+\infty}|a_n|.
+$$
+
 ## Esempi del docente
 
 ### Esempio 1 — $\sum_{n=1}^{+\infty}\sin n/n^{3/2}$
@@ -117,18 +149,6 @@ La serie maggiore è un'[[108 Serie Armoniche Generalizzate e di Bertrand|armoni
 ### Esempio 2 — $\sum_{n=1}^{+\infty}(-1)^n/n^{3/2}$
 
 Qui il modulo è esattamente $1/n^{3/2}$. La serie converge assolutamente per lo stesso criterio. Leibniz sarebbe applicabile, ma la convergenza assoluta dà già una conclusione più forte.
-
-## Il viceversa è falso
-
-Per $0<\alpha\leq1$, la serie
-
-$$
-\sum_{n=1}^{+\infty}\frac{(-1)^n}{n^\alpha}
-$$
-
-converge per [[115 Serie Alternate e Criterio di Leibniz|Leibniz]], mentre la serie dei moduli $\sum1/n^\alpha$ diverge. Il caso $\alpha=1$ è l'armonica alternata. Le compensazioni rendono possibile una somma finita pur con serie dei moduli infinita.
-
-Se tutti i termini sono non negativi, invece, $|a_n|=a_n$: convergenza semplice e assoluta coincidono. Anche se la non negatività vale solo definitivamente, il carattere coincide, perché un numero finito di termini non influenza la convergenza.
 
 ## Uso negli esercizi ed errori comuni
 

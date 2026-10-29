@@ -97,11 +97,53 @@ $$
 0\leq S_N\leq\sigma_N\qquad\text{per ogni }N.
 $$
 
-Entrambe le successioni sono crescenti per [[106 Serie a Termini Positivi]].
+Entrambe le successioni sono crescenti per [[106 Serie a Termini Positivi]]. Per il [[76 Teorema del Limite delle Successioni Monotone]] esistono quindi i limiti
 
-**Divergenza della minore.** Se $S_N\to+\infty$, da $\sigma_N\geq S_N$ e dal [[83 Teorema del confronto per successioni divergenti]] segue $\sigma_N\to+\infty$.
+$$
+S=\lim_{N\to\infty}S_N,\qquad
+\sigma=\lim_{N\to\infty}\sigma_N,
+\qquad S,\sigma\in\mathbb R\cup\{+\infty\}.
+$$
 
-**Convergenza della maggiore.** Se $\sigma_N\to\sigma\in\mathbb R$, la crescita implica $\sigma_N\leq\sigma$. Pertanto $S_N\leq\sigma$ per ogni $N$: $(S_N)$ è crescente e limitata superiormente, quindi converge a un numero reale. La serie minore converge.
+**1. Divergenza della minore.** Se $\sum_{n=1}^{\infty}a_n$ diverge, allora
+
+$$
+S=\sum_{n=1}^{\infty}a_n=\lim_{N\to\infty}S_N=+\infty.
+$$
+
+Poiché $\sigma_N\geq S_N$ per ogni $N\geq1$, per il [[83 Teorema del confronto per successioni divergenti]] segue
+
+$$
+\sum_{n=1}^{\infty}b_n=\lim_{N\to\infty}\sigma_N=\sigma=+\infty.
+$$
+
+Quindi anche la serie maggiore diverge a $+\infty$.
+
+**2. Convergenza della maggiore.** Se $\sum_{n=1}^{\infty}b_n$ converge, allora
+
+$$
+\sum_{n=1}^{\infty}b_n=\lim_{N\to\infty}\sigma_N=\sigma\in\mathbb R.
+$$
+
+Essendo $(\sigma_N)$ crescente,
+
+$$
+\sigma=\sup_{N\geq1}\sigma_N\geq\sigma_N.
+$$
+
+Pertanto, per ogni $N\geq1$,
+
+$$
+0\leq S_N\leq\sigma_N\leq\sigma\in\mathbb R.
+$$
+
+La successione $(S_N)$ è dunque crescente e limitata superiormente, quindi converge a un numero reale:
+
+$$
+\sum_{n=1}^{\infty}a_n=\lim_{N\to\infty}S_N=S\in\mathbb R.
+$$
+
+La serie minore converge.
 
 ## Confronto fra le somme: attenzione ai primi termini
 

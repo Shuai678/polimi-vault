@@ -30,7 +30,7 @@ I termini abbastanza avanzati stanno vicino al limite, quindi dentro un interval
 Supponiamo che la successione inizi dall'indice $n_0$. Poiché $\ell=\lim_{n\to\infty}a_n$ esiste ed è finito, dalla **definizione di convergenza** segue che
 
 $$
-\forall\varepsilon>0\;\exists N\in\mathbb N,\ N\geq n_0:\quad
+\forall\varepsilon>0\;\exists N\in\mathbb N:\quad
 \forall n\geq N,\quad \ell-\varepsilon<a_n<\ell+\varepsilon.
 $$
 
@@ -42,7 +42,7 @@ $$
 
 In parole semplici: scelta una precisione $\varepsilon>0$, esiste un indice $N$ dopo il quale **tutti i termini** distano da $\ell$ meno di $\varepsilon$. L'indice $N$ può dipendere dalla precisione scelta.
 
-Scegliendo in particolare $\varepsilon=1$, esiste quindi $N\geq n_0$ tale che
+Scegliendo in particolare $\varepsilon=1$, esiste quindi un indice $N\in\mathbb N$ tale che
 
 $$
 \ell-1<a_n<\ell+1\qquad\text{per ogni }n\geq N.

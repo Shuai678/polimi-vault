@@ -1,12 +1,14 @@
 ---
 course: Analisi 1
 type: formula-sheet
-updated: 2026-10-24
+updated: 2026-10-29
+cssclasses:
+  - formulario
 ---
 
 # Formulario unico dei limiti
 
-[[03 Formulario|Indice del formulario]] · [[05 Successioni e Limiti|Teoria delle successioni]] · [[06 Equivalenti e Limiti Notevoli|Equivalenti e limiti notevoli]]
+[[00 Indice Formulario|Indice del formulario]] · [[05 Successioni e Limiti|Teoria delle successioni]] · [[06 Equivalenti e Limiti Notevoli|Equivalenti e limiti notevoli]]
 
 Tabella di ripasso dei principali limiti di successioni, compresi quelli delle funzioni goniometriche inverse. In tutta la nota si suppone:
 
@@ -18,56 +20,95 @@ Il simbolo $\log$ indica il **logaritmo naturale** e gli angoli sono in **radian
 
 ## Tabella dei limiti
 
-| Categoria | Successione | Limite |
-| --- | --- | --- |
-| Trigonometriche inverse | $\arctan n$ | $\dfrac{\pi}{2}$ |
-| | $\arctan(-n)$ | $-\dfrac{\pi}{2}$ |
-| | $\arctan\dfrac1n$ | $0$ |
-| | $\arcsin\dfrac1n$ | $0$ |
-| | $\arcsin\dfrac2n$ | $0$ |
-| | $\arccos\dfrac1n$ | $\dfrac{\pi}{2}$ |
-| | $\arccos\dfrac2n$ | $\dfrac{\pi}{2}$ |
-| Trigonometriche | $\sin n$ | Non esiste |
-| | $\cos n$ | Non esiste |
-| | $\tan n$ | Non esiste |
-| | $\sin\dfrac1n$ | $0$ |
-| | $\cos\dfrac1n$ | $1$ |
-| | $\tan\dfrac1n$ | $0$ |
-| | $\dfrac{\sin n}{n}$ | $0$ |
-| | $\dfrac{\cos n}{n}$ | $0$ |
-| Logaritmi | $\log n$ | $+\infty$ |
-| | $\log\dfrac1n$ | $-\infty$ |
-| | $\log\!\left(1+\dfrac1n\right)$ | $0$ |
-| | $\log(n+1)-\log n$ | $0$ |
-| | $\dfrac{\log n}{n}$ | $0$ |
-| | $\dfrac{\log n}{\sqrt n}$ | $0$ |
-| | $\dfrac{n}{\log n}$ | $+\infty$ |
-| Esponenziali | $e^n$ | $+\infty$ |
-| | $e^{-n}$ | $0$ |
-| | $ne^{-n}$ | $0$ |
-| | $\dfrac{n^2}{e^n}$ | $0$ |
-| | $e^{1/n}$ | $1$ |
-| Limiti notevoli | $n\sin\dfrac1n$ | $1$ |
-| | $n\tan\dfrac1n$ | $1$ |
-| | $n\arctan\dfrac1n$ | $1$ |
-| | $n\arcsin\dfrac1n$ | $1$ |
-| | $n\log\!\left(1+\dfrac1n\right)$ | $1$ |
-| | $n\left(e^{1/n}-1\right)$ | $1$ |
-| | $n^2\left(1-\cos\dfrac1n\right)$ | $\dfrac12$ |
-| | $\left(1+\dfrac1n\right)^n$ | $e$ |
-| | $\left(1+\dfrac an\right)^n$, $a\in\mathbb R$ fissato | $e^a$ |
-| Potenze e radici | $n^{1/n}$ | $1$ |
-| | $a^{1/n}$, $a>0$ fissato | $1$ |
-| | $\dfrac{n+1}{n}$ | $1$ |
-| | $\sqrt{n^2+1}-n$ | $0$ |
-| | $\sqrt{n^2+2n}-n$ | $1$ |
-| | $\dfrac{n!}{n^n}$ | $0$ |
-| | $\dfrac{2^n}{n!}$ | $0$ |
-| Successioni oscillanti | $(-1)^n$ | Non esiste |
-| | $(-2)^n$ | Non esiste |
-| | $\dfrac{(-1)^n}{n}$ | $0$ |
-| Arcotangente avanzata | $\dfrac\pi2-\arctan n$ | $0$ |
-| | $n\left(\dfrac\pi2-\arctan n\right)$ | $1$ |
+**Categorie:** [[#Trigonometriche inverse|Trigonometriche inverse]] · [[#Trigonometriche|Trigonometriche]] · [[#Logaritmi|Logaritmi]] · [[#Esponenziali|Esponenziali]] · [[#Limiti notevoli|Limiti notevoli]] · [[#Potenze e radici|Potenze e radici]] · [[#Successioni oscillanti|Successioni oscillanti]] · [[#Arcotangente avanzata|Arcotangente avanzata]]
+
+### Trigonometriche inverse
+
+| Successione | Limite |
+| --- | :---: |
+| $\arctan n$ | $\dfrac{\pi}{2}$ |
+| $\arctan(-n)$ | $-\dfrac{\pi}{2}$ |
+| $\arctan\dfrac1n$ | $0$ |
+| $\arcsin\dfrac1n$ | $0$ |
+| $\arcsin\dfrac2n$ | $0$ |
+| $\arccos\dfrac1n$ | $\dfrac{\pi}{2}$ |
+| $\arccos\dfrac2n$ | $\dfrac{\pi}{2}$ |
+
+### Trigonometriche
+
+| Successione | Limite |
+| --- | :---: |
+| $\sin n$ | Non esiste |
+| $\cos n$ | Non esiste |
+| $\tan n$ | Non esiste |
+| $\sin\dfrac1n$ | $0$ |
+| $\cos\dfrac1n$ | $1$ |
+| $\tan\dfrac1n$ | $0$ |
+| $\dfrac{\sin n}{n}$ | $0$ |
+| $\dfrac{\cos n}{n}$ | $0$ |
+
+### Logaritmi
+
+| Successione | Limite |
+| --- | :---: |
+| $\log n$ | $+\infty$ |
+| $\log\dfrac1n$ | $-\infty$ |
+| $\log\!\left(1+\dfrac1n\right)$ | $0$ |
+| $\log(n+1)-\log n$ | $0$ |
+| $\dfrac{\log n}{n}$ | $0$ |
+| $\dfrac{\log n}{\sqrt n}$ | $0$ |
+| $\dfrac{n}{\log n}$ | $+\infty$ |
+
+### Esponenziali
+
+| Successione | Limite |
+| --- | :---: |
+| $e^n$ | $+\infty$ |
+| $e^{-n}$ | $0$ |
+| $ne^{-n}$ | $0$ |
+| $\dfrac{n^2}{e^n}$ | $0$ |
+| $e^{1/n}$ | $1$ |
+
+### Limiti notevoli
+
+| Successione | Limite |
+| --- | :---: |
+| $n\sin\dfrac1n$ | $1$ |
+| $n\tan\dfrac1n$ | $1$ |
+| $n\arctan\dfrac1n$ | $1$ |
+| $n\arcsin\dfrac1n$ | $1$ |
+| $n\log\!\left(1+\dfrac1n\right)$ | $1$ |
+| $n\left(e^{1/n}-1\right)$ | $1$ |
+| $n^2\left(1-\cos\dfrac1n\right)$ | $\dfrac12$ |
+| $\left(1+\dfrac1n\right)^n$ | $e$ |
+| $\left(1+\dfrac an\right)^n$, $a\in\mathbb R$ fissato | $e^a$ |
+
+### Potenze e radici
+
+| Successione | Limite |
+| --- | :---: |
+| $n^{1/n}$ | $1$ |
+| $a^{1/n}$, $a>0$ fissato | $1$ |
+| $\dfrac{n+1}{n}$ | $1$ |
+| $\sqrt{n^2+1}-n$ | $0$ |
+| $\sqrt{n^2+2n}-n$ | $1$ |
+| $\dfrac{n!}{n^n}$ | $0$ |
+| $\dfrac{2^n}{n!}$ | $0$ |
+
+### Successioni oscillanti
+
+| Successione | Limite |
+| --- | :---: |
+| $(-1)^n$ | Non esiste |
+| $(-2)^n$ | Non esiste |
+| $\dfrac{(-1)^n}{n}$ | $0$ |
+
+### Arcotangente avanzata
+
+| Successione | Limite |
+| --- | :---: |
+| $\dfrac\pi2-\arctan n$ | $0$ |
+| $n\left(\dfrac\pi2-\arctan n\right)$ | $1$ |
 
 Le costanti indicate sono indipendenti da $n$. Per $\left(1+a/n\right)^n$ la base è positiva definitivamente anche quando $a<0$.
 
@@ -154,4 +195,6 @@ La versione generale, che include le potenze positive del logaritmo, è in [[85 
 
 Per il parziale del **2 novembre** indicato nel materiale fornito, concentrare inizialmente il ripasso su **funzioni trigonometriche inverse**, **limiti notevoli** e **gerarchia degli infiniti**. Non occorre imparare tutta la tabella a memoria: molti risultati si ricavano con continuità, limiti notevoli ed equivalenti asintotici.
 
-[[03 Formulario#Indice rapido|↑ Indice del formulario]]
+---
+
+[[07 Serie Numeriche|← Serie Numeriche]] · [[00 Indice Formulario#Indice rapido|↑ Indice]]

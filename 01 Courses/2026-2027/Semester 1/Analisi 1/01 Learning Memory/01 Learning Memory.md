@@ -1,7 +1,7 @@
 ---
 course: Analisi 1
 type: learning-memory
-updated: 2026-10-25
+updated: 2026-10-27
 ---
 
 # Memoria di apprendimento
@@ -265,9 +265,11 @@ updated: 2026-10-25
 
 ## Ultima sessione di studio
 
-- Data: 2026-10-25.
-- Attività: preparazione autonoma della Lezione 12; nessuna verifica dell'apprendimento.
-- Sintesi: creati 113-118, integrati 99, 110 e 111; PDF completo, tre SVG, indici e Formulario aggiornati, D14 sviluppata. Nuovo materiale `Da studiare`; Padroneggiato e difficoltà personali invariati.
+- Data: 2026-10-27.
+- Attività: revisione della dimostrazione del rapporto e controllo dell'ordine interno delle note della Lezione 12; nessuna verifica dell'apprendimento.
+- Sintesi: sostituita la rielaborazione nei Concept 110 e D13 con la dimostrazione del professore, PDF L12 pp. 2-6; ordine dei casi, notazione, disuguaglianze strette, iterazioni e cambio di indice conservati. Commenti separati; schema allineato alla notazione $q$. Contenuti ancora `Da studiare`.
+- Indicazione per la preparazione: rispettare l'ordine del PDF anche all'interno delle note — definizioni, enunciati, osservazioni, esempi, casi e passaggi delle dimostrazioni. Trascrivere fedelmente le prove del professore; aggiungere i commenti separatamente, senza interrompere o anticipare la sequenza. Non presentare una rielaborazione come trascrizione.
+- Revisione dell'ordine: controllati 110, D13 e 113-118; ripristinata la sequenza del docente nei casi parametrici, nel controesempio alla convergenza assoluta e nello studio delle serie alternate. Nessun cambiamento a numerazione, cartelle o stato di apprendimento.
 
 ## Prossimo passo
 

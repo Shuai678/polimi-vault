@@ -8,54 +8,6 @@ source:
 
 # Equivalenti con esponente variabile nelle serie
 
-## Perché serve una cautela nuova
-
-L'equivalente $(1+x)^\beta-1\sim\beta x$ dei [[95 Equivalenti e Sviluppi Asintotici Notevoli|limiti notevoli]] è formulato per esponente $\beta$ **fissato**. Se l'esponente dipende da $n$, bisogna controllare anche il prodotto fra l'esponente e l'incremento della base.
-
-Il metodo corretto usa la riscrittura [[89 Limiti di Potenze con Base ed Esponente Variabili|esponenziale-logaritmo]], prima di applicare gli equivalenti.
-
-## Regola con esponente variabile
-
-Supponiamo che $\varepsilon_n\to0$, $1+\varepsilon_n>0$ definitivamente e
-
-$$
-c_n\varepsilon_n\longrightarrow0.
-$$
-
-Se $\varepsilon_n$ e $c_n$ sono non nulli definitivamente, allora
-
-$$
-\boxed{(1+\varepsilon_n)^{c_n}-1\sim c_n\varepsilon_n.}
-$$
-
-Le condizioni di non nullità servono a definire il rapporto dell'equivalenza. In presenza di termini nulli si può usare la corrispondente identità con resto, trattando separatamente quegli indici.
-
-### Dimostrazione
-
-Poniamo
-
-$$
-t_n=c_n\log(1+\varepsilon_n).
-$$
-
-Poiché $\log(1+\varepsilon_n)/\varepsilon_n\to1$,
-
-$$
-t_n=c_n\varepsilon_n\,
-\frac{\log(1+\varepsilon_n)}{\varepsilon_n}\longrightarrow0.
-$$
-
-Usando ora $e^{t_n}-1\sim t_n$,
-
-$$
-\frac{(1+\varepsilon_n)^{c_n}-1}{c_n\varepsilon_n}
-=\frac{e^{t_n}-1}{t_n}
- \frac{\log(1+\varepsilon_n)}{\varepsilon_n}
-\longrightarrow1\cdot1=1.
-$$
-
-Abbiamo controllato che l'argomento del secondo equivalente tende davvero a zero: è il passaggio che non si può omettere.
-
 ## Esercizio conclusivo del docente
 
 ### Testo
@@ -95,25 +47,37 @@ L'altro fattore, $\log((2n+1)^2)$, è positivo perché $(2n+1)^2>1$.
 
 ### 2. L'incremento della potenza variabile
 
-Poniamo $\varepsilon_n=\sin(1/n)$ e $c_n=\log n$. Vale
+Poniamo $\varepsilon_n=\sin(1/n)$ e $c_n=\log n$.
+
+#### Regola richiamata dal docente — PDF p. 28
+
+Supponiamo che $\varepsilon_n\to0$, $1+\varepsilon_n>0$ definitivamente e
+
+$$
+c_n\varepsilon_n\longrightarrow0.
+$$
+
+Se $\varepsilon_n$ e $c_n$ sono non nulli definitivamente, allora
+
+$$
+\boxed{(1+\varepsilon_n)^{c_n}-1\sim c_n\varepsilon_n.}
+$$
+
+Le condizioni di non nullità servono a definire il rapporto dell'equivalenza. In presenza di termini nulli si può usare la corrispondente identità con resto, trattando separatamente quegli indici.
+
+#### Verifica delle condizioni e applicazione
+
+Vale
 
 $$
 \varepsilon_n\sim\frac1n,\qquad
 c_n\varepsilon_n\sim\frac{\log n}{n}\longrightarrow0.
 $$
 
-La regola appena dimostrata è dunque applicabile e fornisce
+La regola appena richiamata è dunque applicabile e fornisce
 
 $$
 h_n\sim(\log n)\sin(1/n)\sim\frac{\log n}{n}.
-$$
-
-Equivalentemente, il PDF passa attraverso
-
-$$
-t_n=(\log n)\log(1+\sin(1/n))
-\sim\frac{\log n}{n}\to0,
-\qquad h_n=e^{t_n}-1\sim t_n.
 $$
 
 Per $\alpha$ fissato, le quantità sono positive e
@@ -170,6 +134,53 @@ $$
 $$
 \boxed{\text{La serie converge se e solo se }\alpha>1;
 \text{ per }\alpha\leq1\text{ diverge a }+\infty.}
+$$
+
+## Commenti e integrazioni didattiche — Da studiare
+
+### Perché serve una cautela nuova
+
+L'equivalente $(1+x)^\beta-1\sim\beta x$ dei [[95 Equivalenti e Sviluppi Asintotici Notevoli|limiti notevoli]] è formulato per esponente $\beta$ **fissato**. Se l'esponente dipende da $n$, bisogna controllare anche il prodotto fra l'esponente e l'incremento della base.
+
+Il metodo corretto usa la riscrittura [[89 Limiti di Potenze con Base ed Esponente Variabili|esponenziale-logaritmo]], prima di applicare gli equivalenti.
+
+### Dimostrazione di supporto della regola
+
+> [!info] Integrazione didattica
+> Il PDF richiama la regola e la applica all'esercizio; questa prova esplicita il suo fondamento ed è aggiunta dopo lo svolgimento del docente.
+
+Poniamo
+
+$$
+t_n=c_n\log(1+\varepsilon_n).
+$$
+
+Poiché $\log(1+\varepsilon_n)/\varepsilon_n\to1$,
+
+$$
+t_n=c_n\varepsilon_n\,
+\frac{\log(1+\varepsilon_n)}{\varepsilon_n}\longrightarrow0.
+$$
+
+Usando ora $e^{t_n}-1\sim t_n$,
+
+$$
+\frac{(1+\varepsilon_n)^{c_n}-1}{c_n\varepsilon_n}
+=\frac{e^{t_n}-1}{t_n}
+ \frac{\log(1+\varepsilon_n)}{\varepsilon_n}
+\longrightarrow1\cdot1=1.
+$$
+
+Abbiamo controllato che l'argomento del secondo equivalente tende davvero a zero: è il passaggio che non si può omettere.
+
+### Il passaggio attraverso esponenziale e logaritmo
+
+Esplicitando la riscrittura esponenziale-logaritmo del metodo si ottiene
+
+$$
+t_n=(\log n)\log(1+\sin(1/n))
+\sim\frac{\log n}{n}\to0,
+\qquad h_n=e^{t_n}-1\sim t_n.
 $$
 
 ## Cosa imparare ed errori comuni

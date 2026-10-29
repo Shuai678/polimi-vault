@@ -137,7 +137,7 @@ La preparazione deve quindi avanzare su due binari inseparabili: padronanza del 
 
 ## Course Files
 
-- [[03 Formulario|Formulario]] - formule, definizioni e teoria essenziale per argomento
+- [[00 Indice Formulario|Formulario]] - formule, definizioni e teoria essenziale per argomento
 - [[01 Learning Memory|Learning Memory]] - stato della comprensione e prossimo passo
 - [[02 Exam Book|Exam Book]] - formule, condizioni, errori e preparazione d'esame
 - [[01 Courses/2026-2027/Semester 1/Analisi 1/Lectures/00 Lecture Index|Lecture Index]] - cronologia delle lezioni

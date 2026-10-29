@@ -52,9 +52,20 @@ La radice è più breve in questo caso. Per $a=0$ non si usa il rapporto: sarebb
 
 ## Esempio 2 — $\sum n^a b^n$, con $a\in\mathbb R$, $b\geq0$
 
+### Risultato
+
+| Parametri | Carattere |
+|---|---|
+| $0\leq b<1$, qualunque $a$ | Convergente |
+| $b=1$, $a<-1$ | Convergente |
+| $b>1$, qualunque $a$ | Divergente a $+\infty$ |
+| $b=1$, $a\geq-1$ | Divergente a $+\infty$ |
+
+La soglia $b=1$ va studiata separatamente: non si può trasferire automaticamente la conclusione dai casi vicini.
+
 ### Idea e calcolo
 
-Per $b>0$ i termini sono positivi e
+Per $b\geq0$ i termini sono non negativi e
 
 $$
 \sqrt[n]{n^a b^n}
@@ -64,25 +75,22 @@ $$
 
 La [[85 Gerarchia degli Infiniti|gerarchia degli infiniti]] dà $\log n/n\to0$. La potenza di $n$ non cambia il limite della radice.
 
-- Se $0<b<1$, la serie converge per ogni $a$.
+- Se $0\leq b<1$, la serie converge per ogni $a$. Per $b=0$ tutti i termini sono nulli.
 - Se $b>1$, la serie diverge a $+\infty$ per ogni $a$; il criterio dà anche $n^a b^n\to+\infty$.
-- Se $b=0$, ogni termine è zero, quindi la serie converge per ogni $a$.
 - Se $b=1$, la radice tende a $1$ e non decide. La serie diventa $\sum n^a=\sum1/n^{-a}$: converge esattamente quando $-a>1$, cioè $a<-1$.
-
-### Risultato
-
-| Parametri | Carattere |
-|---|---|
-| $0\leq b<1$, qualunque $a$ | Convergente |
-| $b=1$, $a<-1$ | Convergente |
-| $b=1$, $a\geq-1$ | Divergente a $+\infty$ |
-| $b>1$, qualunque $a$ | Divergente a $+\infty$ |
-
-La soglia $b=1$ va studiata separatamente: non si può trasferire automaticamente la conclusione dai casi vicini.
 
 ## Esempio 3 — $\sum a^n(\log n)^b$, con $a>0$, $b\in\mathbb R$
 
 Si parte da $n=2$, così $\log n>0$ e la potenza reale $(\log n)^b$ è definita e positiva.
+
+### Risultato
+
+$$
+\boxed{\sum_{n=2}^{+\infty}a^n(\log n)^b
+\text{ converge se e solo se }0<a<1.}
+$$
+
+Per $a\geq1$ diverge a $+\infty$, per ogni $b\in\mathbb R$.
 
 ### Rapporto consecutivo
 
@@ -113,15 +121,6 @@ $$
 $$
 
 La [[104 Serie Armonica|serie armonica]] diverge; per [[107 Criterio del Confronto per Serie|confronto]] diverge anche la serie in esame.
-
-### Risultato
-
-$$
-\boxed{\sum_{n=2}^{+\infty}a^n(\log n)^b
-\text{ converge se e solo se }0<a<1.}
-$$
-
-Per $a\geq1$ diverge a $+\infty$, per ogni $b\in\mathbb R$.
 
 ## Metodo ed errori comuni
 

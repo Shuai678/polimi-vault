@@ -15,7 +15,7 @@ updated: 2026-10-25
 
 ## Formula Sheet
 
-- [[03 Formulario|Formulario]] - consultazione rapida per argomento, con formule, definizioni e collegamenti alle dimostrazioni.
+- [[00 Indice Formulario|Formulario]] - consultazione rapida per argomento, con formule, definizioni e collegamenti alle dimostrazioni.
 
 ## Formula Conditions
 
