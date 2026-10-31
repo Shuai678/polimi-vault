@@ -1,7 +1,7 @@
 ---
 course: Analisi 1
 type: formula-sheet
-updated: 2026-10-29
+updated: 2026-10-30
 cssclasses:
   - formulario
   - formulario-indice
@@ -26,9 +26,15 @@ Formule, definizioni ed enunciati essenziali, organizzati per argomento. Ogni sc
 > - **[[06 Equivalenti e Limiti Notevoli|Equivalenti e limiti notevoli]]** — equivalenze, sviluppi, numero di Nepero, gerarchia e razionalizzazione.
 > - **[[07 Serie Numeriche|Serie numeriche]]** — somme parziali, serie campione, criteri, Stirling, convergenza assoluta e Leibniz.
 
-> [!tip] Ripasso e dimostrazioni
-> - **[[08 Formulario Unico dei Limiti|Formulario unico dei limiti]]** — tabella di ripasso per $n\to+\infty$, uso degli asintotici e gerarchia degli infiniti.
+> [!tip] Ripasso rapido dei limiti
+> - **[[Guida agli Esercizi su Successioni e Limiti|Forma → metodo → risultato]]** — forme indeterminate, scelta della tecnica e casi diretti.
+> - **[[Potenze di n nei Limiti|Potenze di n nei limiti]]** — segno dell'esponente, regole algebriche e confronti.
+> - **[[08 Formulario Unico dei Limiti|Formulario unico dei limiti]]** — valori da ricordare, asintotici e gerarchia.
+
+> [!tip] Altre schede e dimostrazioni
+> - **[[09 Goniometria per i Numeri Complessi|Goniometria per i numeri complessi]]** — angoli notevoli, quadranti, identità goniometriche e applicazioni a potenze e radici.
 > - **[[00 Dimostrazioni Prima Prova in Itinere|Teoremi e dimostrazioni della prima prova in itinere]]** — cartella **Dimostrazioni**, con enunciati, ipotesi e prove complete D1–D14.
+> - **[[Scelta di Epsilon nelle Dimostrazioni|Scelta di epsilon nelle dimostrazioni]]** — valori, motivazioni e distinzione fra tolleranze fissate e precisione arbitraria.
 
 ## Teoria del primo parziale
 

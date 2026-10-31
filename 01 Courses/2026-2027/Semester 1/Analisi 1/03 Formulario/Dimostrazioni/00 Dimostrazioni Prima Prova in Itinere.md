@@ -3,7 +3,7 @@ course: Analisi 1
 type: exam-index
 exam: Prima prova in itinere
 status: Da studiare
-updated: 2026-10-29
+updated: 2026-10-30
 source:
   - "AM1-regolamento26-27.pdf, pp. 1-2"
   - "AM1 L12 26-27.pdf, p. 30: fine argomenti della prima prova in itinere"
@@ -61,6 +61,8 @@ Il **criterio della radice** e il **criterio di Leibniz** sono inclusi negli enu
 3. Ricostruisci i passaggi e motiva le scelte di $\varepsilon$, delle soglie o dei confronti.
 4. Controlla i casi finiti e infiniti previsti dall’enunciato.
 5. Ricorda un controesempio quando il viceversa è falso o quando un’ipotesi è indispensabile.
+
+Per confrontare i valori e le motivazioni delle tolleranze usate nelle prove: [[Scelta di Epsilon nelle Dimostrazioni]].
 
 ## Controesempi essenziali
 

@@ -1,7 +1,7 @@
 ---
 course: Analisi 1
 type: formula-sheet
-updated: 2026-10-29
+updated: 2026-10-30
 cssclasses:
   - formulario
 ---
@@ -11,6 +11,9 @@ cssclasses:
 [[00 Indice Formulario|Indice del formulario]] · [[01 Courses/2026-2027/Semester 1/Analisi 1/00 Course Map/00 Course Map|Corso]]
 
 **In questa scheda:** [[#Notazione e numero di Nepero|Notazione e numero di Nepero]] · [[#Equivalenti per argomento infinitesimo|Equivalenti per argomento infinitesimo]] · [[#Gerarchia e termini dominanti|Gerarchia e termini dominanti]] · [[#Razionalizzazione e cautele|Razionalizzazione e cautele]]
+
+> [!tip] Forma → metodo → risultato
+> Tabelle delle forme indeterminate, scelta del metodo e casi diretti: [[Guida agli Esercizi su Successioni e Limiti]].
 
 > [!info] Ipotesi della scheda
 > $t=t_n\to0$, con $t_n\neq0$ definitivamente. Nei rapporti il denominatore deve essere non nullo definitivamente; gli angoli sono in **radianti**.

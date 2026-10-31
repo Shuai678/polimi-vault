@@ -4,7 +4,7 @@ type: exam-proof
 exam: Prima prova in itinere
 proof_id: D7
 status: Da studiare
-updated: 2026-10-29
+updated: 2026-10-30
 source:
   - "AM1-regolamento26-27.pdf, p. 2, voce 7"
   - "79 Teorema di Permanenza del Segno"
@@ -71,6 +71,9 @@ Per $n\geq\max\{N_0,N_1\}$ avremmo insieme $a_n\geq0$ e $a_n<0$: impossibile. Du
 ## Da ricordare
 
 Termini strettamente positivi possono avere limite **zero**, come $1/n$. Il segno dei termini da solo non garantisce l’esistenza del limite.
+
+> [!tip] Ripasso delle scelte di epsilon
+> Per i limiti finiti non nulli, qui scegliamo $\varepsilon=|\ell|/2$ per avere un intorno che non attraversi lo zero. Il confronto con le altre dimostrazioni è in [[Scelta di Epsilon nelle Dimostrazioni]].
 
 ## Note di riferimento
 

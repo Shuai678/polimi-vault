@@ -1,7 +1,7 @@
 ---
 course: Analisi 1
 type: formula-sheet
-updated: 2026-10-29
+updated: 2026-10-30
 cssclasses:
   - formulario
 ---
@@ -10,7 +10,11 @@ cssclasses:
 
 [[00 Indice Formulario|Indice del formulario]] · [[01 Courses/2026-2027/Semester 1/Analisi 1/00 Course Map/00 Course Map|Corso]]
 
-**In questa scheda:** [[#Definizioni di limite|Definizioni di limite]] · [[#Teoremi fondamentali|Teoremi fondamentali]] · [[#Algebra e confronti|Algebra e confronti]] · [[#Geometriche e rapporto|Geometriche e rapporto]] · [[#Forme indeterminate|Forme indeterminate]]
+**In questa scheda:** [[#Definizioni di limite|Definizioni di limite]] · [[#Teoremi fondamentali|Teoremi fondamentali]] · [[#Algebra e confronti|Algebra e confronti]] · [[#Geometriche e rapporto|Geometriche e rapporto]] · [[#Proprietà goniometriche da ricordare|Proprietà goniometriche]] · [[#Forme indeterminate|Forme indeterminate]]
+
+> [!tip] Schede di ripasso nel formulario
+> - [[Guida agli Esercizi su Successioni e Limiti]] — forme indeterminate, scelta del metodo e casi diretti.
+> - [[Potenze di n nei Limiti]] — segno dell'esponente, regole algebriche e confronti.
 
 ## Definizioni di limite
 
@@ -183,6 +187,19 @@ $$
 | $L<1$ | $a_n\to0$ |
 | $L>1$ | $a_n\to+\infty$ |
 | $L=1$ | **Non decide.** |
+
+## Proprietà goniometriche da ricordare
+
+Per $x\in\mathbb R$ e $n\in\mathbb Z$, con angoli in **radianti**:
+
+| Espressione | Risultato |
+| --- | --- |
+| $\sin(n\pi)$ | $0$ |
+| $\cos(n\pi)$ | $(-1)^n$ |
+| $\sin(x+n\pi)$ | $(-1)^n\sin x$ |
+| $\cos(x+n\pi)$ | $(-1)^n\cos x$ |
+| $\sin(x+2n\pi)$ | $\sin x$ |
+| $\cos(x+2n\pi)$ | $\cos x$ |
 
 ## Forme indeterminate
 

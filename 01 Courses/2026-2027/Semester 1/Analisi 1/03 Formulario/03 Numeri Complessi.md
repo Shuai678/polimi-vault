@@ -1,7 +1,7 @@
 ---
 course: Analisi 1
 type: formula-sheet
-updated: 2026-10-29
+updated: 2026-10-30
 cssclasses:
   - formulario
 ---
@@ -9,6 +9,9 @@ cssclasses:
 # Numeri complessi
 
 [[00 Indice Formulario|Indice del formulario]] · [[01 Courses/2026-2027/Semester 1/Analisi 1/00 Course Map/00 Course Map|Corso]]
+
+> [!tip] Goniometria di supporto
+> [[09 Goniometria per i Numeri Complessi]] — angoli notevoli, segni nei quadranti, formule e applicazioni a potenze e radici.
 
 **In questa scheda:** [[#Forma algebrica e operazioni|Forma algebrica e operazioni]] · [[#Geometria e rappresentazioni|Geometria e rappresentazioni]] · [[#De Moivre, radici e polinomi|De Moivre, radici e polinomi]]
 
