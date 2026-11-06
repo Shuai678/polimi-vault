@@ -1,7 +1,7 @@
 ---
 course: Analisi 1
 type: learning-memory
-updated: 2026-10-27
+updated: 2026-11-03
 ---
 
 # Memoria di apprendimento
@@ -18,6 +18,7 @@ updated: 2026-10-27
 - La [[Lecture 10|Lezione 10]] è stata preparata integralmente: completati gli equivalenti composti nel Concept 98 e introdotte le serie nei Concept 99-104, fino alla [[104 Serie Armonica|serie armonica]]. Integrati 94, 95 e 97; tutte le aggiunte sono da studiare.
 - La [[Lecture 11|Lezione 11]] è stata preparata integralmente: Concept 105-112, da code e resti ai criteri per serie positive e alla formula di Stirling. Integrati 91, 99 e 100; precisati gli indici di geometrica e Bertrand. Tutte le aggiunte restano da studiare.
 - La [[Lecture 12|Lezione 12]] è preparata integralmente: Concept 113-118 e integrazioni di 99, 110 e 111, fino agli equivalenti con esponente variabile. Aggiornato anche il Formulario, inclusa la D14. Nuovo materiale **Da studiare**; a p. 30 il docente chiude gli argomenti della prima prova in itinere.
+- Le [[Lecture 13|Lezioni 13]] e [[Lecture 14|14]] sono preparate integralmente: Concept 119-137, da intorni e accumulazione fino ad algebra dei limiti di funzione, passando per asintoti, continuità e discontinuità. Formulario e riferimenti alle prove aggiornati; tutto **Da studiare**.
 - Della Lezione 02 restano da consolidare caratterizzazione degli estremi, valore assoluto, intervalli, radici e potenze.
 
 ## Padroneggiato
@@ -140,6 +141,8 @@ updated: 2026-10-27
 - Lezione 11: [[105 Code e Resto di una Serie]], [[106 Serie a Termini Positivi]], [[107 Criterio del Confronto per Serie]], [[108 Serie Armoniche Generalizzate e di Bertrand]], [[109 Criterio del Confronto Asintotico per Serie]], [[110 Criterio del Rapporto per Serie]], [[111 Criterio della Radice per Serie]], [[112 Formula di Stirling e Serie con Fattoriali]] e integrazioni di 91, 99 e 100. Tutto `Da studiare`.
 
 - Lezione 12: [[113 Serie con Fattori Esponenziali Potenze e Logaritmi]], [[114 Convergenza Assoluta e Semplice delle Serie]], [[115 Serie Alternate e Criterio di Leibniz]], [[116 Monotonia e Confronti nelle Serie Alternate]], [[117 Discussione Parametrica delle Serie a Segno Variabile]], [[118 Equivalenti con Esponente Variabile nelle Serie]]; integrazioni di 99, 110 e 111. Tutto `Da studiare`.
+
+- Lezione 13: [[119 Intorni Finiti e Infiniti]] fino a [[126 Asintoti Obliqui]]. Lezione 14: [[127 Limiti Infiniti al Finito]] fino a [[137 Algebra dei Limiti di Funzioni]]. Tutto `Da studiare`; percorso completo negli indici delle due lezioni.
 
 ## Errori personali ricorrenti
 
@@ -265,13 +268,12 @@ updated: 2026-10-27
 
 ## Ultima sessione di studio
 
-- Data: 2026-10-27.
-- Attività: revisione della dimostrazione del rapporto e controllo dell'ordine interno delle note della Lezione 12; nessuna verifica dell'apprendimento.
-- Sintesi: sostituita la rielaborazione nei Concept 110 e D13 con la dimostrazione del professore, PDF L12 pp. 2-6; ordine dei casi, notazione, disuguaglianze strette, iterazioni e cambio di indice conservati. Commenti separati; schema allineato alla notazione $q$. Contenuti ancora `Da studiare`.
+- Data: 2026-11-03.
+- Attività: preparazione autonoma delle Lezioni 13 e 14; nessuna verifica dell'apprendimento.
+- Sintesi: letti entrambi i PDF, creati i Concept 119-137 e i grafici; aggiornati indici, Formulario, cartella Dimostrazioni ed Exam Book. Ordine e prove del docente conservati; precisata la sua classificazione delle discontinuità. Nuovi contenuti `Da studiare`; Padroneggiato e difficoltà personali invariati.
 - Indicazione per la preparazione: rispettare l'ordine del PDF anche all'interno delle note — definizioni, enunciati, osservazioni, esempi, casi e passaggi delle dimostrazioni. Trascrivere fedelmente le prove del professore; aggiungere i commenti separatamente, senza interrompere o anticipare la sequenza. Non presentare una rielaborazione come trascrizione.
-- Revisione dell'ordine: controllati 110, D13 e 113-118; ripristinata la sequenza del docente nei casi parametrici, nel controesempio alla convergenza assoluta e nello studio delle serie alternate. Nessun cambiamento a numerazione, cartelle o stato di apprendimento.
 
 ## Prossimo passo
 
 - Studiare [[50 Forma Esponenziale e Identità di Eulero|forma esponenziale e identità di Eulero]], quindi proseguire nell'ordine della [[Lecture 04|Lezione 04]].
-- Prossima preparazione: proseguire dopo [[118 Equivalenti con Esponente Variabile nelle Serie]], dal primo contenuto nuovo del successivo PDF del docente. La Lezione 12 conclude gli argomenti della prima prova in itinere secondo il PDF, p. 30.
+- Prossima preparazione: proseguire dopo [[137 Algebra dei Limiti di Funzioni]], dal primo contenuto nuovo del successivo PDF del docente. Le Lezioni 13 e 14 appartengono alla seconda parte del corso.

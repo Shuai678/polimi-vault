@@ -10,8 +10,6 @@ source:
 
 # Iniettività
 
-Stato: **da studiare**.
-
 ## Intuizione e definizione 1.2
 
 Una funzione è iniettiva quando due elementi diversi del dominio non hanno la stessa immagine.

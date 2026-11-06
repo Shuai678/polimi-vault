@@ -10,8 +10,6 @@ source:
 
 # Relazioni binarie
 
-Stato: **da studiare**.
-
 ## Dalle possibilità alla selezione
 
 Il [[01 Prodotto Cartesiano|prodotto cartesiano]] $A\times B$ contiene tutte le coppie ammesse. Una relazione seleziona quelle che soddisfano una condizione.

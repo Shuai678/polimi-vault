@@ -4,11 +4,12 @@ type: exam-proof
 exam: Prima prova in itinere
 proof_id: D5
 status: Da studiare
-updated: 2026-10-29
+updated: 2026-11-03
 source:
   - "AM1-regolamento26-27.pdf, p. 2, voce 5"
   - "73 Unicità del Limite di Successione"
   - "74 Limiti Infiniti e Regolarità delle Successioni"
+  - "Lezione 13, PDF pp. 6-7, estensione alle funzioni"
 cssclasses:
   - formulario
 ---
@@ -81,6 +82,10 @@ Anche nella retta reale estesa il limite, quando esiste, è quindi unico.
 ## Da ricordare
 
 Il massimo degli indici garantisce che le due condizioni valgano **contemporaneamente**. Il teorema non afferma che ogni successione abbia limite.
+
+## Estensione alle funzioni - Seconda parte, Da studiare
+
+Nella [[Lecture 13]], pp. 6-7 del PDF, il professore dimostra l'unicità del limite di funzione usando quella delle successioni e la definizione successionale. La prova fedele, con i commenti separati, è in [[Unicità del Limite di Funzione - Dimostrazione]] e nel [[122 Unicità del Limite di Funzione|Concept 122]]. Questa aggiunta appartiene alla seconda parte del corso e resta **Da studiare**.
 
 ## Note di riferimento
 

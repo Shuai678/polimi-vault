@@ -10,8 +10,6 @@ source:
 
 # Relazioni di ordine
 
-Stato: **da studiare**.
-
 ## L'esempio dell'inclusione
 
 La Lezione 1 riprende le relazioni attraverso l'inclusione tra insiemi:

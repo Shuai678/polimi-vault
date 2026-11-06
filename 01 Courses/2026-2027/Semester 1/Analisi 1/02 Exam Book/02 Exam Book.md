@@ -1,7 +1,7 @@
 ---
 course: Analisi 1
 type: exam-book
-updated: 2026-10-25
+updated: 2026-11-03
 ---
 
 # Exam Book
@@ -226,7 +226,7 @@ updated: 2026-10-25
 | [[80 Algebra dei Limiti di Successioni|Algebra dei limiti]] | entrambi i limiti finiti; denominatore con limite $b\neq0$; base con limite $a>0$ per esponente reale variabile | somma, prodotto, quoziente e potenza dei limiti |
 | [[81 Disuguaglianze e Passaggio al Limite|Passaggio al limite nelle disuguaglianze]] | esistenza dei due limiti finiti e confronto definitivo | da $a_n\leq b_n$ segue $a\leq b$; una disuguaglianza stretta può diventare uguaglianza |
 | [[82 Teorema dei Due Carabinieri|Due carabinieri]] | confronto definitivo; barriere con lo stesso limite finito | prova anche l'esistenza del limite intermedio |
-| [[83 Teorema del Confronto per Limiti Infiniti|Confronto infinito]] | minorante a $+\infty$ oppure maggiorante a $-\infty$ | basta una sola barriera orientata correttamente |
+| [[83 Teorema del confronto per successioni divergenti|Confronto infinito]] | minorante a $+\infty$ oppure maggiorante a $-\infty$ | basta una sola barriera orientata correttamente |
 | [[84 Confronto in Modulo e Prodotto con un Infinitesimo|Prodotto con infinitesimo]] | un fattore limitato, l'altro con limite zero | prodotto con limite zero, senza richiedere il limite del fattore limitato |
 
 ### Quattro confronti da ricordare
@@ -461,3 +461,40 @@ La prova di Leibniz non è svolta nel PDF («NO DIM.»); quella nelle note è un
 ### Da dire all'orale
 
 > La convergenza assoluta è sufficiente per quella semplice, ma non necessaria. Per dimostrare una convergenza solo semplice devo provare entrambe le cose: convergenza della serie originaria e divergenza della serie dei moduli. Nelle alternate verifico separatamente le tre ipotesi di Leibniz; nelle discussioni parametriche sostituisco sempre i valori di frontiera.
+
+## Lezioni 13-14 - Limiti di funzioni e continuità
+
+Materiale preparato **Da studiare**, relativo alla seconda parte del corso, esplicitamente iniziata a p. 2 del PDF L13. Potenziale rilevanza d'esame: definizioni, ipotesi, dimostrazioni effettivamente svolte ed esercizi con parametri nel valore assegnato a un punto.
+
+### Definizioni e ipotesi decisive
+
+- [[120 Punti di Accumulazione|Accumulo]]: ogni intorno contiene punti del dominio diversi dal centro. Appartenenza al dominio e accumulazione sono distinte.
+- [[121 Limite di Funzione e Definizione Successionale|Limite successionale]]: tutte le successioni ammissibili devono dare lo stesso limite delle immagini. Per negare un limite bastano due successioni con immagini aventi limiti diversi.
+- [[123 Definizione Topologica di Limite e Teorema Ponte|Definizione topologica]]: per ogni intorno del valore limite esiste un intorno del punto di partenza; controllare i punti del dominio ed escludere il centro. Il teorema ponte è senza prova nel PDF.
+- [[129 Limiti Finiti al Finito|Limite finito al finito]]: per ogni $\varepsilon>0$ esiste $\delta>0$ con $0<|x-x_0|<\delta\Rightarrow|f(x)-\ell|<\varepsilon$ per $x$ nel dominio. Nella [[130 Continuità di una Funzione|continuità]] si confronta con $f(x_0)$ e il centro è compreso: $|x-x_0|<\delta$.
+
+### Asintoti, lati e segni
+
+| Strumento | Condizione | Errore da evitare |
+|---|---|---|
+| [[124 Limiti Finiti all'Infinito e Asintoti Orizzontali\|Orizzontale]] | Limite finito $\ell$ a più o meno infinito: retta $y=\ell$ nella direzione esaminata | Confondere le due direzioni o vietare intersezioni col grafico |
+| [[126 Asintoti Obliqui\|Obliquo]] | $m=\lim f(x)/x\in\mathbb R\setminus\{0\}$ e poi $q=\lim(f(x)-mx)\in\mathbb R$ | Fermarsi al solo $m$; usare soltanto un rapporto equivalente invece dello scarto tendente a zero |
+| [[128 Limiti Laterali e Asintoti Verticali\|Verticale e laterali]] | Almeno un limite laterale infinito dà l'asintoto $x=x_0$ | Pretendere un limite bilatero infinito; applicare il criterio dei due laterali se manca accumulazione da un lato |
+| Eccesso/difetto | Segno su $\ell$: $\ell^+$ o $\ell^-$; nel PDF le disuguaglianze sono non strette | Confonderlo con il lato di avvicinamento $x_0^+$ o $x_0^-$ |
+
+### Continuità e discontinuità
+
+1. Verificare che il punto sia nel dominio prima di parlare di continuità/discontinuità.
+2. [[132 Discontinuità Eliminabili ed Estensione per Continuità|Eliminabile]]: limite finito diverso dal valore assegnato; correzione del valore. Se il punto era escluso si parla di estensione del dominio.
+3. [[133 Discontinuità a Salto|Salto]]: due limiti laterali reali e diversi; salto = destro meno sinistro, anche negativo.
+4. [[134 Discontinuità di Seconda Specie|Seconda specie secondo il docente]]: almeno un limite laterale infinito o non esistente nella retta estesa. Il libro separa l'ultimo caso come terza specie; per il corso seguire il PDF.
+
+Esempi guida: quadrato del segno eliminabile in zero; segno con salto $+2$; indicatrice di $(a,b)$ con salti $+1$ in $a$ e $-1$ in $b$; $1/x$, $1/x^2$, $e^{1/x}$, $\sin(1/x)$ con valore reale assegnato in zero sono di seconda specie. Nessuna scelta del valore al solo centro elimina un limite infinito o inesistente.
+
+### Prove e metodi da ripassare
+
+- [[Unicità del Limite di Funzione - Dimostrazione|Unicità del limite di funzione]]: prova per assurdo del docente, ricondotta all'unicità del limite delle successioni. Riferimento anche nella D5, separato dal materiale della prima parte.
+- [[Continuità della Funzione Esponenziale - Dimostrazione|Continuità dell'esponenziale]]: prima zero, con minimo fra due distanze logaritmiche, poi un punto generico mediante $e^x-e^{x_0}=e^{x_0}(e^{x-x_0}-1)$.
+- [[131 Funzione di Dirichlet e Discontinuità Ovunque|Dirichlet]]: due successioni, razionale e irrazionale, tendenti allo stesso punto; immagini costanti diverse.
+- [[135 Proprietà Definitive e Teoremi di Confronto per Funzioni|Confronti]]: $\sin x/x\to0$ a $+\infty$ e $x^7\sin(1/x)\to0$ in zero tramite una funzione infinitesima che domina il modulo. Confronti e [[136 Permanenza del Segno per Funzioni|permanenza del segno]] sono richiamati senza prova dal professore.
+- [[137 Algebra dei Limiti di Funzioni|Algebra]]: controllare dominio, positività della base nelle potenze reali variabili e assenza di forme indeterminate. Il rapporto di limite non nullo su zero senza segno richiede uno studio ulteriore.

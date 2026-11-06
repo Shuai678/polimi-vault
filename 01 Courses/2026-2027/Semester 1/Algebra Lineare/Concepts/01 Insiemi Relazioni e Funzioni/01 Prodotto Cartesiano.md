@@ -10,8 +10,6 @@ source:
 
 # Prodotto cartesiano
 
-Stato: **da studiare**.
-
 ## Intuizione
 
 Il prodotto cartesiano raccoglie tutte le possibilità di scegliere un primo elemento da un insieme e un secondo elemento da un altro insieme. Si conservano sia le scelte sia il loro ordine.

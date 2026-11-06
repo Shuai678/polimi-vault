@@ -124,12 +124,12 @@ dove $i$ è l'indice di riga e $j$ l'indice di colonna:
 
 $$
 A=
-\begin{pmatrix}
+\begin{bmatrix}
 a_{11}&a_{12}&\cdots&a_{1n}\\
 a_{21}&a_{22}&\cdots&a_{2n}\\
 \vdots&\vdots&\ddots&\vdots\\
 a_{m1}&a_{m2}&\cdots&a_{mn}
-\end{pmatrix}.
+\end{bmatrix}.
 $$
 
 Si indica con $M_{\mathbb K}(m,n)$ l'insieme di tutte queste matrici. Il numero delle entrate è $mn$.
@@ -150,9 +150,9 @@ Lo schema del tutor evidenzia $a_{23}=6$: si sceglie prima la riga 2, poi la col
 Per esempio:
 
 $$
-\begin{pmatrix}1&2&3\end{pmatrix}\in M_{\mathbb R}(1,3),
+\begin{bmatrix}1&2&3\end{bmatrix}\in M_{\mathbb R}(1,3),
 \qquad
-\begin{pmatrix}1\\2\\3\end{pmatrix}\in M_{\mathbb R}(3,1).
+\begin{bmatrix}1\\2\\3\end{bmatrix}\in M_{\mathbb R}(3,1).
 $$
 
 Entrambe possono essere associate alla lista $(1,2,3)$, ma hanno dimensioni diverse. Le identificazioni con $\mathbb K^n$ sono [[09 Biiettività|biiezioni]]; non autorizzano a scambiare righe e colonne durante un'operazione.

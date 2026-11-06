@@ -10,8 +10,6 @@ source:
 
 # Relazioni di equivalenza
 
-Stato: **da studiare**.
-
 ## Intuizione e definizione
 
 Una relazione di equivalenza esprime quando due elementi possono essere considerati uguali rispetto a una caratteristica scelta.

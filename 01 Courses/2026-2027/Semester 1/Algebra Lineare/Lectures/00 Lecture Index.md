@@ -2,7 +2,7 @@
 course: Algebra Lineare
 type: lecture-index
 status: da studiare
-updated: 2026-10-16
+updated: 2026-11-03
 ---
 
 # Indice delle lezioni di GAL
@@ -18,6 +18,8 @@ updated: 2026-10-16
 | [[01 Courses/2026-2027/Semester 1/Algebra Lineare/Lectures/Lecture 09\|Lezione 9]] | 12 ottobre 2026 | Sistemi lineari, Gauss e Rouché-Capelli | da studiare |
 | [[01 Courses/2026-2027/Semester 1/Algebra Lineare/Lectures/Lecture 10\|Lezione 10]] | 14 ottobre 2026 | Nucleo, struttura, Cramer, inverse e invertibilità | da studiare |
 | [[01 Courses/2026-2027/Semester 1/Algebra Lineare/Lectures/Lecture 11\|Lezione 11]] | 15 ottobre 2026 | Spazi affini, rette e piani, spazi vettoriali e sottospazi | da studiare |
+| [[01 Courses/2026-2027/Semester 1/Algebra Lineare/Lectures/Lecture 13\|Lezione 13]] | 19 ottobre 2026 | Combinazioni, generatori, indipendenza, basi e coordinate | da studiare |
+| [[01 Courses/2026-2027/Semester 1/Algebra Lineare/Lectures/Lecture 15\|Lezione 15]] | 28 ottobre 2026 | Dimensione, basi canoniche, estrazione, completamento e fac-simile | da studiare |
 
 Le note delle lezioni seguono la progressione dei PDF; le spiegazioni complete sono nelle note di [[01 Courses/2026-2027/Semester 1/Algebra Lineare/Concepts/00 Concept Index|concetto]]. Non è stata aggiunta una lezione non fornita.
 

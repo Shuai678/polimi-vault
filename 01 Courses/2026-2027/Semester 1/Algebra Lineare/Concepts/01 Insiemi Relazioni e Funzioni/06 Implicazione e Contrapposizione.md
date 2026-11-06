@@ -10,8 +10,6 @@ source:
 
 # Implicazione e contrapposizione
 
-Stato: **da studiare**.
-
 ## Implicazione
 
 La scrittura
@@ -53,6 +51,11 @@ Accettando questa implicazione come ipotesi dell'esempio, la sua contrapposta è
 L'esempio illustra una struttura logica; non stabilisce una legge fisiologica universale.
 
 ## Applicazione alle funzioni
+
+> [!note] Il simbolo $\#$
+> $\#A$ indica la **cardinalità** di $A$, cioè, per un insieme finito, il numero dei suoi elementi. Per esempio, se $A=\{2,4,6\}$, allora $\#A=3$.
+>
+> Qui $F$ è vista come un insieme di coppie: $\#F$ conta le coppie di $F$. Se $F$ è una funzione da $A$ a $B$, contiene esattamente una coppia per ogni elemento di $A$, quindi $\#F=\#A$.
 
 Per un dominio finito:
 

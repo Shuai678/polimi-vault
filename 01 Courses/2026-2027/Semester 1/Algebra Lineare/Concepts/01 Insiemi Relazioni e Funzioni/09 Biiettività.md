@@ -11,8 +11,6 @@ source:
 
 # Biiettività
 
-Stato: **da studiare**.
-
 ## Definizione e intuizione
 
 Una funzione $F:A\to B$ è **biiettiva** se è sia [[07 Iniettività|iniettiva]] sia [[08 Suriettività|suriettiva]].

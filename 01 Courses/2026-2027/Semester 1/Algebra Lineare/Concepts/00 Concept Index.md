@@ -2,7 +2,7 @@
 course: Algebra Lineare
 type: concept-index
 status: da studiare
-updated: 2026-10-16
+updated: 2026-11-03
 ---
 
 # Indice dei concetti di GAL
@@ -69,6 +69,14 @@ Stato di tutte le note: **da studiare**. Padronanza non verificata.
 | [[39 Esempi di Spazi Vettoriali]] | Lezione 11, pp. 8-9 e 11 |
 | [[40 Proprietà Elementari degli Spazi Vettoriali]] | Lezione 11, pp. 9-10 |
 | [[41 Sottospazi Vettoriali e Criterio di Chiusura]] | Lezione 11, pp. 11-12 |
+| [[42 Combinazioni Lineari e Span]] | Lezione 13, pp. 2-4 |
+| [[43 Generatori e Sistemi Lineari]] | Lezione 13, pp. 3-6 |
+| [[44 Dipendenza e Indipendenza Lineare]] | Lezione 13, pp. 7-10 |
+| [[45 Basi e Unicità delle Coordinate]] | Lezione 13, pp. 10-11 |
+| [[46 Lemma Fondamentale e Teorema della Dimensione]] | Lezione 13, p. 11; Lezione 15, pp. 2-5 |
+| [[47 Basi Canoniche e Spazi Finitamente Generati]] | Lezione 15, pp. 4-8 |
+| [[48 Estrazione di una Base con Gauss]] | Lezione 13, pp. 8-10; Lezione 15, pp. 8-11 |
+| [[49 Completamento di Vettori Indipendenti a una Base]] | Lezione 15, pp. 4-5 e 11 |
 
 I riferimenti indicano le pagine PDF. Le note riportano anche quelle stampate, quando diverse.
 

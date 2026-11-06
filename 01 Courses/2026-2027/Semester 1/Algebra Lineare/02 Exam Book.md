@@ -3,7 +3,7 @@ course: Algebra Lineare
 type: exam-book
 status: da studiare
 mastery: non verificata
-updated: 2026-10-16
+updated: 2026-11-03
 ---
 
 # Preparazione all'esame di GAL
@@ -186,6 +186,36 @@ Stato: **da studiare**. Questi sono argomenti dei nuovi PDF, non un elenco di ob
 
 Prima di dividere per un'espressione con parametri, separare il caso in cui si annulla. Nella verifica dei sottospazi lo zero è necessario ma non sufficiente; servono entrambe le chiusure.
 
+## Argomenti delle lezioni 13 e 15
+
+Materiale **da studiare**, senza classificare automaticamente ogni risultato come obbligatorio all'esame.
+
+- [[42 Combinazioni Lineari e Span]], [[43 Generatori e Sistemi Lineari]].
+- [[44 Dipendenza e Indipendenza Lineare]], [[45 Basi e Unicità delle Coordinate]]: definizioni e Teorema 13.5.
+- [[46 Lemma Fondamentale e Teorema della Dimensione]]: Teoremi 15.1 e 15.2.
+- [[47 Basi Canoniche e Spazi Finitamente Generati]]: colonne, matrici, polinomi e controesempi alla generazione finita.
+- [[48 Estrazione di una Base con Gauss]], [[49 Completamento di Vettori Indipendenti a una Base]].
+
+### Criteri con ipotesi
+
+| Risultato | Condizioni |
+|---|---|
+| $\operatorname{Span}(v_1,\ldots,v_s)=\mathbb K^m\iff r(A)=m$ | $A$ ha i vettori come colonne di altezza $m$ |
+| $v_1,\ldots,v_s$ indipendenti $\iff r(A)=s$ | stessa matrice con $s$ colonne |
+| Unica rappresentazione di ogni vettore | famiglia che è una base dello spazio dichiarato |
+| Numero di indipendenti $\le$ numero di generatori | famiglie finite dello stesso spazio |
+| Una famiglia di $d$ vettori è base se è indipendente oppure generatrice | $\dim V=d<\infty$ già nota |
+| $\dim M_{\mathbb K}(m,n)=mn$ | campo e dimensioni fissati |
+| $\dim\mathbb K[t]_{\le d}=d+1$ | $d\ge0$ intero, incluso il monomio costante |
+| Estrarre le colonne originali con indici pivot | Gauss di riga, senza scambi di colonna non registrati |
+| Completamento con $d-k$ vettori | famiglia iniziale indipendente di $k$ vettori, $\dim V=d$ |
+
+### Fac-simile verificato nei materiali
+
+[[01 Fac-simile Matrici e Sottospazi del 28 ottobre 2026]] raccoglie il testo e lo svolgimento allegati alla Lezione 15, PDF pp. 12-15. Richiede verifica di un sottospazio di matrici, basi e dimensioni, decomposizione dell'identità.
+
+Il fac-simile non certifica una simulazione svolta dallo studente e non aggiorna da solo date, soglie o modalità d'esame. Le soluzioni sono richiudibili per poterlo usare in un futuro allenamento.
+
 ## Esempi e stato personale
 
 - [[01 Prodotti Cartesiani e Relazioni]].
@@ -199,4 +229,8 @@ Prima di dividere per un'espressione con parametri, separare il caso in cui si a
 - [[08 Nucleo Struttura Cramer e Inverse]].
 - [[09 Spazi Vettoriali Sottospazi e Geometria]].
 
-Tutti gli esempi sono **da studiare** e preparati dal tutor. Nessun esercizio autonomo, errore personale verificato o simulazione è registrato. Gli errori frequenti delle note sono avvertenze didattiche generali.
+- [[10 Combinazioni Generatori Indipendenza e Basi]].
+- [[11 Dimensione Estrazione e Completamento di Basi]].
+- [[01 Fac-simile Matrici e Sottospazi del 28 ottobre 2026]].
+
+Tutto il materiale è **da studiare**. Le note distinguono gli esempi aggiuntivi del tutor e lo svolgimento del professore contenuto nel fac-simile. Nessun esercizio autonomo, errore personale verificato o simulazione è registrato. Gli errori frequenti delle note sono avvertenze didattiche generali.

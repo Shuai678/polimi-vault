@@ -10,8 +10,6 @@ source:
 
 # Suriettività
 
-Stato: **da studiare**.
-
 ## Intuizione e definizione
 
 Una [[05 Funzioni|funzione]] $F:A\to B$ è **suriettiva** quando ogni elemento del codominio è immagine di almeno un elemento del dominio:

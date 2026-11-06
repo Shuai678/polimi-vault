@@ -3,14 +3,14 @@ course: Algebra Lineare
 type: learning-memory
 status: da studiare
 mastery: non verificata
-updated: 2026-10-16
+updated: 2026-11-03
 ---
 
 # Memoria dello studio di GAL
 
 ## Stato attuale
 
-**Da studiare**: lezioni 0 del 16 settembre, 1 del 17 settembre, 3 del 30 settembre, 4 del 1 ottobre, 6 del 7 ottobre, 7 dell'8 ottobre, 9 del 12 ottobre, 10 del 14 ottobre e 11 del 15 ottobre 2026.
+**Da studiare**: lezioni 0 del 16 settembre, 1 del 17 settembre, 3 del 30 settembre, 4 del 1 ottobre, 6 del 7 ottobre, 7 dell'8 ottobre, 9 del 12 ottobre, 10 del 14 ottobre, 11 del 15 ottobre, 13 del 19 ottobre e 15 del 28 ottobre 2026.
 
 Il materiale è stato preparato in Obsidian con spiegazioni, definizioni, esempi, dimostrazioni esplicitate e illustrazioni SVG. Questo aggiornamento registra la disponibilità degli appunti, non l'acquisizione dei contenuti.
 
@@ -38,8 +38,18 @@ L'eccezione non è una preferenza permanente. Nelle sessioni successive torna la
 - [[01 Courses/2026-2027/Semester 1/Algebra Lineare/Lectures/Lecture 09|Lezione 9]]: sistemi lineari, rappresentazioni, Gauss e Rouché-Capelli.
 - [[01 Courses/2026-2027/Semester 1/Algebra Lineare/Lectures/Lecture 10|Lezione 10]]: nucleo, struttura, Cramer e ricerca delle inverse.
 - [[01 Courses/2026-2027/Semester 1/Algebra Lineare/Lectures/Lecture 11|Lezione 11]]: insiemi affini, rette e piani, spazi vettoriali e sottospazi.
-- [[01 Courses/2026-2027/Semester 1/Algebra Lineare/Concepts/00 Concept Index|Quarantuno note concettuali]].
-- [[01 Courses/2026-2027/Semester 1/Algebra Lineare/Exercises/00 Exercise Index|Nove raccolte di esempi svolti]].
+- [[01 Courses/2026-2027/Semester 1/Algebra Lineare/Lectures/Lecture 13|Lezione 13]]: combinazioni, generatori, indipendenza, basi e unicità delle coordinate.
+- [[01 Courses/2026-2027/Semester 1/Algebra Lineare/Lectures/Lecture 15|Lezione 15]]: dimensione, basi canoniche, estrazione, completamento e fac-simile allegato.
+- [[01 Courses/2026-2027/Semester 1/Algebra Lineare/Concepts/00 Concept Index|Quarantanove note concettuali]].
+- [[01 Courses/2026-2027/Semester 1/Algebra Lineare/Exercises/00 Exercise Index|Undici raccolte di esempi svolti]].
+
+- [[01 Fac-simile Matrici e Sottospazi del 28 ottobre 2026]]: testo e soluzione del professore, con passaggi esplicitati; da studiare, non svolto dallo studente.
+
+## Archiviazione richiesta il 3 novembre 2026
+
+Lo studente ha chiesto di aggiungere le lezioni 13 e 15. Sono stati preparati i materiali e aggiornati i collegamenti, senza attribuire avanzamenti di apprendimento. Le nuove raccolte e il fac-simile usano soluzioni richiudibili per il successivo allenamento.
+
+Questa richiesta di archiviazione non rinnova automaticamente l'eccezione del 16 ottobre. Per una successiva sessione didattica resta la modalità ordinaria di tutor interattivo, salvo nuove istruzioni.
 
 ## Conoscenze effettivamente verificate
 
@@ -65,6 +75,10 @@ Consultare [[01 Courses/2026-2027/Semester 1/Algebra Lineare/00 Course Map|Mappa
 Usare SVG quando aiutano a capire la matematica; formule e dimostrazioni in LaTeX; spiegazioni in Markdown. Conservare le immagini nella cartella degli asset del corso ed evitare duplicati.
 
 ## Ultima operazione
+
+3 novembre 2026: aggiunte le lezioni 13 e 15, con 8 nuove note concettuali, 2 raccolte di esempi, 3 SVG e una nota dedicata al fac-simile contenuto nel secondo PDF. Il corso contiene ora 49 concetti, 11 lezioni, 11 raccolte di esempi, 13 SVG, 11 PDF originali e un fac-simile indicizzato. Le fonti comprendono 133 pagine, di cui 4 dell'allegato. Nessuna promozione della padronanza o simulazione personale registrata.
+
+### Operazione precedente
 
 16 ottobre 2026: aggiunte le lezioni 9, 10 e 11 alle precedenti 0, 1, 3, 4, 6 e 7. Ora sono disponibili 41 note concettuali, 9 raccolte di esempi, 10 SVG e i 9 PDF originali, per 107 pagine di fonti. Tutto resta «da studiare», senza verifiche di apprendimento, avanzamenti di Mastery o esercizi personali registrati come completati.
 

@@ -10,8 +10,6 @@ source:
 
 # Prodotti cartesiani di più insiemi
 
-Stato: **da studiare**.
-
 ## Dalle coppie alle terne
 
 Per tre insiemi $A,B,C$ si definisce

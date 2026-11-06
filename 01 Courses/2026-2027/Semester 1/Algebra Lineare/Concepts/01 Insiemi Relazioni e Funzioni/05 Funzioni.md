@@ -11,8 +11,6 @@ source:
 
 # Funzioni
 
-Stato: **da studiare**.
-
 ## Intuizione
 
 Una funzione assegna a ciascun elemento di partenza un unico elemento di arrivo. Elementi di partenza diversi possono avere la stessa immagine.

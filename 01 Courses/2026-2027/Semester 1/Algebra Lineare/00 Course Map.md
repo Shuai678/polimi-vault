@@ -4,14 +4,14 @@ type: course-map
 status: da studiare
 year: 2026-2027
 semester: 1
-updated: 2026-10-16
+updated: 2026-11-03
 ---
 
 # Geometria e Algebra Lineare
 
-Stato del materiale delle lezioni 0, 1, 3, 4, 6, 7, 9, 10 e 11: **da studiare**.
+Stato del materiale delle lezioni 0, 1, 3, 4, 6, 7, 9, 10, 11, 13 e 15: **da studiare**.
 
-Questo percorso contiene le spiegazioni complete dei nove PDF forniti, organizzate in note concettuali, panoramiche delle lezioni ed esempi svolti. La preparazione del materiale non certifica lo studio o la padronanza.
+Questo percorso contiene le spiegazioni complete degli undici PDF forniti, organizzate in note concettuali, panoramiche delle lezioni ed esempi svolti. La preparazione del materiale non certifica lo studio o la padronanza.
 
 ## Lezioni disponibili
 
@@ -26,8 +26,10 @@ Questo percorso contiene le spiegazioni complete dei nove PDF forniti, organizza
 | [[01 Courses/2026-2027/Semester 1/Algebra Lineare/Lectures/Lecture 09\|Lezione 9]] | 12 ottobre 2026 | 1-9 | 73-81 | da studiare |
 | [[01 Courses/2026-2027/Semester 1/Algebra Lineare/Lectures/Lecture 10\|Lezione 10]] | 14 ottobre 2026 | 1-14 | 82-95 | da studiare |
 | [[01 Courses/2026-2027/Semester 1/Algebra Lineare/Lectures/Lecture 11\|Lezione 11]] | 15 ottobre 2026 | 1-12 | 96-107 | da studiare |
+| [[01 Courses/2026-2027/Semester 1/Algebra Lineare/Lectures/Lecture 13\|Lezione 13]] | 19 ottobre 2026 | 1-11 | corso 108-118 | da studiare |
+| [[01 Courses/2026-2027/Semester 1/Algebra Lineare/Lectures/Lecture 15\|Lezione 15]] | 28 ottobre 2026 | 1-15 | corso 119-129; fac-simile 1-4 | da studiare |
 
-La numerazione delle lezioni è quella originale. Non sono state aggiunte le Lezioni 2, 5 e 8 e questa mappa non pretende di ricostruire l'intero programma annuale.
+La numerazione delle lezioni è quella originale. Non sono state aggiunte le Lezioni 2, 5, 8, 12 e 14 e questa mappa non pretende di ricostruire l'intero programma annuale.
 
 ## Percorso dei concetti
 
@@ -101,7 +103,21 @@ Il Teorema 10.3 completa anche [[20 Matrici Invertibili]] e [[29 Calcolo del Det
 40. [[40 Proprietà Elementari degli Spazi Vettoriali]]: zero, opposto e annullamento del prodotto.
 41. [[41 Sottospazi Vettoriali e Criterio di Chiusura]]: operazioni ereditate e controesempi.
 
-Tutti i quarantuno concetti hanno stato **da studiare** e padronanza **non verificata**.
+### Lezione 13
+
+42. [[42 Combinazioni Lineari e Span]]: tutte le combinazioni e sottospazio generato.
+43. [[43 Generatori e Sistemi Lineari]]: appartenenza allo span e rango massimo.
+44. [[44 Dipendenza e Indipendenza Lineare]]: relazioni nulle e ridondanza.
+45. [[45 Basi e Unicità delle Coordinate]]: generatori indipendenti e rappresentazione unica.
+
+### Lezione 15
+
+46. [[46 Lemma Fondamentale e Teorema della Dimensione]]: confronto fra famiglie e invariabilità della lunghezza delle basi.
+47. [[47 Basi Canoniche e Spazi Finitamente Generati]]: colonne, matrici, polinomi e limiti della generazione finita.
+48. [[48 Estrazione di una Base con Gauss]]: span delle righe, relazioni delle colonne e selezione dei vettori originali.
+49. [[49 Completamento di Vettori Indipendenti a una Base]]: aggiunta delle direzioni mancanti.
+
+Tutti i quarantanove concetti hanno stato **da studiare** e padronanza **non verificata**.
 
 ## Collegamenti matematici principali
 
@@ -124,6 +140,11 @@ Tutti i quarantuno concetti hanno stato **da studiare** e padronanza **non verif
 - Nucleo → chiusura delle operazioni → spazio vettoriale e sottospazio.
 - Parametri effettivi e vincoli non ridondanti → rette e piani.
 
+- Combinazioni lineari → span → generatori.
+- Relazioni omogenee → indipendenza → basi e coordinate uniche.
+- Lemma fondamentale → teorema della dimensione → confronto fra famiglie.
+- Basi canoniche + Gauss → estrazione e completamento.
+
 ## Esempi svolti
 
 - [[01 Prodotti Cartesiani e Relazioni]].
@@ -136,6 +157,13 @@ Tutti i quarantuno concetti hanno stato **da studiare** e padronanza **non verif
 - [[07 Sistemi Lineari Gauss e Rouché-Capelli]].
 - [[08 Nucleo Struttura Cramer e Inverse]].
 - [[09 Spazi Vettoriali Sottospazi e Geometria]].
+
+- [[10 Combinazioni Generatori Indipendenza e Basi]].
+- [[11 Dimensione Estrazione e Completamento di Basi]].
+
+### Fac-simile disponibile
+
+[[01 Fac-simile Matrici e Sottospazi del 28 ottobre 2026]]: testo e svolgimento già contenuti nelle pp. 12-15 della Lezione 15, con basi di sottospazi di matrici e decomposizione dell'identità. Stato **da studiare**; nessuna simulazione personale registrata.
 
 Le soluzioni sono preparate dal tutor per lo studio; nessun esercizio è registrato come completato dallo studente.
 
@@ -154,7 +182,11 @@ I PDF originali sono conservati una sola volta nella cartella degli asset del co
 - Lezione 10: pagina stampata uguale alla pagina PDF più 81.
 - Lezione 11: pagina stampata uguale alla pagina PDF più 95.
 
-I nove PDF comprendono complessivamente 107 pagine, con numerazione stampata continua da 1 a 107.
+- Lezione 13: pagina stampata uguale alla pagina PDF più 107.
+- Lezione 15, PDF pp. 1-11: pagina del corso uguale alla pagina PDF più 118.
+- Lezione 15, PDF pp. 12-15: fac-simile con numerazione propria da 1 a 4.
+
+Gli undici PDF comprendono complessivamente **133 pagine**: 129 pagine del corso con numerazione continua da 1 a 129 e 4 pagine del fac-simile. La numerazione riparte da 1 soltanto nell'allegato.
 
 Le note distinguono definizioni ed esempi del professore da dimostrazioni esplicitate, esempi aggiuntivi e precisazioni del tutor. La bibliografia consigliata è in [[01 Courses/2026-2027/Semester 1/Algebra Lineare/Lectures/Lecture 00|Lezione 0]]; non vengono attribuiti contenuti a capitoli dei manuali non consultati.
 
@@ -162,13 +194,13 @@ Formule e dimostrazioni usano LaTeX compatibile con Obsidian. Le illustrazioni s
 
 ## Stato e continuità
 
-- Materiale preparato: lezioni 0, 1, 3, 4, 6, 7, 9, 10 e 11.
+- Materiale preparato: lezioni 0, 1, 3, 4, 6, 7, 9, 10, 11, 13 e 15.
 - Stato dello studio richiesto: **da studiare**.
 - Comprensione, esercizi autonomi e padronanza: non verificati.
 - Lacune personali: nessuna diagnosticata.
 - Punto di ripresa: [[01 Prodotto Cartesiano]], oppure il concetto scelto dallo studente.
 
-La richiesta di preparare tutto senza verifiche è un'eccezione limitata al **16 ottobre 2026**, registrata in [[01 Courses/2026-2027/Semester 1/Algebra Lineare/01 Learning Memory|Memoria dello studio]].
+La richiesta di preparare tutto senza verifiche era limitata al **16 ottobre 2026**. L'aggiornamento del **3 novembre 2026** archivia le due nuove lezioni e non estende quell'eccezione alle future sessioni didattiche. Il contesto è registrato in [[01 Courses/2026-2027/Semester 1/Algebra Lineare/01 Learning Memory|Memoria dello studio]].
 
 ## Indici e documenti di sistema
 

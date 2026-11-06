@@ -26,14 +26,14 @@ cssclasses:
 
 Per $n>0$ e $a,b\in\mathbb R$:
 
-| Proprietà | Formula |
-| --- | --- |
-| Prodotto | $n^a n^b=n^{a+b}$ |
-| Quoziente | $\dfrac{n^a}{n^b}=n^{a-b}$ |
-| Potenza di potenza | $(n^a)^b=n^{ab}$ |
-| Esponente negativo | $n^{-a}=\dfrac1{n^a}$ |
+| Proprietà             | Formula                                                   |
+| --------------------- | --------------------------------------------------------- |
+| Prodotto              | $n^a n^b=n^{a+b}$                                         |
+| Quoziente             | $\dfrac{n^a}{n^b}=n^{a-b}$                                |
+| Potenza di potenza    | $(n^a)^b=n^{ab}$                                          |
+| Esponente negativo    | $n^{-a}=\dfrac1{n^a}$                                     |
 | Esponente frazionario | $n^{p/q}=\sqrt[q]{n^p}$, $p\in\mathbb Z$, $q\geq1$ intero |
-| Esponente zero | $n^0=1$ |
+| Esponente zero        | $n^0=1$                                                   |
 
 ## Confronto tra due potenze
 

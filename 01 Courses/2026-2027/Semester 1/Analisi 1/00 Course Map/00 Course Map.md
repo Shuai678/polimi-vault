@@ -128,12 +128,12 @@ La preparazione deve quindi avanzare su due binari inseparabili: padronanza del 
 
 ## Current Progress
 
-- Current chapter: Capitolo 4 - Serie numeriche (preparazione degli appunti)
-- Current lecture: [[Lecture 12]]
+- Current chapter: Capitoli 5-6 - Limiti di funzioni e continuità (preparazione degli appunti)
+- Current lecture: [[Lecture 14]]
 - Last studied concept: [[49 Determinazione dell'Argomento per Quadranti]]
-- Prepared but not yet studied: [[50 Forma Esponenziale e Identità di Eulero]] through [[118 Equivalenti con Esponente Variabile nelle Serie]]
+- Prepared but not yet studied: [[50 Forma Esponenziale e Identità di Eulero]] through [[137 Algebra dei Limiti di Funzioni]]
 - Next study step: [[50 Forma Esponenziale e Identità di Eulero]]
-- Current transition: coperto tutto il PDF L12, con prova del rapporto, convergenza assoluta (D14), Leibniz e discussioni parametriche fino agli equivalenti con esponente variabile. A p. 30 il docente chiude gli argomenti della prima prova in itinere. Materiale preparato, ancora Da studiare; lo studio effettivo deve ripartire dal Concept 50
+- Current transition: preparate integralmente le Lezioni 13 e 14, dall’inizio della seconda parte del corso fino all’algebra dei limiti di funzione. Creati i Concept 119-137 nella nuova cartella 09 Limiti e Continuità delle Funzioni. Materiale Da studiare; lo studio effettivo resta dal Concept 50
 
 ## Course Files
 

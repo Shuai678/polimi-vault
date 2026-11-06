@@ -28,6 +28,10 @@ Create one short note per lecture using [[04 Templates/Lecture Template|Lecture 
 
 - [[01 Courses/2026-2027/Semester 1/Analisi 1/Lectures/Lecture 12|Lezione 12]]
 
+- [[01 Courses/2026-2027/Semester 1/Analisi 1/Lectures/Lecture 13|Lezione 13]]
+
+- [[01 Courses/2026-2027/Semester 1/Analisi 1/Lectures/Lecture 14|Lezione 14]]
+
 ## Rule
 
 Lecture notes are indexes of what happened in class. Long-term knowledge goes in [[00 Indice dei Concetti|Indice dei concetti]].

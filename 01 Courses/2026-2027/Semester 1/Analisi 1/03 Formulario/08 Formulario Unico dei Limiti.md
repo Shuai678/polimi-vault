@@ -24,15 +24,15 @@ Il simbolo $\log$ indica il **logaritmo naturale** e gli angoli sono in **radian
 
 ### Trigonometriche inverse
 
-| Successione | Limite |
-| --- | :---: |
-| $\arctan n$ | $\dfrac{\pi}{2}$ |
-| $\arctan(-n)$ | $-\dfrac{\pi}{2}$ |
-| $\arctan\dfrac1n$ | $0$ |
-| $\arcsin\dfrac1n$ | $0$ |
-| $\arcsin\dfrac2n$ | $0$ |
-| $\arccos\dfrac1n$ | $\dfrac{\pi}{2}$ |
-| $\arccos\dfrac2n$ | $\dfrac{\pi}{2}$ |
+| Successione       |      Limite       |
+| ----------------- | :---------------: |
+| $\arctan n$       | $\dfrac{\pi}{2}$  |
+| $\arctan(-n)$     | $-\dfrac{\pi}{2}$ |
+| $\arctan\dfrac1n$ |        $0$        |
+| $\arcsin\dfrac1n$ |        $0$        |
+| $\arcsin\dfrac2n$ |        $0$        |
+| $\arccos\dfrac1n$ | $\dfrac{\pi}{2}$  |
+| $\arccos\dfrac2n$ | $\dfrac{\pi}{2}$  |
 
 ### Trigonometriche
 

@@ -174,8 +174,29 @@ Questi termini descrivono il ruolo delle frasi matematiche e il modo in cui veng
 - [[117 Discussione Parametrica delle Serie a Segno Variabile|Discussione Parametrica delle Serie a Segno Variabile]]
 - [[118 Equivalenti con Esponente Variabile nelle Serie|Equivalenti con Esponente Variabile nelle Serie]]
 
+## 09 Limiti e continuità delle funzioni
+
+- [[119 Intorni Finiti e Infiniti|Intorni Finiti e Infiniti]]
+- [[120 Punti di Accumulazione|Punti di Accumulazione]]
+- [[121 Limite di Funzione e Definizione Successionale|Limite di Funzione e Definizione Successionale]]
+- [[122 Unicità del Limite di Funzione|Unicità del Limite di Funzione]]
+- [[123 Definizione Topologica di Limite e Teorema Ponte|Definizione Topologica di Limite e Teorema Ponte]]
+- [[124 Limiti Finiti all'Infinito e Asintoti Orizzontali|Limiti Finiti all'Infinito e Asintoti Orizzontali]]
+- [[125 Limiti Infiniti all'Infinito|Limiti Infiniti all'Infinito]]
+- [[126 Asintoti Obliqui|Asintoti Obliqui]]
+- [[127 Limiti Infiniti al Finito|Limiti Infiniti al Finito]]
+- [[128 Limiti Laterali e Asintoti Verticali|Limiti Laterali e Asintoti Verticali]]
+- [[129 Limiti Finiti al Finito|Limiti Finiti al Finito]]
+- [[130 Continuità di una Funzione|Continuità di una Funzione]]
+- [[131 Funzione di Dirichlet e Discontinuità Ovunque|Funzione di Dirichlet e Discontinuità Ovunque]]
+- [[132 Discontinuità Eliminabili ed Estensione per Continuità|Discontinuità Eliminabili ed Estensione per Continuità]]
+- [[133 Discontinuità a Salto|Discontinuità a Salto]]
+- [[134 Discontinuità di Seconda Specie|Discontinuità di Seconda Specie]]
+- [[135 Proprietà Definitive e Teoremi di Confronto per Funzioni|Proprietà Definitive e Teoremi di Confronto per Funzioni]]
+- [[136 Permanenza del Segno per Funzioni|Permanenza del Segno per Funzioni]]
+- [[137 Algebra dei Limiti di Funzioni|Algebra dei Limiti di Funzioni]]
+
 ## Concetti candidati
 
-- Continuità
 - Derivate
 - Integrali
