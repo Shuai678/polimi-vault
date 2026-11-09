@@ -2,11 +2,11 @@
 course: Analisi 1
 type: formula-sheet
 status: Da studiare
-updated: 2026-11-03
+updated: 2026-11-09
 cssclasses:
   - formulario
 source:
-  - Lezioni 13 e 14, PDF integrali
+  - Lezioni 13, 14, 15 e 16, PDF integrali
 ---
 
 # Limiti e continuità delle funzioni
@@ -128,3 +128,121 @@ Se $x_0$ era escluso dal dominio ma il limite è finito, si parla di **estension
 ## Dimostrazioni della seconda parte
 
 [[01 Dimostrazioni Seconda Parte|Indice delle prove della seconda parte]]: unicità del limite di funzione e continuità dell'esponenziale, entrambe svolte dal docente. Le note incorporano la prova dal Concept corrispondente per mantenerla allineata.
+
+## Lezione 15 - Continuità e cambio di variabile
+
+Nuova parte **Da studiare**, nell'ordine del PDF L15. [[Lecture 15|Indice della lezione]].
+
+[[138 Algebra delle Funzioni Continue|Algebra della continuità]]: somma/differenza, prodotto, quoziente con denominatore non nullo nel punto, potenza fissa ben definita vicino al punto e nel punto.
+
+[[139 Cambio di Variabile nei Limiti e Continuità della Composta|Cambio di variabile]]:
+
+$$
+g(x)\to t_0,\quad f(t)\to\ell\ (t\to t_0),\quad
+ g(x)\neq t_0\text{ definitivamente}
+\ \Longrightarrow\ f(g(x))\to\ell.
+$$
+
+La composta deve essere definita nella zona del limite. L'ultima condizione è superflua se $t_0=\pm\infty$ o se $f$ è continua in $t_0$. Se entrambe le funzioni sono continue nei rispettivi punti, la composta è continua.
+
+## Lezione 15 - Confronti e otto limiti notevoli
+
+[[94 Equivalenza Asintotica#Lezione 15 - Equivalenza asintotica per funzioni - Da studiare|Equivalenza]]: $f\sim g\iff f/g\to1\iff f=g+o(g)$. [[93 Notazione o-Piccolo#Lezione 15 - o-piccolo e infinitesimi per funzioni - Da studiare|o-piccolo]]: $f=o(g)\iff f/g\to0$. Il denominatore è definitivamente non nullo. Le equivalenze si moltiplicano, si dividono e si elevano a potenze fisse definite; non si sommano o compongono arbitrariamente con logaritmi ed esponenziali.
+
+[[95 Equivalenti e Sviluppi Asintotici Notevoli#Lezione 15 - Limiti notevoli di funzioni - Da studiare|Limiti notevoli]], angoli in radianti, logaritmo naturale, nell'ordine del docente:
+
+| # | Limite |
+|---|---|
+| 1 | $\displaystyle\lim_{x\to0}\frac{\sin x}x=1$ |
+| 2 | $\displaystyle\lim_{x\to0}\frac{1-\cos x}{x^2}=1/2$ |
+| 3 | $\displaystyle\lim_{x\to\pm\infty}(1+1/x)^x=e$ |
+| 4 | $\displaystyle\lim_{x\to0}\frac{\log(1+x)}x=1$ |
+| 5 | $\displaystyle\lim_{x\to0}\frac{e^x-1}x=1$ |
+| 6 | $\displaystyle\lim_{x\to0}\frac{(1+x)^\alpha-1}x=\alpha$, $\alpha\in\mathbb R$ fissato |
+| 7 | $\displaystyle\lim_{x\to0}\frac{\tan x}x=1$ |
+| 8 | $\displaystyle\lim_{x\to0}\frac{\arctan x}x=1$ |
+
+Negli sviluppi si può sostituire a $x$ un argomento infinitesimo definitivamente non nullo, controllando i domini. Per il coseno la scala è il quadrato dell'argomento; nella potenza l'equivalenza con $\alpha x$ richiede $\alpha\neq0$. Le prove sono rinviate nel PDF.
+
+[[85 Gerarchia degli Infiniti#Lezione 15 - Gerarchia per funzioni - Da studiare|Gerarchia]], per $a>1$, $\alpha,\beta>0$ fissati:
+
+$$
+(\log_a x)^\alpha=o(x^\beta),\quad x^\beta=o(a^x)\quad(x\to+\infty),
+$$
+
+$$
+t^\beta|\log_a t|^\alpha\to0\quad(t\to0^+).
+$$
+
+[[140 Grafici Locali e Grafici Probabili|Grafici probabili]]: il termine dominante dipende dalla zona. $f\sim g$ non garantisce uguaglianza di forma o assenza di oscillazioni.
+
+## Lezione 15 - Zeri e Weierstrass
+
+[[141 Teorema degli Zeri e Metodo di Bisezione|Zeri - D15]]: $f\in C^0([a,b])$, $a<b$ reali, $f(a)f(b)<0$ ⇒ $\exists x_0\in(a,b)$ con $f(x_0)=0$. Se $f$ è strettamente monotona, lo zero è unico. Prova del professore in [[D15 Teorema di Esistenza degli Zeri]].
+
+$$
+b_n-a_n=\frac{b-a}{2^n},\qquad
+c_n=\frac{a_n+b_n}{2},\qquad
+|c_n-x_0|\leq\frac{b-a}{2^{n+1}}.
+$$
+
+[[142 Teorema di Weierstrass|Weierstrass - D17]]: $f\in C^0([a,b])$, $a<b$ reali ⇒ $\exists x_m,x_M\in[a,b]$ con
+
+$$
+f(x_m)\leq f(x)\leq f(x_M)\quad\forall x\in[a,b].
+$$
+
+Massimo e minimo sono raggiunti; la funzione è limitata. [[D17 Teorema di Weierstrass|D17]] contiene ora anche la prova del docente, aggiunta dalla Lezione 16; nel PDF L15 era presente solo l'enunciato. Le voci D15 e D17 appartengono alla seconda parte, oltre il primo parziale.
+
+## Lezione 16 - Weierstrass e valori intermedi
+
+Nuova parte **Da studiare**. Percorso completo: [[Lecture 16]].
+
+[[142 Teorema di Weierstrass|Weierstrass - D17]]: la prova del docente è ora nella [[D17 Teorema di Weierstrass|D17]]. Bisezione che conserva $\Lambda=\sup f$; poi esclusione di $\Lambda=+\infty$ e scelta $\Lambda-1/n<f(x_n)\leq\Lambda$ per mostrare che $f(x_M)=\Lambda$.
+
+[[143 Teorema dei Valori Intermedi e Immagine di un Intervallo|Valori intermedi - D16]]: per $f$ continua su un intervallo $I$, da $y_1,y_2\in\operatorname{Im}f$ segue $[y_1,y_2]\subseteq\operatorname{Im}f$ quando $y_1\leq y_2$. L'immagine è un intervallo. Prova del docente: applicare gli zeri a $g=f-\lambda$ fra due controimmagini; [[D16 Teorema dei Valori Intermedi]].
+
+Su un intervallo generale gli estremi dell'immagine possono essere assunti oppure no. Se il dominio è $[a,b]$ con estremi reali, la continuità dà
+
+$$
+\operatorname{Im}f=[m,M],\qquad m=\min_{[a,b]}f,\quad M=\max_{[a,b]}f.
+$$
+
+## Lezione 16 - Monotonia, continuità e inversa
+
+[[144 Limiti delle Funzioni Monotone su un Intervallo|Limiti delle funzioni monotone]]: per una funzione crescente su $(a,b)$ e $x_0$ interno,
+
+$$
+\lim_{x\to x_0^-}f(x)=\sup_{(a,x_0)}f\leq f(x_0)
+\leq\inf_{(x_0,b)}f=\lim_{x\to x_0^+}f(x),
+$$
+
+con entrambi i limiti finiti. Agli estremi:
+
+$$
+\lim_{x\to a^+}f(x)=\inf_{(a,b)}f,\qquad
+\lim_{x\to b^-}f(x)=\sup_{(a,b)}f,
+$$
+
+eventualmente infiniti. Per la decrescente si scambiano superiore/inferiore e si invertono le disuguaglianze. Le eventuali discontinuità interne sono soltanto a salto. Estremo reale con limite finito: possibile prolungamento continuo; limite infinito: asintoto verticale.
+
+[[67 Monotonia e Funzione Inversa#Lezione 16 - Continuità e invertibilità su un intervallo - Da studiare|Continuità e invertibilità]]: se $f$ è continua su un intervallo, stretta monotonia e invertibilità sulla propria immagine sono equivalenti. In questo caso l'immagine è un intervallo e l'inversa è continua sul proprio dominio, con lo stesso verso di monotonia.
+
+[[145 Continuità delle Funzioni Elementari|Funzioni elementari]]: continue nei rispettivi domini, con le restrizioni per reciproci, radici, logaritmi e potenze. Per seno e coseno: prima zero tramite $\lvert\sin x\rvert\leq\lvert x\rvert$ e $\cos x=1-2\sin^2(x/2)$, poi il punto generico tramite addizione. [[Continuità di Seno e Coseno - Dimostrazione|Prova completa]].
+
+## Lezione 16 - Prove dei limiti notevoli
+
+[[Limiti Notevoli di Logaritmo Esponenziale e Potenza - Dimostrazioni|Prove incorporate dal Concept 95]], nell'ordine:
+
+1. Richiamo del limite di tipo Nepero per argomenti reali, non dimostrato in queste pagine.
+2. Logaritmo: continuità di log e cambio reciproco $x=1/t$, considerando entrambi i lati di zero.
+3. Esponenziale: $t=e^x-1$, $x=\log(1+t)$, reciproco del rapporto logaritmico.
+4. Potenza: prima $\alpha=0$; poi $t=\alpha\log(1+x)$ e prodotto dei due rapporti notevoli.
+
+$$
+\frac{(1+x)^\alpha-1}{x}
+=\frac{e^{\alpha\log(1+x)}-1}{\alpha\log(1+x)}
+\alpha\frac{\log(1+x)}x\longrightarrow\alpha\qquad(\alpha\neq0).
+$$
+
+Vicino a zero $1+x>0$ e, fuori dal centro, $\alpha\log(1+x)\neq0$ per $\alpha\neq0$. Commenti e precisazione delle frecce di limite sono nella nota completa.

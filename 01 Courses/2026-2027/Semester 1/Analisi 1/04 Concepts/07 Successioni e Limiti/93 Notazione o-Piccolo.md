@@ -3,6 +3,8 @@ course: Analisi 1
 type: concept
 status: Da studiare
 source:
+  - Lezione 15, PDF pp. 6
+  - Libro, §5.11, p. 165, definizione 5.63
   - Lezione 08, PDF pp. 20-22
   - Lezione 09, PDF pp. 2-3, 14-16
   - Libro, §3.8, pp. 102-103
@@ -220,3 +222,47 @@ La notazione condensa controlli già giustificati. Il resto può essere grande i
 - Concludere $r_n=o(s_n)$ soltanto perché entrambi sono $o(b_n)$: per esempio $1/n$ e $1/n^2$ sono entrambi $o(1)$, ma il rapporto del primo con il secondo diverge.
 
 Potenziale rilevanza d'esame: definizione pronunciabile, controllo del resto e passaggio alla [[94 Equivalenza Asintotica|equivalenza asintotica]].
+
+## Lezione 15 - o-piccolo e infinitesimi per funzioni - Da studiare
+
+> [!note] Nuova parte da studiare
+> Estensione alle funzioni delle nozioni già introdotte per le successioni. Riferimento: PDF L15, p. 6. Il percorso della pagina comincia con l'equivalenza in [[94 Equivalenza Asintotica#Lezione 15 - Equivalenza asintotica per funzioni - Da studiare|questa sezione del Concept 94]], poi introduce l'o-piccolo e le due definizioni seguenti.
+
+### Definizione del docente: o-piccolo per funzioni
+
+Siano $f,g$ due funzioni e $x_0\in\overline{\mathbb R}$ punto di accumulazione del loro dominio comune. I rapporti richiedono $g(x)\neq0$ definitivamente per $x\to x_0$. Il docente scrive
+
+$$
+f(x)=o(g(x))\quad\text{per }x\to x_0
+\iff\lim_{x\to x_0}\frac{f(x)}{g(x)}=0.
+$$
+
+Il confronto ora riguarda tutti i punti del dominio abbastanza vicini a $x_0$, oppure abbastanza lontani nella direzione infinita scelta. “Definitivamente” ha il significato di [[135 Proprietà Definitive e Teoremi di Confronto per Funzioni]].
+
+### Definizioni successive del docente: funzione infinitesima e infinita
+
+Una funzione $f$ è **infinitesima** per $x\to x_0$ se
+
+$$
+\lim_{x\to x_0}f(x)=0.
+$$
+
+È **infinita** per $x\to x_0$ se
+
+$$
+\lim_{x\to x_0}f(x)=\pm\infty.
+$$
+
+Nel secondo caso il simbolo indica uno dei due limiti infiniti esistenti, non una generica illimitatezza o un'oscillazione fra valori grandi di segno diverso.
+
+### Commenti ed esempi di supporto
+
+Per $x\to0$, $x^2=o(x)$ perché $x^2/x=x\to0$ per $x\neq0$. Per $x\to+\infty$, invece, $x=o(x^2)$ perché $x/x^2=1/x\to0$. La direzione del limite fa parte della scrittura: le due affermazioni confrontano le stesse funzioni in situazioni diverse.
+
+Come per le successioni, $o(g(x))$ indica una classe di resti. Non è un termine fisso da cancellare. La relazione $f=g+o(g)$ sarà dimostrata equivalente a $f\sim g$ nella prosecuzione del [[94 Equivalenza Asintotica#Lezione 15 - Equivalenza asintotica per funzioni - Da studiare|Concept 94]].
+
+La [[85 Gerarchia degli Infiniti#Lezione 15 - Gerarchia per funzioni - Da studiare|gerarchia per funzioni]] fornisce esempi con logaritmi, potenze ed esponenziali. Il docente riprende poi i [[95 Equivalenti e Sviluppi Asintotici Notevoli#Lezione 15 - Limiti notevoli di funzioni - Da studiare|limiti notevoli]] per descrivere resti vicino a zero.
+
+### Da dire all'orale
+
+> Una funzione è un o-piccolo di un'altra, definitivamente non nulla, in un dato processo di limite se il rapporto tende a zero. Il confronto è relativo alla funzione di riferimento e alla direzione del limite. Una funzione è infinitesima se tende a zero, infinita se tende a più o meno infinito.

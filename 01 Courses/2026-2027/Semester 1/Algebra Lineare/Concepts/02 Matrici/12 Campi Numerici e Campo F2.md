@@ -2,15 +2,15 @@
 course: Algebra Lineare
 type: concept
 status: da studiare
+updated: 2026-11-07
 mastery: non verificata
 created: 2026-10-16
 source:
   - "Lezione 3, PDF pp. 5-7, pagine stampate 25-27"
+  - "Registrazione della Lezione 3, 00:45:40-00:47:03; file collegato in Lecture 03"
 ---
 
 # Campi numerici e campo F2
-
-Stato: **da studiare**.
 
 ## Ruolo del campo
 
@@ -21,6 +21,12 @@ $$
 $$
 
 Le entrate delle matrici e gli scalari devono appartenere al campo specificato.
+
+## Come leggere il campo generico K
+
+**Chiarimento orale, circa 00:45:40-00:47:03.** $\mathbb K$ non indica un nuovo insieme particolare da imparare: è il nome del campo scelto per il problema. Il docente suggerisce di pensare inizialmente a $\mathbb R$ per rendere concreta la notazione.
+
+Precisazione del tutor: a trasferirsi a ogni campo sono i ragionamenti che usano soltanto gli assiomi di campo, non tutte le caratteristiche dei reali. Se il problema sceglie $\mathbb F_2$, si mantengono le sue operazioni: non si può sostituire $1+1=0$ con $1+1=2$, né dividere per 2. Pensare a un esempio reale aiuta l'intuizione, ma non cambia il campo dichiarato.
 
 ## Richiamo del tutor sulla definizione
 

@@ -1,7 +1,7 @@
 ---
 course: Analisi 1
 type: formula-sheet
-updated: 2026-11-03
+updated: 2026-11-09
 cssclasses:
   - formulario
   - formulario-indice
@@ -27,8 +27,8 @@ Formule, definizioni ed enunciati essenziali, organizzati per argomento. Ogni sc
 > - **[[07 Serie Numeriche|Serie numeriche]]** — somme parziali, serie campione, criteri, Stirling, convergenza assoluta e Leibniz.
 
 > [!abstract] 10 · Seconda parte: limiti e continuità
-> - **[[10 Limiti e Continuità delle Funzioni|Limiti e continuità delle funzioni]]** — intorni, accumulazione, definizioni di limite, asintoti, continuità, discontinuità e teoremi sui limiti; materiale **Da studiare**.
-> - **[[01 Dimostrazioni Seconda Parte|Dimostrazioni della seconda parte]]** — prove svolte dal docente nelle Lezioni 13 e 14.
+> - **[[10 Limiti e Continuità delle Funzioni|Limiti e continuità delle funzioni]]** — intorni, accumulazione, definizioni di limite, asintoti, continuità, discontinuità, asintotici, zeri, Weierstrass, valori intermedi e continuità dell’inversa; materiale **Da studiare**.
+> - **[[01 Dimostrazioni Seconda Parte|Dimostrazioni della seconda parte]]** — prove svolte dal docente nelle Lezioni 13-16, incluse D15, D17 e D16; continuità di seno/coseno e limiti notevoli con i rispettivi riferimenti.
 
 > [!tip] Ripasso rapido dei limiti
 > - **[[Guida agli Esercizi su Successioni e Limiti|Forma → metodo → risultato]]** — forme indeterminate, scelta della tecnica e casi diretti.

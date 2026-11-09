@@ -1,7 +1,7 @@
 ---
 course: Analisi 1
 type: learning-memory
-updated: 2026-11-03
+updated: 2026-11-09
 ---
 
 # Memoria di apprendimento
@@ -20,6 +20,8 @@ updated: 2026-11-03
 - La [[Lecture 12|Lezione 12]] è preparata integralmente: Concept 113-118 e integrazioni di 99, 110 e 111, fino agli equivalenti con esponente variabile. Aggiornato anche il Formulario, inclusa la D14. Nuovo materiale **Da studiare**; a p. 30 il docente chiude gli argomenti della prima prova in itinere.
 - Le [[Lecture 13|Lezioni 13]] e [[Lecture 14|14]] sono preparate integralmente: Concept 119-137, da intorni e accumulazione fino ad algebra dei limiti di funzione, passando per asintoti, continuità e discontinuità. Formulario e riferimenti alle prove aggiornati; tutto **Da studiare**.
 - Della Lezione 02 restano da consolidare caratterizzazione degli estremi, valore assoluto, intervalli, radici e potenze.
+- La [[Lecture 15|Lezione 15]] è preparata integralmente: integrati 85, 93, 94 e 95, creati 138-142 fino a Weierstrass. Prova degli zeri fedele al docente; prova di Weierstrass assente nel PDF L15 e ora aggiunta dalla L16. Tutte le aggiunte **Da studiare**.
+- La [[Lecture 16|Lezione 16]] è preparata integralmente: completati 142 e D17, integrati 67 e 95, creati 143-145 e D16. Prove e ordine seguono il docente, compreso il richiamo non dimostrato del limite di Nepero. Tutte le aggiunte **Da studiare**.
 
 ## Padroneggiato
 
@@ -143,6 +145,10 @@ updated: 2026-11-03
 - Lezione 12: [[113 Serie con Fattori Esponenziali Potenze e Logaritmi]], [[114 Convergenza Assoluta e Semplice delle Serie]], [[115 Serie Alternate e Criterio di Leibniz]], [[116 Monotonia e Confronti nelle Serie Alternate]], [[117 Discussione Parametrica delle Serie a Segno Variabile]], [[118 Equivalenti con Esponente Variabile nelle Serie]]; integrazioni di 99, 110 e 111. Tutto `Da studiare`.
 
 - Lezione 13: [[119 Intorni Finiti e Infiniti]] fino a [[126 Asintoti Obliqui]]. Lezione 14: [[127 Limiti Infiniti al Finito]] fino a [[137 Algebra dei Limiti di Funzioni]]. Tutto `Da studiare`; percorso completo negli indici delle due lezioni.
+
+- Lezione 15: integrazioni di [[85 Gerarchia degli Infiniti]], [[93 Notazione o-Piccolo]], [[94 Equivalenza Asintotica]], [[95 Equivalenti e Sviluppi Asintotici Notevoli]]; [[138 Algebra delle Funzioni Continue]] fino a [[142 Teorema di Weierstrass]]. Tutto `Da studiare`; ordine completo in [[Lecture 15]].
+
+- Lezione 16: integrazioni di [[142 Teorema di Weierstrass]], [[67 Monotonia e Funzione Inversa]], [[95 Equivalenti e Sviluppi Asintotici Notevoli]]; [[143 Teorema dei Valori Intermedi e Immagine di un Intervallo]], [[144 Limiti delle Funzioni Monotone su un Intervallo]], [[145 Continuità delle Funzioni Elementari]]. D16 e D17 nel Formulario; tutto `Da studiare`.
 
 ## Errori personali ricorrenti
 
@@ -268,12 +274,12 @@ updated: 2026-11-03
 
 ## Ultima sessione di studio
 
-- Data: 2026-11-03.
-- Attività: preparazione autonoma delle Lezioni 13 e 14; nessuna verifica dell'apprendimento.
-- Sintesi: letti entrambi i PDF, creati i Concept 119-137 e i grafici; aggiornati indici, Formulario, cartella Dimostrazioni ed Exam Book. Ordine e prove del docente conservati; precisata la sua classificazione delle discontinuità. Nuovi contenuti `Da studiare`; Padroneggiato e difficoltà personali invariati.
+- Data: 2026-11-09.
+- Attività: preparazione autonoma della Lezione 16; nessuna verifica dell'apprendimento.
+- Sintesi: lette tutte le 20 pagine; aggiunta la prova del professore di Weierstrass, creati i Concept 143-145, integrate le note 67 e 95. Formulario, D16, D17 e indici aggiornati; grafici e commenti di supporto. Nuovo materiale `Da studiare`; stato di apprendimento invariato.
 - Indicazione per la preparazione: rispettare l'ordine del PDF anche all'interno delle note — definizioni, enunciati, osservazioni, esempi, casi e passaggi delle dimostrazioni. Trascrivere fedelmente le prove del professore; aggiungere i commenti separatamente, senza interrompere o anticipare la sequenza. Non presentare una rielaborazione come trascrizione.
 
 ## Prossimo passo
 
 - Studiare [[50 Forma Esponenziale e Identità di Eulero|forma esponenziale e identità di Eulero]], quindi proseguire nell'ordine della [[Lecture 04|Lezione 04]].
-- Prossima preparazione: proseguire dopo [[137 Algebra dei Limiti di Funzioni]], dal primo contenuto nuovo del successivo PDF del docente. Le Lezioni 13 e 14 appartengono alla seconda parte del corso.
+- Prossima preparazione: dalla fine del PDF L16, dopo la dimostrazione del limite della potenza nella nuova sezione di [[95 Equivalenti e Sviluppi Asintotici Notevoli]]. Continuare dal primo contenuto nuovo del prossimo PDF; la prova di Weierstrass è ora presente, senza dedurne apprendimento.

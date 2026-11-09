@@ -2,15 +2,15 @@
 course: Algebra Lineare
 type: concept
 status: da studiare
+updated: 2026-11-07
 mastery: non verificata
 created: 2026-10-16
 source:
   - "Lezione 3, PDF pp. 11-12, pagine stampate 31-32"
+  - "Registrazione della Lezione 3, 01:36:27-01:37:35 e 01:43:59-01:48:01; file collegato in Lecture 03"
 ---
 
 # Prodotto di una matrice per uno scalare
-
-Stato: **da studiare**.
 
 ## Definizione
 
@@ -29,6 +29,8 @@ $$
 $$
 
 Lo scalare moltiplica ogni entrata. Il risultato conserva $m$ righe e $n$ colonne.
+
+**Chiarimento orale, circa 01:36:27-01:37:35.** L'operazione ha due ingredienti di natura diversa: uno scalare in $\mathbb K$ e una matrice in $M_{\mathbb K}(m,n)$. Non è un'operazione interna fra due matrici. Per questa mappa $\mathbb K\times M_{\mathbb K}(m,n)\to M_{\mathbb K}(m,n)$ non si formula la commutatività scambiando semplicemente i due argomenti: i loro ruoli e domini sono distinti. Un'eventuale notazione $A\lambda$ richiede una convenzione ulteriore; non è il prodotto fra due matrici.
 
 ## Esempio del professore
 
@@ -55,7 +57,9 @@ La matrice iniziale e quella finale sono entrambe $2\times3$.
 
 Siano $A,B\in M_{\mathbb K}(m,n)$ e $\lambda,\mu\in\mathbb K$.
 
-### Distributività rispetto alla somma di matrici
+### Proprietà distributiva a destra (Distributività rispetto alla somma di matrici )
+
+Nel lessico della registrazione è la distributività **a destra**: la somma riguarda il fattore destro, cioè le matrici.
 
 $$
 \lambda(A+B)=\lambda A+\lambda B.
@@ -74,7 +78,9 @@ $$
 
 La seconda uguaglianza usa la distributività nel campo.
 
-### Distributività rispetto alla somma di scalari
+### Proprietà distributiva a sinistra ( Distributività rispetto alla somma di scalari)
+
+È la distributività **a sinistra**: si sommano gli elementi del fattore sinistro, cioè gli scalari. Le due somme agiscono quindi su insiemi diversi.
 
 $$
 (\lambda+\mu)A=\lambda A+\mu A.
@@ -89,11 +95,12 @@ $$
 =(\lambda A+\mu A)_{ij}.
 $$
 
-### Compatibilità con il prodotto degli scalari
+### Proprietà associativa
 
 $$
-(\lambda\mu)A=\lambda(\mu A).
+(\lambda\mu)A=\mu (\lambda A) = \lambda(\mu A).
 $$
+
 
 Per ogni entrata:
 
@@ -106,7 +113,7 @@ $$
 
 Il prodotto nel campo è anche commutativo, quindi vale $\lambda(\mu A)=\mu(\lambda A)$, come indicato nel PDF.
 
-### Unità
+### Eistenza dell'elemento neutro
 
 $$
 1A=A,

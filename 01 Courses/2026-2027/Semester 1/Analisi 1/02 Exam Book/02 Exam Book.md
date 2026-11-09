@@ -1,7 +1,7 @@
 ---
 course: Analisi 1
 type: exam-book
-updated: 2026-11-03
+updated: 2026-11-09
 ---
 
 # Exam Book
@@ -498,3 +498,59 @@ Esempi guida: quadrato del segno eliminabile in zero; segno con salto $+2$; indi
 - [[131 Funzione di Dirichlet e Discontinuità Ovunque|Dirichlet]]: due successioni, razionale e irrazionale, tendenti allo stesso punto; immagini costanti diverse.
 - [[135 Proprietà Definitive e Teoremi di Confronto per Funzioni|Confronti]]: $\sin x/x\to0$ a $+\infty$ e $x^7\sin(1/x)\to0$ in zero tramite una funzione infinitesima che domina il modulo. Confronti e [[136 Permanenza del Segno per Funzioni|permanenza del segno]] sono richiamati senza prova dal professore.
 - [[137 Algebra dei Limiti di Funzioni|Algebra]]: controllare dominio, positività della base nelle potenze reali variabili e assenza di forme indeterminate. Il rapporto di limite non nullo su zero senza segno richiede uno studio ulteriore.
+
+## Lezione 15 - Continuità, asintotici e proprietà globali
+
+Materiale **Da studiare**, oltre la prima prova in itinere. Potenziale rilevanza d'esame: condizioni dei cambi di variabile, riconoscimento del termine principale, prove e verifica delle ipotesi dei teoremi.
+
+- [[138 Algebra delle Funzioni Continue|Algebra della continuità]]: il quoziente richiede denominatore non nullo nel punto; le potenze devono essere definite vicino al punto e nel punto.
+- [[139 Cambio di Variabile nei Limiti e Continuità della Composta|Cambio di variabile]]: oltre a $g(x)\to t_0$ e al limite esterno, controllare $g(x)\neq t_0$ definitivamente, salvo esterna continua in $t_0$ oppure $t_0$ infinito. La continuità dell'esterna permette di passare al limite nel suo argomento.
+- [[94 Equivalenza Asintotica#Lezione 15 - Equivalenza asintotica per funzioni - Da studiare|Equivalenze per funzioni]]: rapporto tendente a uno; stessa esistenza e stesso valore del limite. Prodotti, quozienti e potenze fisse sono ammessi con i domini necessari. Somme, logaritmi ed esponenziali richiedono un argomento ulteriore.
+- [[95 Equivalenti e Sviluppi Asintotici Notevoli#Lezione 15 - Limiti notevoli di funzioni - Da studiare|Otto limiti notevoli]]: ordine seno, coseno, limite di Nepero a più e meno infinito, logaritmo, esponenziale, potenza, tangente, arcotangente. Verificare l'argomento infinitesimo e conservare coefficienti e scala del resto. Le prove sono rinviate nel PDF.
+- [[85 Gerarchia degli Infiniti#Lezione 15 - Gerarchia per funzioni - Da studiare|Gerarchia]]: base maggiore di uno ed esponenti positivi fissati. Il prodotto di una potenza positiva per una potenza del modulo del logaritmo tende a zero in zero da destra, tramite sostituzione reciproca.
+- [[140 Grafici Locali e Grafici Probabili|Grafici]]: equivalenza non implica somiglianza completa dei grafici, monotonia o differenza tendente a zero.
+
+### D15 - Teorema degli zeri e bisezione
+
+[[D15 Teorema di Esistenza degli Zeri|Prova del docente]]: continuità su $[a,b]$, $a<b$ reali e $f(a)f(b)<0$ ⇒ uno zero in $(a,b)$. Stretta monotonia ⇒ unicità. La prova dimostra prima unicità, poi esistenza. Il passaggio finale è
+
+$$
+0\geq\lim f(b_n)f(a_n)=f(x_0)^2\geq0\quad\Rightarrow\quad f(x_0)=0.
+$$
+
+Per gli intervalli $[a_n,b_n]$, con $a_0=a$, $b_0=b$, $c_n=(a_n+b_n)/2$:
+
+$$
+b_n-a_n=\frac{b-a}{2^n},\qquad
+|c_n-x_0|\leq\frac{b-a}{2^{n+1}}.
+$$
+
+Controllare i segni a ogni passo; se il punto medio è uno zero, terminare. I segni discordi garantiscono esistenza, non unicità senza un'ipotesi ulteriore. Il limite di quantità negative può essere zero: non mantenere una disuguaglianza stretta passando al limite.
+
+### D17 - Weierstrass: enunciato disponibile
+
+[[D17 Teorema di Weierstrass|Scheda D17]]: continuità su un intervallo chiuso e limitato ⇒ massimo e minimo assoluti raggiunti, dunque limitatezza. Distinguere $x_m,x_M$ dalle ordinate $f(x_m),f(x_M)$. Le ipotesi sono sufficienti: se ne manca una, la tesi può fallire ma non è automaticamente falsa.
+
+Il regolamento include la dimostrazione alla voce D17; **il PDF L15 non la contiene**. La scheda non sostituisce la prova del docente con una ricostruzione. D16, valori intermedi, non è trattato in questo PDF.
+
+## Lezione 16 - Prove globali e continuità
+
+Nuovo materiale **Da studiare**. La prova di Weierstrass, assente nel PDF L15, è ora presente nella [[D17 Teorema di Weierstrass|D17]] con il testo del docente, PDF L16 pp. 2-6. Potenziale rilevanza d'esame: ipotesi, costruzione delle prove e dominio nei passaggi all'inversa.
+
+### D17 e D16 nell'ordine effettivo della lezione
+
+- **D17:** bisezione con superiore costante, intervalli annidati, punto limite. Separare il caso $\Lambda=+\infty$, che porta a un assurdo con la continuità, dal caso finito, in cui si scelgono valori entro $1/n$ dal superiore. Non supporre già esistente il massimo o già limitata la funzione.
+- **D16:** [[143 Teorema dei Valori Intermedi e Immagine di un Intervallo|immagine intervallo]]; dati due valori assunti, si passa alle controimmagini e si applicano gli zeri a $g=f-\lambda$. Trattare prima $\lambda$ coincidente con uno dei valori iniziali. Non concludere unicità della controimmagine.
+- **Corollario:** continuità su $[a,b]$ con estremi reali ⇒ immagine $[m,M]$ con minimo e massimo assunti. Su un intervallo qualsiasi l'immagine è un intervallo ma gli estremi possono mancare.
+
+### Limiti delle monotone e continuità dell'inversa
+
+[[144 Limiti delle Funzioni Monotone su un Intervallo|Monotone]]: i laterali interni sono finiti e racchiudono il valore della funzione; agli estremi possono essere infiniti. Le discontinuità interne possono essere soltanto a salto. Per la crescente il laterale sinistro è un superiore e il destro un inferiore; per la decrescente i ruoli si invertono.
+
+[[67 Monotonia e Funzione Inversa#Lezione 16 - Continuità e invertibilità su un intervallo - Da studiare|Inversa continua]]: richiede funzione continua e invertibile su un intervallo. L'inversa ha dominio $\operatorname{Im}f$, non automaticamente $\mathbb R$. Senza continuità l'invertibilità non impone monotonia: vale il controesempio già presente nel Concept 67.
+
+### Funzioni elementari e limiti notevoli
+
+[[145 Continuità delle Funzioni Elementari|Domini]]: controllare denominatori, argomenti di logaritmi e radici, basi delle potenze. La prova di seno/coseno parte dalla stima geometrica in zero, poi usa le formule di addizione.
+
+[[95 Equivalenti e Sviluppi Asintotici Notevoli#Lezione 16 - Dimostrazioni di logaritmo, esponenziale e potenza - Da studiare|Catena delle prove]]: richiamo di Nepero, logaritmo, esponenziale, potenza. Il richiamo per successioni reali generiche non viene dimostrato in queste pagine. Il cambio reciproco manda i due infiniti nei due lati di zero; nella potenza si separa $\alpha=0$ prima di dividere per $\alpha$.

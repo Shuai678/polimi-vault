@@ -3,6 +3,10 @@ course: Analisi 1
 type: concept
 status: Da studiare
 source:
+  - Lezione 16, PDF pp. 18-20
+  - Libro, §5.9.3, pp. 159-160, supporto per logaritmo, esponenziale e potenza
+  - Lezione 15, PDF pp. 11-15
+  - Libro, §5.9, pp. 156 e 159, enunciati pertinenti
   - Lezione 10, PDF p. 6 (collegamento annunciato con i limiti di funzioni)
   - Lezione 09, PDF pp. 4-5, 8-10
   - Libro, §3.5.2, pp. 94-96; §3.5.3, pp. 97-98; §3.8, p. 104
@@ -206,3 +210,338 @@ Gli esercizi del docente sono sviluppati in [[96 Calcolo dei Limiti con Equivale
 > Per una successione di argomenti infinitesima e definitivamente non nulla, seno, arcotangente, esponenziale meno uno e logaritmo di uno più l'argomento sono equivalenti all'argomento. Uno meno il coseno è equivalente a metà del quadrato. La potenza di uno più l'argomento, meno uno, è equivalente ad alfa volte l'argomento, con alfa fissato e non nullo. Gli angoli sono in radianti e le espressioni devono essere definite nella coda.
 
 Potenziale rilevanza d'esame: riconoscere l'argomento, formulare le ipotesi, conservare coefficienti e segni e distinguere equivalenza da sviluppo con resto.
+
+## Lezione 15 - Limiti notevoli di funzioni - Da studiare
+
+> [!note] Enunciati nell'ordine del professore
+> Nel PDF L15, pp. 11-13, il docente elenca **otto** limiti e scrive «dimostrazioni in seguito». Le giustificazioni di supporto per le successioni presenti sopra non sono presentate come dimostrazioni svolte in questa lezione. Le pp. 13-15 spiegano il passaggio a un argomento infinitesimo generico.
+
+Tutti gli angoli sono in radianti e $\log$ è naturale. In un rapporto con denominatore $x$ si considera $x\neq0$; per logaritmi e potenze si conserva il dominio reale. Il significato di $o$ e $\sim$ per funzioni è nelle integrazioni della Lezione 15 dei Concept [[93 Notazione o-Piccolo]] e [[94 Equivalenza Asintotica]].
+
+### 1. Seno
+
+$$
+\lim_{x\to0}\frac{\sin x}{x}=1,
+\qquad \sin x\sim x,
+\qquad \sin x=x+o(x).
+$$
+
+### 2. Coseno
+
+$$
+\lim_{x\to0}\frac{1-\cos x}{x^2}=\frac12,
+\qquad1-\cos x\sim\frac{x^2}{2}.
+$$
+
+$$
+1-\cos x=\frac{x^2}{2}+o(x^2),
+\qquad\cos x=1-\frac{x^2}{2}+o(x^2).
+$$
+
+### 3. Limite che restituisce il numero di Nepero
+
+$$
+\boxed{\lim_{x\to\pm\infty}\left(1+\frac1x\right)^x=e.}
+$$
+
+La scrittura contiene due limiti, a $+\infty$ e a $-\infty$. La base è positiva nelle due code considerate: per $x>0$ e per $x<-1$. È il corrispondente per funzioni del limite in [[90 Numero di Nepero e Limiti di Tipo Esponenziale]].
+
+### 4. Logaritmo
+
+$$
+\lim_{x\to0}\frac{\log(1+x)}x=1,
+\qquad\log(1+x)\sim x,
+\qquad\log(1+x)=x+o(x).
+$$
+
+Il dominio richiede $1+x>0$, condizione soddisfatta vicino a zero.
+
+### 5. Esponenziale
+
+$$
+\lim_{x\to0}\frac{e^x-1}x=1,
+\qquad e^x-1\sim x.
+$$
+
+$$
+e^x-1=x+o(x),\qquad e^x=1+x+o(x).
+$$
+
+### 6. Potenza con esponente fissato
+
+Per ogni $\alpha\in\mathbb R$ **fissato**,
+
+$$
+\lim_{x\to0}\frac{(1+x)^\alpha-1}x=\alpha.
+$$
+
+Per $\alpha\neq0$,
+
+$$
+(1+x)^\alpha-1\sim\alpha x.
+$$
+
+Per ogni $\alpha\in\mathbb R$,
+
+$$
+(1+x)^\alpha-1=\alpha x+o(x),
+\qquad(1+x)^\alpha=1+\alpha x+o(x).
+$$
+
+La base $1+x$ è positiva vicino a zero. Se $\alpha=0$ il numeratore è identicamente nullo e il limite è zero: vale lo sviluppo con resto nullo, mentre $0\sim0$ non è un'equivalenza definita.
+
+### 7. Tangente
+
+$$
+\lim_{x\to0}\frac{\tan x}x=1,
+\qquad\tan x\sim x,
+\qquad\tan x=x+o(x).
+$$
+
+Il denominatore interno $\cos x$ è non nullo vicino a zero, quindi la tangente è definita nella zona richiesta.
+
+### 8. Arcotangente
+
+$$
+\lim_{x\to0}\frac{\arctan x}x=1,
+\qquad\arctan x\sim x,
+\qquad\arctan x=x+o(x).
+$$
+
+### Osservazione del docente: sostituzione di un infinitesimo
+
+Se $\varepsilon(x)\to0$ per $x\to x_0\in\overline{\mathbb R}$ e $\varepsilon(x)\neq0$ definitivamente, dal [[139 Cambio di Variabile nei Limiti e Continuità della Composta|cambio di variabile]] segue, ponendo $t=\varepsilon(x)$,
+
+$$
+\lim_{x\to x_0}\frac{\sin\varepsilon(x)}{\varepsilon(x)}
+=\lim_{t\to0}\frac{\sin t}t=1.
+$$
+
+Quindi, per $x\to x_0$,
+
+$$
+\sin\varepsilon(x)\sim\varepsilon(x),
+\qquad\sin\varepsilon(x)=\varepsilon(x)+o(\varepsilon(x)).
+$$
+
+Il docente scrive poi, nello stesso ordine,
+
+$$
+\begin{aligned}
+1-\cos\varepsilon(x)&\sim\frac{(\varepsilon(x))^2}{2},\\
+\log(1+\varepsilon(x))&\sim\varepsilon(x),\\
+e^{\varepsilon(x)}-1&\sim\varepsilon(x),\\
+(1+\varepsilon(x))^\alpha-1&\sim\alpha\varepsilon(x)\quad(\alpha\neq0).
+\end{aligned}
+$$
+
+Le rispettive scritture con resto si ottengono sostituendo lo stesso argomento negli sviluppi precedenti, con scala $\varepsilon(x)^2$ per il coseno e $\varepsilon(x)$ negli altri casi. La non nullità definitiva consente di formare i rapporti richiesti. La funzione $\varepsilon(x)$ può cambiare segno; non deve essere monotona.
+
+### Osservazione successiva: ritorno alle successioni
+
+Se $\varepsilon_n\to0$ e $\varepsilon_n\neq0$ definitivamente, si ritrovano
+
+$$
+\sin\varepsilon_n\sim\varepsilon_n,\qquad
+1-\cos\varepsilon_n\sim\frac{\varepsilon_n^2}{2},\qquad
+\log(1+\varepsilon_n)\sim\varepsilon_n,
+$$
+
+$$
+e^{\varepsilon_n}-1\sim\varepsilon_n,\qquad
+(1+\varepsilon_n)^\alpha-1\sim\alpha\varepsilon_n\quad(\alpha\neq0).
+$$
+
+È il collegamento con la parte precedente della nota: le formule per successioni sono casi particolari della definizione successionale di limite di funzione.
+
+### Commenti ed esempio svolto con un argomento composto
+
+Calcoliamo
+
+$$
+L=\lim_{x\to0}\frac{1-\cos(3x)}{x\log(1+2x)}.
+$$
+
+Gli argomenti $3x$ e $2x$ tendono a zero e sono non nulli per $x\neq0$; inoltre $1+2x>0$ vicino a zero. Il logaritmo si annulla soltanto quando $x=0$. Applicando le formule agli **argomenti interi**,
+
+$$
+1-\cos(3x)\sim\frac{(3x)^2}{2}=\frac92x^2,
+\qquad \log(1+2x)\sim2x.
+$$
+
+Prodotti e quozienti di equivalenti danno
+
+$$
+\frac{1-\cos(3x)}{x\log(1+2x)}
+\sim\frac{(9/2)x^2}{2x^2}=\frac94,
+\qquad\boxed{L=\frac94.}
+$$
+
+Per usare invece la formula 3, a $+\infty$ poniamo $t=3x$:
+
+$$
+\left(1+\frac1{3x}\right)^{2x}
+=\left[\left(1+\frac1t\right)^t\right]^{2/3}
+\longrightarrow e^{2/3}.
+$$
+
+Il controllo della base positiva rende lecita la riscrittura e la potenza esterna ha esponente fissato.
+
+### Uso negli esercizi ed errori comuni
+
+Prima di sostituire un equivalente, verificare il limite dell'argomento. $\sin(1/x)\sim1/x$ vale per $x\to\pm\infty$, quando $1/x\to0$, non per $x\to0$. Conservare i coefficienti e il termine costante: $e^x\sim x$ in zero è falso. Nelle differenze con cancellazioni usare la precisione discussa in [[97 Cancellazioni e Precisione del Resto Asintotico]], senza inventare resti più piccoli di quelli disponibili.
+
+### Da dire all'orale
+
+> I limiti notevoli descrivono il termine principale delle funzioni elementari vicino a zero. Posso sostituire alla variabile un argomento infinitesimo, definitivamente non nullo, controllando i domini. Per il coseno la scala è il quadrato dell'argomento; per le altre formule locali elencate la scala è l'argomento, con i coefficienti previsti. In questa lezione i limiti sono enunciati e le dimostrazioni sono rimandate.
+
+## Lezione 16 - Dimostrazioni di logaritmo, esponenziale e potenza - Da studiare
+
+> [!note] Nuova parte da studiare
+> Il PDF L16, pp. 18-20, riprende il limite che restituisce $e$ e sviluppa poi, nell'ordine, logaritmo, esponenziale e potenza. Si conserva la catena del professore. Le prove di supporto per successioni presenti nella prima parte della nota rimangono distinte da questa trascrizione.
+
+### Richiamo del docente sul numero di Nepero
+
+Il professore richiama
+
+$$
+\lim_{x\to\pm\infty}\left(1+\frac1x\right)^x=e.\tag{*}
+$$
+
+Per la definizione successionale di limite questo equivale a
+
+$$
+\lim_{n\to+\infty}\left(1+\frac1{c_n}\right)^{c_n}=e
+$$
+
+per ogni successione $c_n$ tale che $c_n\to+\infty$ oppure $c_n\to-\infty$, nel dominio dell'espressione.
+
+Il docente precisa che questo risultato era stato **enunciato, ma non dimostrato**, quando era stato definito $e$ tramite
+
+$$
+e=\lim_{n\to+\infty}\left(1+\frac1n\right)^n.
+$$
+
+Lo richiama come risultato disponibile e passa alle prove successive; queste righe non costituiscono una dimostrazione autonoma del passaggio dall'indice naturale a un argomento reale generico.
+
+### Dimostrazione del professore: logaritmo
+
+Vogliamo il limite
+
+$$
+\lim_{x\to0}\frac{\log(1+x)}x=1.
+$$
+
+Poiché $\log t$ è una funzione continua, usando $(*)$,
+
+$$
+\lim_{t\to\pm\infty}
+\log\left(\left(1+\frac1t\right)^t\right)
+=\log e=1.
+$$
+
+Pertanto
+
+$$
+\lim_{t\to\pm\infty}t\log\left(1+\frac1t\right)=1.
+$$
+
+Per cambio di variabile $x=1/t$, $t\to+\infty$ corrisponde a $x\to0^+$ e $t\to-\infty$ a $x\to0^-$. Quindi
+
+$$
+1=\lim_{t\to\pm\infty}t\log\left(1+\frac1t\right)
+=\lim_{x\to0^{\pm}}\frac1x\log(1+x).
+$$
+
+I due limiti laterali valgono $1$ e dunque
+
+$$
+\boxed{\lim_{x\to0}\frac{\log(1+x)}x=1.}
+$$
+
+### Dimostrazione del professore: esponenziale
+
+Per cambio di variabile,
+
+$$
+e^x-1=t\iff e^x=t+1\iff x=\log(t+1).
+$$
+
+Allora
+
+$$
+\begin{aligned}
+\lim_{x\to0}\frac{e^x-1}x
+&=\lim_{t\to0}\frac{t}{\log(t+1)}\\
+&=\lim_{t\to0}\left(\frac{\log(t+1)}t\right)^{-1}=1.
+\end{aligned}
+$$
+
+### Dimostrazione del professore: potenza
+
+Per $\alpha\in\mathbb R$ vogliamo
+
+$$
+\lim_{x\to0}\frac{(1+x)^\alpha-1}x=\alpha.
+$$
+
+Se $\alpha=0$ il numeratore è nullo e il limite vale zero. Sia dunque $\alpha\neq0$. Il docente riscrive
+
+$$
+(1+x)^\alpha-1
+=e^{\log((1+x)^\alpha)}-1
+=e^{\alpha\log(1+x)}-1.
+$$
+
+Poi
+
+$$
+\begin{aligned}
+\lim_{x\to0}\frac{(1+x)^\alpha-1}x
+&=\lim_{x\to0}\frac{e^{\alpha\log(1+x)}-1}{x}\\
+&=\lim_{x\to0}
+\frac{e^{\alpha\log(1+x)}-1}{\alpha\log(1+x)}
+\frac{\alpha\log(1+x)}x\\
+&=\left(\lim_{t\to0}\frac{e^t-1}t\right)
+\alpha\left(\lim_{x\to0}\frac{\log(1+x)}x\right)\\
+&=1\cdot\alpha\cdot1=\alpha,
+\end{aligned}
+$$
+
+ponendo $t=\alpha\log(1+x)$. $\square$
+
+### Commenti alle dimostrazioni e precisazione della notazione
+
+La catena del PDF è: richiamo di $(*)$, continuità del logaritmo, sostituzione reciproca, esponenziale tramite l'inversa del logaritmo, potenza tramite esponenziale e logaritmo. Si usano [[145 Continuità delle Funzioni Elementari]] e [[139 Cambio di Variabile nei Limiti e Continuità della Composta]]. L'argomento delle prove rimane quello del professore.
+
+Nel passaggio del logaritmo il PDF scrive $x\to0^+$ in una riga che parte da $t\to\pm\infty$. Si è esplicitata sopra la corrispondenza corretta dei due lati: $+\infty\mapsto0^+$ e $-\infty\mapsto0^-$. È una precisazione della freccia di limite, non una prova alternativa; permette di giustificare il limite bilatero concluso dal docente.
+
+Vicino a zero $1+x>0$, quindi logaritmo e potenza reale hanno il dominio richiesto. Per il cambio $t=e^x-1$, la continuità dell'esponenziale dà $t\to0$, e $x\neq0$ implica $t\neq0$. Inoltre $t>-1$ e $\log(1+t)\neq0$ per $t\neq0$: il reciproco del rapporto logaritmico è ben definito nella zona necessaria.
+
+Nella potenza, $\alpha\neq0$ e $x\neq0$ vicino a zero garantiscono $\alpha\log(1+x)\neq0$. La nuova variabile tende a zero perché $\log(1+x)\to\log1=0$. Il caso $\alpha=0$ viene separato prima di dividere per $\alpha$, esattamente come nel PDF.
+
+La definizione successionale in $(*)$ riguarda successioni di **numeri reali**, non soltanto indici naturali: non basta controllare il valore della funzione nei soli interi per concludere un limite di funzione. Per $c_n\to\pm\infty$ la base è comunque positiva definitivamente; gli eventuali termini iniziali fuori dominio non intervengono dopo aver considerato la coda ammissibile.
+
+### Applicazione svolta con coefficienti
+
+Per $x\to0$, il dominio del logaritmo richiede $1+3x>0$, verificato vicino a zero. I due rapporti
+
+$$
+\frac{\log(1+3x)}{3x}\to1,
+\qquad\frac{e^{2x}-1}{2x}\to1
+$$
+
+usano precisamente gli argomenti $3x$ e $2x$. Quindi
+
+$$
+\frac{\log(1+3x)}{e^{2x}-1}
+=\frac{\log(1+3x)}{3x}
+\left(\frac{e^{2x}-1}{2x}\right)^{-1}\frac32
+\longrightarrow\frac32.
+$$
+
+Le prove appena lette giustificano i due fattori tendenti a uno; l'esempio non richiede derivate né sviluppi di ordine superiore.
+
+### Da dire all'orale
+
+> Dal limite di tipo Nepero e dalla continuità del logaritmo, con la sostituzione reciproca ottengo logaritmo di uno più x diviso x tendente a uno. Ponendo t uguale a e alla x meno uno ricavo il limite dell'esponenziale. Per la potenza separo alfa uguale a zero; negli altri casi scrivo la potenza come esponenziale di alfa per il logaritmo e ottengo il prodotto dei due limiti già provati.

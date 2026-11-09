@@ -10,8 +10,6 @@ source:
 
 # PageRank e matrici di transizione
 
-Stato: **da studiare**.
-
 ## Il modello didattico
 
 Il PDF introduce un modello di navigazione casuale fra un insieme finito $S$ di pagine web. La rilevanza di una pagina è collegata alla frequenza con cui viene visitata nel modello.

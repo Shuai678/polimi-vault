@@ -3,7 +3,7 @@ course: Algebra Lineare
 type: learning-memory
 status: da studiare
 mastery: non verificata
-updated: 2026-11-03
+updated: 2026-11-07
 ---
 
 # Memoria dello studio di GAL
@@ -76,9 +76,15 @@ Usare SVG quando aiutano a capire la matematica; formule e dimostrazioni in LaTe
 
 ## Ultima operazione
 
+7 novembre 2026: analizzata la registrazione della Lezione 3 mediante trascrizione locale dell'audio e confronto con schermate della lavagna e appunti esistenti. Integrati soltanto chiarimenti sulla codifica delle funzioni, sul campo generico e sul prodotto per scalare; aggiunti il chiarimento sulla numerazione unica e l'indicazione storica dei vecchi temi in WeBeep. Riferimenti temporali in Lezione 3, senza duplicare il video nel Vault o archiviare la trascrizione integrale.
+
+Le aggiunte restano **da studiare**; nessuna comprensione, padronanza o simulazione personale è stata verificata. Questa è una manutenzione degli appunti, non un rinnovo della modalità eccezionale del 16 ottobre.
+
+### Operazione del 3 novembre 2026
+
 3 novembre 2026: aggiunte le lezioni 13 e 15, con 8 nuove note concettuali, 2 raccolte di esempi, 3 SVG e una nota dedicata al fac-simile contenuto nel secondo PDF. Il corso contiene ora 49 concetti, 11 lezioni, 11 raccolte di esempi, 13 SVG, 11 PDF originali e un fac-simile indicizzato. Le fonti comprendono 133 pagine, di cui 4 dell'allegato. Nessuna promozione della padronanza o simulazione personale registrata.
 
-### Operazione precedente
+### Operazione del 16 ottobre 2026
 
 16 ottobre 2026: aggiunte le lezioni 9, 10 e 11 alle precedenti 0, 1, 3, 4, 6 e 7. Ora sono disponibili 41 note concettuali, 9 raccolte di esempi, 10 SVG e i 9 PDF originali, per 107 pagine di fonti. Tutto resta «da studiare», senza verifiche di apprendimento, avanzamenti di Mastery o esercizi personali registrati come completati.
 

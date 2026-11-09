@@ -10,11 +10,9 @@ source:
 
 # Uguaglianza e somma di matrici
 
-Stato: **da studiare**.
-
 ## Uguaglianza
 
-Due [[11 Matrici come Funzioni e Indici|matrici]] sono uguali quando hanno le stesse dimensioni e coincidono in ogni posizione:
+L'uguaglianza tra due [[11 Matrici come Funzioni e Indici|matrici]] richiede le stesse dimensioni e la coincidenza delle entrate in ogni posizione:
 
 $$
 A=B
@@ -23,13 +21,13 @@ a_{ij}=b_{ij}\quad
 \forall i=1,\ldots,m,\ \forall j=1,\ldots,n.
 $$
 
-Matrici di forme diverse non sono uguali. Per esempio, una matrice $1\times2$ e una $2\times1$ non sono uguali anche se contengono gli stessi due numeri.
+Per matrici di forme diverse non si ha uguaglianza. Per esempio, una matrice $1\times2$ e una $2\times1$ sono diverse anche quando contengono gli stessi due numeri.
 
-L'uguaglianza si interpreta come uguaglianza di funzioni sullo stesso insieme di indici.
+Interpretando le matrici come funzioni, si riconduce l'uguaglianza alla coincidenza dei valori sullo stesso insieme di indici.
 
 ## Definizione della somma
 
-Per $A,B\in M_{\mathbb K}(m,n)$:
+Per $A,B\in M_{\mathbb K}(m,n)$ si definisce l'operazione di somma:
 
 $$
 +:M_{\mathbb K}(m,n)\times M_{\mathbb K}(m,n)
@@ -43,36 +41,51 @@ $$
 (A+B)_{ij}=a_{ij}+b_{ij}.
 $$
 
-Si sommano le entrate che occupano la stessa posizione. Le dimensioni devono coincidere e le somme si eseguono nel campo $\mathbb K$.
+La somma si esegue sommando le entrate che occupano la stessa posizione. Si richiede che le dimensioni coincidano e si applicano le regole di addizione del campo $\mathbb K$.
 
-Il richiamo alle funzioni del PDF significa che, per la somma puntuale sull'intero dominio dichiarato, i due addendi devono avere lo stesso dominio. Per funzioni con domini diversi si può eventualmente lavorare sulla loro intersezione, dopo una restrizione esplicita.
+> [!note] Stesso dominio e stesse dimensioni
+> Una matrice di tipo $(m,n)$ è una funzione con dominio $[m]\times[n]$, cioè l'insieme delle posizioni delle caselle. Per le matrici, richiedere lo **stesso dominio** equivale quindi a richiedere le **stesse dimensioni**:
+>
+> $$
+> A:[m]\times[n]\to\mathbb K,
+> \qquad
+> B:[m]\times[n]\to\mathbb K.
+> $$
+>
+> Per calcolare $A(i,j)+B(i,j)$, la posizione $(i,j)$ deve appartenere al dominio di entrambe le matrici: devono essere definiti entrambi i valori da sommare.
+>
+> Per esempio, una matrice $2\times3$ e una $2\times2$ hanno domini diversi. La posizione $(1,3)$ esiste nella prima, ma manca nella seconda; la somma delle due matrici non è quindi definita.
 
-## Esempio del professore
+Per funzioni con domini diversi, si può prima effettuare una restrizione alla loro intersezione e poi sommare le funzioni ristrette. Questo procedimento modifica i domini iniziali; per la somma diretta delle matrici qui definita si richiede lo stesso dominio.
+
+## Esempio di somma
+
+Si considerano le matrici:
 
 $$
-A=\begin{pmatrix}1&-2\\0&3\end{pmatrix},
+A=\begin{bmatrix}1&-2\\0&3\end{bmatrix},
 \qquad
-B=\begin{pmatrix}-1&1\\4&7\end{pmatrix}.
+B=\begin{bmatrix}-1&1\\4&7\end{bmatrix}.
 $$
 
-Entrambe sono $2\times2$ su $\mathbb R$. Quindi:
+Poiché entrambe appartengono a $M_{\mathbb R}(2,2)$, si può eseguire la somma:
 
 $$
 \begin{aligned}
 A+B
-&=\begin{pmatrix}
+&=\begin{bmatrix}
 1+(-1)&-2+1\\
 0+4&3+7
-\end{pmatrix}\\
-&=\begin{pmatrix}0&-1\\4&10\end{pmatrix}.
+\end{bmatrix}\\
+&=\begin{bmatrix}0&-1\\4&10\end{bmatrix}.
 \end{aligned}
 $$
 
-Le quattro operazioni riguardano, nell'ordine, le posizioni $(1,1)$, $(1,2)$, $(2,1)$ e $(2,2)$.
+Si sommano, nell'ordine, le entrate nelle posizioni $(1,1)$, $(1,2)$, $(2,1)$ e $(2,2)$.
 
 ## Proprietà e dimostrazioni per componenti
 
-Il professore enuncia le proprietà come ereditate dalla somma del campo. I passaggi seguenti ne esplicitano la giustificazione.
+Le proprietà della somma di matrici derivano da quelle dell'addizione nel campo $\mathbb K$. Le dimostrazioni si svolgono confrontando le entrate nella stessa posizione.
 
 ### Associatività
 
@@ -87,7 +100,7 @@ $$
 \end{aligned}
 $$
 
-Il passaggio centrale usa l'associatività in $\mathbb K$. Poiché tutte le entrate coincidono:
+Nel passaggio centrale si applica l'associatività in $\mathbb K$. Dalla coincidenza di tutte le entrate si conclude:
 
 $$
 (A+B)+C=A+(B+C).
@@ -102,66 +115,66 @@ $$
 =(B+A)_{ij}.
 $$
 
-Quindi $A+B=B+A$.
+Applicando la commutatività in $\mathbb K$ a ogni entrata, si ottiene $A+B=B+A$.
 
 ### Matrice nulla
 
-La matrice $0_{m,n}$ ha tutte le entrate nulle. Per ogni $(i,j)$:
+Si indica con $0_{m,n}$ la matrice di tipo $(m,n)$ con tutte le entrate nulle. Per ogni posizione $(i,j)$ si ha:
 
 $$
 (A+0_{m,n})_{ij}=a_{ij}+0=a_{ij}.
 $$
 
-Quindi $A+0_{m,n}=0_{m,n}+A=A$. Occorre la matrice nulla delle dimensioni corrette.
+Si ottiene quindi $A+0_{m,n}=0_{m,n}+A=A$. Si richiede che la matrice nulla abbia le stesse dimensioni di $A$.
 
-L'elemento neutro è unico: se $N$ è neutro, applicando la sua proprietà alla matrice nulla si ottiene $0_{m,n}+N=0_{m,n}$; ma il primo membro è $N$. Dunque $N=0_{m,n}$.
+Per verificare l'unicità dell'elemento neutro, si suppone che $N$ sia neutro. Applicando la proprietà di $N$ alla matrice nulla, si ottiene $0_{m,n}+N=0_{m,n}$. Poiché il primo membro coincide con $N$, si conclude $N=0_{m,n}$.
 
 ### Matrice opposta
 
-L'opposta di $A$ è
+Si definisce l'opposta di $A$ cambiando il segno di ogni entrata:
 
 $$
 -A=(-a_{ij})_{ij}.
 $$
 
-Infatti:
+Per ogni posizione $(i,j)$ si verifica:
 
 $$
 (A+(-A))_{ij}=a_{ij}+(-a_{ij})=0.
 $$
 
-Quindi $A+(-A)=(-A)+A=0_{m,n}$.
+Si ottiene quindi $A+(-A)=(-A)+A=0_{m,n}$.
 
-Nel PDF l'opposta è indicata anche con $A'$. Qui si usa $-A$ per rendere esplicito il significato additivo.
+Nella fonte si indica l'opposta anche con $A'$. Si adotta la notazione $-A$ per rendere esplicito il significato additivo.
 
-L'opposta è unica: se $A+C=0_{m,n}$, ogni entrata soddisfa $a_{ij}+c_{ij}=0$, quindi $c_{ij}=-a_{ij}$ e $C=-A$.
+Per verificare l'unicità dell'opposta, si suppone che $A+C=0_{m,n}$. In ogni posizione si ha $a_{ij}+c_{ij}=0$, da cui si ricava $c_{ij}=-a_{ij}$. Si conclude quindi $C=-A$.
 
-Nell'esempio:
+Per la matrice $A$ dell'esempio si ottiene:
 
 $$
--\begin{pmatrix}1&-2\\0&3\end{pmatrix}
-=\begin{pmatrix}-1&2\\0&-3\end{pmatrix}.
+-\begin{bmatrix}1&-2\\0&3\end{bmatrix}
+=\begin{bmatrix}-1&2\\0&-3\end{bmatrix}.
 $$
 
 ## Differenza
 
-Come conseguenza delle definizioni:
+La differenza si definisce mediante la somma con la matrice opposta:
 
 $$
 A-B=A+(-B),\qquad
 (A-B)_{ij}=a_{ij}-b_{ij}.
 $$
 
-Anche la differenza richiede dimensioni uguali.
+Anche per la differenza si richiede che le dimensioni coincidano.
 
-## Errori da evitare
+## Condizioni e precisazioni
 
-- Sommare matrici che hanno soltanto lo stesso numero totale di entrate ma forme diverse.
-- Scambiare gli indici di riga e colonna.
-- Cambiare il segno solo ad alcune entrate per costruire l'opposta.
-- Usare la somma reale quando il campo è [[12 Campi Numerici e Campo F2|$\mathbb F_2$]].
+- Per la somma si richiedono le stesse dimensioni; il solo numero totale di entrate non è sufficiente.
+- Nella lettura delle entrate si mantiene distinto l'indice di riga da quello di colonna.
+- Per costruire l'opposta si cambia il segno di tutte le entrate.
+- Nel campo [[12 Campi Numerici e Campo F2| F]] si applicano le regole di addizione del campo.
 
-## Da dire all'orale
+## Sintesi per l'orale
 
 > La somma di due matrici dello stesso tipo si definisce sommando le entrate corrispondenti. È associativa e commutativa, ha come elemento neutro la matrice nulla e ogni matrice ha un'unica opposta.
 
@@ -170,4 +183,4 @@ Anche la differenza richiede dimensioni uguali.
 - [[14 Prodotto di una Matrice per uno Scalare]].
 - [[15 Proprietà e Costo dei Calcoli Matriciali]].
 - Esempi svolti: [[03 Esempi Svolti sulle Matrici]].
-- Fonte: [[GAL 2026-2027 - 20260930 - LEZIONE 3.pdf#page=9|Lezione 3, pp. 9-11, stampate 29-31]]. Le dimostrazioni per componenti e le verifiche di unicità sono sviluppate dal tutor.
+- Fonte: [[GAL 2026-2027 - 20260930 - LEZIONE 3.pdf#page=9|Lezione 3, pp. 9-11, stampate 29-31]]. Le dimostrazioni per componenti e le verifiche di unicità costituiscono approfondimenti aggiuntivi.

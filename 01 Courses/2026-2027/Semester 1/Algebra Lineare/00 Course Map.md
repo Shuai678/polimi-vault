@@ -4,7 +4,7 @@ type: course-map
 status: da studiare
 year: 2026-2027
 semester: 1
-updated: 2026-11-03
+updated: 2026-11-07
 ---
 
 # Geometria e Algebra Lineare
@@ -29,7 +29,7 @@ Questo percorso contiene le spiegazioni complete degli undici PDF forniti, organ
 | [[01 Courses/2026-2027/Semester 1/Algebra Lineare/Lectures/Lecture 13\|Lezione 13]] | 19 ottobre 2026 | 1-11 | corso 108-118 | da studiare |
 | [[01 Courses/2026-2027/Semester 1/Algebra Lineare/Lectures/Lecture 15\|Lezione 15]] | 28 ottobre 2026 | 1-15 | corso 119-129; fac-simile 1-4 | da studiare |
 
-La numerazione delle lezioni è quella originale. Non sono state aggiunte le Lezioni 2, 5, 8, 12 e 14 e questa mappa non pretende di ricostruire l'intero programma annuale.
+La numerazione originale comprende sia lezioni teoriche sia esercitazioni, come chiarito nella registrazione della [[01 Courses/2026-2027/Semester 1/Algebra Lineare/Lectures/Lecture 03|Lezione 3]] a circa 00:44:33-00:45:09. Non sono state aggiunte le Lezioni 2, 5, 8, 12 e 14, né viene attribuito un contenuto agli incontri non forniti; questa mappa non pretende di ricostruire l'intero programma annuale.
 
 ## Percorso dei concetti
 
@@ -189,6 +189,8 @@ I PDF originali sono conservati una sola volta nella cartella degli asset del co
 Gli undici PDF comprendono complessivamente **133 pagine**: 129 pagine del corso con numerazione continua da 1 a 129 e 4 pagine del fac-simile. La numerazione riparte da 1 soltanto nell'allegato.
 
 Le note distinguono definizioni ed esempi del professore da dimostrazioni esplicitate, esempi aggiuntivi e precisazioni del tutor. La bibliografia consigliata è in [[01 Courses/2026-2027/Semester 1/Algebra Lineare/Lectures/Lecture 00|Lezione 0]]; non vengono attribuiti contenuti a capitoli dei manuali non consultati.
+
+La registrazione della [[01 Courses/2026-2027/Semester 1/Algebra Lineare/Lectures/Lecture 03|Lezione 3]] è collegata al file originale esterno al Vault. Il confronto del 7 novembre 2026 integra soltanto chiarimenti utili, con riferimenti temporali, senza duplicare le spiegazioni già presenti.
 
 Formule e dimostrazioni usano LaTeX compatibile con Obsidian. Le illustrazioni sono SVG in Assets e hanno una spiegazione nella nota pertinente.
 

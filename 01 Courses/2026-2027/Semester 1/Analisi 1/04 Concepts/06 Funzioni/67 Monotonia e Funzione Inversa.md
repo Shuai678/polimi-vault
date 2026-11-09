@@ -3,6 +3,8 @@ course: Analisi 1
 type: concept
 status: da-studiare
 source:
+  - Lezione 16, PDF pp. 13-14
+  - Libro, §6.3, p. 200, teorema 6.28
   - Lezione 05, PDF pp. 16-19
   - Libro, §2.3.4, pp. 46-51 e §2.3.6, pp. 52-53
 ---
@@ -170,3 +172,53 @@ Il controesempio precedente è sufficiente per confutare l'implicazione inversa.
 ## Prospettiva d'esame
 
 Teorema e dimostrazione sono materiale tipico da orale. Bisogna distinguere con precisione ipotesi, conclusioni e falso viceversa, sapendo riprodurre il controesempio della funzione a tratti.
+
+## Lezione 16 - Continuità e invertibilità su un intervallo - Da studiare
+
+> [!note] Nuova parte da studiare
+> Il PDF L16, pp. 13-14, riprende prima il teorema e il controesempio già presenti in questa nota, poi aggiunge le ipotesi di continuità e dominio intervallo. Lo stato precedente della nota è conservato; questa integrazione è **Da studiare**.
+
+### Richiamo del docente
+
+Una funzione strettamente monotona è invertibile sulla propria immagine e la sua inversa è strettamente monotona nello stesso verso. Il teorema e la dimostrazione sono già nella parte iniziale della nota.
+
+Il viceversa non vale in generale. Il docente ripropone proprio [[67 Monotonia e Funzione Inversa#Il viceversa è falso in generale|la funzione a tratti già presente]] già sviluppata sopra: $f^{-1}=f$, ma la funzione non è monotona. Si conservano il grafico e la formula esistenti, senza duplicare il controesempio. In questo esempio dominio e immagine sono entrambi $[0,2]$, ma manca la continuità in $x=1$.
+
+### Teorema del docente con la continuità
+
+Sia $f:I\subseteq\mathbb R\to\mathbb R$, con $I$ **intervallo**, continua in $I$. Allora
+
+$$
+\boxed{f\text{ strettamente monotona}\iff f\text{ invertibile}.}
+$$
+
+In tal caso:
+
+- $f^{-1}$ è strettamente monotona come $f$;
+- $\operatorname{Im}f=D(f^{-1})$ è un intervallo;
+- $f^{-1}:\operatorname{Im}f\to I$ è **continua sul proprio dominio**.
+
+Nel PDF questo teorema è enunciato, senza una dimostrazione sviluppata. L'ordine è quello del docente: prima il falso viceversa generale, poi l'equivalenza nel caso continuo su un intervallo e la continuità dell'inversa.
+
+### Corollario annunciato dal docente
+
+Le funzioni elementari sono continue sui loro domini. L'applicazione del risultato alle radici, ai logaritmi e alle inverse goniometriche è sviluppata in [[145 Continuità delle Funzioni Elementari]], nello stesso ordine del PDF.
+
+### Commenti: cosa significa invertibile e quali ipotesi servono
+
+Come in [[66 Funzione Inversa]], qui invertibile significa **sulla propria immagine**: la funzione $f:I\to\operatorname{Im}f$ è biiettiva. Non si sta deducendo che $f$ sia suriettiva su tutto $\mathbb R$. Per esempio l'esponenziale ha inversa sul dominio $(0,+\infty)$ del logaritmo, non su tutto $\mathbb R$.
+
+L'immagine è un intervallo per [[143 Teorema dei Valori Intermedi e Immagine di un Intervallo]]. La continuità dell'inversa è una conclusione ulteriore: la sola esistenza algebrica di un'inversa non basta a darla. Il controesempio sopra, essendo uguale alla propria inversa e discontinuo, rende visibile questa distinzione.
+
+> [!info] Approfondimento dal libro
+> Il §6.3, p. 200, formula la continuità dell'inversa di una funzione continua e invertibile su un intervallo e mostra che togliere l'ipotesi di intervallo può far fallire la conclusione. Si usa il risultato come supporto al teorema del docente; non si introduce una prova diversa attribuita alla lezione.
+
+### Uso negli esercizi
+
+Per giustificare un'inversa continua, verificare il dominio intervallo, la continuità di $f$ e la sua stretta monotonia; dichiarare poi il dominio dell'inversa come $\operatorname{Im}f$. Non basta scrivere la formula risolta rispetto a $x$.
+
+Nell'esempio già presente in [[66 Funzione Inversa#Esempio della Lezione 06: esponenziale composta|Concept 66]], $f(x)=e^{x^3+2}$ è continua e strettamente crescente su $\mathbb R$, con immagine $(0,+\infty)$. La sua inversa $\sqrt[3]{\log y-2}$ è quindi continua per $y>0$. Questo aggiorna la giustificazione dell'esempio senza risolverlo una seconda volta.
+
+### Da dire all'orale
+
+> Per una funzione continua su un intervallo, l'invertibilità sulla propria immagine equivale alla stretta monotonia. In questo caso l'immagine è un intervallo e l'inversa è continua sul suo dominio, con lo stesso verso di monotonia della funzione di partenza. Continuità e dominio intervallo sono ipotesi del risultato, non conseguenze della sola invertibilità.

@@ -11,8 +11,6 @@ source:
 
 # Matrici invertibili
 
-Stato: **da studiare**.
-
 ## Definizione 6.1
 
 Per $A\in M_{\mathbb K}(m,n)$:

@@ -10,8 +10,6 @@ source:
 
 # Prodotto matriciale righe per colonne
 
-Stato: **da studiare**.
-
 ## Definizione e dimensioni
 
 Siano $A\in M_{\mathbb K}(m,n)$ e $B\in M_{\mathbb K}(n,p)$. Il prodotto $AB$ è la matrice $C\in M_{\mathbb K}(m,p)$ definita da

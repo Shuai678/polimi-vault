@@ -3,6 +3,8 @@ course: Analisi 1
 type: concept
 status: Da studiare
 source:
+  - Lezione 15, PDF pp. 6-11
+  - Libro, §5.11, pp. 165-166, definizione e proprietà
   - Lezione 10, PDF pp. 2-5
   - Lezione 08, PDF pp. 20-22
   - Lezione 09, PDF pp. 2-3, 5-8
@@ -263,3 +265,136 @@ Per esempio $1+e^n\sim e^n\to+\infty$, dunque $\log(1+e^n)\sim\log(e^n)=n$. La t
 - Elevare equivalenti a esponenti variabili senza controlli: per esempio $1+1/n\sim1$, ma $(1+1/n)^n\to e$ mentre $1^n=1$.
 
 Potenziale rilevanza d'esame: definizione, equivalenza con il resto $o$-piccolo, uso nei rapporti e riconoscimento delle cancellazioni. Definizione ed esempio iniziale concludono il PDF della Lezione 08; le integrazioni sopra coprono i richiami e le proprietà della Lezione 09. Le applicazioni successive sono in [[95 Equivalenti e Sviluppi Asintotici Notevoli]], [[96 Calcolo dei Limiti con Equivalenti Asintotici]] e [[97 Cancellazioni e Precisione del Resto Asintotico]].
+
+## Lezione 15 - Equivalenza asintotica per funzioni - Da studiare
+
+> [!note] Nuova parte da studiare
+> La sezione segue il PDF L15, pp. 6-11: definizioni, osservazioni, caratterizzazione col resto, proprietà, prove e cautele. Le parti precedenti conservano il contesto delle successioni.
+
+### Definizione del docente
+
+Per due funzioni $f,g$ e $x_0\in\overline{\mathbb R}$ di accumulazione del dominio comune, con $g(x)\neq0$ definitivamente,
+
+$$
+\boxed{f(x)\sim g(x)\text{ per }x\to x_0
+\iff\lim_{x\to x_0}\frac{f(x)}{g(x)}=1.}
+$$
+
+Nella stessa pagina il professore introduce poi [[93 Notazione o-Piccolo#Lezione 15 - o-piccolo e infinitesimi per funzioni - Da studiare|o-piccolo, funzione infinitesima e funzione infinita]]. L'equivalenza riguarda un errore **relativo** che tende a zero.
+
+### Osservazioni del docente sui rapporti
+
+Se
+
+$$
+\lim_{x\to x_0}\frac{f(x)}{g(x)}=\lambda\in\mathbb R\setminus\{0\},
+$$
+
+allora $f(x)/(\lambda g(x))\to1$, cioè $f(x)\sim\lambda g(x)$. La costante va conservata.
+
+Se invece $f(x)/g(x)\to\pm\infty$, allora $g(x)/f(x)\to0$, cioè $g(x)=o(f(x))$.
+
+### Caratterizzazione col resto: passaggi del professore
+
+Il docente osserva che $f(x)\sim g(x)$ se e solo se $f(x)=g(x)+o(g(x))$. Infatti, sempre per $x\to x_0$,
+
+$$
+\begin{aligned}
+f(x)\sim g(x)
+&\iff\lim_{x\to x_0}\frac{f(x)}{g(x)}=1\\
+&\iff\lim_{x\to x_0}\left(\frac{f(x)}{g(x)}-1\right)=0\\
+&\iff\lim_{x\to x_0}\frac{f(x)-g(x)}{g(x)}=0\\
+&\iff f(x)-g(x)=o(g(x))\\
+&\iff f(x)=g(x)+o(g(x)).
+\end{aligned}
+$$
+
+### Proposizione del docente
+
+**1. Operazioni.** Se $f_1\sim f_2$ e $g_1\sim g_2$ per $x\to x_0$, allora
+
+$$
+f_1g_1\sim f_2g_2,\qquad
+\frac{f_1}{g_1}\sim\frac{f_2}{g_2},\qquad
+(f_1)^\alpha\sim(f_2)^\alpha.
+$$
+
+L'esponente $\alpha\in\mathbb R$ è fissato. Il PDF precisa che le due potenze devono essere ben definite in un intorno di $x_0$, escluso al più $x_0$. I rapporti richiedono la non nullità definitiva dei denominatori; le equivalenze la garantiscono anche per le funzioni corrispondenti.
+
+**2. Esistenza e valore del limite.** Se $f\sim g$, allora esiste $\lim_{x\to x_0}f(x)\in\overline{\mathbb R}$ se e solo se esiste $\lim_{x\to x_0}g(x)\in\overline{\mathbb R}$. Quando esistono, i limiti sono uguali.
+
+### Dimostrazione del professore delle proprietà
+
+**1. Nelle ipotesi**, per il prodotto,
+
+$$
+\frac{f_1(x)g_1(x)}{f_2(x)g_2(x)}
+=\frac{f_1(x)}{f_2(x)}\frac{g_1(x)}{g_2(x)}\longrightarrow1
+$$
+
+per algebra dei limiti. Quindi $f_1g_1\sim f_2g_2$.
+
+Per il quoziente,
+
+$$
+\frac{f_1(x)/g_1(x)}{f_2(x)/g_2(x)}
+=\frac{f_1(x)g_2(x)}{f_2(x)g_1(x)}
+=\frac{f_1(x)}{f_2(x)}
+\left(\frac{g_1(x)}{g_2(x)}\right)^{-1}
+\longrightarrow1
+$$
+
+per algebra dei limiti. Quindi $f_1/g_1\sim f_2/g_2$.
+
+Per la potenza,
+
+$$
+\frac{(f_1(x))^\alpha}{(f_2(x))^\alpha}
+=\left(\frac{f_1(x)}{f_2(x)}\right)^\alpha\longrightarrow1
+$$
+
+per algebra dei limiti. Quindi $(f_1)^\alpha\sim(f_2)^\alpha$.
+
+**2.** Per $x\to x_0$ scriviamo
+
+$$
+f(x)=\frac{f(x)}{g(x)}\,g(x).
+$$
+
+Poiché $f(x)/g(x)\to1$, se esiste $\lim_{x\to x_0}g(x)=\ell\in\overline{\mathbb R}$, per algebra dei limiti e aritmetizzazione dell'infinito vale
+
+$$
+\lim_{x\to x_0}f(x)
+=\lim_{x\to x_0}\left[\frac{f(x)}{g(x)}g(x)\right]
+=1\cdot\ell=\ell.
+$$
+
+Invertendo i ruoli di $f,g$ e ripetendo l'argomento, se esiste $\lim f(x)=\ell$, allora esiste $\lim g(x)=\ell$. Segue la tesi. $\square$
+
+### Osservazione successiva del docente: operazioni non ammesse in generale
+
+Da $f_1\sim f_2$ e $g_1\sim g_2$ **non** seguono in generale
+
+$$
+f_1\pm g_1\sim f_2\pm g_2,\qquad
+\log f_1\sim\log f_2,\qquad
+e^{f_1}\sim e^{f_2}.
+$$
+
+Si controllano anche i domini delle espressioni scritte. Il professore colloca questa cautela prima dell'elenco dei limiti notevoli.
+
+### Commenti alle prove ed errori da evitare
+
+Il prodotto e il quoziente delle equivalenze sono giustificati da rapporti tendenti a $1$. Nelle potenze l'esponente è **fisso**: la proposizione non autorizza una potenza con esponente variabile.
+
+La seconda proprietà riguarda anche limiti infiniti e limite zero. Non dice che un limite esista sempre: due funzioni equivalenti possono essere entrambe prive di limite.
+
+Per vedere il pericolo delle cancellazioni, a $+\infty$ siano $f_1=x$, $f_2=x+1$, $g_1=-x+1$, $g_2=-x+2$. I due rapporti di partenza tendono a $1$, ma le somme sono $1$ e $3$ e non sono equivalenti. Inoltre $x+1\sim x$, ma $e^{x+1}/e^x=e\neq1$.
+
+Per i logaritmi, a zero $1+x\sim1+x^2$, ma $\log(1+x)/\log(1+x^2)\sim x/x^2=1/x$: non tende a $1$. Gli argomenti sono positivi vicino a zero e i logaritmi sono non nulli per $x\neq0$ sufficientemente piccolo. Si usano i [[95 Equivalenti e Sviluppi Asintotici Notevoli#Lezione 15 - Limiti notevoli di funzioni - Da studiare|limiti notevoli successivi]]. Questi sono controesempi aggiunti come commento.
+
+L'equivalenza non richiede che i grafici abbiano la stessa forma: il controesempio del docente è in [[140 Grafici Locali e Grafici Probabili]].
+
+### Da dire all'orale
+
+> Due funzioni sono asintoticamente equivalenti in un dato processo di limite se il loro rapporto tende a uno. Equivalentemente, la differenza è un o-piccolo della funzione di riferimento. Le equivalenze si moltiplicano, si dividono e si elevano a una potenza reale fissa quando le espressioni sono definite. Conservano esistenza e valore del limite, ma non si sostituiscono in generale nelle somme, nei logaritmi o negli esponenziali.

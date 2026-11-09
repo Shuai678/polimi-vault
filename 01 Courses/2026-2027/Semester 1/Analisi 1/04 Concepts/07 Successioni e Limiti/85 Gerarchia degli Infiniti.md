@@ -3,6 +3,8 @@ course: Analisi 1
 type: concept
 status: Da studiare
 source:
+  - Lezione 15, PDF pp. 15-17
+  - Libro, §5.10, p. 163, gerarchia e sostituzione reciproca
   - Lezione 07, PDF p. 20
   - Lezione 08, PDF pp. 15-17 e 21
   - Libro, §3.7, pp. 99-101 (enunciati e interpretazione)
@@ -177,3 +179,89 @@ per [[90 Numero di Nepero e Limiti di Tipo Esponenziale]]. Quindi $v_n\to+\infty
 - Sostituire simbolicamente un rapporto di due infiniti con $1$, $0$ o un valore non giustificato.
 
 Potenziale rilevanza d'esame: enunciare i quattro limiti con le condizioni e riconoscerli dentro espressioni più articolate. Gli enunciati della Lezione 07 sono ora integrati con l'ampliamento e le applicazioni della Lezione 08; tutto il materiale aggiunto resta da studiare.
+
+## Lezione 15 - Gerarchia per funzioni - Da studiare
+
+> [!note] Nuova parte da studiare
+> La gerarchia per funzioni e il suo uso col cambio di variabile seguono il PDF L15, pp. 15-17. La parte precedente della nota riguarda le successioni.
+
+### Teorema del docente
+
+Siano $a>1$ e $\alpha,\beta>0$ costanti fissate. Allora, nell'ordine del PDF,
+
+$$
+\boxed{\lim_{x\to+\infty}\frac{(\log_a x)^\alpha}{x^\beta}=0,}
+\qquad (\log_a x)^\alpha=o(x^\beta),
+$$
+
+$$
+\boxed{\lim_{x\to+\infty}\frac{x^\beta}{a^x}=0,}
+\qquad x^\beta=o(a^x).
+$$
+
+La base $a>1$ rende positivi i logaritmi per $x>1$, così anche la loro potenza reale positiva è definita nella coda. Le costanti non dipendono da $x$.
+
+Il professore annota **«dim. con il teorema di de l'Hospital»**. Non svolge qui tale dimostrazione: il riferimento è conservato senza introdurre un metodo non ancora trattato in queste lezioni.
+
+### Osservazione del docente: argomento generico divergente
+
+Se $f(x)\to+\infty$ per $x\to x_0\in\overline{\mathbb R}$, il cambio di variabile $t=f(x)$ dà
+
+$$
+\lim_{x\to x_0}\frac{(\log_a f(x))^\alpha}{(f(x))^\beta}
+=\lim_{t\to+\infty}\frac{(\log_a t)^\alpha}{t^\beta}=0,
+$$
+
+$$
+\lim_{x\to x_0}\frac{(f(x))^\beta}{a^{f(x)}}
+=\lim_{t\to+\infty}\frac{t^\beta}{a^t}=0.
+$$
+
+La condizione $f(x)\to+\infty$ garantisce definitivamente $f(x)>1$ e quindi tutti i domini necessari. Non basta che $f$ sia soltanto illimitata.
+
+### Osservazione successiva sulle successioni
+
+Se $x_n\to+\infty$, allora
+
+$$
+\lim_{n\to+\infty}\frac{(\log_a x_n)^\alpha}{x_n^\beta}=0,
+\qquad
+\lim_{n\to+\infty}\frac{x_n^\beta}{a^{x_n}}=0.
+$$
+
+Con $x_n=n$ si ritrova la gerarchia per successioni già studiata. Non si introduce invece un fattoriale di variabile reale: i confronti con $n!$ della prima parte restano nel contesto delle successioni.
+
+### Esempio del docente: una potenza contro un logaritmo in zero
+
+Per $a>1$ e $\alpha,\beta>0$,
+
+$$
+\lim_{t\to0^+}t^\beta|\log_a t|^\alpha=0.
+$$
+
+La forma iniziale è $[0\cdot\infty]$. Il docente pone
+
+$$
+x=\frac1t,\qquad\lim_{t\to0^+}\frac1t=+\infty.
+$$
+
+Quindi
+
+$$
+\begin{aligned}
+\lim_{t\to0^+}t^\beta|\log_a t|^\alpha
+&=\lim_{x\to+\infty}\frac1{x^\beta}
+\left|\log_a\frac1x\right|^\alpha\\
+&=\lim_{x\to+\infty}\frac{(\log_a x)^\alpha}{x^\beta}=0.
+\end{aligned}
+$$
+
+### Commenti, condizioni ed errori comuni
+
+Per $x>1$, $\log_a(1/x)=-\log_a x$ e $\log_a x>0$, dunque il valore assoluto elimina il segno meno prima della potenza reale. Per esempio, con $a=e$, $\alpha=2$ e $\beta=1/2$, $\sqrt t\,|\log t|^2\to0$ per $t\to0^+$.
+
+La gerarchia confronta rapporti: non sostituisce automaticamente un'espressione dentro somme con cancellazioni. Per basi $0<a<1$ l'esponenziale decresce e il secondo teorema qui enunciato non si applica. Per esponenti dipendenti dalla variabile occorre uno studio diverso.
+
+### Da dire all'orale
+
+> A più infinito, con base maggiore di uno ed esponenti positivi fissati, ogni potenza del logaritmo è trascurabile rispetto a ogni potenza positiva della variabile, e ogni potenza positiva è trascurabile rispetto all'esponenziale. Il cambio di variabile trasferisce i confronti a un argomento che tende a più infinito e permette di trattare anche una potenza per un logaritmo vicino a zero.

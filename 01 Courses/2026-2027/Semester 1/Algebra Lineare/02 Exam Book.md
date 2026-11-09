@@ -3,7 +3,7 @@ course: Algebra Lineare
 type: exam-book
 status: da studiare
 mastery: non verificata
-updated: 2026-11-03
+updated: 2026-11-07
 ---
 
 # Preparazione all'esame di GAL
@@ -96,6 +96,14 @@ E=\frac{23+42}{3}=\frac{65}{3}\approx21{,}67.
 $$
 
 Si tratta del voto combinato della parte di esercizi prima di eventuali passaggi successivi, non del voto finale comprensivo della teoria.
+
+## Vecchi temi segnalati nella registrazione della Lezione 3
+
+Nella registrazione del **30 settembre 2026**, circa **00:06:03-00:06:37**, il docente segnala sulla pagina WeBeep una cartella «temi di esami vecchi», con i temi degli ultimi quattro anni accademici e le relative soluzioni.
+
+Precisa che le prove precedenti avevano **tre esercizi**, mentre il formato presentato per il corso corrente ne prevede **due**: la tipologia resta confrontabile, ma non si deve ricavare il formato della prova corrente contando gli esercizi di un vecchio tema.
+
+È un'indicazione storica della registrazione, non una verifica della disponibilità odierna della cartella o di nuove scadenze. I vecchi temi non sono stati acquisiti in questo aggiornamento e non risultano svolti dallo studente. Il collegamento al video è in [[01 Courses/2026-2027/Semester 1/Algebra Lineare/Lectures/Lecture 03|Lezione 3]].
 
 ## Definizioni da studiare
 

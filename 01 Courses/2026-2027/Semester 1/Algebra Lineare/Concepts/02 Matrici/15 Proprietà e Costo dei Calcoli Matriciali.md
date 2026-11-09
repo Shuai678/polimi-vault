@@ -10,8 +10,6 @@ source:
 
 # Proprietà e costo dei calcoli matriciali
 
-Stato: **da studiare**.
-
 ## Perché conoscere le proprietà
 
 La distributività

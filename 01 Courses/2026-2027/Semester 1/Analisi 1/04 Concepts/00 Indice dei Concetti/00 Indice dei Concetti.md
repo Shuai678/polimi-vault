@@ -196,6 +196,15 @@ Questi termini descrivono il ruolo delle frasi matematiche e il modo in cui veng
 - [[136 Permanenza del Segno per Funzioni|Permanenza del Segno per Funzioni]]
 - [[137 Algebra dei Limiti di Funzioni|Algebra dei Limiti di Funzioni]]
 
+- [[138 Algebra delle Funzioni Continue|Algebra delle Funzioni Continue]]
+- [[139 Cambio di Variabile nei Limiti e Continuità della Composta|Cambio di Variabile nei Limiti e Continuità della Composta]]
+- [[140 Grafici Locali e Grafici Probabili|Grafici Locali e Grafici Probabili]]
+- [[141 Teorema degli Zeri e Metodo di Bisezione|Teorema degli Zeri e Metodo di Bisezione]]
+- [[142 Teorema di Weierstrass|Teorema di Weierstrass]]
+- [[143 Teorema dei Valori Intermedi e Immagine di un Intervallo|Teorema dei Valori Intermedi e Immagine di un Intervallo]]
+- [[144 Limiti delle Funzioni Monotone su un Intervallo|Limiti delle Funzioni Monotone su un Intervallo]]
+- [[145 Continuità delle Funzioni Elementari|Continuità delle Funzioni Elementari]]
+
 ## Concetti candidati
 
 - Derivate

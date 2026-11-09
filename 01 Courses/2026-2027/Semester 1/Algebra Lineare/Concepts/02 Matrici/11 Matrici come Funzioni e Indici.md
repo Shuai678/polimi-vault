@@ -2,15 +2,15 @@
 course: Algebra Lineare
 type: concept
 status: da studiare
+updated: 2026-11-07
 mastery: non verificata
 created: 2026-10-16
 source:
   - "Lezione 3, PDF pp. 2-8, pagine stampate 22-28"
+  - "Registrazione della Lezione 3, 00:28:16-00:29:16; file collegato in Lecture 03"
 ---
 
 # Matrici come funzioni e indici
-
-Stato: **da studiare**.
 
 ## Perché il professore introduce le matrici
 
@@ -95,6 +95,14 @@ Nell'esempio finito della Lezione 3, $f$ associa ad arancia, limone e lampone la
 | $l$ | 0 | 1 | 1 |
 
 Qui il professore dispone le lettere sulle righe e i frutti sulle colonne: la casella della riga $b$ e della colonna $a$ contiene $\nu(a,b)$. L'ordine di presentazione della tabella va quindi distinto dall'ordine degli argomenti di $\nu$.
+
+## Leggere una funzione dalla tabella di zeri e uni
+
+**Integrazione dalla registrazione, circa 00:28:16-00:29:16.** Nella tabella dei frutti, ogni colonna rappresenta un elemento del dominio. Il docente sottolinea che, individuata la sua immagine, le altre caselle di quella colonna devono essere zero: un frutto non ha due immagini.
+
+Quindi la codifica di una funzione definita su tutto il dominio ha **esattamente un 1 per colonna**: almeno uno per l'esistenza dell'immagine, non più di uno per l'unicità. Una tabella arbitraria di zeri e uni non rappresenta necessariamente una funzione.
+
+Conseguenze esplicitate dal tutor, usando [[07 Iniettività]] e [[08 Suriettività]]: nella convenzione lettere sulle righe e frutti sulle colonne, la riga $l$ con due 1 segnala che la funzione non è iniettiva; la riga $b$ tutta nulla segnala che non è suriettiva sul codominio dichiarato. Questi criteri dipendono da come sono disposti dominio e codominio, non valgono scambiando righe e colonne senza reinterpretarle.
 
 ## Definizione 3.1
 

@@ -129,11 +129,11 @@ La preparazione deve quindi avanzare su due binari inseparabili: padronanza del 
 ## Current Progress
 
 - Current chapter: Capitoli 5-6 - Limiti di funzioni e continuità (preparazione degli appunti)
-- Current lecture: [[Lecture 14]]
+- Current lecture: [[Lecture 16]]
 - Last studied concept: [[49 Determinazione dell'Argomento per Quadranti]]
-- Prepared but not yet studied: [[50 Forma Esponenziale e Identità di Eulero]] through [[137 Algebra dei Limiti di Funzioni]]
+- Prepared but not yet studied: [[50 Forma Esponenziale e Identità di Eulero]] through [[145 Continuità delle Funzioni Elementari]]
 - Next study step: [[50 Forma Esponenziale e Identità di Eulero]]
-- Current transition: preparate integralmente le Lezioni 13 e 14, dall’inizio della seconda parte del corso fino all’algebra dei limiti di funzione. Creati i Concept 119-137 nella nuova cartella 09 Limiti e Continuità delle Funzioni. Materiale Da studiare; lo studio effettivo resta dal Concept 50
+- Current transition: coperto integralmente il PDF L16; completata la prova di Weierstrass nel Concept 142 e nella D17, integrati 67 e 95, creati 143-145. Valori intermedi con D16, limiti delle funzioni monotone, continuità dell'inversa e delle funzioni elementari, prove di logaritmo/esponenziale/potenza. Tutte le aggiunte Da studiare; lo studio effettivo resta dal Concept 50
 
 ## Course Files
 

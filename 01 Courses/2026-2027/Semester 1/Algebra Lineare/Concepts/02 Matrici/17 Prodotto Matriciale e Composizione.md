@@ -8,9 +8,7 @@ source:
   - "Lezione 4, PDF pp. 4-5, stampate 38-39"
 ---
 
-# Prodotto matriciale e composizione
-
-Stato: **da studiare**.
+# Prodotto matriciale e composizione ( perché usare il prodotto matriciale )
 
 ## Due associazioni successive
 
@@ -31,6 +29,12 @@ La composizione si legge da destra verso sinistra:
 $$
 (g\circ f)(x)=g(f(x)).
 $$
+
+![[17 Composizione Funzionale - Diagramma del Professore.png|1000]]
+
+Nel diagramma originale, le frecce **blu** rappresentano $f$ (matrice $A$), quelle **verdi** rappresentano $g$ (matrice $B$) e quelle **rosse** rappresentano la composta $g\circ f$ (matrice $BA$). Le frecce rosse collegano direttamente ciascun frutto al tipo della sua iniziale.
+
+Fonte del diagramma: [[GAL 2026-2027 - 20261001 - LEZIONE 4.pdf#page=5|Lezione 4, PDF p. 5, pagina stampata 39]].
 
 ## Convenzione delle matrici
 
